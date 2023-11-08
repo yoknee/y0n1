@@ -1,0 +1,221 @@
+/* Fonts */
+
+    @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Styles */
+    body {
+      background-color: white;
+      font-family: "Besley", serif;
+      font-size: 100%;
+    }
+
+    .container {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 0 0.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .header {
+      font-weight: 900;
+      letter-spacing: -0.2rem;
+      margin: 0;
+    }
+
+    .header-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .line {
+        height: 1px;
+        background-color: #CCC;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .keywords {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.05rem;
+      margin: 0 0 1rem 0;
+    }
+
+    .footer {
+      font-size: 0.8rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      letter-spacing: -0.025rem;
+      color: #CCC;
+    }
+
+    .tagline {
+      font-weight: 500;
+      text-align: left;
+      letter-spacing: -0.1rem;
+    }
+
+    a {
+        color: black;
+    }
+
+    @media (min-width: 240px) {
+      .header {
+        font-size: 2.5rem;
+      }
+      .tagline {
+        font-size: 1.6rem;
+        line-height: 140%;
+      }
+      .keywords {
+        font-size: 1rem;
+        line-height: 125%;
+      }
+    }
+
+    @media (min-width: 480px) {
+      .header {
+        font-size: 2.5rem;
+      }
+      .tagline {
+        font-size: 1.95rem;
+        line-height: 140%;
+      }
+      .keywords {
+        font-size: 1rem;
+        line-height: 125%;
+      }
+    }
+
+    @media (min-width: 560px) {
+      .header {
+        font-size: 2.65rem;
+      }
+      .tagline {
+        font-size: 2.46rem;
+        line-height: 130%;
+
+      }
+      .keywords {
+        font-size: 1.2rem;
+        line-height: 125%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .header {
+        font-size: 2.65rem;
+      }
+      .tagline {
+        font-size: 3rem;
+        line-height: 130%;
+      }
+      .keywords {
+        font-size: 1.2rem;
+        line-height: 125%;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .header {
+        font-size: 2.65rem;
+      }
+      .tagline {
+        font-size: 3rem;
+        line-height: 130%;
+      }
+      .keywords {
+        font-size: 1.2rem;
+        line-height: 125%;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .header {
+        font-size: 2.65rem;
+      }
+      .tagline {
+        font-size: 3rem;
+        line-height: 130%;
+      }
+      .keywords {
+        font-size: 1.2rem;
+        line-height: 125%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .header {
+        /* CSS styles for screens with a minimum width of 1440px */
+      }
+      .tagline {
+        /* CSS styles for screens with a minimum width of 1440px */
+      }
+      .keywords {
+        /* CSS styles for screens with a minimum width of 1440px */
+      }
+    }
+
+    @media (min-width: 1440px) {
+      .header {
+        /* CSS styles for screens with a minimum width of 1440px */
+      }
+      .tagline {
+        /* CSS styles for screens with a minimum width of 1440px */
+      }
+      .keywords {
+        /* CSS styles for screens with a minimum width of 1440px */
+      }
+    }
+
+/* Tabs */
+    .tab {
+        overflow: hidden;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    /* Tab links */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        cursor: pointer;
+        padding: 0.75rem 1.5rem 0.75rem 0rem;
+        font-size: 1rem;
+        color: #8a8a8a;
+        text-decoration: underline;
+    }
+    
+    /* Active */
+    .tab button.active {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    /* Content Style */
+    .tabcontent {
+        display: none;
+        font-family: "Besley", serif;
+        text-align: justify;
+    }
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    border: none;
+    padding: 0.65rem 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}

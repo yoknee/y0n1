@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">YOKNEE</h1>
+    <img class="header-image" src="jonathanDiner.jpg" alt="Jonathan at a diner">
+    <h2 class="tagline">About me</h2>
+    <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'Tab1')">Serious version</button>
+        <button class="tablinks" onclick="openTab(event, 'Tab2')">Fun version</button>
+    </div>
+    
+    <div id="Tab1" class="tabcontent" style="display: block;">
+        <p>As a Creative Director at <a href="https://www.pwc.com/us/en/products.html" target="_blank">PwC</a>, my role involves developing design strategies for technology-driven solutions that enable our clients to establish trust, enhance transparency and achieve sustainable results in their respective markets.</p>
+        <p>Prior to joining PwC, I played a pivotal role in the launch of over 30 digital products securing substantial seed capital funding, reaching up to $25M, for notable ventures like <a href="https://www.steadymd.com/" target="_blank">SteadyMD</a>, <a href="https://www.criteo.com/" target="_blank">DataPop</a> (bought by Criteo), and <a href="https://www.chownow.com/" target="_blank">ChowNow</a>. Additionally, I led the user experience overhaul for <a href="https://www.cbs.com/" target="_blank">CBS</a> and <a href="https://www.audacy.com/" target="_blank">Audacy</a> using research to gain valuable insights into user needs and translating them into effective business strategies, boosting customer acquisition and ad revenue.</p>
+        <p>Let's connect and explore how my skills, experience and expertise can contribute to the success of your company.</p>
+    </div>
+    <div id="Tab2" class="tabcontent">
+        <p>My name is Jonathan (aka Yoni). I grew up in LA, and I've always had a passion for design. My very first job was in high school at Circuit City, where they called me "The Game Master." I held the record for five years selling the most consoles in the region. I went on to get a degree from the only university that I could pay for (shout out to CSUCI!) with a Circuit City paycheck while simultaneously getting sucked into the startup world.</p>
+        <p>After working at various startups on the West Coast, I embarked on a road trip across the country in search of lobster - ended up in NYC and never left. I met a girl, married her, had a child, and got a job at Mana Contemporary. I had another child and then got a job at CBS. Along the way, I crossed paths with an Obama impersonator named Dean, bought a car off Craigslist, and went on more road trips with the family. I taught one of my kids how to swim and gifted the other one some rainbow stickers. Inspired by Bitcoin, I wrote a children's book about it. Adding to our family, we welcomed another child and then secured a job at PwC.</p>
+        <p>I was once told that I resembled the Chef from The Office while actively watching the show - and then was told many more times walking in the street. On a date with my wife, she kindly advised me to get a haircut and aim for an even better job. I instead got a fishing permit for a secluded NYC beach, went fishing, and caught a plastic bag. Nevertheless, I did discover a fantastic new bar in the neighborhood and perfected the art of making a Bloody Mary. I also obtained a sailing permit, which was a fantastic excuse to not hang with the fam for a minute, and became an expert at redesigning our apartment layout, having done it 5,000 times. I hosted one (yes, one) poker game at my house, which became a memorable event that my friends and I often talk about without inclination to host another one. I then took the initiative to start a Dads group in my South Brooklyn neighborhood. For spring break, I took my now family of five back to LA, and fortunately, no one threw up on the plane - success! However, I did encounter a lice problem at one point.</p>
+        <p>My wife and I celebrated our 10-year anniversary - w00t w00t! I began dressing like Steve Jobs and organized a successful stoop sale, raking in $345. Unfortunately, I accidentally sold my favorite T-shirt. At my wife's suggestion, I realized the need for a better website to improve my job prospects - hence, this. Over time, my wife and I began dressing alike. I will now kindly request you to like my site and consider hiring me to make her happy. Happy wife, happy life ¯\_(ツ)_/¯ I told her I'm working, but in reality, I'm watching sports and browsing Craigslist for old record players and mid-century furniture.</p>
+    </div>
+  </div>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
