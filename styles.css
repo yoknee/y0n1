@@ -25,6 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    cursor: pointer;
 }
 
 .page {
@@ -130,6 +131,7 @@ body {
     text-decoration: underline;
     text-underline-offset: 0.2em;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 .content a:hover {
@@ -149,7 +151,7 @@ body {
     display: flex;
     justify-content: center;
     gap: clamp(1.5rem, 2vw, 2rem);
-    margin-top: clamp(1rem, 2vh, 1.5rem);
+    margin-top: calc(clamp(1rem, 2vh, 1.5rem) - 48px);
     opacity: 0;
     transform: translateY(20px);
     transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
@@ -161,6 +163,7 @@ body {
     height: clamp(20px, 2vw, 24px);
     color: #666;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .social-icon:hover {
