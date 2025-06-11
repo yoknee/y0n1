@@ -54,27 +54,4 @@ container.addEventListener('click', () => {
         }, 600);
     }
     isPage2 = !isPage2;
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    const pages = document.querySelectorAll('.page');
-    const infoIcon = document.querySelector('.info-icon');
-    const closeIcon = document.querySelector('.close-icon');
-
-    function showPage(pageNumber) {
-        pages.forEach(page => {
-            page.classList.remove('active');
-            if (page.classList.contains(`page-${pageNumber}`)) {
-                page.classList.add('active');
-            }
-        });
-    }
-
-    infoIcon.addEventListener('click', () => {
-        showPage(2);
-    });
-
-    closeIcon.addEventListener('click', () => {
-        showPage(1);
-    });
 }); 
