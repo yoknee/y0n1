@@ -4,17 +4,17 @@ Personal portfolio site for Yoni ("Creative, Innovator"). A static site with no 
 
 ## Structure
 
-- `index.html` — single page; two stacked `.page` sections (quote/name, then title/content/social icons). Includes Google Analytics (gtag) and Google Fonts (EB Garamond).
-- `main.js` — vanilla JS; fades in the quote and name on load, and toggles between page 1 and page 2 on click.
-- `styles.css` — all styling.
-- `cases/` — folder for case studies (currently empty, holds a `.gitkeep`).
-- `favicon.png`, `jonathanDiner.jpg`, `jonathanDream.jpg` — image assets, referenced by relative path.
+- `index.html`: single page; two stacked `.page` sections (quote/name, then title/content/social icons). Includes Google Analytics (gtag) and Google Fonts (EB Garamond).
+- `main.js`: vanilla JS; fades in the quote and name on load, and toggles between page 1 and page 2 on click.
+- `styles.css`: all styling.
+- `cases/`, `shared/`, `resume/`, `scripts/`: case study work, laid out as in the repo layout below. Empty folders hold a `.gitkeep`.
+- `favicon.png`, `jonathanDiner.jpg`, `jonathanDream.jpg`: image assets, referenced by relative path.
 
 ## Conventions
 
 - Keep it dependency-free: plain HTML, CSS and JavaScript, no frameworks or bundlers.
 - Reference assets with root-relative paths (e.g. `/styles.css`) so they resolve on Vercel.
-- There are no tests. Verify site changes by opening `index.html` in a browser (or `python3 -m http.server`). `scripts/lint.sh` checks case study content (`cases/`, `shared/`, `resume/`) against the voice and confidentiality rules below. Add real names, client names and codenames to `scripts/lint-denylist.txt`.
+- There are no tests. Verify site changes by opening `index.html` in a browser (or `python3 -m http.server`). `scripts/lint.sh` checks the whole repo for banned terms and checks voice rules (em dashes, Oxford commas) in `cases/`, `shared/` and `resume/`. Put real names, the client name, internal codenames and PwC palette hex values in `scripts/banned-terms.txt` (gitignored, one per line).
 
 ## Git
 
@@ -25,7 +25,7 @@ Personal portfolio site for Yoni ("Creative, Innovator"). A static site with no 
 
 ## Who you are working for
 
-Jonathan (Yoni) Gorodenzik. AI Product Experience Lead at PwC (Manager, Assurance Technology), New York. Leads a 12-person UX team on PwC's AI-native audit platform. Earlier in the same firm: Product Experience Lead, Tax Innovation (Jun 2021 to Apr 2024), where he designed and built the State Lifecycle Tool alongside engineering. Target role: UX Design Team Lead at Bloomberg, New York. Everything we build must satisfy that listing's Process and Systems Portfolio Requirements: two comprehensive projects, inception to completion, with research findings, personas, sketches, user journeys, task flows, wireframes, storyboards, step-by-step wireframes with choices linked to process decisions, and documented collaboration with business, SMEs and engineering.
+Jonathan (Yoni) Gorodenzik. AI Product Experience Lead at PwC (Manager, Assurance Technology), New York. Leads a 12-person UX team on PwC's AI-native audit platform. Earlier in the same firm: Product Experience Lead, Tax Innovation (Jun 2021 to Apr 2024), where he designed and built the State Lifecycle Tool alongside engineering. Target role: UX Design Team Lead at Bloomberg, New York. Everything we build must satisfy that listing's Process and Systems Portfolio Requirements: two comprehensive projects, inception to completion, with research findings, personas, sketches, user journeys, task flows, wireframes, storyboards, step-by-step wireframes with choices linked to process decisions and documented collaboration with business, SMEs and engineering.
 
 ## Your role
 
@@ -56,7 +56,7 @@ Before planning, read these memory files if the session can reach them: `/areas/
 
 - Every decision is traceable: finding, options considered, choice, rationale, how it was validated. Keep a decision log (`decisions.md`) per case with IDs (D-01, D-02...). Every wireframe and hi-fi screen references the decisions it embodies.
 - Rationale cites named principles where they apply, in one line, not a lecture: Nielsen's heuristics; Norman's affordances, signifiers, mapping and feedback; Fitts's law; Hick's law; cognitive load theory; progressive disclosure; recognition over recall; Gestalt grouping; error prevention and recovery; Shneiderman's overview first, zoom and filter, details on demand; Tufte's data-ink ratio and small multiples; Few on dashboards; Cairo on functional charts. For AI work: Amershi et al., Guidelines for Human-AI Interaction (2019); Google PAIR People + AI Guidebook; Lee and See on trust calibration; Bainbridge's ironies of automation; automation bias; human-in-the-loop checkpoints; graceful failure.
-- WCAG 2.2 AA throughout: contrast, focus order, keyboard operability, target size, reduced motion, and non-color encoding on every chart.
+- WCAG 2.2 AA throughout: contrast, focus order, keyboard operability, target size, reduced motion and non-color encoding on every chart.
 - Density is a feature. These are expert tools used all day. Design for keyboard-first operation, scannable tables, multi-panel layouts and glanceable state. Think Terminal, not consumer app. Whitespace earns its place or it goes.
 - Research is real research: methods, recruiting criteria, sample sizes, instruments (discussion guides, task scripts, survey items), analysis method and stated limitations. No "we talked to users".
 
