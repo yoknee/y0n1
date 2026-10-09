@@ -11,4 +11,5 @@ Rules:
 
 Log:
 
+- 2026-10-09 chore: lint whole-word banned terms with exemptions
 - 2026-10-09 chore: ground rules, lint, skeleton
