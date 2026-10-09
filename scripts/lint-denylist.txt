@@ -1,0 +1,2 @@
+# Case-insensitive terms that must never appear in cases/, shared/ or resume/.
+# Add real colleague names, client names and internal codenames, one per line.
