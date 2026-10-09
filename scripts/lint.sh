@@ -22,7 +22,9 @@
 #   4. Em dash: the character, plus the &mdash; &#8212; &#x2014; HTML forms.
 #   5. Likely Oxford comma: heuristic, a clause with two commas and then
 #      ", and" or ", or". Prints file and line for you to judge.
-#   Rules 2 to 5 apply to every scanned file, including the rule 1 exemptions.
+#   Rules 4 and 5 (voice) scan cases/, shared/ and resume/ only. The site files
+#   and CLAUDE.md are outside them. Rules 1 to 3 scan every file; rules 2 and 3
+#   also cover the rule 1 exemptions.
 #
 # banned-terms.txt format: one term per line. Blank lines are ignored. A line
 # starting with # is a comment unless it is a hex colour (#rgb, #rrggbb or
@@ -35,6 +37,9 @@ cd "$(dirname "$0")/.."
 
 terms_file="${BANNED_TERMS:-scripts/banned-terms.txt}"
 self="scripts/lint.sh"
+
+# Rules 4 and 5 scan only these top-level folders.
+voice_dirs_re='^(cases|shared|resume)/'
 
 # Rule 1 exemptions and allowances.
 exempt_contents=(CLAUDE.md index.html)
@@ -153,13 +158,18 @@ fi
 # --- rule 3: brand words ----------------------------------------------------
 record "brand word" "$(search -iE 'PwC[[:space:]]+(logo|orange)')"
 
+voice=()
+for f in "${scan[@]}"; do
+  [[ "$f" =~ $voice_dirs_re ]] && voice+=("$f")
+done
+
 # --- rule 4: em dash --------------------------------------------------------
 emdash=$(printf '\xe2\x80\x94')
-record "em dash" "$(search -E "${emdash}|&mdash;|&#8212;|&#x2014;")"
+record "em dash" "$(search_in voice -E "${emdash}|&mdash;|&#8212;|&#x2014;")"
 
 # --- rule 5: likely Oxford comma --------------------------------------------
 record "likely Oxford comma (judge each)" \
-  "$(search -E '[^,.;:!?]+,[^,.;:!?]+, (and|or) ')"
+  "$(search_in voice -E '[^,.;:!?]+,[^,.;:!?]+, (and|or) ')"
 
 # --- summary ----------------------------------------------------------------
 echo
