@@ -4,17 +4,17 @@ Personal portfolio site for Yoni ("Creative, Innovator"). A static site with no 
 
 ## Structure
 
-- `index.html` — single page; two stacked `.page` sections (quote/name, then title/content/social icons). Includes Google Analytics (gtag) and Google Fonts (EB Garamond).
-- `main.js` — vanilla JS; fades in the quote and name on load, and toggles between page 1 and page 2 on click.
-- `styles.css` — all styling.
-- `cases/` — folder for case studies (currently empty, holds a `.gitkeep`).
-- `favicon.png`, `jonathanDiner.jpg`, `jonathanDream.jpg` — image assets, referenced by relative path.
+- `index.html`: single page; two stacked `.page` sections (quote/name, then title/content/social icons). Includes Google Analytics (gtag) and Google Fonts (EB Garamond).
+- `main.js`: vanilla JS; fades in the quote and name on load, and toggles between page 1 and page 2 on click.
+- `styles.css`: all styling.
+- `cases/`, `shared/`, `resume/`, `scripts/`: case study work, laid out as in the repo layout below. Empty folders hold a `.gitkeep`.
+- `favicon.png`, `jonathanDiner.jpg`, `jonathanDream.jpg`: image assets, referenced by relative path.
 
 ## Conventions
 
 - Keep it dependency-free: plain HTML, CSS and JavaScript, no frameworks or bundlers.
 - Reference assets with root-relative paths (e.g. `/styles.css`) so they resolve on Vercel.
-- There are no tests. Verify site changes by opening `index.html` in a browser (or `python3 -m http.server`). `scripts/lint.sh` checks case study content (`cases/`, `shared/`, `resume/`) against the voice and confidentiality rules below. Add real names, client names and codenames to `scripts/lint-denylist.txt`.
+- There are no tests. Verify site changes by opening `index.html` in a browser (or `python3 -m http.server`). `scripts/lint.sh` scans the whole repo against the confidentiality and voice rules below. Put real names, the client name, internal codenames and PwC palette hex values in `scripts/banned-terms.txt` (gitignored, one per line).
 
 ## Git
 
