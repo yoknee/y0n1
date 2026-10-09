@@ -14,7 +14,7 @@ Personal portfolio site for Yoni ("Creative, Innovator"). A static site with no 
 
 - Keep it dependency-free: plain HTML, CSS and JavaScript, no frameworks or bundlers.
 - Reference assets with root-relative paths (e.g. `/styles.css`) so they resolve on Vercel.
-- There are no tests or linters. Verify changes by opening `index.html` in a browser (or `python3 -m http.server`).
+- There are no tests. Verify site changes by opening `index.html` in a browser (or `python3 -m http.server`). `scripts/lint.sh` checks case study content (`cases/`, `shared/`, `resume/`) against the voice and confidentiality rules below. Add real names, client names and codenames to `scripts/lint-denylist.txt`.
 
 ## Git
 
