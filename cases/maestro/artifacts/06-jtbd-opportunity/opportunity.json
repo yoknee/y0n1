@@ -1,0 +1,50 @@
+{
+  "artifact": { "number": "06", "title": "Jobs to be done and opportunity map", "status": "Draft",
+    "question": "What are auditors trying to get done, which opportunities follow from the findings and what did we cut for MVP and why?",
+    "decisions": ["D-10", "D-11"], "questions": [1, 2],
+    "iDecided": "The outcome statement, the cut line for MVP and Test of Details as the anchor workflow.",
+    "weBuilt": "The job statements from the coded material, the tree in two working sessions with PMs and the feasibility ratings with the engineering leads." },
+  "label": "Reconstructed. Value and feasibility ratings are the lead's judgment under the constraints in 01, argued with PMs and engineering leads. They are not measured.",
+  "outcome": "Auditors conclude faster with a file that stands up to inspection, and they stay accountable for every conclusion.",
+  "jobs": [
+    { "role": "Associate", "when": "I am tracing a sample late in a long session", "want": "to compare the record to the document without re-finding the field each time", "so": "I finish the sample without errors creeping in", "themes": ["T2"] },
+    { "role": "Associate", "when": "a document comes back partial or illegible", "want": "to flag it and move on without losing my place", "so": "the request goes out and the trace resumes later", "themes": ["T1"] },
+    { "role": "Senior", "when": "I plan a Test of Details for an area", "want": "a structure that fits the procedure without editing it", "so": "the reviewer accepts the format and I am not adapting by hand", "themes": ["T13", "T10"] },
+    { "role": "Senior", "when": "evidence is spread across systems and requests", "want": "one place that shows what has arrived and what is still open", "so": "I stop opening three systems to find one statement", "themes": ["T1", "T11"] },
+    { "role": "Senior", "when": "I hand the file to the manager", "want": "the state of every sample and exception to travel with the file", "so": "I do not re-walk the work in the review", "themes": ["T11", "T5"] },
+    { "role": "Senior", "when": "an agent has done the matching", "want": "to see the differences first and the page it read beside each one", "so": "I check in seconds instead of trusting", "themes": ["T7", "T3"] },
+    { "role": "Manager", "when": "I review a workpaper", "want": "to reach the source of any claim in one action", "so": "I judge substance instead of hunting references", "themes": ["T3"] },
+    { "role": "Manager", "when": "five engagements hit review in the same week", "want": "a queue with state across all of them", "so": "I clear what is waiting in the right order and notes stop looping", "themes": ["T5"] },
+    { "role": "Manager", "when": "an agent step is wrong", "want": "to reject that step and rerun it with the right input", "so": "I keep the rest of the run and the history", "themes": ["T7"] },
+    { "role": "Partner", "when": "I am asked to sign", "want": "the exception trail and the checkpoint record in the file", "so": "I can defend the file a year later", "themes": ["T8", "T3"] },
+    { "role": "Partner", "when": "a tool touched client data", "want": "to know what it read and that a human approved anything restricted", "so": "independence and data obligations hold", "themes": ["T9", "T8"] },
+    { "role": "Methodology reviewer", "when": "teams adapt standard structures", "want": "the structure to fit the procedure in the first place", "so": "variants stop causing rework and quality findings", "themes": ["T13"] },
+    { "role": "Methodology reviewer", "when": "I set a data handling or checkpoint rule", "want": "the product to enforce it", "so": "teams do not have to remember it under pressure", "themes": ["T9", "T6"] },
+    { "role": "Engagement data lead", "when": "I connect client systems to an engagement", "want": "to assign each source a data class once", "so": "every agent run respects the class without per-document decisions", "themes": ["T9"] }
+  ],
+  "opportunities": [
+    { "id": "O1", "name": "Find and assemble evidence without the hunt", "themes": ["T1", "T9"], "solutions": [
+      { "id": "S1", "name": "Agent retrieval within data classes, with a log of what was read", "experiment": "Pilot telemetry: time from request to evidence in hand; usability task 'find what the agent read'", "value": 4.6, "feasibility": 3.6, "mvp": "in" },
+      { "id": "S2", "name": "Agent chases open client requests", "experiment": "Diary entries on request waits before and after", "value": 2.8, "feasibility": 2.0, "mvp": "later", "why": "Needs client-facing communication rules; independence review first (C2)." } ] },
+    { "id": "O2", "name": "Trace samples without fatigue", "themes": ["T2", "T12"], "solutions": [
+      { "id": "S3", "name": "Extraction and matching against a typed structure, differences first", "experiment": "Time-and-motion step durations before and after; error count per sample in usability round 2", "value": 4.9, "feasibility": 3.8, "mvp": "in" },
+      { "id": "S4", "name": "Fatigue-aware batching that pauses long sessions", "experiment": "Error position within session from telemetry", "value": 2.2, "feasibility": 3.4, "mvp": "cut", "why": "Solves a symptom S3 removes. Revisit if late-session errors persist in telemetry." } ] },
+    { "id": "O3", "name": "Reach the source from any claim", "themes": ["T3", "T7"], "solutions": [
+      { "id": "S5", "name": "Citation chip on every claim that opens the source at the span", "experiment": "Usability task: find the source for a claim, time and success", "value": 4.7, "feasibility": 3.9, "mvp": "in" },
+      { "id": "S6", "name": "Full-text search across all engagement evidence", "experiment": "Search usage and success in pilot telemetry", "value": 3.2, "feasibility": 2.4, "mvp": "later", "why": "Indexing across data classes needs the permission model first (C3). Returns in P5." } ] },
+    { "id": "O4", "name": "Review with state and without loops", "themes": ["T5", "T10"], "solutions": [
+      { "id": "S7", "name": "Review center: a queue with state and provenance in view", "experiment": "Review latency from draft to approval; notes per workpaper", "value": 4.4, "feasibility": 3.3, "mvp": "in" },
+      { "id": "S8", "name": "Inline comments on the workpaper", "experiment": "Note loops per workpaper", "value": 2.4, "feasibility": 4.2, "mvp": "cut", "why": "Reproduces the note loop the research found (T5). Rejected on evidence, not on cost." } ] },
+    { "id": "O5", "name": "Keep judgment human and visible", "themes": ["T6", "T8"], "solutions": [
+      { "id": "S9", "name": "Exception workbench with mandatory human resolution", "experiment": "Exception resolution time; trust calibration measure", "value": 4.5, "feasibility": 3.5, "mvp": "in" },
+      { "id": "S10", "name": "Agent-proposed exception resolutions", "experiment": "Acceptance rate of proposals in pilot", "value": 3.0, "feasibility": 3.0, "mvp": "cut", "why": "Every role named exception judgment as human work (T6). Independence (C2). Not a cost cut, a boundary cut." } ] },
+    { "id": "O6", "name": "Keep state in the run across handoffs", "themes": ["T11"], "solutions": [
+      { "id": "S11", "name": "The agent run and its timeline as the state holder", "experiment": "Handoff re-explanation time in contextual inquiry follow-up", "value": 3.9, "feasibility": 3.7, "mvp": "in" },
+      { "id": "S12", "name": "Structured handoff notes between roles", "experiment": "Diary entries on handoffs", "value": 2.6, "feasibility": 4.4, "mvp": "cut", "why": "Notes are another place for state to live. S11 makes the run the place." } ] },
+    { "id": "O7", "name": "Structures that fit the procedure", "themes": ["T13", "T4"], "solutions": [
+      { "id": "S13", "name": "Typed field-structure library the planner targets", "experiment": "Rework causes by format in the review center; structure edits attempted", "value": 4.3, "feasibility": 3.1, "mvp": "in" },
+      { "id": "S14", "name": "Templates for analytical procedures", "experiment": "Pilot on one area after Test of Details proves the pattern", "value": 3.6, "feasibility": 2.2, "mvp": "later", "why": "Different agent reasoning (expectation forming). Prove the boundary pattern on Test of Details first (D-10, D-11). Returns in P5." } ] }
+  ],
+  "mvp_scope": "Test of Details on two audit areas, revenue and payables, with the full run (plan, retrieve, extract, match, detect exceptions, draft conclusion), the review center and sign-off. No analytical procedures, no controls testing, no cross-engagement search, no agent-to-client communication.",
+  "mvp_areas_why": "Revenue and payables carry the highest sample volumes in a Test of Details and cover both directions of testing, existence and completeness. Between them they use the largest share of the 60+ structures."
+}

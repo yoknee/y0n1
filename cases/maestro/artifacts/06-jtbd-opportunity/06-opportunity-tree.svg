@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 888" width="1400" height="888" role="img" aria-labelledby="t d">
+<title id="t">06 Jobs to be done and opportunity map</title>
+<desc id="d">What are auditors trying to get done, which opportunities follow from the findings and what did we cut for MVP and why? Decisions fed: D-10, D-11. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
+
+<style>
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
+@media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
+.ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
+.hair{stroke:var(--bt-border);fill:none}.stroke{stroke:var(--bt-ink);fill:none}.stroke2{stroke:var(--bt-ink-2);fill:none}
+.brand{fill:var(--bt-brand)}.brand-s{stroke:var(--bt-brand);fill:none}.brand-t{fill:var(--bt-brand-tint)}
+.agent{fill:var(--bt-agent)}.agent-s{stroke:var(--bt-agent);fill:none}.agent-t{fill:var(--bt-agent-tint)}
+.review{fill:var(--bt-review)}.review-t{fill:var(--bt-review-tint)}.approved{fill:var(--bt-approved)}.approved-t{fill:var(--bt-approved-tint)}
+.edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
+text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
+</style>
+<rect x="0" y="0" width="1400" height="92" class="surf2"/><line x1="0" y1="92" x2="1400" y2="92" class="hair"/>
+<text x="16" y="26" class="t16">06 Jobs to be done and opportunity map</text>
+<text class="t11 ink2"><tspan x="16" y="46">Question: What are auditors trying to get done, which opportunities follow from the findings and what did we cut for</tspan><tspan x="16" y="58">MVP and why?</tspan></text>
+<text x="16" y="78" class="t11 ink2">Feeds: D-10, D-11  |  Status: Draft</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: The outcome statement, the cut line for MVP and Test of Details as the anchor workflow.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="43">We built: The job statements from the coded material, the tree in two working sessions with PMs and</tspan><tspan x="756" y="56">the feasibility ratings with the engineering leads.</tspan></text>
+<text x="16" y="116" class="t11 ink2 b">OPPORTUNITY SOLUTION TREE: OUTCOME TO OPPORTUNITIES TO SOLUTIONS TO EXPERIMENTS. SOLUTION STATE: MVP, CUT OR LATER.</text>
+<text x="16" y="138" class="t10 ink2 b">OUTCOME</text>
+<text x="250" y="138" class="t10 ink2 b">OPPORTUNITY</text>
+<text x="560" y="138" class="t10 ink2 b">SOLUTION</text>
+<text x="980" y="138" class="t10 ink2 b">EXPERIMENT</text>
+<rect x="560" y="148" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="163" class="t10 mono ink2">S1</text><rect x="894" y="153" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="163" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="177">Agent retrieval within data classes, with a log of what</tspan><tspan x="568" y="189">was read</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="161">Pilot telemetry: time from request to evidence in hand; usability</tspan><tspan x="980" y="173">task 'find what the agent read'</tspan></text>
+<line x1="940" y1="168" x2="974" y2="168" class="hair"/>
+<line x1="520" y1="168" x2="560" y2="168" class="stroke2"/>
+<rect x="560" y="194" width="380" height="40" rx="3" class="surf" stroke="var(--bt-review)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="209" class="t10 mono ink2">S2</text><rect x="894" y="199" width="40" height="14" rx="7" class="review-t"/><text x="914" y="209" class="t10" text-anchor="middle">later</text>
+<text class="t11"><tspan x="568" y="223">Agent chases open client requests</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="207">Diary entries on request waits before and after</tspan></text>
+<line x1="940" y1="214" x2="974" y2="214" class="hair"/>
+<line x1="520" y1="214" x2="560" y2="214" class="stroke2"/>
+<rect x="250" y="148" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="163" class="t10 mono ink2">O1</text><text class="t11 b"><tspan x="258" y="178">Find and assemble evidence without</tspan><tspan x="258" y="191">the hunt</tspan></text><text x="258" y="226" class="t10 mono ink3">T1, T9</text>
+<rect x="560" y="246" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="261" class="t10 mono ink2">S3</text><rect x="894" y="251" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="261" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="275">Extraction and matching against a typed structure,</tspan><tspan x="568" y="287">differences first</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="259">Time-and-motion step durations before and after; error count per</tspan><tspan x="980" y="271">sample in usability round 2</tspan></text>
+<line x1="940" y1="266" x2="974" y2="266" class="hair"/>
+<line x1="520" y1="266" x2="560" y2="266" class="stroke2"/>
+<rect x="560" y="292" width="380" height="40" rx="3" class="surf" stroke="var(--bt-failed)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="307" class="t10 mono ink2">S4</text><rect x="894" y="297" width="40" height="14" rx="7" class="failed-t"/><text x="914" y="307" class="t10" text-anchor="middle">cut</text>
+<text class="t11"><tspan x="568" y="321">Fatigue-aware batching that pauses long sessions</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="305">Error position within session from telemetry</tspan></text>
+<line x1="940" y1="312" x2="974" y2="312" class="hair"/>
+<line x1="520" y1="312" x2="560" y2="312" class="stroke2"/>
+<rect x="250" y="246" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="261" class="t10 mono ink2">O2</text><text class="t11 b"><tspan x="258" y="276">Trace samples without fatigue</tspan></text><text x="258" y="324" class="t10 mono ink3">T2, T12</text>
+<rect x="560" y="344" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="359" class="t10 mono ink2">S5</text><rect x="894" y="349" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="359" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="373">Citation chip on every claim that opens the source at</tspan><tspan x="568" y="385">the span</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="357">Usability task: find the source for a claim, time and success</tspan></text>
+<line x1="940" y1="364" x2="974" y2="364" class="hair"/>
+<line x1="520" y1="364" x2="560" y2="364" class="stroke2"/>
+<rect x="560" y="390" width="380" height="40" rx="3" class="surf" stroke="var(--bt-review)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="405" class="t10 mono ink2">S6</text><rect x="894" y="395" width="40" height="14" rx="7" class="review-t"/><text x="914" y="405" class="t10" text-anchor="middle">later</text>
+<text class="t11"><tspan x="568" y="419">Full-text search across all engagement evidence</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="403">Search usage and success in pilot telemetry</tspan></text>
+<line x1="940" y1="410" x2="974" y2="410" class="hair"/>
+<line x1="520" y1="410" x2="560" y2="410" class="stroke2"/>
+<rect x="250" y="344" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="359" class="t10 mono ink2">O3</text><text class="t11 b"><tspan x="258" y="374">Reach the source from any claim</tspan></text><text x="258" y="422" class="t10 mono ink3">T3, T7</text>
+<rect x="560" y="442" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="457" class="t10 mono ink2">S7</text><rect x="894" y="447" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="457" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="471">Review center: a queue with state and provenance in view</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="455">Review latency from draft to approval; notes per workpaper</tspan></text>
+<line x1="940" y1="462" x2="974" y2="462" class="hair"/>
+<line x1="520" y1="462" x2="560" y2="462" class="stroke2"/>
+<rect x="560" y="488" width="380" height="40" rx="3" class="surf" stroke="var(--bt-failed)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="503" class="t10 mono ink2">S8</text><rect x="894" y="493" width="40" height="14" rx="7" class="failed-t"/><text x="914" y="503" class="t10" text-anchor="middle">cut</text>
+<text class="t11"><tspan x="568" y="517">Inline comments on the workpaper</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="501">Note loops per workpaper</tspan></text>
+<line x1="940" y1="508" x2="974" y2="508" class="hair"/>
+<line x1="520" y1="508" x2="560" y2="508" class="stroke2"/>
+<rect x="250" y="442" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="457" class="t10 mono ink2">O4</text><text class="t11 b"><tspan x="258" y="472">Review with state and without loops</tspan></text><text x="258" y="520" class="t10 mono ink3">T5, T10</text>
+<rect x="560" y="540" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="555" class="t10 mono ink2">S9</text><rect x="894" y="545" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="555" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="569">Exception workbench with mandatory human resolution</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="553">Exception resolution time; trust calibration measure</tspan></text>
+<line x1="940" y1="560" x2="974" y2="560" class="hair"/>
+<line x1="520" y1="560" x2="560" y2="560" class="stroke2"/>
+<rect x="560" y="586" width="380" height="40" rx="3" class="surf" stroke="var(--bt-failed)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="601" class="t10 mono ink2">S10</text><rect x="894" y="591" width="40" height="14" rx="7" class="failed-t"/><text x="914" y="601" class="t10" text-anchor="middle">cut</text>
+<text class="t11"><tspan x="568" y="615">Agent-proposed exception resolutions</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="599">Acceptance rate of proposals in pilot</tspan></text>
+<line x1="940" y1="606" x2="974" y2="606" class="hair"/>
+<line x1="520" y1="606" x2="560" y2="606" class="stroke2"/>
+<rect x="250" y="540" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="555" class="t10 mono ink2">O5</text><text class="t11 b"><tspan x="258" y="570">Keep judgment human and visible</tspan></text><text x="258" y="618" class="t10 mono ink3">T6, T8</text>
+<rect x="560" y="638" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="653" class="t10 mono ink2">S11</text><rect x="894" y="643" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="653" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="667">The agent run and its timeline as the state holder</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="651">Handoff re-explanation time in contextual inquiry follow-up</tspan></text>
+<line x1="940" y1="658" x2="974" y2="658" class="hair"/>
+<line x1="520" y1="658" x2="560" y2="658" class="stroke2"/>
+<rect x="560" y="684" width="380" height="40" rx="3" class="surf" stroke="var(--bt-failed)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="699" class="t10 mono ink2">S12</text><rect x="894" y="689" width="40" height="14" rx="7" class="failed-t"/><text x="914" y="699" class="t10" text-anchor="middle">cut</text>
+<text class="t11"><tspan x="568" y="713">Structured handoff notes between roles</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="697">Diary entries on handoffs</tspan></text>
+<line x1="940" y1="704" x2="974" y2="704" class="hair"/>
+<line x1="520" y1="704" x2="560" y2="704" class="stroke2"/>
+<rect x="250" y="638" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="653" class="t10 mono ink2">O6</text><text class="t11 b"><tspan x="258" y="668">Keep state in the run across</tspan><tspan x="258" y="681">handoffs</tspan></text><text x="258" y="716" class="t10 mono ink3">T11</text>
+<rect x="560" y="736" width="380" height="40" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5" />
+<text x="568" y="751" class="t10 mono ink2">S13</text><rect x="894" y="741" width="40" height="14" rx="7" class="brand-t"/><text x="914" y="751" class="t10" text-anchor="middle">MVP</text>
+<text class="t11"><tspan x="568" y="765">Typed field-structure library the planner targets</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="749">Rework causes by format in the review center; structure edits</tspan><tspan x="980" y="761">attempted</tspan></text>
+<line x1="940" y1="756" x2="974" y2="756" class="hair"/>
+<line x1="520" y1="756" x2="560" y2="756" class="stroke2"/>
+<rect x="560" y="782" width="380" height="40" rx="3" class="surf" stroke="var(--bt-review)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="568" y="797" class="t10 mono ink2">S14</text><rect x="894" y="787" width="40" height="14" rx="7" class="review-t"/><text x="914" y="797" class="t10" text-anchor="middle">later</text>
+<text class="t11"><tspan x="568" y="811">Templates for analytical procedures</tspan></text>
+<text class="t10 ink2"><tspan x="980" y="795">Pilot on one area after Test of Details proves the pattern</tspan></text>
+<line x1="940" y1="802" x2="974" y2="802" class="hair"/>
+<line x1="520" y1="802" x2="560" y2="802" class="stroke2"/>
+<rect x="250" y="736" width="270" height="86" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="258" y="751" class="t10 mono ink2">O7</text><text class="t11 b"><tspan x="258" y="766">Structures that fit the procedure</tspan></text><text x="258" y="814" class="t10 mono ink3">T13, T4</text>
+<rect x="16" y="148" width="200" height="680" rx="3" class="brand-t" stroke="var(--bt-brand)"/><text class="t11 b"><tspan x="26" y="168">Auditors conclude faster with</tspan><tspan x="26" y="182">a file that stands up to</tspan><tspan x="26" y="196">inspection, and they stay</tspan><tspan x="26" y="210">accountable for every</tspan><tspan x="26" y="224">conclusion.</tspan></text>
+<line x1="216" y1="191" x2="250" y2="191" class="stroke2"/>
+<line x1="216" y1="289" x2="250" y2="289" class="stroke2"/>
+<line x1="216" y1="387" x2="250" y2="387" class="stroke2"/>
+<line x1="216" y1="485" x2="250" y2="485" class="stroke2"/>
+<line x1="216" y1="583" x2="250" y2="583" class="stroke2"/>
+<line x1="216" y1="681" x2="250" y2="681" class="stroke2"/>
+<line x1="216" y1="779" x2="250" y2="779" class="stroke2"/>
+<rect x="16" y="842" width="30" height="14" rx="3" class="surf" stroke="var(--bt-brand)" stroke-width="1.5"/><text x="52" y="853" class="t11 ink2">in MVP</text>
+<rect x="206" y="842" width="30" height="14" rx="3" class="surf" stroke="var(--bt-review)" stroke-dasharray="4 3"/><text x="242" y="853" class="t11 ink2">later phase</text>
+<rect x="396" y="842" width="30" height="14" rx="3" class="surf" stroke="var(--bt-failed)" stroke-dasharray="4 3"/><text x="432" y="853" class="t11 ink2">cut, with the reason in the table</text>
+<text x="16" y="874" class="t11 ink2">Reconstructed. Value and feasibility ratings are the lead's judgment under the constraints in 01, argued with PMs and engineering leads. They are not measured.</text>
+</svg>

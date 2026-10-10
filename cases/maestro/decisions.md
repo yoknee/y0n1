@@ -218,3 +218,46 @@ Source: confirmed.
 
 **Status.** Validated.
 
+---
+
+## D-10 MVP scope: Test of Details for two areas, no analytical procedures
+
+Phase P2. Artifact 06.
+Source: confirmed.
+
+**Finding.** Tracing samples is the repetitive core of fieldwork (T2) and the structures that define it already exist as methodology (T13). Analytical procedures need a different kind of agent reasoning, forming an expectation and explaining variance, that would not prove the boundary pattern and would double the surface to review. Engineering capacity at MVP was six product teams on a platform with a three-person design team (C7). Evidence: E-03, E-19; prioritization 2x2 (06).
+
+**Options.**
+- A. Every procedure type on one area. Cost: four agent behaviors to design, review and explain before any one of them is trusted.
+- B. Test of Details on all five areas. Cost: all 60+ structures typed before the first run ships; the library becomes the critical path.
+- C. Test of Details on revenue and payables with the full run, the review center and sign-off. The two areas carry the highest sample volumes and cover both testing directions, existence and completeness, with the largest share of the structures.
+
+**Choice.** C.
+
+**Rationale.** Progressive disclosure of scope: prove the boundary pattern on the workflow where the research put the pain, then extend. Hick's law for the reviewer: one agent behavior to learn first.
+
+**Validation.** Pilot (P3) on the two areas with usability round 1 (13, planned target). The cut list in 06 names what returns and when. Analytical procedures return in P5 as S14.
+
+**Status.** Validated.
+
+---
+
+## D-11 Test of Details is the anchor workflow
+
+Phase P2 to P7. Artifacts 06, 09, 11, 12.
+Source: stated.
+
+**Finding.** The repetitive core (T2), the typed structures (T13), the exception judgment (T6) and the review pain (T3, T5) all sit on the Test of Details path. One workflow touches all four boundary questions. Evidence: E-03, E-05, E-10, E-19.
+
+**Options.**
+- A. Anchor on risk assessment. Cost: judgment-heavy from the first step; little for the agent to do visibly; the boundary pattern stays abstract.
+- B. Anchor on a substantive analytical procedure. Cost: agent reasoning is harder to show and check; fewer typed structures exist.
+- C. Anchor on Test of Details end to end: plan, retrieve, extract, match, detect exceptions, draft conclusion, review, sign.
+
+**Choice.** C.
+
+**Rationale.** The workflow where the evidence is strongest and where every boundary question has a concrete place. The field-structure library makes it the framework-level pattern as well (D-06).
+
+**Validation.** Flows 1 to 5 (09) and the prototype (flows 1, 2 and 5) are built on it. The dry run ran it with 20 teams (13).
+
+**Status.** Validated.
