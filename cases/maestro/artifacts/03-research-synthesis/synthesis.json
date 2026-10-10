@@ -1,0 +1,113 @@
+{
+  "artifact": { "number": "03", "title": "Research synthesis", "status": "Draft",
+    "question": "What did the research find, how strong is each finding and which decisions did it drive?",
+    "decisions": ["D-03", "D-04", "D-06"], "questions": [1, 2, 3, 4],
+    "iDecided": "The codebook structure, the ordinal evidence rubric instead of tallies and which themes became decisions.",
+    "weBuilt": "The coding, two coders per source, the affinity sessions and the evidence table. Theme names were argued out in the weekly coding review." },
+  "label": "Reconstructed. Every finding here is a reconstruction of what the research found, rated by an ordinal rubric. No observation, participant or quote count appears because every n except the dry run is a planned target.",
+  "stages": ["Plan", "Assess risk", "Design procedures", "Gather evidence", "Test", "Evaluate exceptions", "Conclude", "Review", "Sign"],
+  "roles": ["Associate", "Senior", "Manager", "Partner", "Methodology"],
+  "code_groups": [
+    { "id": "EV", "name": "Evidence", "codes": [
+      { "id": "EV-LOCATE", "def": "Finding where a piece of evidence lives across systems or requests.", "include": "Any search, request or wait to obtain a document.", "example": "Opening three systems to find one bank statement." },
+      { "id": "EV-TRACE", "def": "Tracing one sampled item to the documents that support it.", "include": "Field-by-field comparison of record to document.", "example": "Matching an invoice amount and date to the ledger line." },
+      { "id": "EV-QUALITY", "def": "Evidence that is partial, illegible or the wrong version.", "include": "Any rework caused by the document itself.", "example": "A scanned contract with the signature page missing." },
+      { "id": "EV-REQUEST", "def": "Client requests and the waiting they cause.", "include": "Request raised, chased or re-raised.", "example": "Second request for shipping documents after the first came back incomplete." } ] },
+    { "id": "WP", "name": "Workpaper", "codes": [
+      { "id": "WP-FORMAT", "def": "Workpaper format or layout differs from what the reviewer expects.", "include": "Reviewer time spent decoding layout before substance.", "example": "Reviewer asks where the population summary is." },
+      { "id": "WP-REFERENCE", "def": "Reference to evidence or another workpaper is missing or wrong.", "include": "Review notes about references.", "example": "Note: reference points at prior-year file." },
+      { "id": "WP-REWORK", "def": "Work redone after review or after a finding.", "include": "Any second pass on completed work.", "example": "Sample retested after the population changed." },
+      { "id": "WP-CONCLUSION", "def": "Conclusion wording questioned or rewritten.", "include": "Notes on how the conclusion is phrased.", "example": "Conclusion does not state the assertion covered." },
+      { "id": "WP-STRUCTURE", "def": "A Test of Details structure adapted by hand from the methodology template.", "include": "Any local variant of a standard structure.", "example": "Team adds two columns to the standard structure and drops one." } ] },
+    { "id": "RV", "name": "Review", "codes": [
+      { "id": "RV-FIRSTLOOK", "def": "What the reviewer checks first.", "include": "Explicit statements or observed first actions in review.", "example": "Manager opens the evidence reference before reading the conclusion." },
+      { "id": "RV-NOTES", "def": "Review note loops: raise, clear, re-raise.", "include": "Any note that takes more than one pass to clear.", "example": "Note cleared, then reopened by the partner." },
+      { "id": "RV-LATENCY", "def": "Waiting for review to happen.", "include": "Time between ready for review and reviewed.", "example": "Workpaper waits three days for the manager." },
+      { "id": "RV-SIGN", "def": "Hesitation or extra checking before sign-off.", "include": "Any statement about what the signer needs to see.", "example": "Partner asks to see the exception resolution before signing." } ] },
+    { "id": "EX", "name": "Exceptions", "codes": [
+      { "id": "EX-RAISE", "def": "An exception is detected and recorded.", "include": "The act of flagging, not the judgment.", "example": "Amount differs from invoice by more than tolerance." },
+      { "id": "EX-RESOLVE", "def": "Work to explain, waive or escalate an exception.", "include": "Follow-up requests, calls, memos.", "example": "Calling the client controller about a cutoff difference." },
+      { "id": "EX-JUDGMENT", "def": "Professional judgment applied to an exception.", "include": "Statements that this step cannot be delegated.", "example": "Whether a difference is a misstatement is my call." } ] },
+    { "id": "TM", "name": "Time and handoff", "codes": [
+      { "id": "TM-PEAK", "def": "Busy season concentration of work.", "include": "Statements about volume or hours in peak weeks.", "example": "Everything lands in the same three weeks." },
+      { "id": "TM-INTERRUPT", "def": "Interruptions that break a tracing task.", "include": "Any switch away from the task before it completes.", "example": "Client call mid-sample; restart from the beginning." },
+      { "id": "TM-HANDOFF", "def": "Context lost between roles or days.", "include": "Any re-explanation of state at a handoff.", "example": "Senior re-walks the sample for the manager." } ] },
+    { "id": "AI", "name": "Stance on agents", "codes": [
+      { "id": "AI-HANDOFF", "def": "Work the person would hand to an agent.", "include": "Explicit offers to delegate.", "example": "It can do the matching. I will look at the differences." },
+      { "id": "AI-NEVER", "def": "Work the person would never hand off.", "include": "Explicit refusals.", "example": "The conclusion is mine." },
+      { "id": "AI-TRUST", "def": "What would make the person trust an agent's output.", "include": "Conditions stated for trust.", "example": "Show me the page it read." },
+      { "id": "AI-FEAR", "def": "Accountability fear about agent errors.", "include": "Statements about blame or liability.", "example": "If it is wrong, it is still my name on the file." },
+      { "id": "AI-STEP", "def": "Wanting to reject or redo one step rather than the whole run.", "include": "Any request for step-level control.", "example": "I would rerun just the retrieval with the right file." } ] },
+    { "id": "ST", "name": "Standards and data", "codes": [
+      { "id": "ST-DOC", "def": "Documentation requirements shaping the work.", "include": "Statements about what the file must contain.", "example": "The reviewer must be able to re-perform from the file." },
+      { "id": "ST-INDEP", "def": "Independence shaping who may conclude.", "include": "Statements that the auditor must conclude.", "example": "A tool cannot sign." },
+      { "id": "ST-DATA", "def": "Data handling and access limits.", "include": "Statements about what may be shared or stored where.", "example": "That file cannot leave the client network." } ] }
+  ],
+  "themes": [
+    { "id": "T1", "name": "Locating evidence costs more than judging it", "statement": "Auditors spend their effort finding and assembling evidence across systems and requests. The judgment, once the document is in front of them, is fast.", "codes": ["EV-LOCATE", "EV-REQUEST", "TM-INTERRUPT"], "methods": ["M1", "M3", "M5"], "roles": ["Associate", "Senior"], "consistency": "high", "stages": ["Gather evidence", "Test"], "q": [1, 3], "boundary": "Retrieval is the first candidate for the agent (Q1). What it retrieved must stay visible (Q3)." },
+    { "id": "T2", "name": "Tracing a sample to its documents is the repetitive core", "statement": "Field-by-field comparison of each sampled item to its documents is the bulk of fieldwork hours. It is procedural and it is where attention fades.", "codes": ["EV-TRACE", "TM-PEAK"], "methods": ["M1", "M5", "M2"], "roles": ["Associate", "Senior"], "consistency": "high", "stages": ["Test"], "q": [1], "boundary": "Extraction and matching are agent work. The field-structure library defines what to match (D-06)." },
+    { "id": "T3", "name": "Reviewers look for the source first, the conclusion second", "statement": "Managers and partners open the evidence reference before they read the conclusion. A conclusion without a reachable source is not reviewable.", "codes": ["RV-FIRSTLOOK", "WP-REFERENCE", "ST-DOC"], "methods": ["M2", "M6", "M4"], "roles": ["Manager", "Partner", "Methodology"], "consistency": "high", "stages": ["Review", "Sign"], "q": [3], "boundary": "Every claim carries a citation that opens the source at the span (D-03)." },
+    { "id": "T4", "name": "Rework originates in references and format, not judgment", "statement": "Review notes and second passes cluster on missing references, inconsistent layout and conclusion wording. Judgment calls are rarely the cause of rework.", "codes": ["WP-REFERENCE", "WP-FORMAT", "WP-REWORK", "WP-CONCLUSION"], "methods": ["M6", "M3"], "roles": ["Senior", "Manager"], "consistency": "medium", "stages": ["Conclude", "Review"], "q": [3], "boundary": "An agent that drafts with references and a fixed structure removes the common causes of rework without touching judgment." },
+    { "id": "T5", "name": "Review latency compounds under deadline and notes loop", "statement": "Workpapers wait for review, then notes take more than one pass to clear. The waiting is where deadline pressure turns into shortcuts.", "codes": ["RV-LATENCY", "RV-NOTES", "TM-PEAK"], "methods": ["M3", "M2", "M1"], "roles": ["Senior", "Manager"], "consistency": "high", "stages": ["Review"], "q": [2], "boundary": "Review needs a place with a queue and state, not a popup on a workpaper (D-04)." },
+    { "id": "T6", "name": "Exceptions are where judgment lives and nobody hands that off", "statement": "Detecting a difference is mechanical. Deciding what it means is professional judgment and every role names it as theirs.", "codes": ["EX-RAISE", "EX-RESOLVE", "EX-JUDGMENT", "AI-NEVER"], "methods": ["M2", "M4", "M1"], "roles": ["Associate", "Senior", "Manager", "Partner", "Methodology"], "consistency": "high", "stages": ["Evaluate exceptions"], "q": [2], "boundary": "The agent detects and documents exceptions. Resolution is a human checkpoint by design, not by default." },
+    { "id": "T7", "name": "Trust requires seeing what the agent read and rejecting one step", "statement": "Trust conditions are concrete: show the page, show the step, let me redo one step with the right input. A black box with a confidence number does not qualify.", "codes": ["AI-TRUST", "AI-STEP", "RV-FIRSTLOOK"], "methods": ["M2", "M4"], "roles": ["Manager", "Partner", "Methodology"], "consistency": "high", "stages": ["Review"], "q": [3, 4], "boundary": "Step-level provenance and step-level rejection with rerun (D-13, D-14). Confidence shows its basis (D-08)." },
+    { "id": "T8", "name": "Accountability fear: if it is wrong, it is my name", "statement": "Auditors expect to carry the consequence of an agent's error. They will route around a tool that makes that risk invisible.", "codes": ["AI-FEAR", "ST-INDEP", "RV-SIGN"], "methods": ["M2"], "roles": ["Senior", "Manager", "Partner"], "consistency": "high", "stages": ["Conclude", "Sign"], "q": [2, 4], "boundary": "Sign-off stays human-only with its own affordance (D-05). Failure is visible and recoverable (D-12)." },
+    { "id": "T9", "name": "Teams want the system to enforce data limits", "statement": "Rules about what may be shared with a tool are known by methodology and partially by teams. Teams would rather the product refuse than remember.", "codes": ["ST-DATA", "EV-LOCATE"], "methods": ["M4", "M2"], "roles": ["Methodology", "Senior"], "consistency": "medium", "stages": ["Gather evidence"], "q": [1], "boundary": "Data classes with per-class agent permission, visible in the product (D-05, D-09)." },
+    { "id": "T10", "name": "Format inconsistency slows review more than content does", "statement": "Reviewers decode layout before substance. The same structure with the same fields in the same place would remove that step.", "codes": ["WP-FORMAT", "WP-STRUCTURE", "RV-FIRSTLOOK"], "methods": ["M6", "M2"], "roles": ["Manager", "Methodology"], "consistency": "medium", "stages": ["Review"], "q": [3], "boundary": "Typed templates from the field-structure library fix the structure (D-06)." },
+    { "id": "T11", "name": "Handoffs between roles and days lose context", "statement": "State is re-explained at every handoff: what was tested, what is open, what was asked of the client. The context lives in people, not in the file.", "codes": ["TM-HANDOFF", "TM-INTERRUPT"], "methods": ["M1", "M3"], "roles": ["Associate", "Senior", "Manager"], "consistency": "medium", "stages": ["Test", "Review"], "q": [3], "boundary": "The agent timeline and run state carry context across handoffs. The run, not the person, holds the state." },
+    { "id": "T12", "name": "Experts want fewer clicks, not more guidance", "statement": "Seniors and managers know the procedure. They want speed, keyboard operation and density. Explanatory UI slows them.", "codes": ["TM-PEAK", "TM-INTERRUPT"], "methods": ["M1", "M2"], "roles": ["Senior", "Manager"], "consistency": "medium", "stages": ["Test", "Review"], "q": [], "boundary": "Dense, keyboard-first layout (D-15). Guidance is progressive, never modal." },
+    { "id": "T13", "name": "Standard Test of Details structures are adapted by hand", "statement": "The methodology defines the structures. Teams adapt them locally. The local variants are a rework and review source. Nobody wants variation; they want the structure to fit.", "codes": ["WP-STRUCTURE", "WP-REWORK"], "methods": ["M4", "M6"], "roles": ["Methodology", "Senior"], "consistency": "medium", "stages": ["Design procedures", "Test"], "q": [1], "boundary": "The 60+ structures become typed templates the agent plans against (D-06). Fit is a property of the library, not a local hack." }
+  ],
+  "evidence": [
+    { "id": "E-01", "finding": "Effort concentrates on locating and assembling evidence, not on judging it.", "theme": "T1", "methods": ["M1", "M5"], "stage": "Gather evidence", "q": [1, 3], "decisions": ["D-01"] },
+    { "id": "E-02", "finding": "Client requests and re-requests are the longest waits in fieldwork.", "theme": "T1", "methods": ["M3", "M1"], "stage": "Gather evidence", "q": [1], "decisions": [] },
+    { "id": "E-03", "finding": "Field-by-field tracing of samples is the largest block of fieldwork hours.", "theme": "T2", "methods": ["M5", "M1"], "stage": "Test", "q": [1], "decisions": ["D-01", "D-06"] },
+    { "id": "E-04", "finding": "Attention fades across a long tracing session; errors cluster late.", "theme": "T2", "methods": ["M1", "M3"], "stage": "Test", "q": [4], "decisions": ["D-12"] },
+    { "id": "E-05", "finding": "Reviewers open the evidence reference before reading the conclusion.", "theme": "T3", "methods": ["M2", "M6"], "stage": "Review", "q": [3], "decisions": ["D-03"] },
+    { "id": "E-06", "finding": "A conclusion whose source cannot be reached is sent back regardless of its content.", "theme": "T3", "methods": ["M6", "M4"], "stage": "Review", "q": [3], "decisions": ["D-03"] },
+    { "id": "E-07", "finding": "Rework causes cluster on references, format and wording rather than judgment.", "theme": "T4", "methods": ["M6"], "stage": "Review", "q": [3], "decisions": ["D-06"] },
+    { "id": "E-08", "finding": "Workpapers wait for review, and notes take more than one pass to clear.", "theme": "T5", "methods": ["M3", "M2"], "stage": "Review", "q": [2], "decisions": ["D-04"] },
+    { "id": "E-09", "finding": "Deadline pressure converts review waiting into shortcuts.", "theme": "T5", "methods": ["M1", "M3"], "stage": "Review", "q": [2], "decisions": ["D-04"] },
+    { "id": "E-10", "finding": "Detecting a difference is mechanical; deciding what it means is named as human work by every role.", "theme": "T6", "methods": ["M2", "M4"], "stage": "Evaluate exceptions", "q": [2], "decisions": ["D-09"] },
+    { "id": "E-11", "finding": "Trust conditions are concrete: the page read, the step taken, the ability to redo one step.", "theme": "T7", "methods": ["M2", "M4"], "stage": "Review", "q": [3, 4], "decisions": ["D-03", "D-08"] },
+    { "id": "E-12", "finding": "A confidence number without its basis is distrusted by reviewers.", "theme": "T7", "methods": ["M2"], "stage": "Review", "q": [3], "decisions": ["D-08"] },
+    { "id": "E-13", "finding": "Auditors expect to carry the consequence of an agent's error and will route around a tool that hides the risk.", "theme": "T8", "methods": ["M2"], "stage": "Sign", "q": [2, 4], "decisions": ["D-05", "D-12"] },
+    { "id": "E-14", "finding": "Data handling limits are known by methodology and partially by teams.", "theme": "T9", "methods": ["M4", "M2"], "stage": "Gather evidence", "q": [1], "decisions": ["D-05"] },
+    { "id": "E-15", "finding": "Teams prefer a product that refuses to one that relies on memory of the rules.", "theme": "T9", "methods": ["M2"], "stage": "Gather evidence", "q": [1], "decisions": ["D-05", "D-09"] },
+    { "id": "E-16", "finding": "Reviewers decode layout before substance when formats vary.", "theme": "T10", "methods": ["M6", "M2"], "stage": "Review", "q": [3], "decisions": ["D-06"] },
+    { "id": "E-17", "finding": "State is re-explained at every handoff; the file does not hold it.", "theme": "T11", "methods": ["M1", "M3"], "stage": "Test", "q": [3], "decisions": ["D-13"] },
+    { "id": "E-18", "finding": "Experienced users want density, keyboard operation and speed over guidance.", "theme": "T12", "methods": ["M1", "M2"], "stage": "Test", "q": [], "decisions": ["D-15"] },
+    { "id": "E-19", "finding": "Standard Test of Details structures are adapted locally and the variants cause rework.", "theme": "T13", "methods": ["M4", "M6"], "stage": "Design procedures", "q": [1], "decisions": ["D-06"] },
+    { "id": "E-20", "finding": "Methodology reviewers want the structure to fit the procedure rather than be edited around it.", "theme": "T13", "methods": ["M4"], "stage": "Design procedures", "q": [1], "decisions": ["D-06"] }
+  ],
+  "heatmap": {
+    "note": "Reconstructed severity, not observed frequency. Cell values: 0 none, 1 low, 2 medium, 3 high. Rows are lifecycle stages, columns are roles.",
+    "cells": {
+      "Plan":               [0, 1, 1, 0, 1],
+      "Assess risk":        [0, 1, 2, 1, 1],
+      "Design procedures":  [1, 2, 1, 0, 2],
+      "Gather evidence":    [3, 3, 1, 0, 1],
+      "Test":               [3, 3, 1, 0, 0],
+      "Evaluate exceptions":[2, 3, 2, 1, 1],
+      "Conclude":           [1, 2, 2, 1, 1],
+      "Review":             [1, 3, 3, 2, 2],
+      "Sign":               [0, 1, 2, 3, 1]
+    },
+    "stage_themes": { "Plan": [], "Assess risk": [], "Design procedures": ["T13"], "Gather evidence": ["T1", "T9"], "Test": ["T2", "T11", "T12"], "Evaluate exceptions": ["T6"], "Conclude": ["T4", "T8"], "Review": ["T3", "T5", "T7", "T10"], "Sign": ["T8"] }
+  },
+  "affinity_cards": {
+    "T1": ["Three systems opened to find one statement", "Request chased twice before the week ends", "Restart the trace after a client call"],
+    "T2": ["Same five fields compared, item after item", "Late-session items get less attention", "The matching is the part I would give away"],
+    "T3": ["Opens the reference before the conclusion", "No reachable source, sent back unread", "Re-performable from the file or not done"],
+    "T4": ["Notes are about references, not calls", "Layout questions before content questions", "Conclusion wording rewritten twice"],
+    "T5": ["Three days waiting for the manager", "Note cleared, reopened by the partner", "Waiting turns into shortcuts"],
+    "T6": ["Flagging is easy, deciding is mine", "Call the controller about the cutoff", "No tool decides a misstatement"],
+    "T7": ["Show me the page it read", "Let me redo one step with the right file", "A number alone is not confidence"],
+    "T8": ["If it is wrong it is still my name", "Would rather not use it than not know", "The signer wants the exception trail"],
+    "T9": ["That file cannot leave the client network", "Methodology knows, teams half know", "Better that it refuses than I remember"],
+    "T10": ["Where is the population summary", "Same procedure, different layout per team", "Fixed structure, faster review"],
+    "T11": ["Senior re-walks the sample for the manager", "What is open lives in my head", "Day two starts with re-explaining day one"],
+    "T12": ["Fewer clicks, I know the procedure", "Keyboard through the sample", "Guidance in the way during peak"],
+    "T13": ["Two columns added, one dropped, every team", "Variants cause the review notes", "Make the structure fit, not the team"]
+  }
+}

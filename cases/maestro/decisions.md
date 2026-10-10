@@ -86,3 +86,69 @@ Source: stated.
 
 **Status.** Validated.
 
+---
+
+## D-03 Every agent claim carries a source citation to a highlighted span
+
+Phase P2 to P5. Artifacts 03, 07, 11, 12.
+Source: stated.
+
+**Finding.** Reviewers open the evidence reference before they read the conclusion. A conclusion whose source cannot be reached is sent back regardless of content. Trust conditions are concrete: show the page, show the step. Evidence: E-05, E-06, E-11 (T3, T7).
+
+**Options.**
+- A. A sources list at the end of the agent's draft. Cost: the reviewer still hunts for which source supports which claim.
+- B. Footnote numbers that open the document. Cost: opens the document at page one; the hunt moves inside the file.
+- C. A citation chip on every claim that opens the source at the highlighted span, with the extracted field shown beside the original.
+
+**Choice.** C.
+
+**Rationale.** Recognition over recall. Nielsen H1, visibility of system status, applied to provenance. Amershi G11.
+
+**Validation.** Usability rounds 1 and 2 (13, planned targets) include the task "find what the agent read for this claim". Dry run theme provenance_visibility (13).
+
+**Status.** Validated.
+
+---
+
+## D-04 Review is a place: a review center, never a modal
+
+Phase P2 to P5. Artifacts 03, 07, 08, 11.
+Source: stated.
+
+**Finding.** Workpapers wait for review; notes take more than one pass to clear; waiting under deadline turns into shortcuts. Review has no state of its own in the current tools, so it lives in people's queues. Evidence: E-08, E-09 (T5).
+
+**Options.**
+- A. Review as a popup on the workpaper when the agent finishes. Cost: interrupts the reviewer's own work; no queue; no state after dismissal.
+- B. Review as a comment thread on each workpaper. Cost: threads loop (T5); nothing shows the reviewer what is waiting across the engagement.
+- C. A review center: a queue with state per item (needs review, approved, edited, rejected), ordered by due date and risk, with the agent's run and its provenance in the same view.
+
+**Choice.** C.
+
+**Rationale.** Shneiderman, overview first, then zoom and filter, then details on demand. Hick's law: a queue with state cuts the choice to the next item.
+
+**Validation.** Flow 4, manager review and sign-off (09). Usability round 2 task "clear the review queue for one area" (13, planned target). Dry run theme review_workflow (13).
+
+**Status.** Validated.
+
+---
+
+## D-06 The field-structure library is a typed template system the planner targets
+
+Phase P2 to P5. Artifacts 03, 08.
+Source: stated.
+
+**Finding.** The methodology defines 60+ Test of Details structures. Teams adapt them by hand and the variants cause review notes and rework. Format inconsistency slows review more than content. Evidence: E-07, E-16, E-19, E-20 (T4, T10, T13).
+
+**Options.**
+- A. Free-form workpapers with a style guide. Cost: variants persist; the agent has no fixed fields to extract into.
+- B. One rigid template per area. Cost: five templates cannot cover 60+ procedures; teams work around them, which is option A again.
+- C. The 60+ structures as typed templates: required fields with types, evidence types required, matching rule and tolerance. The agent plans a run against the structure. Teams choose a structure; they do not edit it in place.
+
+**Choice.** C.
+
+**Rationale.** Consistency and standards (Nielsen H4). A typed template is the contract between methodology, the agent planner and the reviewer. This is the framework-level pattern of the case.
+
+**Validation.** SME sessions on the taxonomy (02, M4, planned target). Taxonomy and object model (08). Rework causes in the review center telemetry (14 measurement plan).
+
+**Status.** Validated.
+
