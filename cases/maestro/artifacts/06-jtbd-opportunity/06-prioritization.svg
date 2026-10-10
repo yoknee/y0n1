@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 720" width="1400" height="720" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 734" width="1400" height="734" role="img" aria-labelledby="t d">
 <title id="t">06 Jobs to be done and opportunity map</title>
 <desc id="d">What are auditors trying to get done, which opportunities follow from the findings and what did we cut for MVP and why? Decisions fed: D-10, D-11. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
 
@@ -25,7 +25,7 @@ text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono
 <text x="16" y="116" class="t11 ink2 b">PRIORITIZATION: USER VALUE AGAINST FEASIBILITY UNDER THE CONSTRAINTS IN 01. RATINGS ARE JUDGMENT, NOT MEASUREMENT.</text>
 <rect x="70" y="140" width="520" height="520" class="surf2" stroke="var(--bt-border)"/>
 <line x1="330" y1="140" x2="330" y2="660" class="hair"/><line x1="70" y1="400" x2="590" y2="400" class="hair"/>
-<text x="200" y="156" class="t10 ink3" text-anchor="middle">high value, hard: sequence</text><text x="460" y="156" class="t10 ink3" text-anchor="middle">high value, feasible: MVP</text><text x="200" y="652" class="t10 ink3" text-anchor="middle">low value, hard: cut</text><text x="460" y="652" class="t10 ink3" text-anchor="middle">low value, feasible: only if free</text>
+<text x="78" y="392" class="t10 ink3">high value, hard: sequence</text><text x="582" y="392" class="t10 ink3" text-anchor="end">high value, feasible: MVP</text><text x="78" y="416" class="t10 ink3">low value, hard: cut</text><text x="582" y="416" class="t10 ink3" text-anchor="end">low value, feasible: only if free</text>
 <text x="330" y="682" class="t11 ink2" text-anchor="middle">Feasibility under the constraints (1 low to 5 high)</text>
 <text transform="translate(56 400) rotate(-90)" class="t11 ink2" text-anchor="middle">User value (1 low to 5 high)</text>
 <circle cx="408" cy="192.00000000000006" r="7" class="brand"/>
@@ -72,5 +72,5 @@ text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono
 <line x1="640" y1="585" x2="1384" y2="585" class="hair"/><text x="646" y="567" class="t10 mono">S12</text><text class="t10"><tspan x="680" y="566">Structured handoff notes between roles</tspan></text><text x="1100" y="567" class="t10 mono">2.6</text><text x="1140" y="567" class="t10 mono">4.4</text><rect x="1188" y="556" width="40" height="14" rx="7" class="failed-t"/><text x="1208" y="566" class="t10" text-anchor="middle">cut</text>
 <line x1="640" y1="618" x2="1384" y2="618" class="hair"/><text x="646" y="600" class="t10 mono">S13</text><text class="t10"><tspan x="680" y="599">Typed field-structure library the planner targets</tspan></text><text x="1100" y="600" class="t10 mono">4.3</text><text x="1140" y="600" class="t10 mono">3.1</text><rect x="1188" y="589" width="40" height="14" rx="7" class="brand-t"/><text x="1208" y="599" class="t10" text-anchor="middle">MVP</text>
 <line x1="640" y1="651" x2="1384" y2="651" class="hair"/><text x="646" y="633" class="t10 mono">S14</text><text class="t10"><tspan x="680" y="632">Templates for analytical procedures</tspan></text><text x="1100" y="633" class="t10 mono">3.6</text><text x="1140" y="633" class="t10 mono">2.2</text><rect x="1188" y="622" width="40" height="14" rx="7" class="review-t"/><text x="1208" y="632" class="t10" text-anchor="middle">later</text>
-<text x="16" y="706" class="t11 ink2">Reconstructed. Value and feasibility ratings are the lead's judgment under the constraints in 01, argued with PMs and engineering leads. They are not measured. Feasibility reflects C1 to C7: a solution that needs the permission model or an independence review before it can ship rates low until that exists.</text>
+<text class="t11 ink2"><tspan x="16" y="706">Reconstructed. Value and feasibility ratings are the lead's judgment under the constraints in 01, argued with PMs and engineering leads. They are not measured.</tspan><tspan x="16" y="720">Feasibility reflects C1 to C7: a solution that needs the permission model or an independence review before it can ship rates low until that exists.</tspan></text>
 </svg>

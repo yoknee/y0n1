@@ -24,7 +24,7 @@ writeFileSync(join(here, '06-jtbd.md'), md);
   const parts = []; const [hb, hh] = headerBand(A, W); parts.push(hb);
   let y = hh + 14;
   parts.push(`<text x="16" y="${y + 10}" class="t11 ink2 b">OPPORTUNITY SOLUTION TREE: OUTCOME TO OPPORTUNITIES TO SOLUTIONS TO EXPERIMENTS. SOLUTION STATE: MVP, CUT OR LATER.</text>`); y += 22;
-  const X = { out: 16, opp: 250, sol: 560, exp: 980 }, WD = { out: 200, opp: 270, sol: 380, exp: 404 }, RH = 46;
+  const X = { out: 16, opp: 250, sol: 560, exp: 980 }, WD = { out: 200, opp: 270, sol: 380, exp: 404 }, RH = 54;
   const top = y + 20;
   ['OUTCOME', 'OPPORTUNITY', 'SOLUTION', 'EXPERIMENT'].forEach((t, i) => parts.push(`<text x="${Object.values(X)[i]}" y="${y + 10}" class="t10 ink2 b">${t}</text>`));
   let ry = top; let oppRows = [];
@@ -33,14 +33,14 @@ writeFileSync(join(here, '06-jtbd.md'), md);
     for (const s of o.solutions) {
       parts.push(`<rect x="${X.sol}" y="${ry}" width="${WD.sol}" height="${RH - 6}" rx="3" class="surf" stroke="var(--bt-${stateCls[s.mvp]})" stroke-width="${s.mvp === 'in' ? 1.5 : 1}" ${s.mvp !== 'in' ? 'stroke-dasharray="4 3"' : ''}/>`);
       parts.push(`<text x="${X.sol + 8}" y="${ry + 15}" class="t10 mono ink2">${s.id}</text><rect x="${X.sol + WD.sol - 46}" y="${ry + 5}" width="40" height="14" rx="7" class="${stateCls[s.mvp]}-t"/><text x="${X.sol + WD.sol - 26}" y="${ry + 15}" class="t10" text-anchor="middle">${stateWord[s.mvp]}</text>`);
-      parts.push(`<text class="t11">${tspans(wrap(s.name, 56).slice(0, 2), X.sol + 8, ry + 29, 12)}</text>`);
+      parts.push(`<text class="t11">${tspans(wrap(s.name, 56).slice(0, 2), X.sol + 8, ry + 30, 13)}</text>`);
       parts.push(`<text class="t10 ink2">${tspans(wrap(s.experiment, 68).slice(0, 3), X.exp, ry + 13, 12)}</text>`);
       parts.push(`<line x1="${X.sol + WD.sol}" y1="${ry + (RH - 6) / 2}" x2="${X.exp - 6}" y2="${ry + (RH - 6) / 2}" class="hair"/>`);
       parts.push(`<line x1="${X.opp + WD.opp}" y1="${ry + (RH - 6) / 2}" x2="${X.sol}" y2="${ry + (RH - 6) / 2}" class="stroke2"/>`);
       ry += RH;
     }
     const h = ry - start - 6;
-    parts.push(`<rect x="${X.opp}" y="${start}" width="${WD.opp}" height="${h}" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="${X.opp + 8}" y="${start + 15}" class="t10 mono ink2">${o.id}</text><text class="t11 b">${tspans(wrap(o.name, 36), X.opp + 8, start + 30, 13)}</text><text x="${X.opp + 8}" y="${start + h - 8}" class="t10 mono ink3">${o.themes.join(', ')}</text>`);
+    parts.push(`<rect x="${X.opp}" y="${start}" width="${WD.opp}" height="${h}" rx="3" class="surf2" stroke="var(--bt-border)"/><text x="${X.opp + 8}" y="${start + 15}" class="t10 ink2 b">${o.id}</text><text class="t11 b">${tspans(wrap(o.name, 36), X.opp + 8, start + 30, 13)}</text><text x="${X.opp + 8}" y="${start + h - 8}" class="t10 mono ink3">${o.themes.join(', ')}</text>`);
     oppRows.push(start + h / 2);
     ry += 6;
   }
@@ -61,7 +61,7 @@ writeFileSync(join(here, '06-jtbd.md'), md);
   const fx = v => px + (v - 1) / 4 * S, fy = v => py + S - (v - 1) / 4 * S;
   parts.push(`<rect x="${px}" y="${py}" width="${S}" height="${S}" class="surf2" stroke="var(--bt-border)"/>`);
   parts.push(`<line x1="${px + S / 2}" y1="${py}" x2="${px + S / 2}" y2="${py + S}" class="hair"/><line x1="${px}" y1="${py + S / 2}" x2="${px + S}" y2="${py + S / 2}" class="hair"/>`);
-  parts.push(`<text x="${px + S / 4}" y="${py + 16}" class="t10 ink3" text-anchor="middle">high value, hard: sequence</text><text x="${px + 3 * S / 4}" y="${py + 16}" class="t10 ink3" text-anchor="middle">high value, feasible: MVP</text><text x="${px + S / 4}" y="${py + S - 8}" class="t10 ink3" text-anchor="middle">low value, hard: cut</text><text x="${px + 3 * S / 4}" y="${py + S - 8}" class="t10 ink3" text-anchor="middle">low value, feasible: only if free</text>`);
+  parts.push(`<text x="${px + 8}" y="${py + S / 2 - 8}" class="t10 ink3">high value, hard: sequence</text><text x="${px + S - 8}" y="${py + S / 2 - 8}" class="t10 ink3" text-anchor="end">high value, feasible: MVP</text><text x="${px + 8}" y="${py + S / 2 + 16}" class="t10 ink3">low value, hard: cut</text><text x="${px + S - 8}" y="${py + S / 2 + 16}" class="t10 ink3" text-anchor="end">low value, feasible: only if free</text>`);
   parts.push(`<text x="${px + S / 2}" y="${py + S + 22}" class="t11 ink2" text-anchor="middle">Feasibility under the constraints (1 low to 5 high)</text>`);
   parts.push(`<text transform="translate(${px - 14} ${py + S / 2}) rotate(-90)" class="t11 ink2" text-anchor="middle">User value (1 low to 5 high)</text>`);
   for (const s of sols) {
@@ -82,8 +82,8 @@ writeFileSync(join(here, '06-jtbd.md'), md);
     ty += 33;
   }
   y = Math.max(py + S + 40, ty + 10);
-  parts.push(`<text x="16" y="${y + 6}" class="t11 ink2">${esc(D.label)} Feasibility reflects C1 to C7: a solution that needs the permission model or an independence review before it can ship rates low until that exists.</text>`);
-  writeFileSync(join(here, '06-prioritization.svg'), svgDoc(A, W, y + 20, parts.join('\n')));
+  parts.push(`<text class="t11 ink2">${tspans(wrap(D.label + ' Feasibility reflects C1 to C7: a solution that needs the permission model or an independence review before it can ship rates low until that exists.', 170), 16, y + 6, 14)}</text>`);
+  writeFileSync(join(here, '06-prioritization.svg'), svgDoc(A, W, y + 34, parts.join('\n')));
 }
 const tree = readFileSync(join(here, '06-opportunity-tree.svg'), 'utf8'), pri = readFileSync(join(here, '06-prioritization.svg'), 'utf8');
 const jobRows = D.jobs.map(j => `<tr><td><strong>${esc(j.role)}</strong></td><td>${esc(j.when)}</td><td>${esc(j.want)}</td><td>${esc(j.so)}</td><td class="mono">${j.themes.join(', ')}</td></tr>`).join('\n');
