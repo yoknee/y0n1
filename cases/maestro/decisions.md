@@ -31,7 +31,7 @@ Source: stated.
 
 **Options.**
 - A. Chat-first assistant beside the workpaper. Cost: provenance and accountability hide behind a conversation. The record is a transcript. Review has nowhere to live.
-- B. Agent as a column inside the workpaper. Cost: steps and sources are invisible. The auditor sees a result, not the work, and cannot reject one step.
+- B. Agent as a column inside the workpaper. Cost: steps and sources are invisible. The auditor sees a result instead of the work and cannot reject one step.
 - C. The boundary as the product. Explicit agent runs with recorded steps, a permission model the auditor can see, review as a destination, sign-off as a human-only control.
 
 **Choice.** C.
@@ -49,7 +49,7 @@ Source: stated.
 Phase P1 to P5. Artifacts 01, 08.
 Source: confirmed.
 
-**Finding.** C2 (independence) requires that the auditor concludes. C3 (data security) says obligations differ by client and jurisdiction, so one permission for "the agent" is too coarse, and the auditor must be able to see what the agent saw. Evidence: 01 triad table rows C2 and C3.
+**Finding.** C2 (independence) requires that the auditor concludes. C3 (data security) says obligations differ by client and jurisdiction, so one permission for "the agent" is too coarse. The auditor must also be able to see what the agent saw. Evidence: 01 triad table rows C2 and C3.
 
 **Options.**
 - A. One permission: the agent reads everything in the engagement. Cost: restricted data flows into model context with no gate and no record the auditor can point to.
