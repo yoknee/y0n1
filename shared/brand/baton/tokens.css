@@ -1,0 +1,71 @@
+/* Baton brand tokens. Stand-in brand for the audit platform reconstruction.
+   Light theme is the default. Dark follows the OS unless data-theme is set.
+   Rules: color never carries state alone. --bt-agent is reserved for content
+   the agent produced. No gradients. No oranges. */
+
+@font-face { font-family: "Plex Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-style: italic; font-weight: 400; font-display: swap; src: url("/shared/vendor/fonts/plex/IBMPlexSans-Italic-Latin1.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("/shared/vendor/fonts/plex/IBMPlexSans-Medium-Latin1.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2"); }
+@font-face { font-family: "Plex Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2"); }
+@font-face { font-family: "Plex Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url("/shared/vendor/fonts/plex/IBMPlexMono-Medium-Latin1.woff2") format("woff2"); }
+
+:root {
+  color-scheme: light;
+  /* surfaces */
+  --bt-surface: #FFFFFF;
+  --bt-surface-2: #F3F5F8;
+  --bt-surface-3: #E8EBF0;
+  --bt-border: #CFD5DD;
+  /* ink */
+  --bt-ink: #14181F;
+  --bt-ink-2: #4A5361;
+  --bt-ink-3: #687180;
+  /* semantic */
+  --bt-brand: #3B4FD8;
+  --bt-agent: #0E7C7B;
+  --bt-review: #8E5F00;
+  --bt-approved: #1F7A3D;
+  --bt-edited: #6941C6;
+  --bt-failed: #B42318;
+  /* tints for fills behind text in --bt-ink (both themes keep ink readable) */
+  --bt-brand-tint: #E8EBFB;
+  --bt-agent-tint: #DDF3F2;
+  --bt-review-tint: #FBF0D6;
+  --bt-approved-tint: #DFF3E5;
+  --bt-edited-tint: #EEE8FB;
+  --bt-failed-tint: #FBE3E0;
+  /* type */
+  --bt-font-sans: "Plex Sans", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --bt-font-mono: "Plex Mono", "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --bt-fs-11: 11px; --bt-fs-12: 12px; --bt-fs-13: 13px; --bt-fs-14: 14px;
+  --bt-fs-16: 16px; --bt-fs-20: 20px; --bt-fs-28: 28px;
+  --bt-lh-grid: 1.35; --bt-lh-prose: 1.5;
+  /* space, 4px base */
+  --bt-s1: 4px; --bt-s2: 8px; --bt-s3: 12px; --bt-s4: 16px; --bt-s5: 20px; --bt-s6: 24px; --bt-s8: 32px; --bt-s10: 40px;
+  --bt-row-dense: 28px; --bt-row-form: 36px; --bt-gutter: 12px;
+  --bt-radius: 3px;
+  /* motion */
+  --bt-motion: 120ms;
+  /* focus */
+  --bt-focus: 0 0 0 2px var(--bt-surface), 0 0 0 4px var(--bt-brand);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bt-surface: #0F1319; --bt-surface-2: #171C24; --bt-surface-3: #1F2630; --bt-border: #2C343F;
+    --bt-ink: #E6EAF0; --bt-ink-2: #A5AEBB; --bt-ink-3: #7E8794;
+    --bt-brand: #8FA0FF; --bt-agent: #5FD3CF; --bt-review: #E8B84A; --bt-approved: #6CCB8A; --bt-edited: #B69CFF; --bt-failed: #FF8A80;
+    --bt-brand-tint: #1C2347; --bt-agent-tint: #103A3A; --bt-review-tint: #3D2E0A; --bt-approved-tint: #0F3320; --bt-edited-tint: #2A1F4D; --bt-failed-tint: #4A1612;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bt-surface: #0F1319; --bt-surface-2: #171C24; --bt-surface-3: #1F2630; --bt-border: #2C343F;
+  --bt-ink: #E6EAF0; --bt-ink-2: #A5AEBB; --bt-ink-3: #7E8794;
+  --bt-brand: #8FA0FF; --bt-agent: #5FD3CF; --bt-review: #E8B84A; --bt-approved: #6CCB8A; --bt-edited: #B69CFF; --bt-failed: #FF8A80;
+  --bt-brand-tint: #1C2347; --bt-agent-tint: #103A3A; --bt-review-tint: #3D2E0A; --bt-approved-tint: #0F3320; --bt-edited-tint: #2A1F4D; --bt-failed-tint: #4A1612;
+}
+
+@media (prefers-reduced-motion: reduce) { :root { --bt-motion: 0ms; } }

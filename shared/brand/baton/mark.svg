@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" role="img" aria-label="Baton">
+  <!-- Baton mark: a short diagonal bar from lower left to upper right with a filled circle at the upper end. Monochrome. -->
+  <line x1="2.5" y1="13.5" x2="10.5" y2="5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="11.5" cy="4.5" r="2.5" fill="currentColor"/>
+</svg>

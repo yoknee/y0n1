@@ -246,7 +246,7 @@ The brand exists so that no screen resembles the production product or the firm'
 
 ### 7.2 Palette
 
-Light theme values first, dark theme values second. Contrast ratios are against the theme surface. All text pairs meet WCAG 2.2 AA (4.5:1 body, 3:1 large text and UI components). Final ratios are verified with a script in `shared/brand/baton/contrast-check.mjs` before artifact 12 ships.
+Light theme values first, dark theme values second. Contrast ratios are against the theme surface. All text pairs meet WCAG 2.2 AA (4.5:1 body, 3:1 large text and UI components). Ratios below are measured by `shared/brand/baton/contrast-check.mjs`, which also checks each semantic color on its tint and on `--bt-surface-2`. Tints (`--bt-*-tint`) sit behind ink text in badges and chips.
 
 | Token | Role | Light | Dark |
 |---|---|---|---|
@@ -254,15 +254,15 @@ Light theme values first, dark theme values second. Contrast ratios are against 
 | `--bt-surface-2` | Panels, table header | `#F3F5F8` | `#171C24` |
 | `--bt-surface-3` | Hover, selected row | `#E8EBF0` | `#1F2630` |
 | `--bt-border` | Hairlines | `#CFD5DD` | `#2C343F` |
-| `--bt-ink` | Body text | `#14181F` (16.4:1) | `#E6EAF0` (15.1:1) |
-| `--bt-ink-2` | Secondary text | `#4A5361` (7.3:1) | `#A5AEBB` (8.0:1) |
-| `--bt-ink-3` | Disabled, placeholders | `#6F7886` (4.9:1) | `#7E8794` (4.6:1) |
-| `--bt-brand` | Links, primary action, focus ring | `#3B4FD8` (6.4:1) | `#8FA0FF` (8.1:1) |
-| `--bt-agent` | Anything the agent produced | `#0E7C7B` (5.0:1) | `#5FD3CF` (9.6:1) |
-| `--bt-review` | Needs review | `#9A6700` (4.9:1) | `#E8B84A` (9.5:1) |
-| `--bt-approved` | Approved, concluded | `#1F7A3D` (5.4:1) | `#6CCB8A` (9.3:1) |
-| `--bt-edited` | Edited by a human | `#6941C6` (6.6:1) | `#B69CFF` (8.6:1) |
-| `--bt-failed` | Rejected, failed, source unavailable | `#B42318` (6.6:1) | `#FF8A80` (8.0:1) |
+| `--bt-ink` | Body text | `#14181F` (17.8:1) | `#E6EAF0` (15.4:1) |
+| `--bt-ink-2` | Secondary text | `#4A5361` (7.8:1) | `#A5AEBB` (8.3:1) |
+| `--bt-ink-3` | Disabled, placeholders | `#687180` (4.9:1) | `#7E8794` (5.1:1) |
+| `--bt-brand` | Links, primary action, focus ring | `#3B4FD8` (6.4:1) | `#8FA0FF` (7.7:1) |
+| `--bt-agent` | Anything the agent produced | `#0E7C7B` (5.0:1) | `#5FD3CF` (10.4:1) |
+| `--bt-review` | Needs review | `#8E5F00` (5.6:1) | `#E8B84A` (10.1:1) |
+| `--bt-approved` | Approved, concluded | `#1F7A3D` (5.4:1) | `#6CCB8A` (9.4:1) |
+| `--bt-edited` | Edited by a human | `#6941C6` (6.6:1) | `#B69CFF` (8.2:1) |
+| `--bt-failed` | Rejected, failed, source unavailable | `#B42318` (6.6:1) | `#FF8A80` (8.2:1) |
 
 Rules:
 

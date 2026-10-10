@@ -1,1 +1,4 @@
 scripts/banned-terms.txt
+scripts/node_modules/
+scripts/.screens/
+scripts/.pdf/
