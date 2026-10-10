@@ -63,3 +63,26 @@ Source: confirmed.
 **Validation.** Permission model diagram (08) walked through with the methodology reviewer and engagement data lead roles in SME sessions (02, planned target of 8 sessions). Failure path "source unavailable" and the restricted-class checkpoint are exercised in the flows (09) and in usability round 2 (13, planned target).
 
 **Status.** Validated.
+
+---
+
+## D-02 Mixed-method research with contextual inquiry as the anchor method
+
+Phase P1. Artifacts 02, 03.
+Source: stated.
+
+**Finding.** The four user problems (01) live in busy-season fieldwork: reassembling evidence, tracing samples, decoding workpapers, all under deadline. Self-report cannot recover where ninety seconds went between opening a document and finding a field. Evidence: 01 user problem table; RQ1 and RQ4 in research/plan.md.
+
+**Options.**
+- A. Interviews and a survey only. Cost: recall and self-report; no step-level view of where time goes; nothing to size rework.
+- B. Analytics on the current tools. Cost: the tools are fragmented and not instrumented for this; clicks are not work.
+- C. Mixed method anchored on contextual inquiry during fieldwork, with interviews, a busy-season diary, SME sessions, a time-and-motion study, a rework audit, a baseline survey and pilot telemetry. Every count a planned target except the dry run.
+
+**Choice.** C.
+
+**Rationale.** Beyer and Holtzblatt, contextual design: observe the work where it happens. Triangulation across methods carries the weight that small n cannot.
+
+**Validation.** The codebook is drafted from the constraints and revised after the first two inquiry days (planned). Themes are rated by an ordinal rubric rather than tallied. The dry run, the one method with real counts, later tested the themes against 20 teams (13).
+
+**Status.** Validated.
+
