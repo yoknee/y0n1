@@ -6,7 +6,7 @@
 | Artifact | PLAN (unnumbered, precedes 01) |
 | Question it answers | What will this case study contain, in what order will it be built and what does each piece have to prove? |
 | Decisions it feeds | Seeds the decision log (section 9). Creates no product decisions itself. |
-| Status | Draft for Gate 1 review |
+| Status | Approved at Gate 1. Build in progress |
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
@@ -368,9 +368,9 @@ Validation: how we checked, what changed
 Status: proposed, validated, revised (link to the revising decision)
 ```
 
-`stated` means the decision is in the facts digest, the case prompt or the Gate 0 answers. `confirmed` means it was reconstructed from stated scope and Yoni confirmed it at Gate 1. No decision ships with any other value, so the disclaimer sentence "decisions are real" holds.
+`stated` means the decision is in the facts digest, the case prompt or the Gate 0 answers. `confirmed` means it was reconstructed from stated scope and Yoni confirmed it at Gate 1 (D-05, D-07, D-08, D-09, D-10, D-14, all confirmed). No decision ships with any other value, so the disclaimer sentence "decisions are real" holds.
 
-Provisional register. IDs are assigned when the artifact that creates the decision ships. The list fixes the order so cross-references in the plan hold. Rows marked reconstructed go beyond the digest and the case prompt. Yoni confirms, corrects or strikes each one at Gate 1. A struck row is reworded to the stated scope or dropped.
+Provisional register. IDs are assigned when the artifact that creates the decision ships. The list fixes the order so cross-references in the plan hold. The six rows that went beyond the digest and the case prompt were confirmed by Yoni at Gate 1. Any decision struck later is reworded to stated scope or dropped and is never presented as his.
 
 | ID | Decision | Created in | Source |
 |---|---|---|---|
@@ -378,16 +378,16 @@ Provisional register. IDs are assigned when the artifact that creates the decisi
 | D-02 | Mixed-method research with contextual inquiry as the anchor method | 02 | stated |
 | D-03 | Every agent claim carries a source citation to a highlighted span | 03, 07, 11 | stated |
 | D-04 | Review is a place: a review center, never a modal | 03, 07, 08 | stated |
-| D-05 | Four data classes; agents read engagement data, propose conclusions, never write sign-offs | 01, 08 | reconstructed, needs Gate 1 confirmation |
+| D-05 | Four data classes; agents read engagement data, propose conclusions, never write sign-offs | 01, 08 | confirmed at Gate 1 |
 | D-06 | The field-structure library is a typed template system the planner targets | 03, 08 | stated |
-| D-07 | Role-based views of the same run: senior, manager, partner, methodology | 04, 11 | reconstructed, needs Gate 1 confirmation |
-| D-08 | Confidence shown as a band with its basis, not a percentage alone | 04, 12 | reconstructed, needs Gate 1 confirmation |
-| D-09 | Checkpoints are mandatory before draft conclusion and before any restricted-class retrieval | 05, 08, 09 | reconstructed, needs Gate 1 confirmation |
-| D-10 | MVP scope: Test of Details for two areas, no analytical procedures | 06 | reconstructed, needs Gate 1 confirmation |
+| D-07 | Role-based views of the same run: senior, manager, partner, methodology | 04, 11 | confirmed at Gate 1 |
+| D-08 | Confidence shown as a band with its basis, not a percentage alone | 04, 12 | confirmed at Gate 1 |
+| D-09 | Checkpoints are mandatory before draft conclusion and before any restricted-class retrieval | 05, 08, 09 | confirmed at Gate 1 |
+| D-10 | MVP scope: Test of Details for two areas, no analytical procedures | 06 | confirmed at Gate 1 |
 | D-11 | Test of Details is the anchor workflow | 06 | stated |
 | D-12 | Failure is a first-class state with a visible cause and a recovery action | 07, 09 | stated |
 | D-13 | Agent-run state machine with nine states and explicit guards | 08, 09 | stated |
-| D-14 | Rerun preserves the rejected step and its reason as history | 09 | reconstructed, needs Gate 1 confirmation |
+| D-14 | Rerun preserves the rejected step and its reason as history | 09 | confirmed at Gate 1 |
 | D-15 | Three-panel layout: procedures, workspace, agent and provenance | 11, 12 | stated |
 | D-16 | Evidence citation chip opens the source at the span | 11, 12 | stated |
 | D-17 | AI state vocabulary of five states, shared by design and code | 12, 14 | stated |
@@ -512,14 +512,16 @@ Each finding gets a severity. Blockers are fixed before the gate. The pass and i
 - [ ] CHANGELOG.md has an entry per commit on this branch.
 - [ ] Talk track totals 20 minutes with the fixed timings and a slide list. One-pager has all six sections.
 
-## 15. Open points for Gate 1 approval
+## 15. Gate 1 resolutions
 
-1. Dev tooling as one decision: vendoring D3 v7 and rough.js under `shared/vendor/` with pinned versions and licenses; vendored IBM Plex woff2 subsets under `shared/vendor/fonts/`; a `package.json` with pinned `playwright` and `marked` used only by `scripts/`. All of it sits against the repo rule to stay dependency-free. Alternative: CDN links and system fonts, which break offline viewing and PDF export.
-2. The invented names in section 8.6.
-3. The QA checklist in section 14 was built from CLAUDE.md. If the pack has its own, it replaces this one.
-4. CHANGELOG.md at the repo root, started in the Gate 1 commit.
-5. Team sizes per phase are interpolated between the three stated points. Real counts replace them.
-6. Synthetic calendar epoch for rendered dates. Proposal: day 0 renders as a Monday in a year that is plainly not a past fiscal year, stated in `data/README.md`.
-7. `CHANGELOG.md` is outside the lint's narrative allowlist, so it cannot name the products, the firm, the branch or the `case(...)` commit prefix. Today it writes around them. Alternative: add CHANGELOG.md to the allowlist in `scripts/lint.sh` as a chore commit.
-8. The six reconstructed decisions in section 9 (D-05, D-07, D-08, D-09, D-10, D-14). Confirm, correct or strike each before artifact 01 is built.
-9. Dry run facts beyond 20 teams and 1,600+ items: team composition, duration, what the teams did, intake channels, who triaged. The protocol reconstructs them with a label until Yoni confirms any of them.
+Approved by Yoni. The open points closed as follows.
+
+1. Dev tooling: approved. D3 v7.9.0, rough.js 4.6.6 and IBM Plex Sans and Mono (Latin1 woff2 subsets) are vendored under `shared/vendor/` with their licenses. `package.json` with pinned `playwright` and `marked` lives inside `scripts/`, never at the repo root, so Vercel keeps serving the repo as static files.
+2. Invented names: kept as in section 8.6.
+3. QA checklist: the section 14 list stands.
+4. CHANGELOG.md stays at the repo root and joined the lint narrative allowlist in its own chore commit.
+5. Team sizes per phase stay interpolated and labeled in artifact 15.
+6. Synthetic calendar epoch: day 0 renders as Monday 2027-01-04. Stated in `data/README.md` and in every screen footer that shows a date.
+7. Resolved with point 4.
+8. D-05, D-07, D-08, D-09, D-10 and D-14 confirmed. Source column updated.
+9. Dry run facts beyond 20 teams and 1,600+ items stay reconstructed and labeled until Yoni confirms any of them.
