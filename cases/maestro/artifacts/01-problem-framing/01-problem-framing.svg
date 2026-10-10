@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 875" width="1400" height="875" role="img" aria-labelledby="t-01-constraints d-01-constraints">
+<title id="t-01-constraints">01 Problem framing and constraints map</title>
+<desc id="d-01-constraints">What is the design problem, what breaks for auditors today and what can the design not change? Decisions fed: D-01, D-05. Status: Draft. Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</desc>
+
+<style>
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
+@media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
+.ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
+.hair{stroke:var(--bt-border);fill:none}.stroke{stroke:var(--bt-ink);fill:none}.stroke2{stroke:var(--bt-ink-2);fill:none}
+.brand{fill:var(--bt-brand)}.brand-s{stroke:var(--bt-brand);fill:none}.brand-t{fill:var(--bt-brand-tint)}
+.agent{fill:var(--bt-agent)}.agent-s{stroke:var(--bt-agent);fill:none}.agent-t{fill:var(--bt-agent-tint)}
+.review{fill:var(--bt-review)}.review-t{fill:var(--bt-review-tint)}.approved{fill:var(--bt-approved)}.approved-t{fill:var(--bt-approved-tint)}
+.edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
+text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
+</style>
+<g class="svg-head" data-h="119">
+<rect x="0" y="0" width="1400" height="119" class="surf2"/><line x1="0" y1="119" x2="1400" y2="119" class="hair"/>
+<text x="16" y="26" class="t16">01 Problem framing and constraints map</text>
+<text class="t11 ink2"><tspan x="16" y="46">Question: What is the design problem, what breaks for auditors today and what can the design not change?</tspan></text>
+<text x="16" y="66" class="t11 ink2">Feeds: D-01, D-05  |  Status: Draft</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: to frame the problem as the boundary between agent and auditor, not as adding AI to the</tspan><tspan x="756" y="35">workpaper. The triad table as the shared artifact PMs and engineering leads plan against.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="56">We built: the constraint list with methodology reviewers, the engagement data lead role and</tspan><tspan x="756" y="69">engineering leads. The data classes in C3 were drafted with the data lead. Design team of three at</tspan><tspan x="756" y="82">this phase.</tspan></text>
+<text x="16" y="113" class="t10 ink2">Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</text>
+</g>
+<text x="16" y="147" class="t11 ink2 b">USER PROBLEM</text>
+<rect x="16" y="155" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="26" y="175" class="b">Fragmented tools</text>
+<text class="t11 ink2"><tspan x="26" y="193">Evidence, workpapers, client requests and review live in</tspan><tspan x="26" y="207">separate systems. The auditor reassembles the picture by</tspan><tspan x="26" y="221">hand for every sample.</tspan></text>
+<rect x="361" y="155" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="371" y="175" class="b">Manual evidence review</text>
+<text class="t11 ink2"><tspan x="371" y="193">Each sampled item is traced to its documents one at a</tspan><tspan x="371" y="207">time. The work is repetitive and the volume peaks when</tspan><tspan x="371" y="221">time is shortest.</tspan></text>
+<rect x="706" y="155" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="716" y="175" class="b">Inconsistent workpapers</text>
+<text class="t11 ink2"><tspan x="716" y="193">Each team formats workpapers its own way. Reviewers decode</tspan><tspan x="716" y="207">the format before they can judge the substance.</tspan></text>
+<rect x="1051" y="155" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="1061" y="175" class="b">Deadline pressure</text>
+<text class="t11 ink2"><tspan x="1061" y="193">Busy season concentrates all of the above into a few</tspan><tspan x="1061" y="207">weeks. Shortcuts taken under pressure are the quality risk</tspan><tspan x="1061" y="221">the platform exists to remove.</tspan></text>
+<text x="16" y="265" class="t11 ink2 b">BUSINESS OBJECTIVE</text>
+<rect x="16" y="273" width="440" height="104" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text><tspan x="26" y="295">An AI-native audit platform that keeps auditors accountable.</tspan><tspan x="26" y="311">Agents do the research and analysis. Auditors stay accountable for</tspan><tspan x="26" y="327">the conclusion.</tspan></text>
+<path d="M464 325 h40 m-8 -6 l8 6 l-8 6" class="stroke2" stroke-width="1.5"/>
+<text x="516" y="265" class="t11 ink2 b">THE DESIGN PROBLEM: THE BOUNDARY</text>
+<rect x="516" y="273" width="868" height="104" rx="3" class="brand-t" stroke="var(--bt-brand)"/>
+<text><tspan x="526" y="293">The design problem is the boundary between agent and auditor: what the agent may access,</tspan><tspan x="526" y="308">where a human must review, how the auditor sees what the agent did and what the system does</tspan><tspan x="526" y="323">when the agent is wrong.</tspan></text>
+<text x="526" y="349" class="t11 b">Q1 What may the agent access?</text>
+<text x="956" y="349" class="t11 b">Q2 Where must a human review?</text>
+<text x="526" y="365" class="t11 b">Q3 How does the auditor see what the agent did?</text>
+<text x="956" y="365" class="t11 b">Q4 What happens when the agent is wrong?</text>
+<text x="16" y="405" class="t11 ink2 b">CONSTRAINTS MAP: WHICH BOUNDARY QUESTION EACH CONSTRAINT SHAPES, AND THE DESIGN IMPLICATION</text>
+<rect x="16" y="417" width="1368" height="26" class="surf2"/>
+<text x="16" y="434" class="t11 ink2">ID</text><text x="56" y="434" class="t11 ink2">Constraint</text><text x="300" y="434" class="t11 ink2">Design implication</text>
+<text x="932" y="434" class="t11 ink2 mono" text-anchor="middle">Q1</text>
+<text x="976" y="434" class="t11 ink2 mono" text-anchor="middle">Q2</text>
+<text x="1020" y="434" class="t11 ink2 mono" text-anchor="middle">Q3</text>
+<text x="1064" y="434" class="t11 ink2 mono" text-anchor="middle">Q4</text>
+<text x="1120" y="434" class="t11 ink2">Shapes decisions</text>
+<line x1="16" y1="497" x2="1384" y2="497" class="hair"/>
+<text x="16" y="463" class="mono ink2">C1</text>
+<text class="b"><tspan x="56" y="463">Auditing standards and documentation</tspan><tspan x="56" y="478">requirements</tspan></text>
+<text class="t11"><tspan x="300" y="462">Provenance is a first-class object in the UI. The agent timeline is part of the record a reviewer</tspan><tspan x="300" y="476">reads, not a debug view.</tspan></text>
+<line x1="928" y1="470" x2="936" y2="470" class="hair"/>
+<line x1="972" y1="470" x2="980" y2="470" class="hair"/>
+<rect x="1014" y="464" width="12" height="12" rx="2" class="brand"><title>C1 shapes Q3 How does the auditor see what the agent did?</title></rect>
+<line x1="1060" y1="470" x2="1068" y2="470" class="hair"/>
+<rect x="1120" y="460" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-01</title></rect><text x="1146" y="474" class="t11 mono" text-anchor="middle">D-01</text>
+<rect x="1178" y="460" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-03</title></rect><text x="1204" y="474" class="t11 mono" text-anchor="middle">D-03</text>
+<line x1="16" y1="551" x2="1384" y2="551" class="hair"/>
+<text x="16" y="517" class="mono ink2">C2</text>
+<text class="b"><tspan x="56" y="517">Independence</tspan></text>
+<text class="t11"><tspan x="300" y="516">Proposals look like drafts everywhere they appear. Sign-off is a human-only control with its own</tspan><tspan x="300" y="530">affordance and no shortcut.</tspan></text>
+<line x1="928" y1="524" x2="936" y2="524" class="hair"/>
+<rect x="970" y="518" width="12" height="12" rx="2" class="brand"><title>C2 shapes Q2 Where must a human review?</title></rect>
+<line x1="1016" y1="524" x2="1024" y2="524" class="hair"/>
+<line x1="1060" y1="524" x2="1068" y2="524" class="hair"/>
+<rect x="1120" y="514" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-05</title></rect><text x="1146" y="528" class="t11 mono" text-anchor="middle">D-05</text>
+<line x1="16" y1="605" x2="1384" y2="605" class="hair"/>
+<text x="16" y="571" class="mono ink2">C3</text>
+<text class="b"><tspan x="56" y="571">Data security and access classes</tspan></text>
+<text class="t11"><tspan x="300" y="570">The permission model is visible in the product. A checkpoint sits before any restricted retrieval</tspan><tspan x="300" y="584">and the auditor sees what was read.</tspan></text>
+<rect x="926" y="572" width="12" height="12" rx="2" class="brand"><title>C3 shapes Q1 What may the agent access?</title></rect>
+<rect x="970" y="572" width="12" height="12" rx="2" class="brand"><title>C3 shapes Q2 Where must a human review?</title></rect>
+<line x1="1016" y1="578" x2="1024" y2="578" class="hair"/>
+<line x1="1060" y1="578" x2="1068" y2="578" class="hair"/>
+<rect x="1120" y="568" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-05</title></rect><text x="1146" y="582" class="t11 mono" text-anchor="middle">D-05</text>
+<rect x="1178" y="568" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-09</title></rect><text x="1204" y="582" class="t11 mono" text-anchor="middle">D-09</text>
+<line x1="16" y1="659" x2="1384" y2="659" class="hair"/>
+<text x="16" y="625" class="mono ink2">C4</text>
+<text class="b"><tspan x="56" y="625">Explainability</tspan></text>
+<text class="t11"><tspan x="300" y="624">Every claim carries a citation that opens the source at the span. Confidence shows its basis.</tspan><tspan x="300" y="638">Failure states name the cause.</tspan></text>
+<line x1="928" y1="632" x2="936" y2="632" class="hair"/>
+<line x1="972" y1="632" x2="980" y2="632" class="hair"/>
+<rect x="1014" y="626" width="12" height="12" rx="2" class="brand"><title>C4 shapes Q3 How does the auditor see what the agent did?</title></rect>
+<rect x="1058" y="626" width="12" height="12" rx="2" class="brand"><title>C4 shapes Q4 What happens when the agent is wrong?</title></rect>
+<rect x="1120" y="622" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-03</title></rect><text x="1146" y="636" class="t11 mono" text-anchor="middle">D-03</text>
+<rect x="1178" y="622" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-08</title></rect><text x="1204" y="636" class="t11 mono" text-anchor="middle">D-08</text>
+<rect x="1236" y="622" width="52" height="20" rx="3" class="surf" stroke="var(--bt-ink-3)" stroke-dasharray="3 2"><title>D-12, provisional register ID</title></rect><text x="1262" y="636" class="t11 mono ink2" text-anchor="middle">D-12</text>
+<line x1="16" y1="713" x2="1384" y2="713" class="hair"/>
+<text x="16" y="679" class="mono ink2">C5</text>
+<text class="b"><tspan x="56" y="679">10,000+ users across countries</tspan></text>
+<text class="t11"><tspan x="300" y="678">Density and keyboard operation by default. One pattern library so six teams ship one product.</tspan><tspan x="300" y="692">Non-color encoding on every state and chart.</tspan></text>
+<text x="998" y="690" class="t11 ink3" text-anchor="middle">framework</text>
+<rect x="1120" y="676" width="52" height="20" rx="3" class="surf" stroke="var(--bt-ink-3)" stroke-dasharray="3 2"><title>D-15, provisional register ID</title></rect><text x="1146" y="690" class="t11 mono ink2" text-anchor="middle">D-15</text>
+<rect x="1178" y="676" width="52" height="20" rx="3" class="surf" stroke="var(--bt-ink-3)" stroke-dasharray="3 2"><title>D-17, provisional register ID</title></rect><text x="1204" y="690" class="t11 mono ink2" text-anchor="middle">D-17</text>
+<rect x="1236" y="676" width="52" height="20" rx="3" class="surf" stroke="var(--bt-ink-3)" stroke-dasharray="3 2"><title>D-18, provisional register ID</title></rect><text x="1262" y="690" class="t11 mono ink2" text-anchor="middle">D-18</text>
+<line x1="16" y1="767" x2="1384" y2="767" class="hair"/>
+<text x="16" y="733" class="mono ink2">C6</text>
+<text class="b"><tspan x="56" y="733">Legacy workpaper systems</tspan></text>
+<text class="t11"><tspan x="300" y="732">The workspace keeps the engagement, area, procedure hierarchy auditors already know. Export to the</tspan><tspan x="300" y="746">workpaper format is one action.</tspan></text>
+<text x="998" y="744" class="t11 ink3" text-anchor="middle">framework</text>
+<rect x="1120" y="730" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-06</title></rect><text x="1146" y="744" class="t11 mono" text-anchor="middle">D-06</text>
+<line x1="16" y1="821" x2="1384" y2="821" class="hair"/>
+<text x="16" y="787" class="mono ink2">C7</text>
+<text class="b"><tspan x="56" y="787">Engineering capacity</tspan></text>
+<text class="t11"><tspan x="300" y="786">The design system is the contract. MVP cuts are explicit and documented. One anchor workflow, Test</tspan><tspan x="300" y="800">of Details, proves the pattern before it scales.</tspan></text>
+<text x="998" y="798" class="t11 ink3" text-anchor="middle">framework</text>
+<rect x="1120" y="784" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-10</title></rect><text x="1146" y="798" class="t11 mono" text-anchor="middle">D-10</text>
+<rect x="1178" y="784" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)" ><title>D-11</title></rect><text x="1204" y="798" class="t11 mono" text-anchor="middle">D-11</text>
+<rect x="1236" y="784" width="52" height="20" rx="3" class="surf" stroke="var(--bt-ink-3)" stroke-dasharray="3 2"><title>D-21, provisional register ID</title></rect><text x="1262" y="798" class="t11 mono ink2" text-anchor="middle">D-21</text>
+<rect x="920" y="835" width="12" height="12" rx="2" class="brand"/><text x="938" y="845" class="t11 ink2">shapes this question</text>
+<text x="1070" y="845" class="t11 ink2">framework: shapes the pattern library rather than one question.</text>
+<text x="16" y="861" class="t11 ink2">Dashed chips are provisional register IDs from the plan (D-12 onward); their records are created when artifacts 07 to 14 ship.</text>
+</svg>

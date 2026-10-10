@@ -1,0 +1,7 @@
+[
+{"id":"R0","name":"pilot","start_day":0,"end_day":41,"teams":["T01","T02","T03"]},
+{"id":"R1","name":"dry run","start_day":42,"end_day":97,"teams":["T01","T02","T03","T04","T05","T06","T07","T08","T09","T10","T11","T12","T13","T14","T15","T16","T17","T18","T19","T20"]},
+{"id":"R2","name":"agentic 1","start_day":98,"end_day":153,"teams":["T01","T02","T03","T04","T05","T06"]},
+{"id":"R3","name":"agentic 2","start_day":154,"end_day":209,"teams":["T01","T02","T03","T04","T05","T06","T07","T08","T09","T10"]},
+{"id":"R4","name":"scale","start_day":210,"end_day":300,"teams":["T01","T02","T03","T04","T05","T06","T07","T08","T09","T10","T11","T12","T13","T14","T15","T16","T17","T18","T19","T20"]}
+]

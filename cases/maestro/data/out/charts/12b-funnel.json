@@ -1,0 +1,745 @@
+{
+ "label": "illustrative synthetic data generated from seed baton-01",
+ "derivation": "One exception_status_change row per transition. stages counts rows per status, so open is every exception ever opened and the three terminal statuses sum to the resolved count. by_week counts transitions in the week of their day; cumulative_by_week runs the totals forward. days_to_stage measures from the open row of the same exception.",
+ "stages": [
+  {
+   "status": "open",
+   "count": 213
+  },
+  {
+   "status": "investigating",
+   "count": 204
+  },
+  {
+   "status": "explained",
+   "count": 123
+  },
+  {
+   "status": "misstatement",
+   "count": 28
+  },
+  {
+   "status": "waived",
+   "count": 34
+  }
+ ],
+ "resolved_total": 185,
+ "by_week": [
+  {
+   "week": 0,
+   "day_start": 0,
+   "open": 0,
+   "investigating": 0,
+   "explained": 0,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 1,
+   "day_start": 7,
+   "open": 0,
+   "investigating": 0,
+   "explained": 0,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 2,
+   "day_start": 14,
+   "open": 3,
+   "investigating": 1,
+   "explained": 0,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 3,
+   "day_start": 21,
+   "open": 2,
+   "investigating": 3,
+   "explained": 0,
+   "misstatement": 1,
+   "waived": 1
+  },
+  {
+   "week": 4,
+   "day_start": 28,
+   "open": 2,
+   "investigating": 1,
+   "explained": 2,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 5,
+   "day_start": 35,
+   "open": 8,
+   "investigating": 7,
+   "explained": 1,
+   "misstatement": 1,
+   "waived": 0
+  },
+  {
+   "week": 6,
+   "day_start": 42,
+   "open": 7,
+   "investigating": 5,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 1
+  },
+  {
+   "week": 7,
+   "day_start": 49,
+   "open": 15,
+   "investigating": 14,
+   "explained": 2,
+   "misstatement": 0,
+   "waived": 1
+  },
+  {
+   "week": 8,
+   "day_start": 56,
+   "open": 12,
+   "investigating": 11,
+   "explained": 7,
+   "misstatement": 0,
+   "waived": 2
+  },
+  {
+   "week": 9,
+   "day_start": 63,
+   "open": 2,
+   "investigating": 7,
+   "explained": 7,
+   "misstatement": 3,
+   "waived": 2
+  },
+  {
+   "week": 10,
+   "day_start": 70,
+   "open": 3,
+   "investigating": 2,
+   "explained": 4,
+   "misstatement": 2,
+   "waived": 0
+  },
+  {
+   "week": 11,
+   "day_start": 77,
+   "open": 2,
+   "investigating": 3,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 0
+  },
+  {
+   "week": 12,
+   "day_start": 84,
+   "open": 2,
+   "investigating": 1,
+   "explained": 1,
+   "misstatement": 0,
+   "waived": 2
+  },
+  {
+   "week": 13,
+   "day_start": 91,
+   "open": 6,
+   "investigating": 6,
+   "explained": 2,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 14,
+   "day_start": 98,
+   "open": 3,
+   "investigating": 3,
+   "explained": 1,
+   "misstatement": 0,
+   "waived": 1
+  },
+  {
+   "week": 15,
+   "day_start": 105,
+   "open": 9,
+   "investigating": 7,
+   "explained": 5,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 16,
+   "day_start": 112,
+   "open": 3,
+   "investigating": 4,
+   "explained": 2,
+   "misstatement": 2,
+   "waived": 2
+  },
+  {
+   "week": 17,
+   "day_start": 119,
+   "open": 9,
+   "investigating": 5,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 2
+  },
+  {
+   "week": 18,
+   "day_start": 126,
+   "open": 3,
+   "investigating": 6,
+   "explained": 5,
+   "misstatement": 1,
+   "waived": 0
+  },
+  {
+   "week": 19,
+   "day_start": 133,
+   "open": 5,
+   "investigating": 5,
+   "explained": 3,
+   "misstatement": 0,
+   "waived": 1
+  },
+  {
+   "week": 20,
+   "day_start": 140,
+   "open": 8,
+   "investigating": 9,
+   "explained": 3,
+   "misstatement": 2,
+   "waived": 2
+  },
+  {
+   "week": 21,
+   "day_start": 147,
+   "open": 7,
+   "investigating": 4,
+   "explained": 6,
+   "misstatement": 1,
+   "waived": 0
+  },
+  {
+   "week": 22,
+   "day_start": 154,
+   "open": 5,
+   "investigating": 9,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 2
+  },
+  {
+   "week": 23,
+   "day_start": 161,
+   "open": 7,
+   "investigating": 5,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 1
+  },
+  {
+   "week": 24,
+   "day_start": 168,
+   "open": 4,
+   "investigating": 5,
+   "explained": 6,
+   "misstatement": 0,
+   "waived": 1
+  },
+  {
+   "week": 25,
+   "day_start": 175,
+   "open": 2,
+   "investigating": 3,
+   "explained": 6,
+   "misstatement": 2,
+   "waived": 0
+  },
+  {
+   "week": 26,
+   "day_start": 182,
+   "open": 5,
+   "investigating": 5,
+   "explained": 3,
+   "misstatement": 0,
+   "waived": 1
+  },
+  {
+   "week": 27,
+   "day_start": 189,
+   "open": 6,
+   "investigating": 4,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 0
+  },
+  {
+   "week": 28,
+   "day_start": 196,
+   "open": 7,
+   "investigating": 5,
+   "explained": 1,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 29,
+   "day_start": 203,
+   "open": 4,
+   "investigating": 6,
+   "explained": 5,
+   "misstatement": 1,
+   "waived": 0
+  },
+  {
+   "week": 30,
+   "day_start": 210,
+   "open": 1,
+   "investigating": 4,
+   "explained": 3,
+   "misstatement": 0,
+   "waived": 2
+  },
+  {
+   "week": 31,
+   "day_start": 217,
+   "open": 6,
+   "investigating": 1,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 2
+  },
+  {
+   "week": 32,
+   "day_start": 224,
+   "open": 15,
+   "investigating": 15,
+   "explained": 4,
+   "misstatement": 0,
+   "waived": 1
+  },
+  {
+   "week": 33,
+   "day_start": 231,
+   "open": 2,
+   "investigating": 6,
+   "explained": 4,
+   "misstatement": 0,
+   "waived": 2
+  },
+  {
+   "week": 34,
+   "day_start": 238,
+   "open": 14,
+   "investigating": 5,
+   "explained": 3,
+   "misstatement": 1,
+   "waived": 2
+  },
+  {
+   "week": 35,
+   "day_start": 245,
+   "open": 9,
+   "investigating": 11,
+   "explained": 4,
+   "misstatement": 2,
+   "waived": 0
+  },
+  {
+   "week": 36,
+   "day_start": 252,
+   "open": 7,
+   "investigating": 6,
+   "explained": 4,
+   "misstatement": 1,
+   "waived": 2
+  },
+  {
+   "week": 37,
+   "day_start": 259,
+   "open": 7,
+   "investigating": 7,
+   "explained": 4,
+   "misstatement": 1,
+   "waived": 1
+  },
+  {
+   "week": 38,
+   "day_start": 266,
+   "open": 1,
+   "investigating": 3,
+   "explained": 4,
+   "misstatement": 0,
+   "waived": 0
+  }
+ ],
+ "cumulative_by_week": [
+  {
+   "week": 0,
+   "day_start": 0,
+   "open": 0,
+   "investigating": 0,
+   "explained": 0,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 1,
+   "day_start": 7,
+   "open": 0,
+   "investigating": 0,
+   "explained": 0,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 2,
+   "day_start": 14,
+   "open": 3,
+   "investigating": 1,
+   "explained": 0,
+   "misstatement": 0,
+   "waived": 0
+  },
+  {
+   "week": 3,
+   "day_start": 21,
+   "open": 5,
+   "investigating": 4,
+   "explained": 0,
+   "misstatement": 1,
+   "waived": 1
+  },
+  {
+   "week": 4,
+   "day_start": 28,
+   "open": 7,
+   "investigating": 5,
+   "explained": 2,
+   "misstatement": 1,
+   "waived": 1
+  },
+  {
+   "week": 5,
+   "day_start": 35,
+   "open": 15,
+   "investigating": 12,
+   "explained": 3,
+   "misstatement": 2,
+   "waived": 1
+  },
+  {
+   "week": 6,
+   "day_start": 42,
+   "open": 22,
+   "investigating": 17,
+   "explained": 6,
+   "misstatement": 3,
+   "waived": 2
+  },
+  {
+   "week": 7,
+   "day_start": 49,
+   "open": 37,
+   "investigating": 31,
+   "explained": 8,
+   "misstatement": 3,
+   "waived": 3
+  },
+  {
+   "week": 8,
+   "day_start": 56,
+   "open": 49,
+   "investigating": 42,
+   "explained": 15,
+   "misstatement": 3,
+   "waived": 5
+  },
+  {
+   "week": 9,
+   "day_start": 63,
+   "open": 51,
+   "investigating": 49,
+   "explained": 22,
+   "misstatement": 6,
+   "waived": 7
+  },
+  {
+   "week": 10,
+   "day_start": 70,
+   "open": 54,
+   "investigating": 51,
+   "explained": 26,
+   "misstatement": 8,
+   "waived": 7
+  },
+  {
+   "week": 11,
+   "day_start": 77,
+   "open": 56,
+   "investigating": 54,
+   "explained": 29,
+   "misstatement": 9,
+   "waived": 7
+  },
+  {
+   "week": 12,
+   "day_start": 84,
+   "open": 58,
+   "investigating": 55,
+   "explained": 30,
+   "misstatement": 9,
+   "waived": 9
+  },
+  {
+   "week": 13,
+   "day_start": 91,
+   "open": 64,
+   "investigating": 61,
+   "explained": 32,
+   "misstatement": 9,
+   "waived": 9
+  },
+  {
+   "week": 14,
+   "day_start": 98,
+   "open": 67,
+   "investigating": 64,
+   "explained": 33,
+   "misstatement": 9,
+   "waived": 10
+  },
+  {
+   "week": 15,
+   "day_start": 105,
+   "open": 76,
+   "investigating": 71,
+   "explained": 38,
+   "misstatement": 9,
+   "waived": 10
+  },
+  {
+   "week": 16,
+   "day_start": 112,
+   "open": 79,
+   "investigating": 75,
+   "explained": 40,
+   "misstatement": 11,
+   "waived": 12
+  },
+  {
+   "week": 17,
+   "day_start": 119,
+   "open": 88,
+   "investigating": 80,
+   "explained": 43,
+   "misstatement": 12,
+   "waived": 14
+  },
+  {
+   "week": 18,
+   "day_start": 126,
+   "open": 91,
+   "investigating": 86,
+   "explained": 48,
+   "misstatement": 13,
+   "waived": 14
+  },
+  {
+   "week": 19,
+   "day_start": 133,
+   "open": 96,
+   "investigating": 91,
+   "explained": 51,
+   "misstatement": 13,
+   "waived": 15
+  },
+  {
+   "week": 20,
+   "day_start": 140,
+   "open": 104,
+   "investigating": 100,
+   "explained": 54,
+   "misstatement": 15,
+   "waived": 17
+  },
+  {
+   "week": 21,
+   "day_start": 147,
+   "open": 111,
+   "investigating": 104,
+   "explained": 60,
+   "misstatement": 16,
+   "waived": 17
+  },
+  {
+   "week": 22,
+   "day_start": 154,
+   "open": 116,
+   "investigating": 113,
+   "explained": 63,
+   "misstatement": 17,
+   "waived": 19
+  },
+  {
+   "week": 23,
+   "day_start": 161,
+   "open": 123,
+   "investigating": 118,
+   "explained": 66,
+   "misstatement": 18,
+   "waived": 20
+  },
+  {
+   "week": 24,
+   "day_start": 168,
+   "open": 127,
+   "investigating": 123,
+   "explained": 72,
+   "misstatement": 18,
+   "waived": 21
+  },
+  {
+   "week": 25,
+   "day_start": 175,
+   "open": 129,
+   "investigating": 126,
+   "explained": 78,
+   "misstatement": 20,
+   "waived": 21
+  },
+  {
+   "week": 26,
+   "day_start": 182,
+   "open": 134,
+   "investigating": 131,
+   "explained": 81,
+   "misstatement": 20,
+   "waived": 22
+  },
+  {
+   "week": 27,
+   "day_start": 189,
+   "open": 140,
+   "investigating": 135,
+   "explained": 84,
+   "misstatement": 21,
+   "waived": 22
+  },
+  {
+   "week": 28,
+   "day_start": 196,
+   "open": 147,
+   "investigating": 140,
+   "explained": 85,
+   "misstatement": 21,
+   "waived": 22
+  },
+  {
+   "week": 29,
+   "day_start": 203,
+   "open": 151,
+   "investigating": 146,
+   "explained": 90,
+   "misstatement": 22,
+   "waived": 22
+  },
+  {
+   "week": 30,
+   "day_start": 210,
+   "open": 152,
+   "investigating": 150,
+   "explained": 93,
+   "misstatement": 22,
+   "waived": 24
+  },
+  {
+   "week": 31,
+   "day_start": 217,
+   "open": 158,
+   "investigating": 151,
+   "explained": 96,
+   "misstatement": 23,
+   "waived": 26
+  },
+  {
+   "week": 32,
+   "day_start": 224,
+   "open": 173,
+   "investigating": 166,
+   "explained": 100,
+   "misstatement": 23,
+   "waived": 27
+  },
+  {
+   "week": 33,
+   "day_start": 231,
+   "open": 175,
+   "investigating": 172,
+   "explained": 104,
+   "misstatement": 23,
+   "waived": 29
+  },
+  {
+   "week": 34,
+   "day_start": 238,
+   "open": 189,
+   "investigating": 177,
+   "explained": 107,
+   "misstatement": 24,
+   "waived": 31
+  },
+  {
+   "week": 35,
+   "day_start": 245,
+   "open": 198,
+   "investigating": 188,
+   "explained": 111,
+   "misstatement": 26,
+   "waived": 31
+  },
+  {
+   "week": 36,
+   "day_start": 252,
+   "open": 205,
+   "investigating": 194,
+   "explained": 115,
+   "misstatement": 27,
+   "waived": 33
+  },
+  {
+   "week": 37,
+   "day_start": 259,
+   "open": 212,
+   "investigating": 201,
+   "explained": 119,
+   "misstatement": 28,
+   "waived": 34
+  },
+  {
+   "week": 38,
+   "day_start": 266,
+   "open": 213,
+   "investigating": 204,
+   "explained": 123,
+   "misstatement": 28,
+   "waived": 34
+  }
+ ],
+ "days_to_stage": {
+  "investigating": {
+   "n": 204,
+   "median": 4,
+   "p90": 6
+  },
+  "resolved": {
+   "n": 185,
+   "median": 12,
+   "p90": 24
+  }
+ }
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workpaper rework audit protocol</title>
+<link rel="icon" href="/shared/brand/baton/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared/brand/baton/tokens.css">
+<link rel="stylesheet" href="/shared/design-system/base.css">
+<style>.md { max-width: 110ch; } .md h1 { font-size: var(--bt-fs-20); margin: var(--bt-s4) 0 var(--bt-s2); } .md h2 { font-size: var(--bt-fs-16); margin-top: var(--bt-s6); } .md h3 { font-size: var(--bt-fs-14); } .md p, .md li { font-size: var(--bt-fs-13); line-height: var(--bt-lh-prose); } .md blockquote { margin: var(--bt-s2) 0; padding: var(--bt-s1) var(--bt-s3); border-left: 3px solid var(--bt-border); color: var(--bt-ink-2); font-size: var(--bt-fs-12); } .md table.doc { margin: var(--bt-s2) 0; font-size: var(--bt-fs-12); } .md pre { background: var(--bt-surface-2); padding: var(--bt-s2) var(--bt-s3); overflow: auto; font-size: var(--bt-fs-12); } .md hr { margin: var(--bt-s6) 0; } .src { font-size: var(--bt-fs-11); color: var(--bt-ink-3); margin: var(--bt-s2) 0 0; }</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<main id="main" class="md">
+<p class="src">Rendered from <a href="rework-audit-protocol.md">rework-audit-protocol.md</a>. The Markdown file is the source.</p>
+<table class="doc"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Title</td><td>Workpaper rework audit protocol</td></tr><tr><td>Artifact</td><td>02 Research plan and instruments</td></tr><tr><td>Question it answers</td><td>What causes rework in completed Test of Details workpapers, by audit area and by lifecycle stage, as recorded in review notes and revisions?</td></tr><tr><td>Decisions it feeds</td><td>D-02</td></tr><tr><td>Status</td><td>Draft</td></tr></tbody></table>
+<blockquote>
+<p>Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</p>
+</blockquote>
+<p><strong>I decided:</strong> to audit completed workpapers rather than ask reviewers what causes rework. <strong>We built:</strong> the coding scheme with a Quality and Methodology reviewer and ran the double coding. Design team of three at this phase.</p>
+<h2 id="1-purpose-and-scope">1. Purpose and scope</h2>
+<p>Phase P1. Interviews and the diary say why work gets redone. This audit reads the record. Completed workpapers from prior engagements carry review notes and revision trails. Coding them gives a cause profile that does not depend on memory. The profile tells the design which causes a typed template or a pre-handoff check could remove.</p>
+<p>Planned target: 40 workpapers, 8 per audit area across revenue, inventory, cash, fixed assets and payables. No workpaper is reported in this reconstruction.</p>
+<p>Role split. I set the sampling frame, the coding scheme and the agreement threshold. We code the files in pairs. The Quality and Methodology reviewer role adjudicates.</p>
+<h2 id="2-access-and-confidentiality">2. Access and confidentiality</h2>
+<table class="doc"><thead><tr><th>Rule</th><th>Detail</th></tr></thead><tbody><tr><td>Access</td><td>Granted per engagement by the engagement partner for the study window. Read only.</td></tr><tr><td>Where coding happens</td><td>Inside the engagement file system. Nothing is exported, copied, screenshotted or printed.</td></tr><tr><td>What leaves the file</td><td>The data sheet in section 6. Codes, bands and counts only.</td></tr><tr><td>Identifiers</td><td>Each workpaper gets a study ID (RW-01 to RW-40). The mapping to the engagement is held by research ops and deleted at study end.</td></tr><tr><td>Never recorded</td><td>Client name, engagement name, amounts, dates that identify a period, document names, preparer or reviewer names, note text.</td></tr><tr><td>Coders</td><td>Two coders from the research team. Each has audit background or is paired with someone who does. One Quality and Methodology reviewer as adjudicator.</td></tr><tr><td>Independence</td><td>Coders do not code workpapers from engagements they worked on.</td></tr></tbody></table>
+<h2 id="3-sampling-frame">3. Sampling frame</h2>
+<table class="doc"><thead><tr><th>Criterion</th><th>Rule</th></tr></thead><tbody><tr><td>Population</td><td>Test of Details workpapers in engagement files closed in the prior cycle.</td></tr><tr><td>Inclusion</td><td>The workpaper has at least one review note or one recorded revision after first submission.</td></tr><tr><td>Strata</td><td>Audit area (5) by engagement size band (small, medium, large). Target 8 per area with at least two per size band.</td></tr><tr><td>Region</td><td>At least three of the five regions across the 40.</td></tr><tr><td>Selection</td><td>Random within strata from the list of eligible workpapers, drawn by research ops before access is requested.</td></tr><tr><td>Replacement</td><td>A workpaper that turns out to be out of scope (not a Test of Details, no notes) is replaced from the same stratum. Record the replacement.</td></tr><tr><td>Oversample</td><td>Draw 50. Use the first 40 that pass inclusion. Keep 10 in reserve.</td></tr></tbody></table>
+<p>Bias note: the inclusion rule selects workpapers with rework. Workpapers with no notes are counted in the frame so the share with no rework can be stated. They are not coded.</p>
+<h2 id="4-unit-of-analysis">4. Unit of analysis</h2>
+<p>One rework event: a review note that required a change or a recorded revision after first submission. A note that asked a question with no change is coded <code>clarification</code> and kept separate. Workpaper-level fields are recorded once per workpaper.</p>
+<h2 id="5-coding-scheme">5. Coding scheme</h2>
+<h3 id="5-1-cause-codes">5.1 Cause codes</h3>
+<p>One primary cause per event. A secondary cause is allowed and marked. R9 requires a one-line generic description with no client content.</p>
+<table class="doc"><thead><tr><th>Code</th><th>Cause</th><th>Definition</th><th>Inclusion rule</th><th>Generic example</th></tr></thead><tbody><tr><td>R1</td><td>Missing evidence</td><td>Support for a sampled item was absent or insufficient at review</td><td>Note asks for a document, confirmation or additional support</td><td>&quot;No shipping document for item 7&quot;</td></tr><tr><td>R2</td><td>Wrong reference</td><td>Cross-reference points to the wrong document, page, cell or workpaper</td><td>Note corrects a reference. The evidence itself was fine</td><td>&quot;Tick mark references the prior year schedule&quot;</td></tr><tr><td>R3</td><td>Format inconsistency</td><td>Layout, tick marks, naming or structure differ from the expected format</td><td>Note is about presentation, not substance</td><td>&quot;Use the standard tie-out layout&quot;</td></tr><tr><td>R4</td><td>Calculation</td><td>Arithmetic, tolerance, recalculation or formula error</td><td>Note identifies a numeric error made by the preparer</td><td>&quot;Variance column does not foot&quot;</td></tr><tr><td>R5</td><td>Conclusion wording</td><td>Conclusion is unclear, overstated, understated or does not match the results</td><td>Note changes the conclusion text without changing the evidence</td><td>&quot;Conclusion says no exceptions. Two are listed&quot;</td></tr><tr><td>R6</td><td>Cutoff</td><td>Period assignment error or missing cutoff testing</td><td>Note concerns the period a transaction belongs to</td><td>&quot;Item recorded in the wrong period, not addressed&quot;</td></tr><tr><td>R7</td><td>Sample selection</td><td>Sample size, method or population does not match the plan</td><td>Note questions how items were chosen or how many</td><td>&quot;Population excludes manual entries&quot;</td></tr><tr><td>R8</td><td>Unclear exception resolution</td><td>An exception is noted but how it was resolved is not documented or not supported</td><td>Note asks how an exception was closed</td><td>&quot;Explain how the difference was cleared&quot;</td></tr><tr><td>R9</td><td>Other</td><td>Anything else</td><td>Required generic description</td><td></td></tr><tr><td>R0</td><td>Clarification</td><td>Question with no change required</td><td>Kept separate from rework</td><td></td></tr></tbody></table>
+<h3 id="5-2-stage-codes">5.2 Stage codes</h3>
+<p>Stage introduced and stage caught, from the nine lifecycle stages: plan, assess risk, design procedures, gather evidence, test, evaluate exceptions, conclude, review, sign. Stage introduced is the coder&#39;s judgment of where the cause arose. Stage caught is where the note was raised, review or sign for almost every event.</p>
+<h3 id="5-3-bands">5.3 Bands</h3>
+<ul>
+<li>Fix effort: small (under 15 minutes, judged), medium (15 to 60), large (over 60), unknown. Judged from the revision trail. Mark unknown when the trail does not show it.</li>
+<li>Days open: from note raised to note cleared, from the file&#39;s timestamps. Bands: 0, 1 to 2, 3 to 7, over 7.</li>
+</ul>
+<h2 id="6-data-sheet">6. Data sheet</h2>
+<p>Workpaper sheet, one row per workpaper:</p>
+<table class="doc"><thead><tr><th>Column</th><th>Values</th></tr></thead><tbody><tr><td>study_id</td><td>RW-01 to RW-40</td></tr><tr><td>audit_area</td><td>revenue, inventory, cash, fixed_assets, payables</td></tr><tr><td>engagement_size_band</td><td>small, medium, large</td></tr><tr><td>region</td><td>North, South, East, West, Central</td></tr><tr><td>preparer_role, first_reviewer_role, final_reviewer_role</td><td>associate, senior, manager, partner</td></tr><tr><td>review_rounds</td><td>count of distinct review passes</td></tr><tr><td>events_total, events_rework, events_clarification</td><td>counts</td></tr><tr><td>coder_id</td><td></td></tr><tr><td>double_coded</td><td>0 or 1</td></tr></tbody></table>
+<p>Event sheet, one row per event:</p>
+<table class="doc"><thead><tr><th>Column</th><th>Values</th></tr></thead><tbody><tr><td>study_id, event_no</td><td></td></tr><tr><td>review_round</td><td>1, 2, 3 and so on</td></tr><tr><td>reviewer_role</td><td>senior, manager, partner, methodology_reviewer</td></tr><tr><td>primary_cause</td><td>R0 to R9</td></tr><tr><td>secondary_cause</td><td>none, R1 to R9</td></tr><tr><td>stage_introduced</td><td>one of the nine stages</td></tr><tr><td>stage_caught</td><td>review, sign</td></tr><tr><td>resolution</td><td>revised, explained, withdrawn</td></tr><tr><td>fix_effort_band</td><td>small, medium, large, unknown</td></tr><tr><td>days_open_band</td><td>0, 1 to 2, 3 to 7, over 7</td></tr><tr><td>coder_id</td><td></td></tr><tr><td>generic_note</td><td>Required for R9. No client content.</td></tr></tbody></table>
+<h2 id="7-double-coding-and-agreement">7. Double coding and agreement</h2>
+<ol>
+<li>Subset: 10 workpapers, two per audit area, chosen at random from the 40 before coding starts.</li>
+<li>Both coders code the subset independently, events and workpaper fields, without seeing each other&#39;s sheet.</li>
+<li>Agreement on <code>primary_cause</code>: percent agreement and Cohen&#39;s kappa. Agreement on <code>stage_introduced</code>: percent agreement.</li>
+<li>Threshold: kappa at least 0.70 on primary cause. Below it, both coders meet with the adjudicator, tighten the definitions and inclusion rules in 5.1 and recode the subset once. Record before and after in the coding memo.</li>
+<li>Residual disagreements are adjudicated by the Quality and Methodology reviewer. The adjudicated code stands.</li>
+<li>After the subset passes, the remaining 30 are split between the coders. Every tenth workpaper thereafter is spot-checked by the other coder.</li>
+<li>The coding memo records every definition change, every adjudication and the agreement figures. Any agreement figure shown in the case is labeled illustrative.</li>
+</ol>
+<h2 id="8-analysis">8. Analysis</h2>
+<ol>
+<li>Cause profile: share of rework events by primary cause, overall. Table plus a bar chart with text labels.</li>
+<li>By audit area: cause by area cross-tab, 5 by 9. Small multiples, one per area, same cause order in each.</li>
+<li>By lifecycle stage: cause by stage introduced. Shows which causes start upstream of the test stage (sample selection, design procedures) and which start in test or conclude.</li>
+<li>Stage caught: how much rework reaches sign before it is caught.</li>
+<li>Effort and days open by cause, as bands.</li>
+<li>Preventability map. For each cause: could a typed field structure (08) or a pre-handoff validation have caught it before review? Coded yes, partly or no, with a one-line reason. This is the bridge to the field-structure library and the checkpoint rules.</li>
+<li>Comparison: cause shares against diary question 4 and survey item O1, which use the same code list. Agreement between the record and self-report is reported in words.</li>
+<li>Output: cause tables and the preventability map, labeled planned target for n. These feed the evidence table (03), the opportunity map (06) and the taxonomy work in 08.</li>
+</ol>
+<h2 id="9-limitations">9. Limitations</h2>
+<ul>
+<li>Review notes record what reviewers wrote. Rework fixed by the preparer before submission leaves no trace.</li>
+<li>Closed files may have had notes cleared or tidied. Some trails are incomplete.</li>
+<li>The inclusion rule selects workpapers with notes. The result describes rework when it happens, not how often it happens.</li>
+<li>Stage introduced is a judgment made after the fact.</li>
+<li>Prior-cycle tools may differ from current tools. The causes are durable. The frequencies may not be.</li>
+<li>Forty workpapers across five areas and three size bands leave small cells. Area comparisons are directional.</li>
+<li>Coders bring their own audit experience. Double coding limits this. It does not remove it.</li>
+</ul>
+
+</main>
+</div>
+</body>
+</html>

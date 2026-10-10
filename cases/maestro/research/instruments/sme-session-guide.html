@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quality and Methodology SME session guide</title>
+<link rel="icon" href="/shared/brand/baton/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared/brand/baton/tokens.css">
+<link rel="stylesheet" href="/shared/design-system/base.css">
+<style>.md { max-width: 110ch; } .md h1 { font-size: var(--bt-fs-20); margin: var(--bt-s4) 0 var(--bt-s2); } .md h2 { font-size: var(--bt-fs-16); margin-top: var(--bt-s6); } .md h3 { font-size: var(--bt-fs-14); } .md p, .md li { font-size: var(--bt-fs-13); line-height: var(--bt-lh-prose); } .md blockquote { margin: var(--bt-s2) 0; padding: var(--bt-s1) var(--bt-s3); border-left: 3px solid var(--bt-border); color: var(--bt-ink-2); font-size: var(--bt-fs-12); } .md table.doc { margin: var(--bt-s2) 0; font-size: var(--bt-fs-12); } .md pre { background: var(--bt-surface-2); padding: var(--bt-s2) var(--bt-s3); overflow: auto; font-size: var(--bt-fs-12); } .md hr { margin: var(--bt-s6) 0; } .src { font-size: var(--bt-fs-11); color: var(--bt-ink-3); margin: var(--bt-s2) 0 0; }</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<main id="main" class="md">
+<p class="src">Rendered from <a href="sme-session-guide.md">sme-session-guide.md</a>. The Markdown file is the source.</p>
+<table class="doc"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Title</td><td>Quality and Methodology SME session guide</td></tr><tr><td>Artifact</td><td>02 Research plan and instruments</td></tr><tr><td>Question it answers</td><td>What do the standards require, which procedures and field structures exist, where must a human review and what happens when the agent fails?</td></tr><tr><td>Decisions it feeds</td><td>D-02</td></tr><tr><td>Status</td><td>Draft</td></tr></tbody></table>
+<blockquote>
+<p>Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</p>
+</blockquote>
+<p><strong>I decided:</strong> the four session types and that the outputs go to the decision log and artifact 08, not to a slide. <strong>We built:</strong> the pre-reads, the capture template and the grid. Design team of three at this phase.</p>
+<h2 id="1-purpose-and-scope">1. Purpose and scope</h2>
+<p>Phases P1 to P5. Quality and Methodology reviewers hold the rules the product must obey. These sessions turn their knowledge into four things the design builds on: a validated constraint list, a procedure taxonomy with typed field structures, a checkpoint rule set and a failure path specification. They are working sessions. Each ends with recorded decisions and owners.</p>
+<p>Planned target: 8 sessions of 60 minutes. Planned split: 1 of type A, 3 of type B, 2 of type C, 2 of type D. No session is reported in this reconstruction.</p>
+<p>Role split. I set the four session types, the capture template and the rule that session decisions stay proposals until the decision log owner records them. We facilitate, capture and carry the outputs into artifacts 01, 08 and 09.</p>
+<h2 id="2-participants-and-roles">2. Participants and roles</h2>
+<table class="doc"><thead><tr><th>Role</th><th>Per session</th><th>Notes</th></tr></thead><tbody><tr><td>Quality and Methodology reviewers</td><td>2 to 4</td><td>The same core group across sessions where possible, so decisions build on each other.</td></tr><tr><td>Engagement data lead</td><td>1</td><td>Types A and C only, for data classes and access.</td></tr><tr><td>Facilitator</td><td>1</td><td>Design lead. Runs the agenda. Does not take notes.</td></tr><tr><td>Capture lead</td><td>1</td><td>Designer. Fills the capture template live and reads it back.</td></tr><tr><td>Observer</td><td>0 to 1</td><td>PM or engineering lead. Listens. Speaks in the last ten minutes only.</td></tr></tbody></table>
+<p>Ground rules, read at the start of every session:</p>
+<ol>
+<li>No client examples. We work on the synthetic engagement in the pre-read.</li>
+<li>Methodology has the final word on anything that touches C1 or C2 (standards and independence). Design has the final word on how it looks.</li>
+<li>A disagreement is captured as an open question with an owner. It is not resolved by running over.</li>
+<li>Decisions recorded here are proposals. They become D-nn entries when the decision log owner records them with their source.</li>
+</ol>
+<h2 id="3-session-types">3. Session types</h2>
+<table class="doc"><thead><tr><th>Type</th><th>Objective</th><th>Inputs</th><th>Outputs</th><th>Sessions</th></tr></thead><tbody><tr><td>A</td><td>Validate the constraint list from artifact 01</td><td>C1 to C7 with design implications. Synthetic engagement summary</td><td>Confirmed, revised or added constraints with source. Severity rank</td><td>1</td></tr><tr><td>B</td><td>Build the procedure taxonomy and the field-structure library</td><td>Draft taxonomy. Inventory of Test of Details structures (60+, stated)</td><td>Typed templates in the schema in 5.2. Taxonomy tree</td><td>3</td></tr><tr><td>C</td><td>Set the checkpoint rules</td><td>Agent step types. Data classes. Draft permission grid</td><td>Filled grid: act, propose or never, per step by data class. Human review points. The never-write list</td><td>2</td></tr><tr><td>D</td><td>Walk the failure paths</td><td>Four paths. Draft of flow 5 from artifact 09. Synthetic failing items</td><td>Per path: detection, what the auditor sees, who decides, recovery, what is logged</td><td>2</td></tr></tbody></table>
+<h2 id="4-pre-read">4. Pre-read</h2>
+<p>Sent 48 hours before each session. Reading time 15 minutes. The facilitator confirms receipt the day before.</p>
+<table class="doc"><thead><tr><th>Type</th><th>Pre-read contents</th></tr></thead><tbody><tr><td>All</td><td>One-page synthetic engagement: five areas, team by role, the four questions strip, ground rules.</td></tr><tr><td>A</td><td>The C1 to C7 table from artifact 01 with the design implication column. Three blank rows.</td></tr><tr><td>B</td><td>Draft taxonomy (risk assessment, test of details, analytical, controls). The batch of about 20 structure names for this session with blank template rows. The template schema in 5.2.</td></tr><tr><td>C</td><td>The six agent step types with one-line definitions. The four data classes with one-line definitions. The empty grid in 5.3.</td></tr><tr><td>D</td><td>Flow 5 draft. Four synthetic failing items, one per path, with their state at failure.</td></tr></tbody></table>
+<h2 id="5-agenda-and-working-blocks">5. Agenda and working blocks</h2>
+<p>Common agenda, 60 minutes.</p>
+<table class="doc"><thead><tr><th>Minutes</th><th>Block</th></tr></thead><tbody><tr><td>0 to 5</td><td>Open. Ground rules. Confirm the pre-read. State the session objective in one sentence.</td></tr><tr><td>5 to 10</td><td>Recap. The facilitator reads the decisions still open from the last session.</td></tr><tr><td>10 to 45</td><td>Working block for the type (5.1 to 5.4).</td></tr><tr><td>45 to 55</td><td>Read-back. The capture lead reads every decision, rationale, open question and owner. Participants correct.</td></tr><tr><td>55 to 60</td><td>Next steps. Date of the next session. What each owner brings.</td></tr></tbody></table>
+<h3 id="5-1-type-a-working-block-constraints-35-minutes">5.1 Type A working block: constraints (35 minutes)</h3>
+<p>For each of C1 to C7, four minutes:</p>
+<ul>
+<li>Is the constraint stated correctly? What is its source: a standard, firm policy or practice?</li>
+<li>What is missing from the design implication? What would a design that broke this constraint look like?</li>
+<li>Rank: how often does this constraint bite a fieldwork team? High, medium or low.</li>
+</ul>
+<p>Last seven minutes: candidates for C8 onward. Merge or split as needed. Output goes to decisions.md and a revision of artifact 01.</p>
+<h3 id="5-2-type-b-working-block-taxonomy-and-field-structures-35-mi">5.2 Type B working block: taxonomy and field structures (35 minutes)</h3>
+<p>Minutes 10 to 20: taxonomy. Card sort of procedure names into the four types. Disputed cards are parked with an open question.</p>
+<p>Minutes 20 to 45: field structures. About 20 structures per session, so the stated 60+ are covered in three sessions. For each structure the group fills one template row:</p>
+<table class="doc"><thead><tr><th>Field</th><th>Values</th></tr></thead><tbody><tr><td>name</td><td>Structure name as methodology knows it</td></tr><tr><td>applicable_areas</td><td>revenue, inventory, cash, fixed_assets, payables (one or more)</td></tr><tr><td>target_assertions</td><td>existence, completeness, accuracy, cutoff, valuation, rights_and_obligations, presentation</td></tr><tr><td>required_fields</td><td>name and type for each: amount, date, text, reference, boolean</td></tr><tr><td>evidence_types_required</td><td>invoice, contract, bank_statement, confirmation, system_report, shipping_document, receiving_report, approval_memo</td></tr><tr><td>matching_rule</td><td>exact, tolerance, range, presence</td></tr><tr><td>tolerance</td><td>value or none</td></tr><tr><td>human_judgment_fields</td><td>fields the agent may never fill</td></tr><tr><td>version</td><td>starts at 1</td></tr></tbody></table>
+<p>Typing rule: two structures with the same required fields, evidence types and matching rule are one template with two names. Record the merge. Output feeds the taxonomy and the field-structure library in artifact 08 and the <code>field_structure</code> entity in the data generator.</p>
+<h3 id="5-3-type-c-working-block-checkpoint-rules-35-minutes">5.3 Type C working block: checkpoint rules (35 minutes)</h3>
+<p>The grid: six agent step types (plan, evidence retrieval, extraction, matching, exception detection, draft conclusion) by four data classes (public, engagement internal, client confidential, restricted). Each cell gets one value from D-05: <code>read</code> (the agent may read material of that class at that step and records it), <code>propose</code> (the agent drafts from it and a human accepts) or <code>none</code>.</p>
+<p>Then three lists:</p>
+<ol>
+<li>Where a human must review: the steps where <code>propose</code> is the answer regardless of class, with the role that reviews.</li>
+<li>What the agent may propose: drafts, request lists, matches, exception classifications, conclusion text.</li>
+<li>What it never writes: the conclusion field as final, any sign-off, the sample selection without approval, anything in the restricted class without a logged checkpoint.</li>
+</ol>
+<p>Each cell and list item gets a rationale that names the constraint (C1 to C7). Output feeds the permission model and state machine in 08 and decisions D-05 and D-09.</p>
+<h3 id="5-4-type-d-working-block-failure-paths-35-minutes">5.4 Type D working block: failure paths (35 minutes)</h3>
+<p>Eight to nine minutes per path: source unavailable, low confidence, conflicting evidence, agent timeout. For each, the group walks the synthetic failing item and answers:</p>
+<table class="doc"><thead><tr><th>Question</th><th>Captured as</th></tr></thead><tbody><tr><td>How does the system know it failed?</td><td>Detection signal</td></tr><tr><td>What does the auditor see and where?</td><td>State and location in the UI</td></tr><tr><td>What may the agent do on its own?</td><td>Retry, wait, park or nothing</td></tr><tr><td>Who decides what happens next?</td><td>Role</td></tr><tr><td>How does the item get back to a good state?</td><td>Recovery path</td></tr><tr><td>What must be in the record?</td><td>Log entries</td></tr><tr><td>Does methodology need anything documented for the file?</td><td>Documentation requirement</td></tr></tbody></table>
+<p>Output feeds flow 5 in artifact 09, the state machine guards in 08 and decision D-12 (provisional register ID; record ships with 07 and 09).</p>
+<h2 id="6-capture-template">6. Capture template</h2>
+<p>Filled live, read back at minute 45, sent to participants within 24 hours.</p>
+<table class="doc"><thead><tr><th>#</th><th>Decision</th><th>Rationale (constraint or principle)</th><th>Open question</th><th>Owner</th><th>Goes to</th></tr></thead><tbody><tr><td>A1</td><td></td><td></td><td></td><td></td><td>decisions.md, 01</td></tr><tr><td>B1</td><td></td><td></td><td></td><td></td><td>08 taxonomy, data generator</td></tr><tr><td>C1</td><td></td><td></td><td></td><td></td><td>08 permissions, decisions.md</td></tr><tr><td>D1</td><td></td><td></td><td></td><td></td><td>09 flow 5, 08 state machine</td></tr></tbody></table>
+<p>Rows are numbered by type and session (A1, B2-07 and so on). Open questions carry a due date. A question open across two sessions is escalated to the methodology lead role.</p>
+<h2 id="7-outputs-and-where-they-go">7. Outputs and where they go</h2>
+<table class="doc"><thead><tr><th>Output</th><th>Destination</th><th>Owner</th></tr></thead><tbody><tr><td>Revised constraint list</td><td>Proposals for <code>decisions.md</code>; the decision log owner assigns source <code>stated</code> or <code>confirmed</code> only after Yoni confirms. Until then the proposal sits in the open questions register. Artifact 01 <code>constraints.json</code> revision</td><td>Decision log owner</td></tr><tr><td>Procedure taxonomy</td><td><code>artifacts/08-information-architecture/08-taxonomy.svg</code></td><td>Design</td></tr><tr><td>Typed field-structure templates</td><td>Field-structure library in 08. <code>data/generate.mjs</code> <code>field_structure</code> entity</td><td>Design with the data generator owner</td></tr><tr><td>Checkpoint grid and never-write list</td><td><code>08-permissions.svg</code>, <code>08-state-machine.svg</code> guards. D-05, D-09</td><td>Decision log owner</td></tr><tr><td>Failure path specification</td><td><code>09-flow-5-failure-paths.svg</code>. D-12 (provisional)</td><td>Design</td></tr><tr><td>Session capture sheets</td><td><code>research/sme/</code> by session ID (SME-01 to SME-08). Not committed</td><td>Capture lead</td></tr><tr><td>Open questions register</td><td><code>research/sme/open-questions.md</code></td><td>Facilitator</td></tr></tbody></table>
+<h2 id="8-scheduling">8. Scheduling</h2>
+<table class="doc"><thead><tr><th>Session</th><th>Type</th><th>Phase</th><th>Brings</th></tr></thead><tbody><tr><td>SME-01</td><td>A</td><td>P1</td><td>Constraint list from 01</td></tr><tr><td>SME-02 to SME-04</td><td>B</td><td>P1 to P2</td><td>Structure batches 1 to 3</td></tr><tr><td>SME-05</td><td>C</td><td>P2</td><td>Draft grid</td></tr><tr><td>SME-06</td><td>D</td><td>P3</td><td>Flow 5 draft. Pilot failures seen so far</td></tr><tr><td>SME-07</td><td>C</td><td>P5</td><td>Grid revised against the dry run themes data_access_and_permissions and checkpoint_placement</td></tr><tr><td>SME-08</td><td>D</td><td>P5</td><td>Flow 5 revised against the dry run theme exception_handling</td></tr></tbody></table>
+<p>Between sessions: methodology office hours, weekly, 30 minutes, for questions that do not need a full session. Logged in the open questions register.</p>
+<h2 id="9-limitations">9. Limitations</h2>
+<ul>
+<li>Two to four reviewers speak for methodology. Other reviewers may read the standards differently. Outputs are checked with a second reviewer group before release.</li>
+<li>Sessions run on a synthetic engagement. Real edge cases arrive in the dry run.</li>
+<li>Sixty minutes forces batching. Three sessions for 60+ structures leaves little time per structure. Follow-ups are expected.</li>
+<li>The grid treats data class and step type as the only axes. Jurisdiction-specific rules are an open question carried to the data lead.</li>
+<li>Eight sessions is a planned target. The cadence may stretch across phases.</li>
+</ul>
+
+</main>
+</div>
+</body>
+</html>

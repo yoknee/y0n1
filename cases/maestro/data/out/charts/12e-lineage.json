@@ -1,0 +1,359 @@
+{
+ "label": "illustrative synthetic data generated from seed baton-01",
+ "derivation": "One conclusion with status final, drafted by an agent run that touched restricted evidence (two checkpoints). Nodes: the procedure, the run, its six steps, every cited evidence item and its source system, every exception the conclusion addresses and every review action on the run. Links name the relation.",
+ "conclusion_id": "CON-0012",
+ "run_id": "RUN-0058",
+ "procedure_id": "PRC-0012",
+ "node_types": [
+  "procedure",
+  "run",
+  "step",
+  "source",
+  "evidence",
+  "exception",
+  "review_action",
+  "conclusion"
+ ],
+ "nodes": [
+  {
+   "id": "CON-0012",
+   "type": "conclusion",
+   "label": "Conclusion CON-0012",
+   "status": "final",
+   "drafted_by": "agent",
+   "version": 1
+  },
+  {
+   "id": "RUN-0058",
+   "type": "run",
+   "label": "Run RUN-0058",
+   "state": "concluded",
+   "confidence": 0.89,
+   "release_id": "R0",
+   "checkpoints_required": [
+    "plan",
+    "evidence_retrieval",
+    "draft_conclusion"
+   ]
+  },
+  {
+   "id": "PRC-0012",
+   "type": "procedure",
+   "label": "Procedure PRC-0012",
+   "procedure_type": "controls",
+   "target_assertions": [
+    "existence",
+    "cutoff",
+    "presentation"
+   ]
+  },
+  {
+   "id": "RUN-0058#0",
+   "type": "step",
+   "label": "plan",
+   "step_type": "plan",
+   "status": "done",
+   "confidence": 0.97,
+   "checkpoint": true,
+   "output_summary": "Planned 4 sample items against controls"
+  },
+  {
+   "id": "RUN-0058#1",
+   "type": "step",
+   "label": "evidence retrieval",
+   "step_type": "evidence_retrieval",
+   "status": "done",
+   "confidence": 0.9,
+   "checkpoint": true,
+   "output_summary": "Retrieved 6 evidence items from confirmation_service and bank_portal"
+  },
+  {
+   "id": "RUN-0058#2",
+   "type": "step",
+   "label": "extraction",
+   "step_type": "extraction",
+   "status": "done",
+   "confidence": 0.91,
+   "checkpoint": false,
+   "output_summary": "Extracted fields from 6 items with 1 partial reads"
+  },
+  {
+   "id": "RUN-0058#3",
+   "type": "step",
+   "label": "matching",
+   "step_type": "matching",
+   "status": "done",
+   "confidence": 0.93,
+   "checkpoint": false,
+   "output_summary": "Matched 4 of 4 items within rule"
+  },
+  {
+   "id": "RUN-0058#4",
+   "type": "step",
+   "label": "exception detection",
+   "step_type": "exception_detection",
+   "status": "done",
+   "confidence": 0.85,
+   "checkpoint": false,
+   "output_summary": "No exceptions flagged"
+  },
+  {
+   "id": "RUN-0058#5",
+   "type": "step",
+   "label": "draft conclusion",
+   "step_type": "draft_conclusion",
+   "status": "done",
+   "confidence": 0.9,
+   "checkpoint": true,
+   "output_summary": "Drafted conclusion citing 6 evidence items with 0 exceptions noted"
+  },
+  {
+   "id": "bank_portal",
+   "type": "source",
+   "label": "bank portal"
+  },
+  {
+   "id": "EVD-00383",
+   "type": "evidence",
+   "label": "bank statement EVD-00383",
+   "evidence_type": "bank_statement",
+   "data_class": "restricted",
+   "quality": "partial",
+   "received_day": 7
+  },
+  {
+   "id": "confirmation_service",
+   "type": "source",
+   "label": "confirmation service"
+  },
+  {
+   "id": "EVD-00394",
+   "type": "evidence",
+   "label": "confirmation EVD-00394",
+   "evidence_type": "confirmation",
+   "data_class": "engagement_internal",
+   "quality": "clean",
+   "received_day": 17
+  },
+  {
+   "id": "EVD-00395",
+   "type": "evidence",
+   "label": "confirmation EVD-00395",
+   "evidence_type": "confirmation",
+   "data_class": "client_confidential",
+   "quality": "clean",
+   "received_day": 8
+  },
+  {
+   "id": "EVD-00397",
+   "type": "evidence",
+   "label": "confirmation EVD-00397",
+   "evidence_type": "confirmation",
+   "data_class": "engagement_internal",
+   "quality": "clean",
+   "received_day": 21
+  },
+  {
+   "id": "EVD-00412",
+   "type": "evidence",
+   "label": "confirmation EVD-00412",
+   "evidence_type": "confirmation",
+   "data_class": "engagement_internal",
+   "quality": "clean",
+   "received_day": 23
+  },
+  {
+   "id": "EVD-00413",
+   "type": "evidence",
+   "label": "confirmation EVD-00413",
+   "evidence_type": "confirmation",
+   "data_class": "engagement_internal",
+   "quality": "clean",
+   "received_day": 0
+  },
+  {
+   "id": "EXC-0018",
+   "type": "exception",
+   "label": "cutoff EXC-0018",
+   "exception_type": "cutoff",
+   "severity": "low",
+   "status": "explained",
+   "detected_by": "auditor",
+   "flagged_by_this_run": false
+  },
+  {
+   "id": "RVA-00171",
+   "type": "review_action",
+   "label": "approve by senior",
+   "action": "approve",
+   "actor_role": "senior",
+   "day": 30,
+   "minutes_since_draft": 19
+  },
+  {
+   "id": "RVA-00172",
+   "type": "review_action",
+   "label": "approve by manager",
+   "action": "approve",
+   "actor_role": "manager",
+   "day": 30,
+   "minutes_since_draft": 63
+  },
+  {
+   "id": "RVA-00173",
+   "type": "review_action",
+   "label": "sign by manager",
+   "action": "sign",
+   "actor_role": "manager",
+   "day": 30,
+   "minutes_since_draft": 164
+  }
+ ],
+ "links": [
+  {
+   "source": "PRC-0012",
+   "target": "RUN-0058",
+   "type": "executes"
+  },
+  {
+   "source": "RUN-0058",
+   "target": "CON-0012",
+   "type": "produces"
+  },
+  {
+   "source": "RUN-0058#0",
+   "target": "RUN-0058#1",
+   "type": "next"
+  },
+  {
+   "source": "RUN-0058#1",
+   "target": "RUN-0058#2",
+   "type": "next"
+  },
+  {
+   "source": "RUN-0058#2",
+   "target": "RUN-0058#3",
+   "type": "next"
+  },
+  {
+   "source": "RUN-0058#3",
+   "target": "RUN-0058#4",
+   "type": "next"
+  },
+  {
+   "source": "RUN-0058#4",
+   "target": "RUN-0058#5",
+   "type": "next"
+  },
+  {
+   "source": "bank_portal",
+   "target": "EVD-00383",
+   "type": "provides"
+  },
+  {
+   "source": "EVD-00383",
+   "target": "RUN-0058#1",
+   "type": "retrieved_by"
+  },
+  {
+   "source": "EVD-00383",
+   "target": "CON-0012",
+   "type": "cited_by"
+  },
+  {
+   "source": "confirmation_service",
+   "target": "EVD-00394",
+   "type": "provides"
+  },
+  {
+   "source": "EVD-00394",
+   "target": "RUN-0058#1",
+   "type": "retrieved_by"
+  },
+  {
+   "source": "EVD-00394",
+   "target": "CON-0012",
+   "type": "cited_by"
+  },
+  {
+   "source": "confirmation_service",
+   "target": "EVD-00395",
+   "type": "provides"
+  },
+  {
+   "source": "EVD-00395",
+   "target": "RUN-0058#1",
+   "type": "retrieved_by"
+  },
+  {
+   "source": "EVD-00395",
+   "target": "CON-0012",
+   "type": "cited_by"
+  },
+  {
+   "source": "confirmation_service",
+   "target": "EVD-00397",
+   "type": "provides"
+  },
+  {
+   "source": "EVD-00397",
+   "target": "RUN-0058#1",
+   "type": "retrieved_by"
+  },
+  {
+   "source": "EVD-00397",
+   "target": "CON-0012",
+   "type": "cited_by"
+  },
+  {
+   "source": "confirmation_service",
+   "target": "EVD-00412",
+   "type": "provides"
+  },
+  {
+   "source": "EVD-00412",
+   "target": "RUN-0058#1",
+   "type": "retrieved_by"
+  },
+  {
+   "source": "EVD-00412",
+   "target": "CON-0012",
+   "type": "cited_by"
+  },
+  {
+   "source": "confirmation_service",
+   "target": "EVD-00413",
+   "type": "provides"
+  },
+  {
+   "source": "EVD-00413",
+   "target": "RUN-0058#1",
+   "type": "retrieved_by"
+  },
+  {
+   "source": "EVD-00413",
+   "target": "CON-0012",
+   "type": "cited_by"
+  },
+  {
+   "source": "EXC-0018",
+   "target": "CON-0012",
+   "type": "addressed_in"
+  },
+  {
+   "source": "RUN-0058#5",
+   "target": "RVA-00171",
+   "type": "reviewed_by"
+  },
+  {
+   "source": "RUN-0058#5",
+   "target": "RVA-00172",
+   "type": "reviewed_by"
+  },
+  {
+   "source": "RUN-0058#5",
+   "target": "RVA-00173",
+   "type": "reviewed_by"
+  }
+ ]
+}

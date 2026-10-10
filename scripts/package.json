@@ -1,0 +1,16 @@
+{
+  "name": "y0n1-scripts",
+  "private": true,
+  "description": "Dev tooling for the case studies. Lives inside scripts/ so the repo root has no package.json and Vercel serves the site as static files.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "screenshot": "node screenshot.mjs",
+    "contrast": "node ../shared/brand/baton/contrast-check.mjs",
+    "lint": "bash lint.sh"
+  },
+  "devDependencies": {
+    "marked": "18.1.0",
+    "playwright": "1.56.1"
+  }
+}

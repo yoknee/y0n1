@@ -1,0 +1,20 @@
+/* Artifact header strip. Dense: disclaimer band, one strip, one meta grid. */
+.art-header { margin: 0 calc(-1 * var(--bt-s4)) var(--bt-s4); border-bottom: 1px solid var(--bt-border); }
+.art-header .disclaimer { margin: 0; padding: var(--bt-s1) var(--bt-s4); background: var(--bt-surface-2); border-bottom: 1px solid var(--bt-border); font-size: var(--bt-fs-11); color: var(--bt-ink-2); }
+.art-header .strip { display: flex; align-items: center; gap: var(--bt-s3); min-height: 44px; padding: 0 var(--bt-s4); }
+.art-header .brand { display: inline-flex; align-items: center; gap: var(--bt-s1); color: var(--bt-ink); text-decoration: none; font-weight: 600; }
+.art-header .num { color: var(--bt-ink-2); font-size: var(--bt-fs-12); padding: 0 var(--bt-s2); border-left: 1px solid var(--bt-border); border-right: 1px solid var(--bt-border); }
+.art-header h1 { font-size: var(--bt-fs-16); flex: 1; min-width: 0; }
+.art-header .theme-toggle { margin-left: auto; }
+.art-header .meta { display: grid; grid-template-columns: 1.2fr 1fr 1.3fr 1.4fr; gap: 0; margin: 0; border-top: 1px solid var(--bt-border); }
+.art-header .meta > div { padding: var(--bt-s2) var(--bt-s4); border-right: 1px solid var(--bt-border); font-size: var(--bt-fs-12); line-height: var(--bt-lh-prose); }
+.art-header .meta > div:last-child { border-right: 0; }
+.art-header .meta dt { font-size: var(--bt-fs-11); color: var(--bt-ink-2); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
+.art-header .meta dd { margin: 0; }
+.art-header .qs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--bt-s2); }
+.art-header .qs li { color: var(--bt-ink-3); }
+.art-header .qs li.on { color: var(--bt-ink); }
+.art-header .qs .qn { display: inline-block; min-width: 34px; font-family: var(--bt-font-mono); font-size: var(--bt-fs-11); }
+.art-header .qs li.on .qn { color: var(--bt-brand); font-weight: 500; }
+@media (max-width: 1100px) { .art-header .meta { grid-template-columns: 1fr 1fr; } .art-header .meta > div:nth-child(2) { border-right: 0; } }
+@media (max-width: 700px) { .art-header .meta { grid-template-columns: 1fr; } .art-header .meta > div { border-right: 0; border-bottom: 1px solid var(--bt-border); } .art-header .strip { flex-wrap: wrap; min-height: 0; padding-top: var(--bt-s2); padding-bottom: var(--bt-s2); } .art-header h1 { flex-basis: 100%; } }

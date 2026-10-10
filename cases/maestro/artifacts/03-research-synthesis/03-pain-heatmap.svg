@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" width="1400" height="600" role="img" aria-labelledby="t-03-heatmap d-03-heatmap">
+<title id="t-03-heatmap">03 Research synthesis</title>
+<desc id="d-03-heatmap">What did the research find, how strong is each finding and which decisions did it drive? Decisions fed: D-03, D-04, D-06. Status: Draft. Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</desc>
+
+<style>
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
+@media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
+.ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
+.hair{stroke:var(--bt-border);fill:none}.stroke{stroke:var(--bt-ink);fill:none}.stroke2{stroke:var(--bt-ink-2);fill:none}
+.brand{fill:var(--bt-brand)}.brand-s{stroke:var(--bt-brand);fill:none}.brand-t{fill:var(--bt-brand-tint)}
+.agent{fill:var(--bt-agent)}.agent-s{stroke:var(--bt-agent);fill:none}.agent-t{fill:var(--bt-agent-tint)}
+.review{fill:var(--bt-review)}.review-t{fill:var(--bt-review-tint)}.approved{fill:var(--bt-approved)}.approved-t{fill:var(--bt-approved-tint)}
+.edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
+text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
+</style>
+<g class="svg-head" data-h="106">
+<rect x="0" y="0" width="1400" height="106" class="surf2"/><line x1="0" y1="106" x2="1400" y2="106" class="hair"/>
+<text x="16" y="26" class="t16">03 Research synthesis</text>
+<text class="t11 ink2"><tspan x="16" y="46">Question: What did the research find, how strong is each finding and which decisions did it drive?</tspan></text>
+<text x="16" y="66" class="t11 ink2">Feeds: D-03, D-04, D-06  |  Status: Draft</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: the codebook structure, the ordinal evidence rubric instead of tallies and which themes</tspan><tspan x="756" y="35">became decisions.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="56">We built: the coding, two coders per source, the affinity sessions and the evidence table. Design</tspan><tspan x="756" y="69">team of three at this phase. Theme names were argued out in the weekly coding review.</tspan></text>
+<text x="16" y="100" class="t10 ink2">Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</text>
+</g>
+<defs><pattern id="hatch2" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="var(--bt-brand)" stroke-width="1" opacity="0.55"/></pattern><pattern id="hatch3" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="var(--bt-surface)" stroke-width="1.2" opacity="0.5"/></pattern></defs>
+<text x="16" y="134" class="t11 ink2 b">PAIN-POINT HEAT MAP: LIFECYCLE STAGE BY ROLE. RECONSTRUCTED SEVERITY, NOT OBSERVED FREQUENCY. CELL VALUES: 0 NONE, 1 LOW, 2 MEDIUM, 3 HIGH. ROWS ARE LIFECYCLE STAGES, COLUMNS ARE THE FIVE ROLES IN THE INTERVIEW FRAME.</text>
+<text x="265" y="164" class="t11 ink2 b" text-anchor="middle">Associate</text>
+<text x="415" y="164" class="t11 ink2 b" text-anchor="middle">Senior</text>
+<text x="565" y="164" class="t11 ink2 b" text-anchor="middle">Manager</text>
+<text x="715" y="164" class="t11 ink2 b" text-anchor="middle">Partner</text>
+<text x="865" y="164" class="t11 ink2 b" text-anchor="middle">Methodology reviewer</text>
+<text x="956" y="164" class="t11 ink2 b">Themes at this stage</text>
+<text x="16" y="198" class="b">Plan</text>
+<rect x="191" y="175" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="265" y="198" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="341" y="175" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="415" y="198" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="491" y="175" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="565" y="198" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="641" y="175" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="715" y="198" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="791" y="175" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="865" y="198" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="956" y="185" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="198" class="t11 mono" text-anchor="middle">T13</text>
+<text x="16" y="238" class="b">Assess risk</text>
+<rect x="191" y="215" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="265" y="238" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="341" y="215" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="415" y="238" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="491" y="215" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="491" y="215" width="148" height="38" fill="url(#hatch2)"/>
+<text x="565" y="238" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="641" y="215" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="715" y="238" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="791" y="215" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="865" y="238" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="956" y="225" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="238" class="t11 mono" text-anchor="middle">T11</text>
+<text x="16" y="278" class="b">Design procedures</text>
+<rect x="191" y="255" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="265" y="278" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="341" y="255" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="341" y="255" width="148" height="38" fill="url(#hatch2)"/>
+<text x="415" y="278" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="491" y="255" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="565" y="278" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="641" y="255" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="715" y="278" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="791" y="255" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="791" y="255" width="148" height="38" fill="url(#hatch2)"/>
+<text x="865" y="278" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="956" y="265" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="278" class="t11 mono" text-anchor="middle">T13</text>
+<text x="16" y="318" class="b">Gather evidence</text>
+<rect x="191" y="295" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="191" y="295" width="148" height="38" fill="url(#hatch3)"/>
+<text x="265" y="318" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="341" y="295" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="341" y="295" width="148" height="38" fill="url(#hatch3)"/>
+<text x="415" y="318" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="491" y="295" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="565" y="318" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="641" y="295" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="715" y="318" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="791" y="295" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="865" y="318" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="956" y="305" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="318" class="t11 mono" text-anchor="middle">T1</text>
+<rect x="994" y="305" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1011" y="318" class="t11 mono" text-anchor="middle">T9</text>
+<text x="16" y="358" class="b">Test</text>
+<rect x="191" y="335" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="191" y="335" width="148" height="38" fill="url(#hatch3)"/>
+<text x="265" y="358" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="341" y="335" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="341" y="335" width="148" height="38" fill="url(#hatch3)"/>
+<text x="415" y="358" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="491" y="335" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="565" y="358" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="641" y="335" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="715" y="358" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="791" y="335" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="865" y="358" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="956" y="345" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="358" class="t11 mono" text-anchor="middle">T2</text>
+<rect x="994" y="345" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1011" y="358" class="t11 mono" text-anchor="middle">T11</text>
+<rect x="1032" y="345" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1049" y="358" class="t11 mono" text-anchor="middle">T12</text>
+<rect x="1070" y="345" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1087" y="358" class="t11 mono" text-anchor="middle">T14</text>
+<text x="16" y="398" class="b">Evaluate exceptions</text>
+<rect x="191" y="375" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="191" y="375" width="148" height="38" fill="url(#hatch2)"/>
+<text x="265" y="398" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="341" y="375" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="341" y="375" width="148" height="38" fill="url(#hatch3)"/>
+<text x="415" y="398" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="491" y="375" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="491" y="375" width="148" height="38" fill="url(#hatch2)"/>
+<text x="565" y="398" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="641" y="375" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="715" y="398" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="791" y="375" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="865" y="398" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="956" y="385" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="398" class="t11 mono" text-anchor="middle">T6</text>
+<text x="16" y="438" class="b">Conclude</text>
+<rect x="191" y="415" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="265" y="438" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="341" y="415" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="341" y="415" width="148" height="38" fill="url(#hatch2)"/>
+<text x="415" y="438" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="491" y="415" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="491" y="415" width="148" height="38" fill="url(#hatch2)"/>
+<text x="565" y="438" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="641" y="415" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="715" y="438" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="791" y="415" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="865" y="438" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="956" y="425" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="438" class="t11 mono" text-anchor="middle">T4</text>
+<rect x="994" y="425" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1011" y="438" class="t11 mono" text-anchor="middle">T8</text>
+<text x="16" y="478" class="b">Review</text>
+<rect x="191" y="455" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="265" y="478" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="341" y="455" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="341" y="455" width="148" height="38" fill="url(#hatch3)"/>
+<text x="415" y="478" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="491" y="455" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="491" y="455" width="148" height="38" fill="url(#hatch3)"/>
+<text x="565" y="478" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="641" y="455" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="641" y="455" width="148" height="38" fill="url(#hatch2)"/>
+<text x="715" y="478" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="791" y="455" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="791" y="455" width="148" height="38" fill="url(#hatch2)"/>
+<text x="865" y="478" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="956" y="465" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="478" class="t11 mono" text-anchor="middle">T3</text>
+<rect x="994" y="465" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1011" y="478" class="t11 mono" text-anchor="middle">T5</text>
+<rect x="1032" y="465" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1049" y="478" class="t11 mono" text-anchor="middle">T7</text>
+<rect x="1070" y="465" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1087" y="478" class="t11 mono" text-anchor="middle">T10</text>
+<rect x="1108" y="465" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1125" y="478" class="t11 mono" text-anchor="middle">T14</text>
+<text x="16" y="518" class="b">Sign</text>
+<rect x="191" y="495" width="148" height="38" class="surf" stroke="var(--bt-border)"/>
+<text x="265" y="518" class="t11 ink2" text-anchor="middle" >none</text>
+<rect x="341" y="495" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="415" y="518" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="491" y="495" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<rect x="491" y="495" width="148" height="38" fill="url(#hatch2)"/>
+<text x="565" y="518" class="t11 ink2" text-anchor="middle" >medium</text>
+<rect x="641" y="495" width="148" height="38" class="brand" stroke="var(--bt-border)"/>
+<rect x="641" y="495" width="148" height="38" fill="url(#hatch3)"/>
+<text x="715" y="518" class="t11 " text-anchor="middle" style="fill:var(--bt-surface);font-weight:600">high</text>
+<rect x="791" y="495" width="148" height="38" class="brand-t" stroke="var(--bt-border)"/>
+<text x="865" y="518" class="t11 ink2" text-anchor="middle" >low</text>
+<rect x="956" y="505" width="34" height="18" rx="3" class="surf" stroke="var(--bt-border)"/><text x="973" y="518" class="t11 mono" text-anchor="middle">T8</text>
+<rect x="16" y="550" width="28" height="16" class="surf" stroke="var(--bt-border)"/><text x="50" y="562" class="t11 ink2">none</text>
+<rect x="136" y="550" width="28" height="16" class="brand-t" stroke="var(--bt-border)"/><text x="170" y="562" class="t11 ink2">low</text>
+<rect x="256" y="550" width="28" height="16" class="brand-t" stroke="var(--bt-border)"/><rect x="256" y="550" width="28" height="16" fill="url(#hatch2)"/><text x="290" y="562" class="t11 ink2">medium</text>
+<rect x="376" y="550" width="28" height="16" class="brand" stroke="var(--bt-border)"/><rect x="376" y="550" width="28" height="16" fill="url(#hatch3)"/><text x="410" y="562" class="t11 ink2">high</text>
+<text x="16" y="586" class="t11 ink2">Severity is encoded three ways: fill, hatch pattern and the word in the cell. Reconstructed severity, not observed frequency. Roles are the five roles in the interview frame; the engagement data lead is covered in SME sessions.</text>
+</svg>

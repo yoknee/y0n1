@@ -1,0 +1,658 @@
+{
+ "label": "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative",
+ "total": 1600,
+ "derivation": "pareto counts dry_run_feedback_item rows per theme, sorted by count. matrix counts rows per theme and severity. teams_reporting is the distinct team_id count per theme. roadmap lists every roadmap_item with its rank before and after the reset and the driving theme as a label. No count of feedback items is attributed to any roadmap item or to the roadmap as a whole.",
+ "severity_scale": {
+  "1": "cosmetic",
+  "2": "slows the task",
+  "3": "forces a workaround",
+  "4": "blocks the task"
+ },
+ "pareto": [
+  {
+   "theme": "provenance_visibility",
+   "count": 219,
+   "share": 0.14,
+   "cumulative_share": 0.14
+  },
+  {
+   "theme": "exception_handling",
+   "count": 200,
+   "share": 0.13,
+   "cumulative_share": 0.26
+  },
+  {
+   "theme": "checkpoint_placement",
+   "count": 175,
+   "share": 0.11,
+   "cumulative_share": 0.37
+  },
+  {
+   "theme": "evidence_viewer",
+   "count": 174,
+   "share": 0.11,
+   "cumulative_share": 0.48
+  },
+  {
+   "theme": "review_workflow",
+   "count": 133,
+   "share": 0.08,
+   "cumulative_share": 0.56
+  },
+  {
+   "theme": "performance",
+   "count": 109,
+   "share": 0.07,
+   "cumulative_share": 0.63
+  },
+  {
+   "theme": "navigation_and_findability",
+   "count": 105,
+   "share": 0.07,
+   "cumulative_share": 0.7
+  },
+  {
+   "theme": "field_structure_fit",
+   "count": 95,
+   "share": 0.06,
+   "cumulative_share": 0.76
+  },
+  {
+   "theme": "sample_selection",
+   "count": 86,
+   "share": 0.05,
+   "cumulative_share": 0.81
+  },
+  {
+   "theme": "data_access_and_permissions",
+   "count": 82,
+   "share": 0.05,
+   "cumulative_share": 0.86
+  },
+  {
+   "theme": "integration_with_workpapers",
+   "count": 69,
+   "share": 0.04,
+   "cumulative_share": 0.9
+  },
+  {
+   "theme": "terminology",
+   "count": 66,
+   "share": 0.04,
+   "cumulative_share": 0.95
+  },
+  {
+   "theme": "training_and_onboarding",
+   "count": 63,
+   "share": 0.04,
+   "cumulative_share": 0.99
+  },
+  {
+   "theme": "keyboard_and_accessibility",
+   "count": 24,
+   "share": 0.02,
+   "cumulative_share": 1
+  }
+ ],
+ "matrix": [
+  {
+   "theme": "provenance_visibility",
+   "severity": 1,
+   "count": 26
+  },
+  {
+   "theme": "provenance_visibility",
+   "severity": 2,
+   "count": 87
+  },
+  {
+   "theme": "provenance_visibility",
+   "severity": 3,
+   "count": 79
+  },
+  {
+   "theme": "provenance_visibility",
+   "severity": 4,
+   "count": 27
+  },
+  {
+   "theme": "checkpoint_placement",
+   "severity": 1,
+   "count": 16
+  },
+  {
+   "theme": "checkpoint_placement",
+   "severity": 2,
+   "count": 62
+  },
+  {
+   "theme": "checkpoint_placement",
+   "severity": 3,
+   "count": 75
+  },
+  {
+   "theme": "checkpoint_placement",
+   "severity": 4,
+   "count": 22
+  },
+  {
+   "theme": "exception_handling",
+   "severity": 1,
+   "count": 10
+  },
+  {
+   "theme": "exception_handling",
+   "severity": 2,
+   "count": 69
+  },
+  {
+   "theme": "exception_handling",
+   "severity": 3,
+   "count": 82
+  },
+  {
+   "theme": "exception_handling",
+   "severity": 4,
+   "count": 39
+  },
+  {
+   "theme": "evidence_viewer",
+   "severity": 1,
+   "count": 35
+  },
+  {
+   "theme": "evidence_viewer",
+   "severity": 2,
+   "count": 67
+  },
+  {
+   "theme": "evidence_viewer",
+   "severity": 3,
+   "count": 52
+  },
+  {
+   "theme": "evidence_viewer",
+   "severity": 4,
+   "count": 20
+  },
+  {
+   "theme": "sample_selection",
+   "severity": 1,
+   "count": 18
+  },
+  {
+   "theme": "sample_selection",
+   "severity": 2,
+   "count": 37
+  },
+  {
+   "theme": "sample_selection",
+   "severity": 3,
+   "count": 24
+  },
+  {
+   "theme": "sample_selection",
+   "severity": 4,
+   "count": 7
+  },
+  {
+   "theme": "field_structure_fit",
+   "severity": 1,
+   "count": 16
+  },
+  {
+   "theme": "field_structure_fit",
+   "severity": 2,
+   "count": 41
+  },
+  {
+   "theme": "field_structure_fit",
+   "severity": 3,
+   "count": 35
+  },
+  {
+   "theme": "field_structure_fit",
+   "severity": 4,
+   "count": 3
+  },
+  {
+   "theme": "performance",
+   "severity": 1,
+   "count": 6
+  },
+  {
+   "theme": "performance",
+   "severity": 2,
+   "count": 39
+  },
+  {
+   "theme": "performance",
+   "severity": 3,
+   "count": 43
+  },
+  {
+   "theme": "performance",
+   "severity": 4,
+   "count": 21
+  },
+  {
+   "theme": "data_access_and_permissions",
+   "severity": 1,
+   "count": 4
+  },
+  {
+   "theme": "data_access_and_permissions",
+   "severity": 2,
+   "count": 11
+  },
+  {
+   "theme": "data_access_and_permissions",
+   "severity": 3,
+   "count": 49
+  },
+  {
+   "theme": "data_access_and_permissions",
+   "severity": 4,
+   "count": 18
+  },
+  {
+   "theme": "terminology",
+   "severity": 1,
+   "count": 23
+  },
+  {
+   "theme": "terminology",
+   "severity": 2,
+   "count": 26
+  },
+  {
+   "theme": "terminology",
+   "severity": 3,
+   "count": 15
+  },
+  {
+   "theme": "terminology",
+   "severity": 4,
+   "count": 2
+  },
+  {
+   "theme": "navigation_and_findability",
+   "severity": 1,
+   "count": 26
+  },
+  {
+   "theme": "navigation_and_findability",
+   "severity": 2,
+   "count": 53
+  },
+  {
+   "theme": "navigation_and_findability",
+   "severity": 3,
+   "count": 18
+  },
+  {
+   "theme": "navigation_and_findability",
+   "severity": 4,
+   "count": 8
+  },
+  {
+   "theme": "keyboard_and_accessibility",
+   "severity": 1,
+   "count": 1
+  },
+  {
+   "theme": "keyboard_and_accessibility",
+   "severity": 2,
+   "count": 8
+  },
+  {
+   "theme": "keyboard_and_accessibility",
+   "severity": 3,
+   "count": 12
+  },
+  {
+   "theme": "keyboard_and_accessibility",
+   "severity": 4,
+   "count": 3
+  },
+  {
+   "theme": "training_and_onboarding",
+   "severity": 1,
+   "count": 18
+  },
+  {
+   "theme": "training_and_onboarding",
+   "severity": 2,
+   "count": 32
+  },
+  {
+   "theme": "training_and_onboarding",
+   "severity": 3,
+   "count": 11
+  },
+  {
+   "theme": "training_and_onboarding",
+   "severity": 4,
+   "count": 2
+  },
+  {
+   "theme": "review_workflow",
+   "severity": 1,
+   "count": 16
+  },
+  {
+   "theme": "review_workflow",
+   "severity": 2,
+   "count": 53
+  },
+  {
+   "theme": "review_workflow",
+   "severity": 3,
+   "count": 46
+  },
+  {
+   "theme": "review_workflow",
+   "severity": 4,
+   "count": 18
+  },
+  {
+   "theme": "integration_with_workpapers",
+   "severity": 1,
+   "count": 7
+  },
+  {
+   "theme": "integration_with_workpapers",
+   "severity": 2,
+   "count": 29
+  },
+  {
+   "theme": "integration_with_workpapers",
+   "severity": 3,
+   "count": 22
+  },
+  {
+   "theme": "integration_with_workpapers",
+   "severity": 4,
+   "count": 11
+  }
+ ],
+ "teams_reporting": [
+  {
+   "theme": "provenance_visibility",
+   "teams": 20
+  },
+  {
+   "theme": "checkpoint_placement",
+   "teams": 17
+  },
+  {
+   "theme": "exception_handling",
+   "teams": 19
+  },
+  {
+   "theme": "evidence_viewer",
+   "teams": 18
+  },
+  {
+   "theme": "sample_selection",
+   "teams": 10
+  },
+  {
+   "theme": "field_structure_fit",
+   "teams": 9
+  },
+  {
+   "theme": "performance",
+   "teams": 15
+  },
+  {
+   "theme": "data_access_and_permissions",
+   "teams": 11
+  },
+  {
+   "theme": "terminology",
+   "teams": 12
+  },
+  {
+   "theme": "navigation_and_findability",
+   "teams": 14
+  },
+  {
+   "theme": "keyboard_and_accessibility",
+   "teams": 5
+  },
+  {
+   "theme": "training_and_onboarding",
+   "teams": 7
+  },
+  {
+   "theme": "review_workflow",
+   "teams": 16
+  },
+  {
+   "theme": "integration_with_workpapers",
+   "teams": 8
+  }
+ ],
+ "roadmap": {
+  "note": "rank movement and driving theme only; no item counts",
+  "items": [
+   {
+    "id": "RM-001",
+    "title": "Agent proposed sample selection",
+    "driving_theme": "sample_selection",
+    "before_rank": 1,
+    "after_rank": 9,
+    "phase_before": "P5",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-002",
+    "title": "Field structure editor for methodology reviewers",
+    "driving_theme": "field_structure_fit",
+    "before_rank": 2,
+    "after_rank": 8,
+    "phase_before": "P5",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-003",
+    "title": "Evidence viewer with highlighted source spans",
+    "driving_theme": "evidence_viewer",
+    "before_rank": 3,
+    "after_rank": 4,
+    "phase_before": "P5",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-004",
+    "title": "Batch runs across an audit area",
+    "driving_theme": "performance",
+    "before_rank": 4,
+    "after_rank": 15,
+    "phase_before": "P5",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-005",
+    "title": "Analytical procedure templates",
+    "driving_theme": "field_structure_fit",
+    "before_rank": 5,
+    "after_rank": 17,
+    "phase_before": "P5",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-006",
+    "title": "Conclusion drafting from matched evidence",
+    "driving_theme": "review_workflow",
+    "before_rank": 6,
+    "after_rank": 7,
+    "phase_before": "P5",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-007",
+    "title": "Agent run timeline with step states",
+    "driving_theme": "provenance_visibility",
+    "before_rank": 7,
+    "after_rank": 5,
+    "phase_before": "P5",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-008",
+    "title": "Procedure search and saved filters",
+    "driving_theme": "navigation_and_findability",
+    "before_rank": 8,
+    "after_rank": 10,
+    "phase_before": "P5",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-009",
+    "title": "Review checkpoint before draft conclusion",
+    "driving_theme": "checkpoint_placement",
+    "before_rank": 9,
+    "after_rank": 2,
+    "phase_before": "P6",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-010",
+    "title": "Exception triage queue with severity and owner",
+    "driving_theme": "exception_handling",
+    "before_rank": 10,
+    "after_rank": 3,
+    "phase_before": "P6",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-011",
+    "title": "Workpaper export of conclusions with citations",
+    "driving_theme": "integration_with_workpapers",
+    "before_rank": 11,
+    "after_rank": 12,
+    "phase_before": "P6",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-012",
+    "title": "Provenance panel on every agent output",
+    "driving_theme": "provenance_visibility",
+    "before_rank": 12,
+    "after_rank": 1,
+    "phase_before": "P6",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-013",
+    "title": "Approval step for restricted data retrieval",
+    "driving_theme": "data_access_and_permissions",
+    "before_rank": 13,
+    "after_rank": 6,
+    "phase_before": "P6",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-014",
+    "title": "Confidence display with calibration note",
+    "driving_theme": "provenance_visibility",
+    "before_rank": 14,
+    "after_rank": 11,
+    "phase_before": "P6",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-015",
+    "title": "Rerun from a rejected step",
+    "driving_theme": "review_workflow",
+    "before_rank": 15,
+    "after_rank": 13,
+    "phase_before": "P6",
+    "phase_after": "P5"
+   },
+   {
+    "id": "RM-016",
+    "title": "Guided first run for new teams",
+    "driving_theme": "training_and_onboarding",
+    "before_rank": 16,
+    "after_rank": 14,
+    "phase_before": "P6",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-017",
+    "title": "Dark theme for long sessions",
+    "driving_theme": "keyboard_and_accessibility",
+    "before_rank": 17,
+    "after_rank": 21,
+    "phase_before": "P6",
+    "phase_after": "P7"
+   },
+   {
+    "id": "RM-018",
+    "title": "Glossary and in product term definitions",
+    "driving_theme": "terminology",
+    "before_rank": 18,
+    "after_rank": 16,
+    "phase_before": "P7",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-019",
+    "title": "Sign off chain with reopen",
+    "driving_theme": "review_workflow",
+    "before_rank": 19,
+    "after_rank": 18,
+    "phase_before": "P7",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-020",
+    "title": "Keyboard shortcut map and focus order pass",
+    "driving_theme": "keyboard_and_accessibility",
+    "before_rank": 20,
+    "after_rank": 19,
+    "phase_before": "P7",
+    "phase_after": "P6"
+   },
+   {
+    "id": "RM-021",
+    "title": "Prior year file import",
+    "driving_theme": "data_access_and_permissions",
+    "before_rank": 21,
+    "after_rank": 22,
+    "phase_before": "P7",
+    "phase_after": "P7"
+   },
+   {
+    "id": "RM-022",
+    "title": "Engagement risk heat map",
+    "driving_theme": "navigation_and_findability",
+    "before_rank": 22,
+    "after_rank": 20,
+    "phase_before": "P7",
+    "phase_after": "P7"
+   },
+   {
+    "id": "RM-023",
+    "title": "Streaming agent output with reduced motion state",
+    "driving_theme": "performance",
+    "before_rank": 23,
+    "after_rank": 24,
+    "phase_before": "P7",
+    "phase_after": "backlog"
+   },
+   {
+    "id": "RM-024",
+    "title": "Multi engagement portfolio view",
+    "driving_theme": "navigation_and_findability",
+    "before_rank": 24,
+    "after_rank": 23,
+    "phase_before": "backlog",
+    "phase_after": "backlog"
+   }
+  ]
+ }
+}

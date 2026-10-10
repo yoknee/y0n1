@@ -1,0 +1,265 @@
+{
+  "artifact": {
+    "number": "04",
+    "title": "Personas",
+    "status": "Draft",
+    "question": "Who are we designing for, what do they do all day and where do they stand on handing work to an agent?",
+    "decisions": [
+      "D-07",
+      "D-08"
+    ],
+    "questions": [
+      2,
+      3,
+      4
+    ],
+    "iDecided": "four composites cut by accountability, not by seniority alone, plus one anti-persona. Role-based views of the same run came out of this cut.",
+    "weBuilt": "the cards from the coded material, with the evidence rows attached, reviewed in critique by the whole design team. Design team of three at this phase."
+  },
+  "label": "Composite and reconstructed. Each persona is a composite built from the themes in 03. No attribute carries an observation, participant or quote count. Tenure, environment and tools are composite framing, not evidence. Names are invented.",
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Dana Whitlock",
+      "role": "Engagement Senior",
+      "tenure": "Several busy seasons as a Senior. Runs fieldwork on more than one engagement at once.",
+      "environment": "Client site three days a week, laptop on a shared table, calls interrupting. Firm office or home the other two.",
+      "goals": [
+        "Get every sample traced and every exception explained before the manager's review slot.",
+        "Hand the manager a file that needs no re-walk.",
+        "Keep the associates moving without redoing their work."
+      ],
+      "tasks": [
+        "Design the sample and assign items.",
+        "Trace samples to evidence, clear the hard ones herself.",
+        "Raise and resolve exceptions with the client.",
+        "Draft conclusions and prepare for review."
+      ],
+      "tools": [
+        "Workpaper system",
+        "Document request portal",
+        "Spreadsheets for tracking",
+        "Email and chat with the client"
+      ],
+      "expertise": "Knows the procedure cold. Knows which client contact answers which request. Does not need guidance; needs speed.",
+      "frustrations": [
+        "Three systems opened to find one statement.",
+        "Review waits, then notes loop.",
+        "Re-walking the sample for the manager because the file does not hold the state."
+      ],
+      "pressure": "Owns the fieldwork result. If the file is late or thin, it is her name the manager says first.",
+      "ai": {
+        "handoff": "Retrieval, extraction and the field-by-field matching. 'It can do the matching. I will look at the differences.'",
+        "never": "Deciding what an exception means. Talking to the client about it.",
+        "trust": "Seeing the page it read, next to the field it extracted. Being able to rerun one step with the right file."
+      },
+      "evidence": [
+        "E-01",
+        "E-03",
+        "E-04",
+        "E-08",
+        "E-11",
+        "E-17",
+        "E-18",
+        "E-21"
+      ],
+      "themes": [
+        "T1",
+        "T2",
+        "T5",
+        "T7",
+        "T11",
+        "T12",
+        "T14"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Rafael Osei",
+      "role": "Engagement Manager",
+      "tenure": "Manager for several years. Reviews for several engagements in the same weeks.",
+      "environment": "Mostly office or home. Review happens in blocks between client meetings, often late.",
+      "goals": [
+        "Clear review queues before the partner needs the file.",
+        "Catch the reference and format problems early so they do not reach the partner.",
+        "Know, at a glance, what is waiting on whom."
+      ],
+      "tasks": [
+        "Review workpapers and raise notes.",
+        "Judge exception resolutions.",
+        "Decide what escalates to the partner.",
+        "Coach seniors through notes."
+      ],
+      "tools": [
+        "Workpaper system review mode",
+        "Email for notes outside the system",
+        "A personal list of what is waiting (E-24)"
+      ],
+      "expertise": "Reads a workpaper by its references first. Knows which seniors need a second look.",
+      "frustrations": [
+        "Layout differs per team, so decoding precedes judging.",
+        "Notes cleared then reopened.",
+        "No view of the whole queue across engagements."
+      ],
+      "pressure": "Signs the review. Shares the consequence of anything the partner finds later.",
+      "ai": {
+        "handoff": "Drafting with references in place. Flagging exceptions with the evidence attached.",
+        "never": "The review decision itself. 'A number alone is not confidence.'",
+        "trust": "Step-level visibility. Rejecting one step without discarding the run. Knowing the agent could not read restricted material without a checkpoint."
+      },
+      "evidence": [
+        "E-05",
+        "E-06",
+        "E-07",
+        "E-08",
+        "E-11",
+        "E-12",
+        "E-14",
+        "E-16",
+        "E-21",
+        "E-24"
+      ],
+      "themes": [
+        "T3",
+        "T4",
+        "T5",
+        "T7",
+        "T9",
+        "T10",
+        "T14"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Ingrid Haller",
+      "role": "Signing Partner",
+      "tenure": "Long-tenured partner. Signs for a portfolio of engagements.",
+      "environment": "Traveling between clients. Reads on a laptop in short windows. Signs when the file is ready, not when it is convenient.",
+      "goals": [
+        "Sign a file she could defend to an inspector a year later.",
+        "See the exception trail before the conclusion.",
+        "Spend her attention on judgment, not on format."
+      ],
+      "tasks": [
+        "Final review of high-risk areas.",
+        "Decide on misstatements and waivers.",
+        "Sign off.",
+        "Answer for the file afterward."
+      ],
+      "tools": [
+        "Workpaper system summary views",
+        "The manager's verbal walkthrough"
+      ],
+      "expertise": "Pattern-matches across engagements. Knows which exceptions become findings.",
+      "frustrations": [
+        "The exception trail is spread across workpapers and emails.",
+        "Signing on the manager's walkthrough because the trail is not in the file.",
+        "Not knowing what a tool did with the client's data."
+      ],
+      "pressure": "Personal liability. Independence. 'If it is wrong, it is still my name.'",
+      "ai": {
+        "handoff": "Assembly of the evidence trail. Consistency checks across workpapers.",
+        "never": "Conclusions. Sign-off. Anything that writes into the file as final.",
+        "trust": "A human checkpoint before anything restricted was read. A visible record of what the agent did, in the file, not in a log."
+      },
+      "evidence": [
+        "E-05",
+        "E-06",
+        "E-13",
+        "E-14",
+        "E-22",
+        "E-23"
+      ],
+      "themes": [
+        "T3",
+        "T8",
+        "T9",
+        "T14"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Tomasz Brenner",
+      "role": "Quality and Methodology reviewer",
+      "tenure": "Years in audit, then methodology. Writes the rules teams work to.",
+      "environment": "Firm office. Works across engagements, not inside one. Writes the rules teams work to.",
+      "goals": [
+        "Rules that teams can follow without memorizing them.",
+        "Structures that fit procedures so teams stop adapting them by hand.",
+        "A file that can be re-performed from its contents."
+      ],
+      "tasks": [
+        "Maintain the Test of Details structures.",
+        "Set documentation and checkpoint rules.",
+        "Review quality findings across engagements.",
+        "Answer teams' methodology questions."
+      ],
+      "tools": [
+        "Methodology library",
+        "Quality review tooling",
+        "Structure templates"
+      ],
+      "expertise": "Knows every structure and why each field exists. Knows where teams deviate and what it costs.",
+      "frustrations": [
+        "Local variants of standard structures.",
+        "Data handling rules known unevenly.",
+        "Reviewing rules in documents nobody reads under pressure."
+      ],
+      "pressure": "Answers for methodology compliance across the practice.",
+      "ai": {
+        "handoff": "Planning a run against a typed structure. Enforcing data classes. Documenting steps consistently.",
+        "never": "Changing a structure or a rule without methodology review.",
+        "trust": "The agent plans against the library, not around it. Checkpoints are rules in the product, not guidance in a document."
+      },
+      "evidence": [
+        "E-10",
+        "E-14",
+        "E-15",
+        "E-19",
+        "E-20",
+        "E-22"
+      ],
+      "themes": [
+        "T6",
+        "T9",
+        "T13",
+        "T14"
+      ]
+    }
+  ],
+  "anti": {
+    "name": "Caleb Marsh",
+    "role": "Associate, several busy seasons",
+    "label": "Anti-persona: the auditor who routes around the tool",
+    "who": "Fast, competent, keeps a personal tracker because the systems never held the state he needed. Trusts his own spreadsheet over any tool that slows him down or hides what it did.",
+    "why": [
+      "Any step that adds a click without adding certainty.",
+      "Any output he cannot check in seconds.",
+      "Any tool that makes the risk his while keeping the work invisible."
+    ],
+    "signals": [
+      "Copies data out to a spreadsheet.",
+      "Approves agent output without opening the source.",
+      "Reruns the whole run instead of fixing one step."
+    ],
+    "design_response": [
+      "Keyboard-first density so the product is faster than the spreadsheet (D-15, provisional).",
+      "Citation chips that make checking faster than trusting (D-03).",
+      "Step-level rejection and rerun so fixing is cheaper than discarding (D-14, provisional).",
+      "The run holds the state he used to keep in his head (D-13, provisional)."
+    ],
+    "evidence": [
+      "E-04",
+      "E-17",
+      "E-18",
+      "E-21"
+    ],
+    "themes": [
+      "T2",
+      "T11",
+      "T12",
+      "T14"
+    ]
+  },
+  "provisional_note": "D-13, D-14 and D-15 are provisional register IDs from the plan. Their records are created when artifacts 08, 09 and 11 ship."
+}
