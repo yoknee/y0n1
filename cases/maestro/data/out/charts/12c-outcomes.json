@@ -1,0 +1,76 @@
+{
+ "label": "illustrative synthetic data generated from seed baton-01. The trend across releases is illustrative",
+ "derivation": "agent_run rows grouped by release_id and outcome. in_flight counts runs whose outcome is none. Shares divide by runs with an outcome.",
+ "releases": [
+  {
+   "release_id": "R0",
+   "name": "pilot",
+   "start_day": 0,
+   "end_day": 41,
+   "approved": 13,
+   "edited": 22,
+   "rejected": 25,
+   "in_flight": 0,
+   "total": 60,
+   "approved_share": 0.22,
+   "edited_share": 0.37,
+   "rejected_share": 0.42
+  },
+  {
+   "release_id": "R1",
+   "name": "dry run",
+   "start_day": 42,
+   "end_day": 97,
+   "approved": 51,
+   "edited": 53,
+   "rejected": 45,
+   "in_flight": 0,
+   "total": 149,
+   "approved_share": 0.34,
+   "edited_share": 0.36,
+   "rejected_share": 0.3
+  },
+  {
+   "release_id": "R2",
+   "name": "agentic 1",
+   "start_day": 98,
+   "end_day": 153,
+   "approved": 57,
+   "edited": 44,
+   "rejected": 27,
+   "in_flight": 0,
+   "total": 128,
+   "approved_share": 0.45,
+   "edited_share": 0.34,
+   "rejected_share": 0.21
+  },
+  {
+   "release_id": "R3",
+   "name": "agentic 2",
+   "start_day": 154,
+   "end_day": 209,
+   "approved": 68,
+   "edited": 37,
+   "rejected": 18,
+   "in_flight": 0,
+   "total": 123,
+   "approved_share": 0.55,
+   "edited_share": 0.3,
+   "rejected_share": 0.15
+  },
+  {
+   "release_id": "R4",
+   "name": "scale",
+   "start_day": 210,
+   "end_day": 300,
+   "approved": 90,
+   "edited": 38,
+   "rejected": 13,
+   "in_flight": 19,
+   "total": 160,
+   "approved_share": 0.64,
+   "edited_share": 0.27,
+   "rejected_share": 0.09
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+id,team_id,role,area,theme,type,severity,frequency,status,submitted_day,text
+FB-0078,T14,associate,fieldwork_and_testing,exception_handling,defect,2,19,triaged,66,Status of an exception does not change when the sample item is re-tested.
+FB-1152,T15,manager,fieldwork_and_testing,exception_handling,missing_capability,4,19,fixed,54,An exception the agent flagged was a duplicate of one already under investigation.
+FB-0831,T15,associate,fieldwork_and_testing,integration_with_workpapers,missing_capability,3,8,triaged,86,Workpaper reference numbers do not carry into the inventory procedure.
+FB-0466,T15,associate,platform_foundation,evidence_viewer,usability,1,18,fixed,75,Zoom resets when switching between two evidence items.
+FB-0133,T05,associate,fieldwork_and_testing,performance,performance,3,15,declined,75,Large evidence files stall the viewer.
+FB-0865,T08,associate,platform_foundation,data_access_and_permissions,data_access,4,11,fixed,81,Prior year file items are not available to the associate who needs them.
+FB-1400,T07,partner,planning_and_risk,field_structure_fit,methodology_question,3,9,fixed,71,Two field structures cover the same test with different required evidence.
+FB-0893,T05,manager,planning_and_risk,review_workflow,missing_capability,2,16,triaged,64,The manager approval and the sign off are two steps that feel like one.
+FB-1232,T13,partner,planning_and_risk,exception_handling,defect,2,19,fixed,77,Status of an exception does not change when the sample item is re-tested.
+FB-0408,T18,associate,platform_foundation,evidence_viewer,usability,1,18,fixed,70,Partial scans render blank instead of showing the readable part.
+FB-0589,T15,senior,fieldwork_and_testing,checkpoint_placement,usability,3,17,triaged,42,Too many stops on low risk revenue procedures. One stop before the conclusion would do.
+FB-0180,T09,manager,platform_foundation,navigation_and_findability,usability,2,14,triaged,57,Filters on the fixed assets procedure list reset on every return.
+FB-0446,T14,manager,fieldwork_and_testing,training_and_onboarding,training,1,7,duplicate,70,Office hours answered a question the product should answer in place.
+FB-0941,T11,senior,fieldwork_and_testing,terminology,usability,3,12,triaged,52,Run state names are not the ones a senior uses in review.
+FB-0652,T09,senior,planning_and_risk,field_structure_fit,missing_capability,3,9,triaged,77,Two field structures cover the same test with different required evidence.
+FB-0987,T09,associate,platform_foundation,training_and_onboarding,training,2,7,triaged,70,No short guide for a associate on what to check at a checkpoint.
+FB-0301,T09,associate,platform_foundation,performance,performance,4,15,triaged,61,Opening the procedure list with filters applied takes several seconds.
+FB-0325,T18,associate,planning_and_risk,exception_handling,missing_capability,3,19,fixed,66,Cannot mark an exception as explained without leaving the procedure view.
+FB-0965,T01,senior,fieldwork_and_testing,checkpoint_placement,methodology_question,4,17,duplicate,53,The review stop comes after the draft is written. It should come before the agent matches inventory items.
+FB-0820,T02,manager,fieldwork_and_testing,exception_handling,methodology_question,2,19,triaged,88,Status of an exception does not change when the sample item is re-tested.
+FB-1474,T13,methodology_reviewer,fieldwork_and_testing,exception_handling,usability,2,19,fixed,61,Cannot mark an exception as explained without leaving the procedure view.
+FB-0164,T02,associate,fieldwork_and_testing,exception_handling,usability,3,19,triaged,91,Exceptions from the revenue run land in one list with no severity or owner.
+FB-0664,T10,associate,planning_and_risk,sample_selection,missing_capability,1,10,fixed,75,Proposed sample excludes items under the threshold with no stated reason.
+FB-1330,T09,associate,platform_foundation,training_and_onboarding,training,1,7,triaged,73,First run needs a walkthrough. The team learned the evidence retrieval step by trial.
+FB-1169,T09,senior,fieldwork_and_testing,exception_handling,usability,2,19,declined,72,Exceptions from the payables run land in one list with no severity or owner.
+FB-1057,T07,manager,fieldwork_and_testing,integration_with_workpapers,missing_capability,4,8,declined,76,Need the exception list as a table in the workpaper file.
+FB-0315,T14,senior,platform_foundation,training_and_onboarding,training,1,7,triaged,60,Office hours answered a question the product should answer in place.
+FB-0436,T17,associate,platform_foundation,performance,performance,3,15,fixed,59,Run status stays on running after the steps have finished.
+FB-1034,T05,associate,fieldwork_and_testing,performance,defect,4,15,duplicate,72,Large evidence files stall the viewer.
+FB-0478,T03,associate,fieldwork_and_testing,exception_handling,missing_capability,2,19,duplicate,90,Cannot mark an exception as explained without leaving the procedure view.
+FB-1509,T10,associate,platform_foundation,navigation_and_findability,usability,2,14,fixed,51,The path from an exception back to its sample item takes four clicks.
+FB-0456,T08,senior,fieldwork_and_testing,provenance_visibility,usability,1,20,declined,74,Confidence number appears with no note on what it is based on.
+FB-0013,T13,associate,fieldwork_and_testing,checkpoint_placement,trust_and_explainability,2,17,fixed,97,The review stop comes after the draft is written. It should come before the agent matches revenue items.
+FB-1029,T11,associate,fieldwork_and_testing,checkpoint_placement,usability,3,17,declined,81,The review stop comes after the draft is written. It should come before the agent matches cash items.
+FB-0964,T16,methodology_reviewer,platform_foundation,integration_with_workpapers,defect,3,8,duplicate,67,The conclusion export drops the evidence citations.
+FB-0268,T06,manager,fieldwork_and_testing,sample_selection,methodology_question,1,10,duplicate,57,Not clear how the agent proposed selection relates to the monetary unit method.
+FB-0470,T20,senior,fieldwork_and_testing,provenance_visibility,trust_and_explainability,1,20,fixed,58,The plan step shows a result but not the source it came from.
+FB-1253,T09,manager,planning_and_risk,provenance_visibility,trust_and_explainability,3,20,triaged,70,The matching step shows a result but not the source it came from.
+FB-0129,T04,manager,fieldwork_and_testing,exception_handling,missing_capability,4,19,fixed,80,Exceptions from the cash run land in one list with no severity or owner.
+FB-1020,T02,associate,fieldwork_and_testing,provenance_visibility,methodology_question,2,20,triaged,69,The plan step shows a result but not the source it came from.
+FB-0216,T06,methodology_reviewer,platform_foundation,performance,performance,2,15,duplicate,62,Run status stays on running after the steps have finished.
+FB-1093,T09,senior,fieldwork_and_testing,evidence_viewer,performance,4,18,fixed,72,The highlighted span in the cash invoice sits on the wrong line.
+FB-1089,T17,manager,fieldwork_and_testing,exception_handling,defect,2,19,duplicate,84,An exception the agent flagged was a duplicate of one already under investigation.
+FB-0747,T07,associate,fieldwork_and_testing,field_structure_fit,methodology_question,1,9,fixed,76,No way to mark a required field as not applicable for a small population.
+FB-1507,T05,associate,fieldwork_and_testing,provenance_visibility,trust_and_explainability,1,20,declined,65,The evidence retrieval step shows a result but not the source it came from.
+FB-0104,T13,associate,fieldwork_and_testing,field_structure_fit,missing_capability,3,9,fixed,81,Tolerance rule is fixed. Our methodology allows a range here.
+FB-0453,T09,associate,fieldwork_and_testing,sample_selection,methodology_question,3,10,fixed,67,Not clear how the agent proposed selection relates to the monetary unit method.
+FB-1059,T01,partner,platform_foundation,keyboard_and_accessibility,usability,3,5,fixed,67,Status is shown by color alone in the fixed assets procedure list.
+FB-0068,T14,manager,fieldwork_and_testing,exception_handling,usability,2,19,triaged,91,Cannot mark an exception as explained without leaving the procedure view.
+FB-1515,T18,senior,fieldwork_and_testing,performance,performance,3,15,duplicate,67,Opening the procedure list with filters applied takes several seconds.

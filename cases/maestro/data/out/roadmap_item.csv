@@ -1,0 +1,25 @@
+id,title,before_rank,after_rank,driving_theme,phase_before,phase_after
+RM-001,Agent proposed sample selection,1,9,sample_selection,P5,P6
+RM-002,Field structure editor for methodology reviewers,2,8,field_structure_fit,P5,P5
+RM-003,Evidence viewer with highlighted source spans,3,4,evidence_viewer,P5,P5
+RM-004,Batch runs across an audit area,4,15,performance,P5,P6
+RM-005,Analytical procedure templates,5,17,field_structure_fit,P5,P6
+RM-006,Conclusion drafting from matched evidence,6,7,review_workflow,P5,P5
+RM-007,Agent run timeline with step states,7,5,provenance_visibility,P5,P5
+RM-008,Procedure search and saved filters,8,10,navigation_and_findability,P5,P6
+RM-009,Review checkpoint before draft conclusion,9,2,checkpoint_placement,P6,P5
+RM-010,Exception triage queue with severity and owner,10,3,exception_handling,P6,P5
+RM-011,Workpaper export of conclusions with citations,11,12,integration_with_workpapers,P6,P6
+RM-012,Provenance panel on every agent output,12,1,provenance_visibility,P6,P5
+RM-013,Approval step for restricted data retrieval,13,6,data_access_and_permissions,P6,P5
+RM-014,Confidence display with calibration note,14,11,provenance_visibility,P6,P5
+RM-015,Rerun from a rejected step,15,13,review_workflow,P6,P5
+RM-016,Guided first run for new teams,16,14,training_and_onboarding,P6,P6
+RM-017,Dark theme for long sessions,17,21,keyboard_and_accessibility,P6,P7
+RM-018,Glossary and in product term definitions,18,16,terminology,P7,P6
+RM-019,Sign off chain with reopen,19,18,review_workflow,P7,P6
+RM-020,Keyboard shortcut map and focus order pass,20,19,keyboard_and_accessibility,P7,P6
+RM-021,Prior year file import,21,22,data_access_and_permissions,P7,P7
+RM-022,Engagement risk heat map,22,20,navigation_and_findability,P7,P7
+RM-023,Streaming agent output with reduced motion state,23,24,performance,P7,backlog
+RM-024,Multi engagement portfolio view,24,23,navigation_and_findability,backlog,backlog

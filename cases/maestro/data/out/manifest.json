@@ -1,0 +1,208 @@
+{
+ "seed": "baton-01",
+ "generator": {
+  "name": "baton-data-generator",
+  "version": "1.0.0"
+ },
+ "epoch": {
+  "day_zero": "2027-01-04",
+  "day_zero_weekday": "Monday",
+  "rule": "A date renders as day_zero plus the day index. Weekday is day index mod 7 with 0 as Monday. Data files store day indices only."
+ },
+ "as_of_day": 270,
+ "labels": {
+  "dry_run_feedback": "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative",
+  "dry_run_feedback_sample50": "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative. 50 rows drawn by a seeded shuffle of the 1,600; carry this label in the header of any copy",
+  "all_other_data": "illustrative synthetic data generated from seed"
+ },
+ "counts": {
+  "engagement": 8,
+  "audit_area": 40,
+  "field_structure": 64,
+  "procedure": 160,
+  "sample_item": 3363,
+  "evidence_item": 4491,
+  "exception": 213,
+  "exception_status_change": 602,
+  "agent_run": 620,
+  "agent_run_step": 3720,
+  "review_action": 1773,
+  "conclusion": 160,
+  "sign_off": 351,
+  "user": 36,
+  "release": 5,
+  "dry_run_feedback_item": 1600,
+  "roadmap_item": 24
+ },
+ "files": {
+  "engagement.json": {
+   "bytes": 3050,
+   "sha256": "397053fc798c995742db06039be9385ec8809ca42f0a5865e180ca1015feda0a"
+  },
+  "audit_area.json": {
+   "bytes": 11807,
+   "sha256": "123ed6e430fa308aea78edeb01ef8618276b0790d3a8e3b06afdcf0d95d45c91"
+  },
+  "field_structure.json": {
+   "bytes": 29121,
+   "sha256": "ccafb82e664d6af15bf6c4f05d8ef8f2b8d4864737093f4a8fb511025ffb5180"
+  },
+  "procedure.json": {
+   "bytes": 42662,
+   "sha256": "096d419cfbb58ec7068c6206119027aef2a0603b06ca74a0d242c3d9a8b1b4c3"
+  },
+  "sample_item.json": {
+   "bytes": 692026,
+   "sha256": "c246a1749cc3eba0eb39436cdbb24308e9bd543162efd0f7c943421ad75fed01"
+  },
+  "evidence_item.json": {
+   "bytes": 1809860,
+   "sha256": "43a08e0ab5f0ad0fb38ddd6c5b47c028938365bf92f63b2ae0d0ad27b05c7afb"
+  },
+  "exception.json": {
+   "bytes": 53278,
+   "sha256": "50d50172aba1f667981f1ea24a12bd369e30de26280d80b901eb292813a45569"
+  },
+  "exception_status_change.json": {
+   "bytes": 49870,
+   "sha256": "dfe580be5fbbf02ea3cf67c3e73d4161abef8ef00af20ebafb95c0b2381c9471"
+  },
+  "agent_run.json": {
+   "bytes": 160740,
+   "sha256": "eb53cf691e593890dfc8d3e7a1affdf86000937a91478b07947360e27dbf235b"
+  },
+  "agent_run_step.json": {
+   "bytes": 1279192,
+   "sha256": "871b8593be322695a599ca89d390ac1abddcb9336fad08c2215fdd55a636ac24"
+  },
+  "review_action.json": {
+   "bytes": 275105,
+   "sha256": "6f9f25326f08aff9592e7cccdab8aa60399b9e4f6dae4b69507c5b28e82c31cb"
+  },
+  "conclusion.json": {
+   "bytes": 40481,
+   "sha256": "6e637536a887d68450f869bc710a618d6158d6de185be8d325351f09fff29046"
+  },
+  "sign_off.json": {
+   "bytes": 31456,
+   "sha256": "8a6ae6cacf2bad5e69af125fe1e1c718a0b63af7573ce7669b0d94d70f354dd2"
+  },
+  "user.json": {
+   "bytes": 3118,
+   "sha256": "692a4ed0aa42491fc3539d152f7373faff8e385193e242125899647a5443f92b"
+  },
+  "release.json": {
+   "bytes": 701,
+   "sha256": "54c8f54e1539c2b71829af1a62f08e4e2166323c95775b600613de727aaf6713"
+  },
+  "dry_run_feedback_item.json": {
+   "bytes": 450834,
+   "sha256": "d7c3d04eaa7fdc86fb21addb06bf3399d68fed5fea1140ef77a381c65d80f424"
+  },
+  "roadmap_item.json": {
+   "bytes": 4204,
+   "sha256": "bcc48deb807008e5bc6678df0fd3be96514f1c99fad64e11f6a65c08c31d1e39"
+  },
+  "audit_area.csv": {
+   "bytes": 3661,
+   "sha256": "cf64f6feba5e4468f4b23c85114a6ee726b0fa4ee4185cfe7e15bb3408ecb892"
+  },
+  "procedure.csv": {
+   "bytes": 15638,
+   "sha256": "d996e47fd1bc5797c26bcb6867f28a1a383e6f88dd3c12b856db0296b49b708a"
+  },
+  "sample_item.csv": {
+   "bytes": 267204,
+   "sha256": "f94abf6203b03ebea482c9d13f0d8d39b949f34a7f0f45e06e1e10181750698c"
+  },
+  "exception.csv": {
+   "bytes": 18972,
+   "sha256": "35703cc0dda3ab30d6d94d1412e3a5489cb2ec63d1997f58c79dddc420543e7f"
+  },
+  "exception_status_change.csv": {
+   "bytes": 18598,
+   "sha256": "a035534861abfdb564a478bf7ba0a5791c6a3d47e268a0580f82562d64bde4f2"
+  },
+  "agent_run.csv": {
+   "bytes": 53067,
+   "sha256": "33e6fd1b2d65a7b41852108909aaf4c98a26ca395d04096a0912abdd6f112742"
+  },
+  "review_action.csv": {
+   "bytes": 78611,
+   "sha256": "dcdec080ae5cfef9f62f98125ad174dcb5db8b20d0dab0c3bf88ae04073f54d8"
+  },
+  "conclusion.csv": {
+   "bytes": 17608,
+   "sha256": "98e719cd36a9636e46b39cbf8f05bfcaa12ff281c2b68192f68d9a66a6b880b9"
+  },
+  "sign_off.csv": {
+   "bytes": 12882,
+   "sha256": "fd4680f57110ad4d2747594c6317feefe8d809d23547cf974ebcec2a01e3f51e"
+  },
+  "user.csv": {
+   "bytes": 1451,
+   "sha256": "8e7d0a233adcd49b54925a7c1a3d524671a0edb0637ace184aa677ac6ce10949"
+  },
+  "release.csv": {
+   "bytes": 357,
+   "sha256": "e3c5f972814c8df6c01237efc697e02cf81ed71a29c5e1a226545b483c64f72b"
+  },
+  "dry_run_feedback_item.csv": {
+   "bytes": 262108,
+   "sha256": "0d6cb0f0633c63d17ae421b35e4944719a09484e991685080b42c42ae60a0d26"
+  },
+  "roadmap_item.csv": {
+   "bytes": 1920,
+   "sha256": "ea2ee8e0380ce1481aefb05932afab356681c211e60e8b9b48fcede7c96f8c1b"
+  },
+  "charts/12a-coverage.json": {
+   "bytes": 15141,
+   "sha256": "0a882b87dc8b7911e2b958cc1539903fc2c6460b55b6ce6bafdb963c63a224d0"
+  },
+  "charts/12b-funnel.json": {
+   "bytes": 11830,
+   "sha256": "1a9a0f7c806e964a00a97d66ef3b2befbb2116dcda78ff9b783a541f231e4ed1"
+  },
+  "charts/12c-outcomes.json": {
+   "bytes": 1593,
+   "sha256": "ed4879f9bf322c8366f4390243cff80d495b94dcec3581fa27a2b8932acabf57"
+  },
+  "charts/12d-latency.json": {
+   "bytes": 4808,
+   "sha256": "62ea760b499a6abc0bd4a35fb89a45b3c44f9fbd64c6d99cb786e73576c1e06c"
+  },
+  "charts/12e-lineage.json": {
+   "bytes": 7442,
+   "sha256": "37dbf977e1541eca903885e25988828bcea07b3ddc0b1a24f4c6e22c4c649f9e"
+  },
+  "charts/12f-risk.json": {
+   "bytes": 59717,
+   "sha256": "a188aae8130253b694147f0fcc239d99d9af0317afd976b6bbbdd6224c57296a"
+  },
+  "charts/12g-feedback.json": {
+   "bytes": 12843,
+   "sha256": "22b445c47124358a4dec53cf8f30c117c28294480c4cbff3a1f9e8136d5618fa"
+  },
+  "dry_run_feedback_sample50.csv": {
+   "bytes": 8244,
+   "sha256": "80f51fce6b6e7568053fcf4711e3fef8e0e85f3865eb009a680ba0a18d454bc1"
+  },
+  "SHA256SUMS": {
+   "bytes": 3216,
+   "sha256": "cc06b0ab33bdc2d13bd0b84e3d7fea13fe8a0843c61f2e9bb655510ec94e0db1"
+  }
+ },
+ "rules": [
+  "Every value derives from the seed through cyrb53 and mulberry32. One sub-stream per entity.",
+  "Dates are day indices from the synthetic calendar start. Day 0 renders as Monday 2027-01-04. No ISO dates in data files.",
+  "Entity names are built from invented syllables plus a generic suffix. User names are invented. No real firm, product, client, person or place.",
+  "Amounts are plain numbers in a synthetic currency unit.",
+  "dry_run_feedback_item is exactly 1,600 rows with status in triaged, fixed, declined, duplicate. No status marks an item as in the roadmap.",
+  "roadmap_item carries rank before and after and a driving theme label. No item counts. No relation from feedback items to roadmap items.",
+  "procedure.target_assertions is set for every procedure type. exception_status_change holds one row per transition.",
+  "agent_run.checkpoints_required always includes draft_conclusion and adds evidence_retrieval when any evidence the run touched is data_class restricted.",
+  "Run outcomes vary by release as an illustrative trend. Review latency is right skewed by construction.",
+  "Charts under charts/ are aggregates of these files. Each carries its derivation and a label.",
+  "No wall clock timestamps anywhere. Regenerating with the same seed reproduces every byte."
+ ]
+}

@@ -1,0 +1,2822 @@
+{
+ "label": "illustrative synthetic data generated from seed baton-01",
+ "derivation": "risk is audit_area.assertion_risk for the cell. procedures counts procedure rows of the area whose target_assertions include the assertion. tested_items and tested_amount sum the sample_item rows of those procedures, so one item counts toward every assertion its procedure targets.",
+ "assertions": [
+  "existence",
+  "completeness",
+  "accuracy",
+  "cutoff",
+  "valuation",
+  "rights_and_obligations",
+  "presentation"
+ ],
+ "risk_levels": [
+  "low",
+  "moderate",
+  "high"
+ ],
+ "areas": [
+  {
+   "area_id": "ARE-0001",
+   "engagement_id": "ENG-0001",
+   "engagement": "Velast Brask Group",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0002",
+   "engagement_id": "ENG-0001",
+   "engagement": "Velast Brask Group",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0003",
+   "engagement_id": "ENG-0001",
+   "engagement": "Velast Brask Group",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0004",
+   "engagement_id": "ENG-0001",
+   "engagement": "Velast Brask Group",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0005",
+   "engagement_id": "ENG-0001",
+   "engagement": "Velast Brask Group",
+   "area": "payables",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0006",
+   "engagement_id": "ENG-0002",
+   "engagement": "Zarevast Calder Industries",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0007",
+   "engagement_id": "ENG-0002",
+   "engagement": "Zarevast Calder Industries",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0008",
+   "engagement_id": "ENG-0002",
+   "engagement": "Zarevast Calder Industries",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0009",
+   "engagement_id": "ENG-0002",
+   "engagement": "Zarevast Calder Industries",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0010",
+   "engagement_id": "ENG-0002",
+   "engagement": "Zarevast Calder Industries",
+   "area": "payables",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0011",
+   "engagement_id": "ENG-0003",
+   "engagement": "Tavine Quill Industries",
+   "area": "revenue",
+   "overall_risk": "low"
+  },
+  {
+   "area_id": "ARE-0012",
+   "engagement_id": "ENG-0003",
+   "engagement": "Tavine Quill Industries",
+   "area": "inventory",
+   "overall_risk": "low"
+  },
+  {
+   "area_id": "ARE-0013",
+   "engagement_id": "ENG-0003",
+   "engagement": "Tavine Quill Industries",
+   "area": "cash",
+   "overall_risk": "low"
+  },
+  {
+   "area_id": "ARE-0014",
+   "engagement_id": "ENG-0003",
+   "engagement": "Tavine Quill Industries",
+   "area": "fixed_assets",
+   "overall_risk": "low"
+  },
+  {
+   "area_id": "ARE-0015",
+   "engagement_id": "ENG-0003",
+   "engagement": "Tavine Quill Industries",
+   "area": "payables",
+   "overall_risk": "low"
+  },
+  {
+   "area_id": "ARE-0016",
+   "engagement_id": "ENG-0004",
+   "engagement": "Wylova Holdings",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0017",
+   "engagement_id": "ENG-0004",
+   "engagement": "Wylova Holdings",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0018",
+   "engagement_id": "ENG-0004",
+   "engagement": "Wylova Holdings",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0019",
+   "engagement_id": "ENG-0004",
+   "engagement": "Wylova Holdings",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0020",
+   "engagement_id": "ENG-0004",
+   "engagement": "Wylova Holdings",
+   "area": "payables",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0021",
+   "engagement_id": "ENG-0005",
+   "engagement": "Dunane Industries",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0022",
+   "engagement_id": "ENG-0005",
+   "engagement": "Dunane Industries",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0023",
+   "engagement_id": "ENG-0005",
+   "engagement": "Dunane Industries",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0024",
+   "engagement_id": "ENG-0005",
+   "engagement": "Dunane Industries",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0025",
+   "engagement_id": "ENG-0005",
+   "engagement": "Dunane Industries",
+   "area": "payables",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0026",
+   "engagement_id": "ENG-0006",
+   "engagement": "Drelum Group",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0027",
+   "engagement_id": "ENG-0006",
+   "engagement": "Drelum Group",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0028",
+   "engagement_id": "ENG-0006",
+   "engagement": "Drelum Group",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0029",
+   "engagement_id": "ENG-0006",
+   "engagement": "Drelum Group",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0030",
+   "engagement_id": "ENG-0006",
+   "engagement": "Drelum Group",
+   "area": "payables",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0031",
+   "engagement_id": "ENG-0007",
+   "engagement": "Lithiek Thane Group",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0032",
+   "engagement_id": "ENG-0007",
+   "engagement": "Lithiek Thane Group",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0033",
+   "engagement_id": "ENG-0007",
+   "engagement": "Lithiek Thane Group",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0034",
+   "engagement_id": "ENG-0007",
+   "engagement": "Lithiek Thane Group",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0035",
+   "engagement_id": "ENG-0007",
+   "engagement": "Lithiek Thane Group",
+   "area": "payables",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0036",
+   "engagement_id": "ENG-0008",
+   "engagement": "Miresk Calder Industries",
+   "area": "revenue",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0037",
+   "engagement_id": "ENG-0008",
+   "engagement": "Miresk Calder Industries",
+   "area": "inventory",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0038",
+   "engagement_id": "ENG-0008",
+   "engagement": "Miresk Calder Industries",
+   "area": "cash",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0039",
+   "engagement_id": "ENG-0008",
+   "engagement": "Miresk Calder Industries",
+   "area": "fixed_assets",
+   "overall_risk": "moderate"
+  },
+  {
+   "area_id": "ARE-0040",
+   "engagement_id": "ENG-0008",
+   "engagement": "Miresk Calder Industries",
+   "area": "payables",
+   "overall_risk": "moderate"
+  }
+ ],
+ "cells": [
+  {
+   "area_id": "ARE-0001",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 37,
+   "tested_amount": 1537924.23,
+   "coverage_amount_pct": 0.51
+  },
+  {
+   "area_id": "ARE-0001",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 56,
+   "tested_amount": 2464314.33,
+   "coverage_amount_pct": 0.82
+  },
+  {
+   "area_id": "ARE-0001",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 32,
+   "tested_amount": 1263365.93,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0001",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 72,
+   "tested_amount": 2966259.78,
+   "coverage_amount_pct": 0.98
+  },
+  {
+   "area_id": "ARE-0001",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 16,
+   "tested_amount": 761420.48,
+   "coverage_amount_pct": 0.25
+  },
+  {
+   "area_id": "ARE-0001",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0001",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 21,
+   "tested_amount": 773478.28,
+   "coverage_amount_pct": 1.04
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 26,
+   "tested_amount": 919872.24,
+   "coverage_amount_pct": 1.24
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 27,
+   "tested_amount": 1467585.92,
+   "coverage_amount_pct": 1.97
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 32,
+   "tested_amount": 1381583.48,
+   "coverage_amount_pct": 1.86
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 27,
+   "tested_amount": 1467585.92,
+   "coverage_amount_pct": 1.97
+  },
+  {
+   "area_id": "ARE-0002",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 27,
+   "tested_amount": 1467585.92,
+   "coverage_amount_pct": 1.97
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 4,
+   "tested_items": 98,
+   "tested_amount": 3794924.31,
+   "coverage_amount_pct": 2.2
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 35,
+   "tested_amount": 1375696.12,
+   "coverage_amount_pct": 0.8
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 55,
+   "tested_amount": 2027845.81,
+   "coverage_amount_pct": 1.18
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 608540.7,
+   "coverage_amount_pct": 0.35
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 35,
+   "tested_amount": 1158537.8,
+   "coverage_amount_pct": 0.67
+  },
+  {
+   "area_id": "ARE-0003",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 20,
+   "tested_amount": 652149.69,
+   "coverage_amount_pct": 0.38
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 35,
+   "tested_amount": 1174490.73,
+   "coverage_amount_pct": 1.39
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 64,
+   "tested_amount": 4355739.34,
+   "coverage_amount_pct": 5.17
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 92,
+   "tested_amount": 5292835.37,
+   "coverage_amount_pct": 6.28
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 7,
+   "tested_amount": 237394.7,
+   "coverage_amount_pct": 0.28
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0004",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 4,
+   "tested_items": 76,
+   "tested_amount": 3871880.82,
+   "coverage_amount_pct": 4.94
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 57,
+   "tested_amount": 3039042.45,
+   "coverage_amount_pct": 3.88
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "accuracy",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 54,
+   "tested_amount": 2937617.43,
+   "coverage_amount_pct": 3.75
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 19,
+   "tested_amount": 832838.37,
+   "coverage_amount_pct": 1.06
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 3,
+   "tested_amount": 101425.02,
+   "coverage_amount_pct": 0.13
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 19,
+   "tested_amount": 832838.37,
+   "coverage_amount_pct": 1.06
+  },
+  {
+   "area_id": "ARE-0005",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 77,
+   "tested_amount": 3391663.1,
+   "coverage_amount_pct": 2.96
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 15,
+   "tested_amount": 477030.17,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 84,
+   "tested_amount": 3515581.77,
+   "coverage_amount_pct": 3.07
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 77,
+   "tested_amount": 3391663.1,
+   "coverage_amount_pct": 2.96
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 15,
+   "tested_amount": 477030.17,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0006",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "existence",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 47,
+   "tested_amount": 2140444.23,
+   "coverage_amount_pct": 3.27
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 17,
+   "tested_amount": 380684.06,
+   "coverage_amount_pct": 0.58
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 48,
+   "tested_amount": 1770113.4,
+   "coverage_amount_pct": 2.7
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 54,
+   "tested_amount": 1898170.68,
+   "coverage_amount_pct": 2.9
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0007",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 41,
+   "tested_amount": 2012386.95,
+   "coverage_amount_pct": 3.07
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "existence",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 388449.02,
+   "coverage_amount_pct": 0.2
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 4,
+   "tested_items": 94,
+   "tested_amount": 3818424.1,
+   "coverage_amount_pct": 2
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 10,
+   "tested_amount": 347568.38,
+   "coverage_amount_pct": 0.18
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 76,
+   "tested_amount": 3082406.7,
+   "coverage_amount_pct": 1.61
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 18,
+   "tested_amount": 736017.4,
+   "coverage_amount_pct": 0.38
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0008",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "existence",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 457290.23,
+   "coverage_amount_pct": 0.72
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 36,
+   "tested_amount": 1590984.63,
+   "coverage_amount_pct": 2.5
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 968440.43,
+   "coverage_amount_pct": 1.52
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 63,
+   "tested_amount": 2786944.16,
+   "coverage_amount_pct": 4.39
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0009",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 968440.43,
+   "coverage_amount_pct": 1.52
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "existence",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 50,
+   "tested_amount": 1804926.5,
+   "coverage_amount_pct": 3.65
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 38,
+   "tested_amount": 1439925.07,
+   "coverage_amount_pct": 2.91
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 79612.75,
+   "coverage_amount_pct": 0.16
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 43,
+   "tested_amount": 1519537.82,
+   "coverage_amount_pct": 3.07
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0010",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 45,
+   "tested_amount": 1684294.76,
+   "coverage_amount_pct": 3.4
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 47,
+   "tested_amount": 2502828.94,
+   "coverage_amount_pct": 0.74
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 479302.17,
+   "coverage_amount_pct": 0.14
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 63,
+   "tested_amount": 2936752.52,
+   "coverage_amount_pct": 0.87
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 50,
+   "tested_amount": 2185362.83,
+   "coverage_amount_pct": 0.65
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 18,
+   "tested_amount": 792834.91,
+   "coverage_amount_pct": 0.23
+  },
+  {
+   "area_id": "ARE-0011",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 4,
+   "tested_amount": 398675.41,
+   "coverage_amount_pct": 0.54
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 17,
+   "tested_amount": 700968.39,
+   "coverage_amount_pct": 0.94
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 1141541.3,
+   "coverage_amount_pct": 1.53
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 40,
+   "tested_amount": 3099241.2,
+   "coverage_amount_pct": 4.16
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 1141541.3,
+   "coverage_amount_pct": 1.53
+  },
+  {
+   "area_id": "ARE-0012",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 17,
+   "tested_amount": 700968.39,
+   "coverage_amount_pct": 0.94
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 43,
+   "tested_amount": 2017049.08,
+   "coverage_amount_pct": 1.06
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 84,
+   "tested_amount": 3906673.61,
+   "coverage_amount_pct": 2.05
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 69,
+   "tested_amount": 3254282.5,
+   "coverage_amount_pct": 1.7
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 64,
+   "tested_amount": 2842399.1,
+   "coverage_amount_pct": 1.49
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 3,
+   "tested_amount": 284458.85,
+   "coverage_amount_pct": 0.15
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 26,
+   "tested_amount": 1237233.42,
+   "coverage_amount_pct": 0.65
+  },
+  {
+   "area_id": "ARE-0013",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "existence",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 101,
+   "tested_amount": 3968394.17,
+   "coverage_amount_pct": 5.23
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 320675.21,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 33,
+   "tested_amount": 1482932.07,
+   "coverage_amount_pct": 1.95
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 320675.21,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 33,
+   "tested_amount": 1482932.07,
+   "coverage_amount_pct": 1.95
+  },
+  {
+   "area_id": "ARE-0014",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 25,
+   "tested_amount": 819170.55,
+   "coverage_amount_pct": 1.08
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 95,
+   "tested_amount": 4138962.62,
+   "coverage_amount_pct": 20.27
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 49,
+   "tested_amount": 1937983.84,
+   "coverage_amount_pct": 9.49
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 60,
+   "tested_amount": 2704997.35,
+   "coverage_amount_pct": 13.25
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 6,
+   "tested_amount": 528798.84,
+   "coverage_amount_pct": 2.59
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 17,
+   "tested_amount": 1295812.35,
+   "coverage_amount_pct": 6.35
+  },
+  {
+   "area_id": "ARE-0015",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 46,
+   "tested_amount": 2200978.78,
+   "coverage_amount_pct": 10.78
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 92,
+   "tested_amount": 3868994,
+   "coverage_amount_pct": 2.59
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 64,
+   "tested_amount": 3133602.6,
+   "coverage_amount_pct": 2.1
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 79477.49,
+   "coverage_amount_pct": 0.05
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 67,
+   "tested_amount": 3027618.07,
+   "coverage_amount_pct": 2.03
+  },
+  {
+   "area_id": "ARE-0016",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 1185852.08,
+   "coverage_amount_pct": 0.79
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 79,
+   "tested_amount": 3367747.34,
+   "coverage_amount_pct": 8.67
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 58,
+   "tested_amount": 2811083.53,
+   "coverage_amount_pct": 7.24
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "accuracy",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 12,
+   "tested_amount": 711352.93,
+   "coverage_amount_pct": 1.83
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 3,
+   "tested_amount": 163099.29,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0017",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 33,
+   "tested_amount": 1268016.74,
+   "coverage_amount_pct": 3.27
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 81,
+   "tested_amount": 3264024,
+   "coverage_amount_pct": 3.81
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 33,
+   "tested_amount": 1719536.69,
+   "coverage_amount_pct": 2.01
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 27,
+   "tested_amount": 1312702.78,
+   "coverage_amount_pct": 1.53
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 14,
+   "tested_amount": 740231.59,
+   "coverage_amount_pct": 0.86
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 46,
+   "tested_amount": 1617923.54,
+   "coverage_amount_pct": 1.89
+  },
+  {
+   "area_id": "ARE-0018",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 20,
+   "tested_amount": 865945.21,
+   "coverage_amount_pct": 1.37
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 34,
+   "tested_amount": 2281946.09,
+   "coverage_amount_pct": 3.6
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 72,
+   "tested_amount": 4120034.18,
+   "coverage_amount_pct": 6.5
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0019",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 39,
+   "tested_amount": 1869684.5,
+   "coverage_amount_pct": 8.03
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 61,
+   "tested_amount": 2911239.6,
+   "coverage_amount_pct": 12.51
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 15,
+   "tested_amount": 661688.32,
+   "coverage_amount_pct": 2.84
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 61,
+   "tested_amount": 2911239.6,
+   "coverage_amount_pct": 12.51
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0020",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 32,
+   "tested_amount": 1566703.84,
+   "coverage_amount_pct": 6.73
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 60,
+   "tested_amount": 2938872.76,
+   "coverage_amount_pct": 1.15
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 48,
+   "tested_amount": 2151515.9,
+   "coverage_amount_pct": 0.84
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 75,
+   "tested_amount": 3417908.11,
+   "coverage_amount_pct": 1.33
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 22,
+   "tested_amount": 1071736.56,
+   "coverage_amount_pct": 0.42
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0021",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 367872.29,
+   "coverage_amount_pct": 3.95
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 23,
+   "tested_amount": 1113723.24,
+   "coverage_amount_pct": 11.96
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 36,
+   "tested_amount": 1562806.78,
+   "coverage_amount_pct": 16.78
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 4,
+   "tested_items": 77,
+   "tested_amount": 3614622.33,
+   "coverage_amount_pct": 38.8
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0022",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 4,
+   "tested_items": 112,
+   "tested_amount": 5252221.29,
+   "coverage_amount_pct": 3.71
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 169298.17,
+   "coverage_amount_pct": 0.12
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 27,
+   "tested_amount": 1148135.93,
+   "coverage_amount_pct": 0.81
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 169298.17,
+   "coverage_amount_pct": 0.12
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 107,
+   "tested_amount": 5082923.12,
+   "coverage_amount_pct": 3.59
+  },
+  {
+   "area_id": "ARE-0023",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 32,
+   "tested_amount": 1051071,
+   "coverage_amount_pct": 1.83
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 40,
+   "tested_amount": 1590340.17,
+   "coverage_amount_pct": 2.77
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 48,
+   "tested_amount": 1249224.37,
+   "coverage_amount_pct": 2.18
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 56,
+   "tested_amount": 1788493.54,
+   "coverage_amount_pct": 3.12
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 7,
+   "tested_amount": 322717.85,
+   "coverage_amount_pct": 0.56
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 25,
+   "tested_amount": 728353.15,
+   "coverage_amount_pct": 1.27
+  },
+  {
+   "area_id": "ARE-0024",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 48,
+   "tested_amount": 2232187.76,
+   "coverage_amount_pct": 10.87
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 85,
+   "tested_amount": 4353839.4,
+   "coverage_amount_pct": 21.19
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 66,
+   "tested_amount": 3255292.18,
+   "coverage_amount_pct": 15.85
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0025",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 51,
+   "tested_amount": 2689470.17,
+   "coverage_amount_pct": 6.14
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 42,
+   "tested_amount": 2494997.64,
+   "coverage_amount_pct": 5.69
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 58,
+   "tested_amount": 3058085.98,
+   "coverage_amount_pct": 6.98
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 21,
+   "tested_amount": 836109.22,
+   "coverage_amount_pct": 1.91
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 17,
+   "tested_amount": 914657.57,
+   "coverage_amount_pct": 2.09
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0026",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 570004.11,
+   "coverage_amount_pct": 1.63
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 570004.11,
+   "coverage_amount_pct": 1.63
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 15,
+   "tested_amount": 478159.57,
+   "coverage_amount_pct": 1.37
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 15,
+   "tested_amount": 478159.57,
+   "coverage_amount_pct": 1.37
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 90,
+   "tested_amount": 4274757.33,
+   "coverage_amount_pct": 12.21
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0027",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 78,
+   "tested_amount": 3130482.89,
+   "coverage_amount_pct": 10.47
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 11,
+   "tested_amount": 342474.87,
+   "coverage_amount_pct": 1.15
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "accuracy",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 196845.92,
+   "coverage_amount_pct": 0.66
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 33,
+   "tested_amount": 1388684.06,
+   "coverage_amount_pct": 4.64
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 11,
+   "tested_amount": 342474.87,
+   "coverage_amount_pct": 1.15
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 42,
+   "tested_amount": 1596169.88,
+   "coverage_amount_pct": 5.34
+  },
+  {
+   "area_id": "ARE-0028",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 43,
+   "tested_amount": 1080768.25,
+   "coverage_amount_pct": 1.21
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 9,
+   "tested_amount": 404632.83,
+   "coverage_amount_pct": 0.45
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "accuracy",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 243052.38,
+   "coverage_amount_pct": 0.27
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 34,
+   "tested_amount": 1030039.24,
+   "coverage_amount_pct": 1.15
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0029",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 74,
+   "tested_amount": 4197971.26,
+   "coverage_amount_pct": 4.89
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 74,
+   "tested_amount": 4197971.26,
+   "coverage_amount_pct": 4.89
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 90,
+   "tested_amount": 5054396.45,
+   "coverage_amount_pct": 5.89
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 4,
+   "tested_amount": 249186.28,
+   "coverage_amount_pct": 0.29
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 20,
+   "tested_amount": 1105611.47,
+   "coverage_amount_pct": 1.29
+  },
+  {
+   "area_id": "ARE-0030",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 20,
+   "tested_amount": 1105611.47,
+   "coverage_amount_pct": 1.29
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 76,
+   "tested_amount": 2660449.87,
+   "coverage_amount_pct": 5.41
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 13,
+   "tested_amount": 582902.21,
+   "coverage_amount_pct": 1.18
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 73,
+   "tested_amount": 2550583.26,
+   "coverage_amount_pct": 5.18
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 28,
+   "tested_amount": 826729.06,
+   "coverage_amount_pct": 1.68
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 13,
+   "tested_amount": 582902.21,
+   "coverage_amount_pct": 1.18
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0031",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 35,
+   "tested_amount": 1758085.48,
+   "coverage_amount_pct": 3.03
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 115724.71,
+   "coverage_amount_pct": 0.2
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 38,
+   "tested_amount": 1037752.49,
+   "coverage_amount_pct": 1.79
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 8,
+   "tested_amount": 115724.71,
+   "coverage_amount_pct": 0.2
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 67,
+   "tested_amount": 3822716.45,
+   "coverage_amount_pct": 6.58
+  },
+  {
+   "area_id": "ARE-0032",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 56,
+   "tested_amount": 4427324.73,
+   "coverage_amount_pct": 7.62
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "existence",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 56,
+   "tested_amount": 2258123.01,
+   "coverage_amount_pct": 1.89
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 15,
+   "tested_amount": 236998.01,
+   "coverage_amount_pct": 0.2
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 12,
+   "tested_amount": 180958.58,
+   "coverage_amount_pct": 0.15
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 876620.49,
+   "coverage_amount_pct": 0.73
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 15,
+   "tested_amount": 236998.01,
+   "coverage_amount_pct": 0.2
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 31,
+   "tested_amount": 1325463.09,
+   "coverage_amount_pct": 1.11
+  },
+  {
+   "area_id": "ARE-0033",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 29,
+   "tested_amount": 992247.16,
+   "coverage_amount_pct": 2.44
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "completeness",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 27,
+   "tested_amount": 1364890.3,
+   "coverage_amount_pct": 3.35
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 33,
+   "tested_amount": 1678936,
+   "coverage_amount_pct": 4.12
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 42,
+   "tested_amount": 2016512.8,
+   "coverage_amount_pct": 4.95
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 33,
+   "tested_amount": 1678936,
+   "coverage_amount_pct": 4.12
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 821934.83,
+   "coverage_amount_pct": 2.02
+  },
+  {
+   "area_id": "ARE-0034",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "existence",
+   "risk": "high",
+   "procedures": 3,
+   "tested_items": 30,
+   "tested_amount": 1049919.62,
+   "coverage_amount_pct": 6.09
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 22,
+   "tested_amount": 825564.59,
+   "coverage_amount_pct": 4.79
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "accuracy",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 23,
+   "tested_amount": 713092.18,
+   "coverage_amount_pct": 4.13
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 22,
+   "tested_amount": 825564.59,
+   "coverage_amount_pct": 4.79
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "valuation",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 7,
+   "tested_amount": 336827.44,
+   "coverage_amount_pct": 1.95
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 23,
+   "tested_amount": 713092.18,
+   "coverage_amount_pct": 4.13
+  },
+  {
+   "area_id": "ARE-0035",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 4,
+   "tested_amount": 100589.64,
+   "coverage_amount_pct": 0.03
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 33,
+   "tested_amount": 1065575.96,
+   "coverage_amount_pct": 0.33
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "cutoff",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 29,
+   "tested_amount": 964986.32,
+   "coverage_amount_pct": 0.3
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 4,
+   "tested_amount": 100589.64,
+   "coverage_amount_pct": 0.03
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "rights_and_obligations",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0036",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 44,
+   "tested_amount": 1811150.9,
+   "coverage_amount_pct": 3.14
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 44,
+   "tested_amount": 1811150.9,
+   "coverage_amount_pct": 3.14
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0037",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 3,
+   "tested_items": 56,
+   "tested_amount": 3314186.54,
+   "coverage_amount_pct": 5.98
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 5,
+   "tested_amount": 129527.2,
+   "coverage_amount_pct": 0.23
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "accuracy",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "cutoff",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 51,
+   "tested_amount": 3184659.34,
+   "coverage_amount_pct": 5.74
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 129527.2,
+   "coverage_amount_pct": 0.23
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "rights_and_obligations",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0038",
+   "assertion": "presentation",
+   "risk": "low",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 37,
+   "tested_amount": 1513398.93,
+   "coverage_amount_pct": 1.4
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "completeness",
+   "risk": "high",
+   "procedures": 1,
+   "tested_items": 5,
+   "tested_amount": 84694.24,
+   "coverage_amount_pct": 0.08
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "accuracy",
+   "risk": "low",
+   "procedures": 3,
+   "tested_items": 84,
+   "tested_amount": 4370419.55,
+   "coverage_amount_pct": 4.03
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "valuation",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 52,
+   "tested_amount": 2941714.86,
+   "coverage_amount_pct": 2.71
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 32,
+   "tested_amount": 1428704.69,
+   "coverage_amount_pct": 1.32
+  },
+  {
+   "area_id": "ARE-0039",
+   "assertion": "presentation",
+   "risk": "high",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "existence",
+   "risk": "moderate",
+   "procedures": 2,
+   "tested_items": 3,
+   "tested_amount": 244185.84,
+   "coverage_amount_pct": 1.64
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "completeness",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 3,
+   "tested_amount": 244185.84,
+   "coverage_amount_pct": 1.64
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "accuracy",
+   "risk": "high",
+   "procedures": 2,
+   "tested_items": 16,
+   "tested_amount": 573813.77,
+   "coverage_amount_pct": 3.85
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "cutoff",
+   "risk": "moderate",
+   "procedures": 0,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "valuation",
+   "risk": "low",
+   "procedures": 2,
+   "tested_items": 3,
+   "tested_amount": 244185.84,
+   "coverage_amount_pct": 1.64
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "rights_and_obligations",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 16,
+   "tested_amount": 573813.77,
+   "coverage_amount_pct": 3.85
+  },
+  {
+   "area_id": "ARE-0040",
+   "assertion": "presentation",
+   "risk": "moderate",
+   "procedures": 1,
+   "tested_items": 0,
+   "tested_amount": 0,
+   "coverage_amount_pct": 0
+  }
+ ]
+}
