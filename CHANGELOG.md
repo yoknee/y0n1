@@ -1,16 +1,10 @@
 # Changelog
 
-Rules:
+One entry per commit that changes a case study. Newest first. Entries name the case by its stand-in brand because this file is outside the lint's narrative allowlist.
 
-- One line per commit. Add it in the same commit.
-- Newest first.
-- Format: `- YYYY-MM-DD type: summary`. Types: feat, fix, docs, chore, content.
-- Name the artifact number for case study work, for example `content: case 1 artifact 03 synthesis`.
-- Keep it to the change. No rationale here. That goes in `decisions.md`.
-- Same voice rules as everything else: no em dashes, no Oxford commas.
+## Unreleased
 
-Log:
+### Baton case (the audit platform reconstruction)
 
-- 2026-10-09 chore: scope voice checks to case folders, fix commas, reword example
-- 2026-10-09 chore: lint whole-word banned terms with exemptions
-- 2026-10-09 chore: ground rules, lint, skeleton
+- Gate 1 plan. Adds `cases/<audit-platform>/PLAN.md`: chapter plan, artifact list 01 to 15 with acceptance criteria, Baton brand sheet, synthetic data schema, provisional decision register, research summary with planned-target labels, build order with estimates, hostile-reviewer protocol, QA checklist and open points for approval. Starts this changelog. A four-lens hostile review of the plan runs next; its confirmed fixes land in a follow-up commit.
+- Lint narrative allowlist. `scripts/lint.sh` allows the firm's public name in README.md, one-pager.md, talk-track.md, decisions.md and PLAN.md, the same way as the two public product names. Still banned under artifacts/, prototype/ and data/.
