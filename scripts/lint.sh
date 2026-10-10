@@ -13,10 +13,11 @@
 #        - Exempt from rule 1 paths: image files (png jpg jpeg gif webp avif ico bmp).
 #        - Maestro, SLT, State Lifecycle Tool and PwC are public names. They
 #          are allowed in file paths and in README.md, one-pager.md,
-#          talk-track.md, decisions.md, PLAN.md and CHANGELOG.md. They are
-#          still flagged anywhere under artifacts/, prototype/ or data/ (screens
-#          and data use the stand-in brands Baton and Statewise) and in every
-#          other file.
+#          talk-track.md, decisions.md, PLAN.md and CHANGELOG.md, and in the
+#          .html twins scripts/render-md.mjs writes beside those files. They
+#          are still flagged anywhere under artifacts/, prototype/ or data/
+#          (screens and data use the stand-in brands Baton and Statewise) and
+#          in every other file.
 #        - Every other term is banned everywhere outside the exemptions above.
 #   2. Palette hex: any hex colour listed in banned-terms.txt (PwC brand palette).
 #   3. Brand words: "PwC logo" and "PwC orange".
@@ -46,7 +47,7 @@ voice_dirs_re='^(cases|shared|resume)/'
 exempt_contents=(CLAUDE.md index.html)
 image_ext_re='\.(png|jpe?g|gif|webp|avif|ico|bmp)$'
 narrative_ok_terms=(maestro slt "state lifecycle tool" pwc)
-narrative_ok_files=(README.md one-pager.md talk-track.md decisions.md PLAN.md CHANGELOG.md)
+narrative_ok_files=(README.md one-pager.md talk-track.md decisions.md PLAN.md CHANGELOG.md README.html one-pager.html talk-track.html decisions.html PLAN.html)
 no_narrative_dirs_re='(^|/)(artifacts|prototype|data)/'
 
 tmp=$(mktemp -d)
