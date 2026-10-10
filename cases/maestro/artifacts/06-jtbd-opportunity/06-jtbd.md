@@ -8,9 +8,9 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
-**I decided** The outcome statement, the cut line for MVP and Test of Details as the anchor workflow. **We built** The job statements from the coded material, the tree in two working sessions with PMs and the feasibility ratings with the engineering leads.
+**I decided:** the outcome statement, the cut line for MVP and Test of Details as the anchor workflow. **We built:** the job statements from the coded material, the tree in two working sessions with PMs and the feasibility ratings with the engineering leads. Design team of three at this phase.
 
-Reconstructed. Value and feasibility ratings are the lead's judgment under the constraints in 01, argued with PMs and engineering leads. They are not measured.
+Reconstructed. Value and feasibility ratings are my judgment under the constraints in 01, argued with PMs and engineering leads and recorded in half points. They are not measured. Value drew the MVP line; feasibility set the sequence.
 
 ## Outcome
 
@@ -27,15 +27,15 @@ Format: when [situation], I want [motivation], so I can [outcome]. Each job cite
 | Senior | I plan a Test of Details for an area | a structure that fits the procedure without editing it | the reviewer accepts the format and I am not adapting by hand | T13, T10 |
 | Senior | evidence is spread across systems and requests | one place that shows what has arrived and what is still open | I stop opening three systems to find one statement | T1, T11 |
 | Senior | I hand the file to the manager | the state of every sample and exception to travel with the file | I do not re-walk the work in the review | T11, T5 |
-| Senior | an agent has done the matching | to see the differences first and the page it read beside each one | I check in seconds instead of trusting | T7, T3 |
+| Senior | work was done for me | to check it in seconds against what it read | I verify instead of trusting | T7, T3 |
 | Manager | I review a workpaper | to reach the source of any claim in one action | I judge substance instead of hunting references | T3 |
 | Manager | five engagements hit review in the same week | a queue with state across all of them | I clear what is waiting in the right order and notes stop looping | T5 |
-| Manager | an agent step is wrong | to reject that step and rerun it with the right input | I keep the rest of the run and the history | T7 |
+| Manager | one step of delegated work is wrong | to correct that step without redoing the rest | I keep the work I trust and the history | T7 |
 | Partner | I am asked to sign | the exception trail and the checkpoint record in the file | I can defend the file a year later | T8, T3 |
 | Partner | a tool touched client data | to know what it read and that a human approved anything restricted | independence and data obligations hold | T9, T8 |
-| Methodology reviewer | teams adapt standard structures | the structure to fit the procedure in the first place | variants stop causing rework and quality findings | T13 |
-| Methodology reviewer | I set a data handling or checkpoint rule | the product to enforce it | teams do not have to remember it under pressure | T9, T6 |
-| Engagement data lead | I connect client systems to an engagement | to assign each source a data class once | every agent run respects the class without per-document decisions | T9 |
+| Quality and Methodology reviewer | teams adapt standard structures | the structure to fit the procedure in the first place | variants stop causing rework and quality findings | T13 |
+| Quality and Methodology reviewer | I set a data handling or checkpoint rule | the product to enforce it | teams do not have to remember it under pressure | T9, T6 |
+| Engagement data lead | I connect client systems to an engagement | its handling rules set once | no run can breach them without a per-document decision | T9 |
 
 ## Opportunities
 
@@ -53,9 +53,27 @@ Format: when [situation], I want [motivation], so I can [outcome]. Each job cite
 
 Test of Details on two audit areas, revenue and payables, with the full run (plan, retrieve, extract, match, detect exceptions, draft conclusion), the review center and sign-off. No analytical procedures, no controls testing, no cross-engagement search, no agent-to-client communication.
 
-Revenue and payables carry the highest sample volumes in a Test of Details and cover both directions of testing, existence and completeness. Between them they use the largest share of the 60+ structures.
+Area choice reconstructed. The two areas test opposite directions, existence for revenue and completeness for payables, so one agent behavior is exercised both ways before it extends. Which two areas the production MVP covered, and why, is for Yoni to confirm.
 
-## Cut for MVP and why
+## Rating anchors
+
+| Value | Feasibility |
+|---|---|
+| 5: removes a high-consistency theme's pain for every role | 5: buildable with the design system as is |
+| 3: removes pain for one role or one stage | 3: needs one new pattern or a methodology ruling |
+| 1: nice to have, no theme behind it | 1: blocked by a constraint in 01 until a dependency ships |
+
+I scored; PMs and engineering leads contested; final values are in the tree. Half points mark where a rating moved.
+
+## What changed after the sessions (reconstructed)
+
+| Solution | What changed |
+|---|---|
+| S13 | Feasibility lowered from 4 to 3 by the engineering leads: 60+ structures must be typed before the planner can target them, so the library ships in batches by area. This is why only two areas made MVP. |
+| S7 | Feasibility lowered from 4 to 3.5 by the engineering leads: the review center is a second surface with its own state; PMs kept it in MVP because T5 is where the deadline bites. |
+| S2 | Moved from MVP to later after the methodology reviewer raised independence: an agent writing to a client is a C2 question before it is a feature. |
+
+## Cut or deferred for MVP and why
 
 | ID | Solution | State | Why |
 |---|---|---|---|
@@ -66,3 +84,5 @@ Revenue and payables carry the highest sample volumes in a Test of Details and c
 | S10 | Agent-proposed exception resolutions | cut | Every role named exception judgment as human work (T6). Independence (C2). Not a cost cut, a boundary cut. |
 | S12 | Structured handoff notes between roles | cut | Notes are another place for state to live. S11 makes the run the place. |
 | S14 | Templates for analytical procedures | later | Different agent reasoning (expectation forming). Prove the boundary pattern on Test of Details first (D-10, D-11). Returns in P5. |
+| A1 | Test of Details on inventory, cash and fixed assets | later | Structures typed in batches by area (S13 feasibility). One agent behavior proved on two areas first (D-10). Return P3 to P5. |
+| A2 | Controls testing | later | A different evidence model: operating effectiveness, not transaction tracing. Nothing in T1 to T14 touches it. Return after analytical procedures. |

@@ -8,6 +8,8 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
+**I decided:** SUS as the comparable score and the satisfaction items written against the four user problems in 01. **We built:** the form, the distribution and the cleaning. Design team of three at this phase.
+
 ## 1. Purpose and scope
 
 Phase P1. A quantitative baseline for the measurement plan in artifact 14. The same SUS items are re-run in usability round 3 so the trend has a start point. The survey is anonymous and takes under ten minutes.

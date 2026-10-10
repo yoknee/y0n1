@@ -12,7 +12,7 @@
  "as_of_day": 270,
  "labels": {
   "dry_run_feedback": "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative",
-  "dry_run_feedback_sample50": "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative. 50 rows drawn by a seeded shuffle of the 1,600; carry this label in the header of any copy",
+  "dry_run_feedback_sample50": "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative. 50 rows drawn by a seeded shuffle of the 1,600. This file is source data; any rendering of it (artifact 13) carries this label in its header",
   "all_other_data": "illustrative synthetic data generated from seed"
  },
  "counts": {
@@ -36,8 +36,8 @@
  },
  "files": {
   "engagement.json": {
-   "bytes": 3050,
-   "sha256": "397053fc798c995742db06039be9385ec8809ca42f0a5865e180ca1015feda0a"
+   "bytes": 3055,
+   "sha256": "243eaaebd76c4b13dbabb547127f5287b60e048f88f04210359055983fa6ee8c"
   },
   "audit_area.json": {
    "bytes": 11807,
@@ -56,8 +56,8 @@
    "sha256": "c246a1749cc3eba0eb39436cdbb24308e9bd543162efd0f7c943421ad75fed01"
   },
   "evidence_item.json": {
-   "bytes": 1809860,
-   "sha256": "43a08e0ab5f0ad0fb38ddd6c5b47c028938365bf92f63b2ae0d0ad27b05c7afb"
+   "bytes": 1810045,
+   "sha256": "0b52ddd4506459ebffb29597bf2193ec7f1499c6ad88c8a6a84bccde1e3f87bf"
   },
   "exception.json": {
    "bytes": 53278,
@@ -68,8 +68,8 @@
    "sha256": "dfe580be5fbbf02ea3cf67c3e73d4161abef8ef00af20ebafb95c0b2381c9471"
   },
   "agent_run.json": {
-   "bytes": 160740,
-   "sha256": "eb53cf691e593890dfc8d3e7a1affdf86000937a91478b07947360e27dbf235b"
+   "bytes": 165080,
+   "sha256": "0165715b6b4b922f4ef250c8da90c8caf999c0b98c702fcd9bc97318a337889f"
   },
   "agent_run_step.json": {
    "bytes": 1279192,
@@ -124,8 +124,8 @@
    "sha256": "a035534861abfdb564a478bf7ba0a5791c6a3d47e268a0580f82562d64bde4f2"
   },
   "agent_run.csv": {
-   "bytes": 53067,
-   "sha256": "33e6fd1b2d65a7b41852108909aaf4c98a26ca395d04096a0912abdd6f112742"
+   "bytes": 56167,
+   "sha256": "02686577d6cb13bd61fdd95af97ac583fb23dfb9f01b2b0f74c37cbd6005c1ba"
   },
   "review_action.csv": {
    "bytes": 78611,
@@ -156,8 +156,8 @@
    "sha256": "ea2ee8e0380ce1481aefb05932afab356681c211e60e8b9b48fcede7c96f8c1b"
   },
   "charts/12a-coverage.json": {
-   "bytes": 15141,
-   "sha256": "0a882b87dc8b7911e2b958cc1539903fc2c6460b55b6ce6bafdb963c63a224d0"
+   "bytes": 15166,
+   "sha256": "5a1aad490480a79b2284530968781bb4f67dd037cbb47b498f44fda87fefe043"
   },
   "charts/12b-funnel.json": {
    "bytes": 11830,
@@ -172,12 +172,12 @@
    "sha256": "62ea760b499a6abc0bd4a35fb89a45b3c44f9fbd64c6d99cb786e73576c1e06c"
   },
   "charts/12e-lineage.json": {
-   "bytes": 7442,
-   "sha256": "37dbf977e1541eca903885e25988828bcea07b3ddc0b1a24f4c6e22c4c649f9e"
+   "bytes": 7453,
+   "sha256": "48b9be3b835a03ba99991e8d61daf07c2f7afe02d00ee8fd26f2389299539d44"
   },
   "charts/12f-risk.json": {
-   "bytes": 59717,
-   "sha256": "a188aae8130253b694147f0fcc239d99d9af0317afd976b6bbbdd6224c57296a"
+   "bytes": 59742,
+   "sha256": "80d4cd6390249c1e973db6c9bbb47c801f02404e77d57a88d3176e6f2347913c"
   },
   "charts/12g-feedback.json": {
    "bytes": 12843,
@@ -189,7 +189,7 @@
   },
   "SHA256SUMS": {
    "bytes": 3216,
-   "sha256": "cc06b0ab33bdc2d13bd0b84e3d7fea13fe8a0843c61f2e9bb655510ec94e0db1"
+   "sha256": "21012bb76db340c590b385136274c24f49be9a2510092a1c72ab48867aa3c347"
   }
  },
  "rules": [
@@ -200,7 +200,7 @@
   "dry_run_feedback_item is exactly 1,600 rows with status in triaged, fixed, declined, duplicate. No status marks an item as in the roadmap.",
   "roadmap_item carries rank before and after and a driving theme label. No item counts. No relation from feedback items to roadmap items.",
   "procedure.target_assertions is set for every procedure type. exception_status_change holds one row per transition.",
-  "agent_run.checkpoints_required always includes draft_conclusion and adds evidence_retrieval when any evidence the run touched is data_class restricted.",
+  "agent_run.checkpoints_required always includes plan and draft_conclusion and adds evidence_retrieval when any evidence the run touched is data_class restricted. Exception resolution is recorded on the exception (resolver_role, resolved_day).",
   "Run outcomes vary by release as an illustrative trend. Review latency is right skewed by construction.",
   "Charts under charts/ are aggregates of these files. Each carries its derivation and a label.",
   "No wall clock timestamps anywhere. Regenerating with the same seed reproduces every byte."

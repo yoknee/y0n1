@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two-week busy season diary study</title>
+<link rel="icon" href="/shared/brand/baton/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared/brand/baton/tokens.css">
+<link rel="stylesheet" href="/shared/design-system/base.css">
+<style>.md { max-width: 110ch; } .md h1 { font-size: var(--bt-fs-20); margin: var(--bt-s4) 0 var(--bt-s2); } .md h2 { font-size: var(--bt-fs-16); margin-top: var(--bt-s6); } .md h3 { font-size: var(--bt-fs-14); } .md p, .md li { font-size: var(--bt-fs-13); line-height: var(--bt-lh-prose); } .md blockquote { margin: var(--bt-s2) 0; padding: var(--bt-s1) var(--bt-s3); border-left: 3px solid var(--bt-border); color: var(--bt-ink-2); font-size: var(--bt-fs-12); } .md table.doc { margin: var(--bt-s2) 0; font-size: var(--bt-fs-12); } .md pre { background: var(--bt-surface-2); padding: var(--bt-s2) var(--bt-s3); overflow: auto; font-size: var(--bt-fs-12); } .md hr { margin: var(--bt-s6) 0; } .src { font-size: var(--bt-fs-11); color: var(--bt-ink-3); margin: var(--bt-s2) 0 0; }</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<main id="main" class="md">
+<p class="src">Rendered from <a href="diary-prompt.md">diary-prompt.md</a>. The Markdown file is the source.</p>
+<table class="doc"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Title</td><td>Two-week busy season diary study</td></tr><tr><td>Artifact</td><td>02 Research plan and instruments</td></tr><tr><td>Question it answers</td><td>Where does an auditor&#39;s day go during busy season, what blocks it, what gets redone and what would they hand to an agent?</td></tr><tr><td>Decisions it feeds</td><td>D-02</td></tr><tr><td>Status</td><td>Draft</td></tr></tbody></table>
+<blockquote>
+<p>Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</p>
+</blockquote>
+<p><strong>I decided:</strong> a busy-season diary over a retrospective interview, the five-question shape and the two-week window. <strong>We built:</strong> the prompts, the onboarding and the weekly check-ins. Design team of three at this phase.</p>
+<h2 id="1-purpose-and-scope">1. Purpose and scope</h2>
+<p>Phase P1, discovery. Interviews capture one remembered instance. The diary captures ten working days as they happen, in the weeks when time pressure is highest. It fills the lifecycle heat map in artifact 03 with day-by-day data and gives the time-and-motion study its context.</p>
+<p>Planned target: 10 participants for 10 working days (two weeks). Planned mix: 4 Associates, 4 Seniors, 2 Managers. Partners and reviewers are out of scope here; their time is covered by interviews and SME sessions. No entry is reported in this reconstruction.</p>
+<p>Role split. I chose the five questions and the five-minute ceiling. We onboard, remind, read entries weekly and code them.</p>
+<h2 id="2-recruiting">2. Recruiting</h2>
+<table class="doc"><thead><tr><th>Criterion</th><th>Rule</th></tr></thead><tbody><tr><td>Role</td><td>Associate, Senior or Manager, in fieldwork during the study window.</td></tr><tr><td>Engagement</td><td>At least one engagement in the test stage during the two weeks.</td></tr><tr><td>Area</td><td>Across the 10, at least three of the five areas: revenue, inventory, cash, fixed assets, payables.</td></tr><tr><td>Region</td><td>At least three of the five regions: North, South, East, West, Central.</td></tr><tr><td>Approval</td><td>The participant&#39;s engagement manager agrees to five minutes a day of study time. Managers in the sample get approval from their partner.</td></tr><tr><td>Exclusions</td><td>Platform product team. Interview participants (INT-01 to INT-20) are not reused, so the diary brings new people.</td></tr><tr><td>Replacement</td><td>A participant who misses four of the first five days is thanked and replaced. The replacement starts a fresh two weeks.</td></tr></tbody></table>
+<h2 id="3-onboarding-script-15-minutes-video-call">3. Onboarding script (15 minutes, video call)</h2>
+<p>Read or paraphrase. Confirm each step.</p>
+<blockquote>
+<p>Thanks for joining. For the next two weeks we ask for five minutes at the end of each working day. You answer five short questions in the diary form. Nothing else.
+The questions are about where your time went, what got in your way and what you had to redo. The last question asks what you would hand to a software agent if one existed today.
+You never write a client name, an engagement name, an amount, a document name or a colleague&#39;s name. Say &quot;the client&quot;, &quot;the invoice&quot;, &quot;my senior&quot;. If something slips in, we remove it and tell you.
+The form is open from 16:00 to 23:59 your time. You get a reminder at 18:30 and a second at 21:00 if there is no entry. A missed day stays missed. Do not fill in yesterday.
+Once a week we talk for 15 minutes about your entries.
+Your entries sit under a participant number. Your manager sees nothing you write. You can stop at any time and ask us to delete your entries.
+Do you agree to take part? Do you agree to the weekly call?</p>
+</blockquote>
+<p>Then: show the form, complete a practice entry about today together, confirm the reminder channel, book both weekly check-ins, send the never-include card.</p>
+<h2 id="4-consent">4. Consent</h2>
+<p>Recorded in the onboarding notes: participant ID (DRY-01 to DRY-10), role, region, two yes answers, date. Withdrawal: entries deleted within 24 hours, confirmed by message. A participant who withdraws after day 5 is not replaced.</p>
+<h2 id="5-daily-prompt">5. Daily prompt</h2>
+<p>Five questions. Target five minutes. Fields are fixed so entries code cleanly.</p>
+<table class="doc"><thead><tr><th>#</th><th>Question</th><th>Field type</th><th>Note to participant</th></tr></thead><tbody><tr><td>1</td><td>Which stages did you work in today?</td><td>Multi-select from the nine stages, with hours per stage to the nearest half hour</td><td>Stages: plan, assess risk, design procedures, gather evidence, test, evaluate exceptions, conclude, review, sign. Pick &quot;none&quot; only on a non-working day.</td></tr><tr><td>2</td><td>Where did the time go? Name the three activities that took longest.</td><td>Three short text fields plus hours each</td><td>An activity, not a stage. &quot;Chasing a confirmation&quot; is an activity.</td></tr><tr><td>3</td><td>What blocked you today?</td><td>Short text plus pick-list: waiting on client, waiting on colleague, waiting on system, missing access, unclear instruction, tool failure, nothing</td><td>Say how long you waited.</td></tr><tr><td>4</td><td>What did you have to redo today and why?</td><td>Short text plus pick-list: missing evidence, wrong reference, format inconsistency, calculation, conclusion wording, cutoff, sample selection, unclear exception resolution, other, nothing</td><td>The pick-list matches the rework audit codes so the two streams compare.</td></tr><tr><td>5</td><td>One thing you did today that you would hand to an agent. What would you check before trusting it?</td><td>Two short text fields</td><td>One task. The second field is required.</td></tr></tbody></table>
+<p>A closing field, &quot;Anything else about today?&quot;, is optional. Entries are stamped with date and participant ID. Nothing else is collected.</p>
+<h2 id="6-weekly-check-in-guide-15-minutes">6. Weekly check-in guide (15 minutes)</h2>
+<p>Held on day 5 and day 10. The moderator reads the week&#39;s entries beforehand and marks three to probe.</p>
+<table class="doc"><thead><tr><th>Minutes</th><th>Step</th></tr></thead><tbody><tr><td>0 to 2</td><td>Thanks. Confirm the entries were theirs and complete. Ask about any missed day.</td></tr><tr><td>2 to 9</td><td>Three probes from the entries. &quot;On day 3 you wrote that you redid the tie-out. What happened?&quot; Ask for sequence, cause, who decided, time lost.</td></tr><tr><td>9 to 12</td><td>Question 5 review. Read back the week&#39;s handoff candidates. &quot;Which of these would you still hand off on reflection? What changed?&quot;</td></tr><tr><td>12 to 14</td><td>Strikes. Tell the participant about any redactions made. Confirm the rule.</td></tr><tr><td>14 to 15</td><td>Next week. Confirm the reminder time still works. Day 10: thank and close. Restate when the name to ID mapping is deleted.</td></tr></tbody></table>
+<p>Notes follow the interview note template: timestamp, quote, observation, code candidate.</p>
+<h2 id="7-never-include">7. Never include</h2>
+<p>Printed card sent at onboarding. Shown at the top of the form.</p>
+<ul>
+<li>Client names, group names or any name that points at a client.</li>
+<li>Engagement codes or names.</li>
+<li>Amounts, balances, thresholds or percentages from the file.</li>
+<li>Document names, invoice numbers, contract titles or reference numbers.</li>
+<li>Names of colleagues, client staff or specialists. Use role words.</li>
+<li>Screenshots or attachments. The form accepts none.</li>
+<li>Locations that identify a client site.</li>
+</ul>
+<p>Research ops scans every entry within 24 hours. A hit is redacted to <code>[removed]</code>, logged under the participant ID and raised at the weekly check-in. Two hits in a week: a reminder call. Three: the participant is thanked and only the clean entries are kept.</p>
+<h2 id="8-reminder-cadence">8. Reminder cadence</h2>
+<table class="doc"><thead><tr><th>When</th><th>Channel</th><th>Message</th></tr></thead><tbody><tr><td>Day 0</td><td>Message</td><td>Confirm onboarding done. Form link. Card attached.</td></tr><tr><td>Daily, 18:30 local</td><td>Message</td><td>&quot;Five minutes for today&#39;s diary.&quot; Link.</td></tr><tr><td>Daily, 21:00 local</td><td>Message, only if no entry</td><td>&quot;Still time for today&#39;s entry. A missed day is fine. Please do not back-fill.&quot;</td></tr><tr><td>Day 5 and day 10</td><td>Calendar</td><td>Weekly check-in.</td></tr><tr><td>Weekend</td><td>None</td><td>Weekend entries are accepted if the participant worked. Never prompted.</td></tr><tr><td>Day 11</td><td>Message</td><td>Thanks. State the date the ID mapping is deleted.</td></tr></tbody></table>
+<p>Response tracking: a sheet with one row per participant per day, status entered, missed or redacted. Research ops reviews it each morning.</p>
+<h2 id="9-how-entries-are-coded">9. How entries are coded</h2>
+<p>Unit of analysis: one daily entry. Coding happens after week 1 and again after week 2, so week 1 codes are checked against week 2.</p>
+<table class="doc"><thead><tr><th>Pass</th><th>Field</th><th>Scheme</th><th>Output</th></tr></thead><tbody><tr><td>1</td><td>Q1 stages and hours</td><td>Closed, the nine stages</td><td>Hours per stage per participant day. Feeds the lifecycle heat map in 03, labeled reconstructed.</td></tr><tr><td>1</td><td>Q3 pick-list</td><td>Closed</td><td>Blocker type by role and stage. Wait hours where given.</td></tr><tr><td>1</td><td>Q4 pick-list</td><td>Closed, same list as the rework audit</td><td>Rework cause by stage, self-reported. Compared with the file-based audit.</td></tr><tr><td>2</td><td>Q2, Q3 text, Q4 text, closing field</td><td>Open, codebook in <code>research/codebook.md</code> (03)</td><td>Coded observations with method tag <code>diary</code>.</td></tr><tr><td>2</td><td>Q5 task</td><td>Open, then grouped to the agent step types: plan, evidence retrieval, extraction, matching, exception detection, draft conclusion, other</td><td>Handoff candidates by step and role.</td></tr><tr><td>2</td><td>Q5 check</td><td>Open, then grouped: see the source, see the steps, compare to my own, second person checks, sample it, would not trust</td><td>Trust condition by step and role. Feeds the stance block in 04 and checkpoint placement in 08.</td></tr></tbody></table>
+<p>Two coders on every entry. Calibration: both coders code the week 1 entries of DRY-01 and DRY-02 first and compare. Disagreements are talked through and definitions tightened before the rest is coded; later disagreements go to the weekly coding review in plan.md section 5. Weekly check-in notes are coded with the interview notes.</p>
+<p>Reporting: patterns by role and by stage, in words, with the evidence strength rubric from 03. Hours are reported as medians per participant day and labeled illustrative wherever they appear in the case. No entry counts are reported.</p>
+<h2 id="10-data-handling">10. Data handling</h2>
+<ul>
+<li>The form stores participant ID, date and answers. No name, email or device data.</li>
+<li>The ID to name mapping lives in one file held by research ops and is deleted at study end.</li>
+<li>Exports go to <code>research/raw/diary/</code> by ID. The folder is not committed.</li>
+<li>A quote used in any artifact is checked against the never-include list a second time.</li>
+</ul>
+<h2 id="11-limitations">11. Limitations</h2>
+<ul>
+<li>Ten participants, one busy season. Patterns, not estimates.</li>
+<li>Self-reported hours. Checked for shape against the time-and-motion study, not used as measurements.</li>
+<li>End-of-day recall compresses the morning. Expect the afternoon to be over-represented.</li>
+<li>People who keep a diary for two weeks under deadline are not typical. Expect the conscientious.</li>
+<li>The pick-lists shape the answers. The text fields exist to catch what the lists miss.</li>
+<li>Question 5 names the agent, so handoff ideas are prompted, not spontaneous.</li>
+</ul>
+
+</main>
+</div>
+</body>
+</html>

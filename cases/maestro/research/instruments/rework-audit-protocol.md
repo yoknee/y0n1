@@ -8,6 +8,8 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
+**I decided:** to audit completed workpapers rather than ask reviewers what causes rework. **We built:** the coding scheme with a Quality and Methodology reviewer and ran the double coding. Design team of three at this phase.
+
 ## 1. Purpose and scope
 
 Phase P1. Interviews and the diary say why work gets redone. This audit reads the record. Completed workpapers from prior engagements carry review notes and revision trails. Coding them gives a cause profile that does not depend on memory. The profile tells the design which causes a typed template or a pre-handoff check could remove.

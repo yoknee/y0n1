@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { esc, wrap, tspans, headerBand, svgDoc, page, figure } from '../../../../shared/design-system/svg-lib.mjs';
+import { esc, wrap, tspans, headerBand, svgDoc, page, figure, mdlink } from '../../../../shared/design-system/svg-lib.mjs';
 const here = dirname(fileURLToPath(import.meta.url));
 const D = JSON.parse(readFileSync(join(here, 'journey.json'), 'utf8'));
 const A = D.artifact;
@@ -45,7 +45,7 @@ function curve(parts, y, values, cls, label, dashed = false) {
   y = row(parts, y, 'Pain', D.stages.map(s => s.pain), 86, 't11', true);
   y = row(parts, y, 'Opportunity', D.stages.map(s => s.opportunity), 60);
   parts.push(`<text x="16" y="${y + 18}" class="t11 ink2">${esc(D.label)}</text>`);
-  writeFileSync(join(here, '05-journey-current.svg'), svgDoc(A, W, y + 32, parts.join('\n')));
+  writeFileSync(join(here, '05-journey-current.svg'), svgDoc(A, W, y + 32, parts.join('\n'), '05-current'));
 }
 // ---- service blueprint ----
 {
@@ -67,7 +67,7 @@ function curve(parts, y, values, cls, label, dashed = false) {
   y = row(parts, y + 8, 'Pain at this stage', D.stages.map(s => s.themes.join(', ')), 30, 't11 mono ink2', true);
   parts.push(`<rect x="16" y="${y + 10}" width="20" height="12" rx="2" class="brand-t"/><text x="42" y="${y + 20}" class="t11 ink2">system in use at this stage</text><rect x="230" y="${y + 10}" width="20" height="12" rx="2" class="failed-t"/><text x="256" y="${y + 20}" class="t11 ink2">shadow system: a personal spreadsheet carrying state the systems do not hold</text>`);
   parts.push(`<text x="16" y="${y + 40}" class="t11 ink2">${esc(D.label)}</text>`);
-  writeFileSync(join(here, '05-service-blueprint.svg'), svgDoc(A, W, y + 54, parts.join('\n')));
+  writeFileSync(join(here, '05-service-blueprint.svg'), svgDoc(A, W, y + 54, parts.join('\n'), '05-blueprint'));
 }
 // ---- future-state journey ----
 {
@@ -99,10 +99,10 @@ function curve(parts, y, values, cls, label, dashed = false) {
     parts.push(`<text class="t11 ${req ? '' : 'ink3'}">${tspans(wrap(s.future.checkpoint, 20), col(i) + (req ? 26 : 6), cy + 17, 13)}</text>`);
   });
   y = cy + chh;
-  y = row(parts, y, 'What changed', D.stages.map(s => s.future.delta), 74, 't11', true);
+  y = row(parts, y, 'What changed', D.stages.map(s => s.future.delta), 100, 't11', true);
   parts.push(`<rect x="16" y="${y + 10}" width="14" height="14" rx="2" class="review"/><text x="36" y="${y + 21}" class="t11 ink2">a human must act here before the run continues</text><rect x="330" y="${y + 10}" width="3" height="14" class="agent"/><text x="340" y="${y + 21}" class="t11 ink2">agent-produced work, shown in the reserved provenance color</text>`);
   parts.push(`<text x="16" y="${y + 42}" class="t11 ink2">${esc(D.label)}</text>`);
-  writeFileSync(join(here, '05-journey-future.svg'), svgDoc(A, W, y + 56, parts.join('\n')));
+  writeFileSync(join(here, '05-journey-future.svg'), svgDoc(A, W, y + 56, parts.join('\n'), '05-future'));
 }
 const cur = readFileSync(join(here, '05-journey-current.svg'), 'utf8'), bp = readFileSync(join(here, '05-service-blueprint.svg'), 'utf8'), fut = readFileSync(join(here, '05-journey-future.svg'), 'utf8');
 const deltaRows = D.stages.map(s => `<tr><td><strong>${esc(s.name)}</strong></td><td>${esc(s.pain)}</td><td>${esc(s.future.agent)}</td><td>${esc(s.future.checkpoint)}</td><td>${esc(s.future.delta)}</td><td class="mono">${s.themes.join(', ')}</td></tr>`).join('\n');
@@ -111,22 +111,22 @@ const body = `
 <h2>What these maps are</h2>
 <p>One Test of Details on the revenue area, mapped three ways. The current-state journey follows the Senior through nine lifecycle stages with what she does, thinks and feels, where it hurts and where the opportunity is. The service blueprint shows what happens behind her: client requests, data pulls and the systems that carry the work, including the shadow spreadsheet. The future-state journey puts agents in the lane and names the human checkpoint at each stage, so the delta is visible stage by stage.</p>
 <p><strong>${esc(D.label)}</strong></p>
-<p><strong>I decided</strong> ${esc(A.iDecided)} <strong>We built</strong> ${esc(A.weBuilt)}</p>
+<p><strong>I decided:</strong> ${esc(A.iDecided)} <strong>We built:</strong> ${esc(A.weBuilt)}</p>
 </section>
 <section class="block"><h2>Current-state journey</h2>${figure(cur, `${A.number} current-state journey. Nine stages, emotion curve, doing, thinking, pain and opportunity rows. Standalone: <a href="05-journey-current.svg">05-journey-current.svg</a>.`)}</section>
 <section class="block"><h2>Service blueprint</h2>${figure(bp, `${A.number} service blueprint. Frontstage auditor actions above the line of interaction, backstage client requests and data pulls, support systems below the line of visibility. The shadow spreadsheet is marked because it carries state the systems do not hold. Standalone: <a href="05-service-blueprint.svg">05-service-blueprint.svg</a>.`)}</section>
 <section class="block"><h2>Future-state journey with agents</h2>${figure(fut, `${A.number} future-state journey. Auditor and agent lanes, the human checkpoint per stage and what changed. Both emotion curves overlaid; the future curve is design intent. Standalone: <a href="05-journey-future.svg">05-journey-future.svg</a>.`)}</section>
 <section class="block">
 <h2>The delta, stage by stage</h2>
-<div style="overflow:auto"><table class="doc"><thead><tr><th>Stage</th><th>Pain today</th><th>Agent does</th><th>Human checkpoint</th><th>What changed</th><th>Themes</th></tr></thead><tbody>${deltaRows}</tbody></table></div>
+<div class="scroll" tabindex="0" role="region" aria-label="Delta table"><table class="doc"><thead><tr><th>Stage</th><th>Pain today</th><th>Agent does</th><th>Human checkpoint</th><th>What changed</th><th>Themes</th></tr></thead><tbody>${deltaRows}</tbody></table></div>
 </section>
 <section class="block prose">
 <h2>Where the checkpoints went and why</h2>
-<p>Mandatory checkpoints sit at four places: plan approval before a run starts, any retrieval of restricted-class material, every exception resolution and the moment a draft becomes the conclusion. Sign-off stays human-only by construction. The other stages have no mandatory checkpoint because the research put judgment at exceptions and conclusions, not at matching. A low-confidence match routes to review on its own. That is D-09: checkpoints where judgment lives, not everywhere and not nowhere.</p>
+<p>Mandatory checkpoints sit at four places inside the run: plan approval before it starts, any retrieval of restricted-class material, every exception resolution and the moment a draft becomes the conclusion. Manager review of every run and Partner sign-off sit outside the run and are human-only by construction. Matching has no mandatory checkpoint because the research put judgment at exceptions and conclusions, not at matching; a low-confidence match routes to review on its own. The agent cells at Plan and Assess risk that propose procedures and surface prior-year exceptions are P5 work after MVP and are labeled so in the map. That is D-09: checkpoints where judgment lives, not everywhere and not nowhere.</p>
 </section>
 <section class="block">
 <h2>Decisions fed</h2>
-<p><a class="chip" href="../../decisions.md#d-09">D-09</a> Checkpoints are mandatory before draft conclusion and before any restricted-class retrieval. Also feeds D-01 and D-04.</p>
+<p><a class="chip" href="${mdlink('../../decisions.md', 'd-09')}">D-09</a> Four mandatory checkpoints: plan approval, restricted-class retrieval, exception resolution, draft to conclusion. Sign-off human-only. Also feeds D-01 and D-04.</p>
 </section>`;
 writeFileSync(join(here, 'index.html'), page(A, body));
 console.log('wrote three SVGs and index.html');

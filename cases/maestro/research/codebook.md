@@ -8,13 +8,15 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
-**I decided** The codebook structure, the ordinal evidence rubric instead of tallies and which themes became decisions. **We built** The coding, two coders per source, the affinity sessions and the evidence table. Theme names were argued out in the weekly coding review.
+**I decided:** the codebook structure, the ordinal evidence rubric instead of tallies and which themes became decisions. **We built:** the coding, two coders per source, the affinity sessions and the evidence table. Design team of three at this phase. Theme names were argued out in the weekly coding review.
 
-Reconstructed. Every finding here is a reconstruction of what the research found, rated by an ordinal rubric. No observation, participant or quote count appears because every n except the dry run is a planned target.
+Reconstructed. Every finding here is a reconstruction of what the research found, rated by an ordinal rubric. No observation, participant or quote count appears because every n except the dry run is a planned target. Ratings are my judgment, checked by the rubric.
+
+D-01 to D-11 have records. IDs from D-12 onward are provisional register IDs from PLAN.md section 9; their records are created when artifacts 07 to 14 ship and the links are added then.
 
 ## How the codebook was built
 
-Drafted from the seven constraints in 01 and the five research questions in 02. Revised after the first two contextual inquiry days and again whenever two coders disagreed on the same code twice. Two coders on every source. Final version has 27 codes in 7 groups.
+Drafted from the seven constraints in 01 and the five research questions in 02. Revised after the first two contextual inquiry days and again whenever two coders disagreed on the same code twice. Two coders on every source. Final version has 28 codes in 7 groups.
 
 ## EV Evidence
 
@@ -59,6 +61,7 @@ Drafted from the seven constraints in 01 and the five research questions in 02. 
 | `TM-PEAK` | Busy season concentration of work. | Statements about volume or hours in peak weeks. | Everything lands in the same three weeks. |
 | `TM-INTERRUPT` | Interruptions that break a tracing task. | Any switch away from the task before it completes. | Client call mid-sample; restart from the beginning. |
 | `TM-HANDOFF` | Context lost between roles or days. | Any re-explanation of state at a handoff. | Senior re-walks the sample for the manager. |
+| `TM-EXPERT` | Experienced users choosing speed, density or keyboard operation over explanatory UI. | Any complaint about click count, modal help or guidance that cannot be dismissed; any observed keyboard-only operation through a task. | Keyboard through the sample; the help panel stays closed. |
 
 ## AI Stance on agents
 
@@ -82,7 +85,7 @@ Drafted from the seven constraints in 01 and the five research questions in 02. 
 
 | Theme | Codes |
 |---|---|
-| T1 Locating evidence costs more than judging it | `EV-LOCATE`, `EV-REQUEST`, `TM-INTERRUPT` |
+| T1 Locating evidence costs more than judging it | `EV-LOCATE`, `EV-REQUEST`, `EV-QUALITY`, `TM-INTERRUPT` |
 | T2 Tracing a sample to its documents is the repetitive core | `EV-TRACE`, `TM-PEAK` |
 | T3 Reviewers look for the source first, the conclusion second | `RV-FIRSTLOOK`, `WP-REFERENCE`, `ST-DOC` |
 | T4 Rework originates in references and format, not judgment | `WP-REFERENCE`, `WP-FORMAT`, `WP-REWORK`, `WP-CONCLUSION` |
@@ -93,5 +96,6 @@ Drafted from the seven constraints in 01 and the five research questions in 02. 
 | T9 Teams want the system to enforce data limits | `ST-DATA`, `EV-LOCATE` |
 | T10 Format inconsistency slows review more than content does | `WP-FORMAT`, `WP-STRUCTURE`, `RV-FIRSTLOOK` |
 | T11 Handoffs between roles and days lose context | `TM-HANDOFF`, `TM-INTERRUPT` |
-| T12 Experts want fewer clicks, not more guidance | `TM-PEAK`, `TM-INTERRUPT` |
+| T12 Experts want fewer clicks, not more guidance | `TM-EXPERT`, `TM-PEAK` |
 | T13 Standard Test of Details structures are adapted by hand | `WP-STRUCTURE`, `WP-REWORK` |
+| T14 Every role offers the agent its repetitive work and keeps its judgment | `AI-HANDOFF`, `EV-TRACE`, `EX-RAISE` |

@@ -1,30 +1,286 @@
 {
-  "artifact": { "number": "02", "title": "Research plan and instruments", "status": "Draft",
+  "artifact": {
+    "number": "02",
+    "title": "Research plan and instruments",
+    "status": "Draft",
     "question": "How did we learn how engagement teams work, with what methods, what rigor and what limits?",
-    "decisions": ["D-02"], "questions": [1, 2, 3, 4],
-    "iDecided": "The method mix, the sampling frame per method and contextual inquiry as the anchor. That every count beyond the dry run is labeled a planned target.",
-    "weBuilt": "The instruments, the recruiting screeners and the SME session series. Fieldwork and coding were team work." },
+    "decisions": [
+      "D-02"
+    ],
+    "questions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "iDecided": "the method mix, the sampling frame per method and contextual inquiry as the anchor.",
+    "weBuilt": "the instruments, the recruiting screeners and the SME session series. Fieldwork and coding were team work. Design team of three at this phase."
+  },
   "rqs": [
-    { "id": "RQ1", "text": "How do engagement teams gather, test and review evidence during busy season? Where does the time go?" },
-    { "id": "RQ2", "text": "What makes a workpaper hard to review, and what does a reviewer look for first?" },
-    { "id": "RQ3", "text": "What would each role hand to an agent, what would they never hand off and what would make them trust it?" },
-    { "id": "RQ4", "text": "Where in the lifecycle do errors and rework originate?" },
-    { "id": "RQ5", "text": "What baseline do we measure change against?" }
+    {
+      "id": "RQ1",
+      "text": "How do engagement teams gather, test and review evidence during busy season? Where does the time go?"
+    },
+    {
+      "id": "RQ2",
+      "text": "What makes a workpaper hard to review, and what does a reviewer look for first?"
+    },
+    {
+      "id": "RQ3",
+      "text": "What would each role hand to an agent, what would they never hand off and what would make them trust it?"
+    },
+    {
+      "id": "RQ4",
+      "text": "Where in the lifecycle do errors and rework originate?"
+    },
+    {
+      "id": "RQ5",
+      "text": "What baseline do we measure change against?"
+    }
   ],
-  "phases": ["P1 Discovery", "P2 MVP pitch", "P3 Pilot", "P4 Dry run", "P5 Agentic", "P6 Scale", "P7 Release"],
+  "phases": [
+    "P1 Discovery",
+    "P2 MVP pitch",
+    "P3 Pilot",
+    "P4 Dry run",
+    "P5 Agentic",
+    "P6 Scale",
+    "P7 Release"
+  ],
   "methods": [
-    { "id": "M1", "name": "Contextual inquiry, full fieldwork days", "type": "qual", "span": [1, 1], "rq": [1, 2, 4], "n": "6 teams, 2 days each", "label": "planned target", "instrument": "research/plan.md#m1", "analysis": "Field notes coded to the codebook (03). Pain points placed on the nine lifecycle stages.", "limits": "Observer effect. Access limited to teams that consent during busy season. Six teams cannot represent every territory." },
-    { "id": "M2", "name": "Semi-structured interviews", "type": "qual", "span": [1, 1], "rq": [1, 2, 3], "n": "20, four per role", "label": "planned target", "instrument": "research/instruments/discussion-guide.md", "analysis": "Transcripts coded; themes rated by an ordinal evidence rubric, never by count.", "limits": "Self-report and recall. Role-specific probes risk leading if the interviewer drifts." },
-    { "id": "M3", "name": "Diary study, two weeks in busy season", "type": "qual", "span": [1, 1], "rq": [1, 4], "n": "10 participants", "label": "planned target", "instrument": "research/instruments/diary-prompt.md", "analysis": "Entries coded by lifecycle stage and rework cause.", "limits": "Attrition under deadline pressure. Entries skew to memorable events." },
-    { "id": "M4", "name": "SME sessions with methodology reviewers", "type": "qual", "span": [1, 5], "rq": [2, 3, 4], "n": "8 sessions", "label": "planned target", "instrument": "research/instruments/sme-session-guide.md", "analysis": "Decisions captured to decisions.md; taxonomy and checkpoint rules to 08.", "limits": "Methodology view, not field view. Sessions validate rules; they do not observe behavior." },
-    { "id": "M5", "name": "Time-and-motion study of evidence review", "type": "quant", "span": [1, 1], "rq": [1], "n": "12 sessions", "label": "planned target", "instrument": "research/instruments/time-and-motion-protocol.md", "analysis": "Descriptive statistics of step durations. Where time goes by step.", "limits": "Small n. One observer. Step boundaries are a judgment." },
-    { "id": "M6", "name": "Workpaper rework audit", "type": "quant", "span": [1, 1], "rq": [2, 4], "n": "40 workpapers", "label": "planned target", "instrument": "research/instruments/rework-audit-protocol.md", "analysis": "Rework causes by audit area and lifecycle stage. Double-coded subset with agreement check.", "limits": "Prior engagements only. Review notes record what reviewers wrote, not what they thought." },
-    { "id": "M7", "name": "Baseline survey, SUS and tool satisfaction", "type": "quant", "span": [1, 1], "rq": [5], "n": "120 respondents", "label": "planned target", "instrument": "research/instruments/survey.md", "analysis": "SUS scored by the standard formula. Satisfaction descriptives by role.", "limits": "Response bias toward the dissatisfied. SUS is a blunt instrument for a tool set rather than one tool." },
-    { "id": "M8", "name": "Pilot telemetry", "type": "quant", "span": [3, 7], "rq": [1, 5], "n": "40 pilot users", "label": "planned target", "instrument": "research/plan.md#m8", "analysis": "Task completion, time to conclusion, approval and edit rates, review latency. Descriptives only.", "limits": "Pilot users are early adopters. Events measure the product, not the audit." },
-    { "id": "M9", "name": "Usability round 1, moderated think-aloud", "type": "qual", "span": [3, 3], "rq": [3], "n": "8 sessions", "label": "planned target", "instrument": "artifact 13", "analysis": "Findings table with severity on the shared 1 to 4 scale.", "limits": "Think-aloud slows expert users." },
-    { "id": "M10", "name": "Dry run with engagement teams", "type": "mixed", "span": [4, 4], "rq": [1, 2, 3, 4], "n": "20 teams, 1,600+ items", "label": "real", "instrument": "artifact 13", "analysis": "Intake taxonomy, triage 2x2, themes. Repository becomes the regression bench.", "limits": "Voluntary reporting. Team self-selection. Recency bias." },
-    { "id": "M11", "name": "Usability round 2, task-based with metrics", "type": "quant", "span": [4, 4], "rq": [3], "n": "12 sessions", "label": "planned target", "instrument": "artifact 13", "analysis": "Task success, time on task, errors, trust calibration.", "limits": "Lab tasks are cleaner than fieldwork." },
-    { "id": "M12", "name": "Card sort and tree test", "type": "quant", "span": [5, 5], "rq": [2], "n": "30 participants", "label": "planned target", "instrument": "artifact 08", "analysis": "Agreement matrix, tree test success and directness.", "limits": "Tests labels and structure, not use." },
-    { "id": "M13", "name": "Usability round 3, unmoderated with SUS", "type": "quant", "span": [6, 6], "rq": [3, 5], "n": "40 participants", "label": "planned target", "instrument": "artifact 13", "analysis": "SUS trend against the M7 baseline.", "limits": "No probing. Dropout." }
+    {
+      "id": "M1",
+      "name": "Contextual inquiry, full fieldwork days",
+      "type": "qual",
+      "span": [
+        1,
+        1
+      ],
+      "rq": [
+        1,
+        2,
+        4
+      ],
+      "n": "6 teams, 2 days each",
+      "label": "planned target",
+      "instrument": "research/plan.md#m1",
+      "analysis": "Field notes coded to the codebook (03). Pain points placed on the nine lifecycle stages.",
+      "limits": "Observer effect. Access limited to teams that consent during busy season. Six teams cannot represent every territory."
+    },
+    {
+      "id": "M2",
+      "name": "Semi-structured interviews",
+      "type": "qual",
+      "span": [
+        1,
+        1
+      ],
+      "rq": [
+        1,
+        2,
+        3
+      ],
+      "n": "20, four per role",
+      "label": "planned target",
+      "instrument": "research/instruments/discussion-guide.md",
+      "analysis": "Transcripts coded; themes rated by an ordinal evidence rubric, never by count.",
+      "limits": "Self-report and recall. Role-specific probes risk leading if the interviewer drifts."
+    },
+    {
+      "id": "M3",
+      "name": "Diary study, two weeks in busy season",
+      "type": "qual",
+      "span": [
+        1,
+        1
+      ],
+      "rq": [
+        1,
+        4
+      ],
+      "n": "10 participants: 4 Associates, 4 Seniors, 2 Managers",
+      "label": "planned target",
+      "instrument": "research/instruments/diary-prompt.md",
+      "analysis": "Entries coded by lifecycle stage and rework cause.",
+      "limits": "Attrition under deadline pressure. Entries skew to memorable events."
+    },
+    {
+      "id": "M4",
+      "name": "SME sessions with methodology reviewers",
+      "type": "qual",
+      "span": [
+        1,
+        5
+      ],
+      "rq": [
+        2,
+        3,
+        4
+      ],
+      "n": "8 sessions",
+      "label": "planned target",
+      "instrument": "research/instruments/sme-session-guide.md",
+      "analysis": "Decisions captured to decisions.md; taxonomy and checkpoint rules to 08.",
+      "limits": "Methodology view, not field view. Sessions validate rules; they do not observe behavior."
+    },
+    {
+      "id": "M5",
+      "name": "Time-and-motion study of evidence review",
+      "type": "quant",
+      "span": [
+        1,
+        1
+      ],
+      "rq": [
+        1
+      ],
+      "n": "12 sessions",
+      "label": "planned target",
+      "instrument": "research/instruments/time-and-motion-protocol.md",
+      "analysis": "Descriptive statistics of step durations. Where time goes by step.",
+      "limits": "Small n. One observer. Step boundaries are a judgment."
+    },
+    {
+      "id": "M6",
+      "name": "Workpaper rework audit",
+      "type": "quant",
+      "span": [
+        1,
+        1
+      ],
+      "rq": [
+        2,
+        4
+      ],
+      "n": "40 workpapers",
+      "label": "planned target",
+      "instrument": "research/instruments/rework-audit-protocol.md",
+      "analysis": "Rework causes by audit area and lifecycle stage. Double-coded subset with agreement check.",
+      "limits": "Prior engagements only. Review notes record what reviewers wrote, not what they thought."
+    },
+    {
+      "id": "M7",
+      "name": "Baseline survey, SUS and tool satisfaction",
+      "type": "quant",
+      "span": [
+        1,
+        1
+      ],
+      "rq": [
+        5
+      ],
+      "n": "120 respondents",
+      "label": "planned target",
+      "instrument": "research/instruments/survey.md",
+      "analysis": "SUS scored by the standard formula. Satisfaction descriptives by role.",
+      "limits": "Response bias toward the dissatisfied. SUS is a blunt instrument for a tool set rather than one tool."
+    },
+    {
+      "id": "M8",
+      "name": "Pilot telemetry",
+      "type": "quant",
+      "span": [
+        3,
+        7
+      ],
+      "rq": [
+        1,
+        5
+      ],
+      "n": "40 pilot users",
+      "label": "planned target",
+      "instrument": "research/plan.md#m8",
+      "analysis": "Task completion, time to conclusion, approval and edit rates, review latency. Descriptives only.",
+      "limits": "Pilot users are early adopters. Events measure the product, not the audit."
+    },
+    {
+      "id": "M9",
+      "name": "Usability round 1, moderated think-aloud",
+      "type": "qual",
+      "span": [
+        3,
+        3
+      ],
+      "rq": [
+        3
+      ],
+      "n": "8 sessions",
+      "label": "planned target",
+      "instrument": "artifact 13",
+      "analysis": "Findings table with severity on the shared 1 to 4 scale.",
+      "limits": "Think-aloud slows expert users."
+    },
+    {
+      "id": "M10",
+      "name": "Dry run with engagement teams",
+      "type": "mixed",
+      "span": [
+        4,
+        4
+      ],
+      "rq": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "n": "20 teams, 1,600+ items",
+      "label": "real",
+      "instrument": "artifact 13",
+      "analysis": "Intake taxonomy, triage 2x2, themes. Repository becomes the regression bench.",
+      "limits": "Voluntary reporting. Team self-selection. Recency bias."
+    },
+    {
+      "id": "M11",
+      "name": "Usability round 2, task-based with metrics",
+      "type": "quant",
+      "span": [
+        4,
+        4
+      ],
+      "rq": [
+        3
+      ],
+      "n": "12 sessions",
+      "label": "planned target",
+      "instrument": "artifact 13",
+      "analysis": "Task success, time on task, errors, trust calibration.",
+      "limits": "Lab tasks are cleaner than fieldwork."
+    },
+    {
+      "id": "M12",
+      "name": "Card sort and tree test",
+      "type": "quant",
+      "span": [
+        5,
+        5
+      ],
+      "rq": [
+        2
+      ],
+      "n": "30 participants",
+      "label": "planned target",
+      "instrument": "artifact 08",
+      "analysis": "Agreement matrix, tree test success and directness.",
+      "limits": "Tests labels and structure, not use."
+    },
+    {
+      "id": "M13",
+      "name": "Usability round 3, unmoderated with SUS",
+      "type": "quant",
+      "span": [
+        6,
+        6
+      ],
+      "rq": [
+        3,
+        5
+      ],
+      "n": "40 participants",
+      "label": "planned target",
+      "instrument": "artifact 13",
+      "analysis": "SUS trend against the M7 baseline.",
+      "limits": "No probing. Dropout."
+    }
   ]
 }

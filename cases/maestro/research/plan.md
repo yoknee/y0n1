@@ -8,9 +8,9 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
-**I decided** the method mix, the sampling frame per method and that contextual inquiry anchors the plan. **We built** the instruments, ran the screeners and coded the material as a team.
+**I decided:** the method mix, the sampling frame per method and that contextual inquiry anchors the plan. **We built:** the instruments, the screeners and the coding as a team. Design team of three at this phase.
 
-Every participant count in this plan is a planned target except two real figures: the dry run involved 20 engagement teams and produced 1,600+ feedback items. No result is reported in this document. Results, where this reconstruction shows them, live in artifact 03 as reconstructed findings and in artifact 13 as illustrative metrics, each labeled.
+Every participant count in this plan is a planned target except two real figures: the dry run involved 20 engagement teams and produced 1,600+ feedback items. This reconstruction reports the plan. Which of these methods ran at what scale is not confirmed here, so no result is reported in this document. Results, where this reconstruction shows them, live in artifact 03 as reconstructed findings and in artifact 13 as illustrative metrics, each labeled.
 
 ## 1. Research questions
 
@@ -18,7 +18,7 @@ Every participant count in this plan is a planned target except two real figures
 |---|---|---|
 | RQ1 | How do engagement teams gather, test and review evidence during busy season? Where does the time go? | Tells us which steps an agent should take over (Q1) and how much of the work must stay visible (Q3). |
 | RQ2 | What makes a workpaper hard to review, and what does a reviewer look for first? | Shapes the review center and the checkpoint design (Q2). |
-| RQ3 | What would each role hand to an agent, what would they never hand off and what would make them trust it? | Sets the trust calibration targets and the failure design (Q4). |
+| RQ3 | What would each role hand to an agent, what would they never hand off and what would make them trust it? | Sets the first cut of agent work (Q1), the trust calibration targets and the failure design (Q4). |
 | RQ4 | Where in the lifecycle do errors and rework originate? | Tells us where a checkpoint pays for itself (Q2) and what the agent must get right first. |
 | RQ5 | What baseline do we measure change against? | Without it every outcome is a story. With it, outcomes are directional with a mechanism. |
 
@@ -39,7 +39,7 @@ Why quantitative at all with these n: not to claim significance. To find where t
 - Planned target: 6 engagement teams, 2 full days each, during fieldwork in busy season.
 - Recruiting: teams in active fieldwork; mix of industries and engagement sizes; engagement partner consent; one Senior as host; the observer signs the engagement's confidentiality terms; no client data recorded, step names and durations only.
 - Protocol: shadow one Senior and one Associate across a working day. Observe how a sample is traced to its evidence, how exceptions are raised and resolved, how review notes are received and cleared. Ask only clarifying questions in the moment; save why questions for the end-of-day debrief (20 minutes).
-- Field note template: timestamp, lifecycle stage (plan, assess risk, design procedures, gather evidence, test, evaluate exceptions, conclude, review, sign), observation, quote, tool in use, interruption, code candidate.
+- Field note template: timestamp, lifecycle stage (plan, assess risk, design procedures, gather evidence, test, evaluate exceptions, conclude, review, sign), observation, quote, tool in use, input mode (keyboard or mouse), guidance opened or dismissed, interruption, code candidate.
 - Analysis: notes coded to the codebook in artifact 03. Pain points placed on the nine lifecycle stages for the heat map.
 - Limitations: observer effect; teams that consent during busy season are the better-run teams; six teams cannot represent every territory or industry.
 
@@ -53,7 +53,7 @@ Why quantitative at all with these n: not to claim significance. To find where t
 
 ### M3 Diary study
 
-- Planned target: 10 participants (Associates and Seniors), two weeks in busy season.
+- Planned target: 10 participants, 4 Associates, 4 Seniors and 2 Managers, two weeks in busy season.
 - Instrument: [diary-prompt.md](instruments/diary-prompt.md).
 - Analysis: entries coded by lifecycle stage and rework cause. Weekly check-ins coded like interviews.
 - Limitations: attrition under deadline pressure; entries skew to memorable events.
@@ -115,17 +115,17 @@ Why quantitative at all with these n: not to claim significance. To find where t
 ## 5. Analysis method
 
 1. Codebook first. The codebook (03) is drafted from the constraints in 01 and the research questions, then revised after the first two contextual inquiry days.
-2. Two coders on every qualitative source. Disagreements resolved in a weekly 30-minute session; the codebook changes when a disagreement repeats.
+2. Two coders on every qualitative source (M1 to M4). The first sources in each method are coded first and compared to calibrate the codebook. Disagreements resolved in a weekly 30-minute session; the codebook changes when a disagreement repeats. Cost: qualitative coding time roughly doubles. I accepted that because section 6 relies on it. The rework audit (M6) double codes a 10-workpaper subset, then single codes with spot checks, because its coding scheme is closed.
 3. Themes are rated by an ordinal rubric: methods that surfaced the theme (named), roles that raised it (listed), consistency (high, medium, low). No tallies. With planned-target counts, a tally would be a number nobody measured.
 4. Quantitative streams report descriptives. Where time goes, what rework costs, what the baseline is. No significance testing at these n.
 5. Every finding carries its source method and, once decisions exist, the decision IDs it drove. That is the evidence table in 03.
 
 ## 6. Limitations of the plan as a whole
 
-- Every count outside the dry run is a planned target. This reconstruction reports the plan, not the attainment.
+- Every count outside the dry run is a planned target. This reconstruction reports the plan. Which methods ran at what scale is not confirmed here.
 - Busy season access shapes the sample. Teams that can host an observer are not the teams under the most pressure.
 - The plan was written for one firm's methodology. Other firms sequence the lifecycle differently.
-- The lead designed the plan and also made the product decisions it informed. Two coders and the SME sessions are the check on that.
+- I designed the plan and made the product decisions it informed. Two coders and the SME sessions are the check on that.
 
 ## 7. What feeds what
 

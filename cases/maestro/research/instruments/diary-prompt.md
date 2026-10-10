@@ -8,6 +8,8 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
+**I decided:** a busy-season diary over a retrospective interview, the five-question shape and the two-week window. **We built:** the prompts, the onboarding and the weekly check-ins. Design team of three at this phase.
+
 ## 1. Purpose and scope
 
 Phase P1, discovery. Interviews capture one remembered instance. The diary captures ten working days as they happen, in the weeks when time pressure is highest. It fills the lifecycle heat map in artifact 03 with day-by-day data and gives the time-and-motion study its context.
@@ -114,7 +116,7 @@ Unit of analysis: one daily entry. Coding happens after week 1 and again after w
 | 2 | Q5 task | Open, then grouped to the agent step types: plan, evidence retrieval, extraction, matching, exception detection, draft conclusion, other | Handoff candidates by step and role. |
 | 2 | Q5 check | Open, then grouped: see the source, see the steps, compare to my own, second person checks, sample it, would not trust | Trust condition by step and role. Feeds the stance block in 04 and checkpoint placement in 08. |
 
-Calibration: two coders code the week 1 entries of DRY-01 and DRY-02 independently. Disagreements are talked through and definitions tightened before the rest is coded. Weekly check-in notes are coded with the interview notes.
+Two coders on every entry. Calibration: both coders code the week 1 entries of DRY-01 and DRY-02 first and compare. Disagreements are talked through and definitions tightened before the rest is coded; later disagreements go to the weekly coding review in plan.md section 5. Weekly check-in notes are coded with the interview notes.
 
 Reporting: patterns by role and by stage, in words, with the evidence strength rubric from 03. Hours are reported as medians per participant day and labeled illustrative wherever they appear in the case. No entry counts are reported.
 

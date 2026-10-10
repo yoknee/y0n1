@@ -8,6 +8,8 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
+**I decided:** the role mix, the section budgets and the rule that every question asks for the last specific instance. **We built:** the guide, ran the sessions in pairs and coded the notes. Design team of three at this phase.
+
 ## 1. Purpose and scope
 
 Phase P1, discovery. One guide for five roles: Associate, Senior, Manager, Partner, Quality and Methodology reviewer. Core questions are shared so answers compare across roles. A probe block per role goes deeper where that role carries the work.
@@ -169,7 +171,7 @@ Header block per session: participant ID, role, region, date, moderator ID, note
 
 ## 11. Analysis
 
-Thematic coding against the codebook. Two coders on INT-01 to INT-04 for calibration, then one coder per session with a weekly agreement check on one shared session. Themes are rated by evidence strength on the ordinal rubric in artifact 03: methods that surfaced it, roles that raised it, consistency. No participant or quote counts are reported.
+Thematic coding against the codebook. Two coders on every session. INT-01 to INT-04 are coded first and compared to calibrate the codebook before the rest are coded. Disagreements go to the weekly 30-minute coding review in plan.md section 5; the codebook changes when a disagreement repeats. Themes are rated by evidence strength on the ordinal rubric in artifact 03: methods that surfaced it, roles that raised it, consistency. No participant or quote counts are reported.
 
 ## 12. Limitations
 

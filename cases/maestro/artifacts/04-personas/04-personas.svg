@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1198" width="1400" height="1198" role="img" aria-labelledby="t d">
-<title id="t">04 Personas</title>
-<desc id="d">Who are we designing for, what do they do all day and where do they stand on handing work to an agent? Decisions fed: D-07, D-08. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1244" width="1400" height="1244" role="img" aria-labelledby="t-04-personas d-04-personas">
+<title id="t-04-personas">04 Personas</title>
+<desc id="d-04-personas">Who are we designing for, what do they do all day and where do they stand on handing work to an agent? Decisions fed: D-07, D-08. Status: Draft. Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</desc>
 
 <style>
-@font-face{font-family:"Plex Sans";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
-@font-face{font-family:"Plex Sans";font-weight:600;src:url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
-@font-face{font-family:"Plex Mono";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
 svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
 @media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
 .ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
@@ -16,190 +16,202 @@ svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt
 .edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
 text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
 </style>
-<rect x="0" y="0" width="1400" height="88" class="surf2"/><line x1="0" y1="88" x2="1400" y2="88" class="hair"/>
+<text x="1061" y="907" class="t10 ink3 mono">composite, reconstructed</text>
+<rect x="1051" y="160" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
+<rect x="706" y="160" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
+<rect x="361" y="160" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
+<rect x="16" y="160" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
+<g class="svg-head" data-h="106">
+<rect x="0" y="0" width="1400" height="106" class="surf2"/><line x1="0" y1="106" x2="1400" y2="106" class="hair"/>
 <text x="16" y="26" class="t16">04 Personas</text>
 <text class="t11 ink2"><tspan x="16" y="46">Question: Who are we designing for, what do they do all day and where do they stand on handing work to an agent?</tspan></text>
 <text x="16" y="66" class="t11 ink2">Feeds: D-07, D-08  |  Status: Draft</text>
-<text class="t11 ink2"><tspan x="756" y="22">I decided: Four composites cut by accountability, not by seniority alone, plus one anti-persona.</tspan><tspan x="756" y="35">Role-based views of the same run came out of this cut.</tspan></text>
-<text class="t11 ink2"><tspan x="756" y="56">We built: The cards from the coded material, with the evidence rows attached, reviewed in critique</tspan><tspan x="756" y="69">by the whole design team.</tspan></text>
-<rect x="1051" y="128" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
-<rect x="706" y="128" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
-<rect x="361" y="128" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
-<rect x="16" y="128" width="333" height="822" rx="3" class="surf" stroke="var(--bt-border)"/>
-<text x="16" y="116" class="t11 ink2 b">FOUR COMPOSITE PERSONAS AND ONE ANTI-PERSONA. COMPOSITE AND RECONSTRUCTED. EACH PERSONA IS A COMPOSITE BUILT FROM THE THEMES IN 03. NO ATTRIBUTE CARRIES AN OBSERVATION, PARTICIPANT OR QUOTE COUNT. NAMES ARE INVENTED.</text>
-<text x="26" y="150" class="t14">Dana Whitlock</text>
-<text x="26" y="166" class="t11 ink2 b">Engagement Senior</text>
-<text class="t11 ink2"><tspan x="26" y="182">Fourth busy season. Runs fieldwork on three</tspan><tspan x="26" y="195">engagements at once.</tspan></text>
-<text x="26" y="216" class="t10 ink2 b">ENVIRONMENT</text>
-<text class="t11"><tspan x="26" y="230">Client site three days a week, laptop on a</tspan><tspan x="26" y="243">shared table, calls interrupting. Firm office</tspan><tspan x="26" y="256">or home the other two.</tspan></text>
-<text x="26" y="275" class="t10 ink2 b">GOALS</text>
-<text class="t11"><tspan x="26" y="289">- Get every sample traced and every exception</tspan><tspan x="26" y="302">explained before the manager's review slot.</tspan></text>
-<text class="t11"><tspan x="26" y="317">- Hand the manager a file that needs no</tspan><tspan x="26" y="330">re-walk.</tspan></text>
-<text class="t11"><tspan x="26" y="345">- Keep the associates moving without redoing</tspan><tspan x="26" y="358">their work.</tspan></text>
-<text x="26" y="377" class="t10 ink2 b">CORE TASKS</text>
-<text class="t11"><tspan x="26" y="391">- Design the sample and assign items.</tspan></text>
-<text class="t11"><tspan x="26" y="406">- Trace samples to evidence, clear the hard</tspan><tspan x="26" y="419">ones herself.</tspan></text>
-<text class="t11"><tspan x="26" y="434">- Raise and resolve exceptions with the</tspan><tspan x="26" y="447">client.</tspan></text>
-<text class="t11"><tspan x="26" y="462">- Draft conclusions and prepare for review.</tspan></text>
-<text x="26" y="481" class="t10 ink2 b">TOOLS</text>
-<text class="t11"><tspan x="26" y="495">Workpaper system, Document request portal,</tspan><tspan x="26" y="508">Spreadsheets for tracking, Email and chat with</tspan><tspan x="26" y="521">the client</tspan></text>
-<text x="26" y="540" class="t10 ink2 b">EXPERTISE</text>
-<text class="t11"><tspan x="26" y="554">Knows the procedure cold. Knows which client</tspan><tspan x="26" y="567">contact answers which request. Does not need</tspan><tspan x="26" y="580">guidance; needs speed.</tspan></text>
-<text x="26" y="599" class="t10 ink2 b">FRUSTRATIONS</text>
-<text class="t11"><tspan x="26" y="613">- Three systems opened to find one statement.</tspan></text>
-<text class="t11"><tspan x="26" y="628">- Review waits, then notes loop.</tspan></text>
-<text class="t11"><tspan x="26" y="643">- Re-walking the sample for the manager</tspan><tspan x="26" y="656">because the file does not hold the state.</tspan></text>
-<text x="26" y="675" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
-<text class="t11"><tspan x="26" y="689">Owns the fieldwork result. If the file is late</tspan><tspan x="26" y="702">or thin, it is her name the manager says</tspan><tspan x="26" y="715">first.</tspan></text>
-<rect x="22" y="728" width="321" height="2" class="agent"/>
-<text x="26" y="740" class="t10 ink2 b">WOULD HAND OFF</text>
-<text class="t11"><tspan x="26" y="754">Retrieval, extraction and the field-by-field</tspan><tspan x="26" y="767">matching. 'It can do the matching. I will look</tspan><tspan x="26" y="780">at the differences.'</tspan></text>
-<text x="26" y="799" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
-<text class="t11"><tspan x="26" y="813">Deciding what an exception means. Talking to</tspan><tspan x="26" y="826">the client about it.</tspan></text>
-<text x="26" y="845" class="t10 ink2 b">WHAT BUILDS TRUST</text>
-<text class="t11"><tspan x="26" y="859">Seeing the page it read, next to the field it</tspan><tspan x="26" y="872">extracted. Being able to rerun one step with</tspan><tspan x="26" y="885">the right file.</tspan></text>
-<text x="26" y="904" class="t10 ink2 b">EVIDENCE</text>
-<rect x="26" y="910" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="43" y="922" class="t10 mono" text-anchor="middle">E-01</text>
-<rect x="64" y="910" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="81" y="922" class="t10 mono" text-anchor="middle">E-03</text>
-<rect x="102" y="910" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="119" y="922" class="t10 mono" text-anchor="middle">E-04</text>
-<rect x="140" y="910" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="157" y="922" class="t10 mono" text-anchor="middle">E-08</text>
-<rect x="178" y="910" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="195" y="922" class="t10 mono" text-anchor="middle">E-17</text>
-<rect x="216" y="910" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="233" y="922" class="t10 mono" text-anchor="middle">E-18</text>
-<text x="26" y="940" class="t10 ink3 mono">composite, reconstructed</text>
-<text x="371" y="150" class="t14">Rafael Osei</text>
-<text x="371" y="166" class="t11 ink2 b">Engagement Manager</text>
-<text class="t11 ink2"><tspan x="371" y="182">Eight years. Reviews for five engagements in the</tspan><tspan x="371" y="195">same weeks.</tspan></text>
-<text x="371" y="216" class="t10 ink2 b">ENVIRONMENT</text>
-<text class="t11"><tspan x="371" y="230">Mostly office or home. Review happens in</tspan><tspan x="371" y="243">blocks between client meetings, often late.</tspan></text>
-<text x="371" y="262" class="t10 ink2 b">GOALS</text>
-<text class="t11"><tspan x="371" y="276">- Clear review queues before the partner needs</tspan><tspan x="371" y="289">the file.</tspan></text>
-<text class="t11"><tspan x="371" y="304">- Catch the reference and format problems</tspan><tspan x="371" y="317">early so they do not reach the partner.</tspan></text>
-<text class="t11"><tspan x="371" y="332">- Know, at a glance, what is waiting on whom.</tspan></text>
-<text x="371" y="351" class="t10 ink2 b">CORE TASKS</text>
-<text class="t11"><tspan x="371" y="365">- Review workpapers and raise notes.</tspan></text>
-<text class="t11"><tspan x="371" y="380">- Judge exception resolutions.</tspan></text>
-<text class="t11"><tspan x="371" y="395">- Decide what escalates to the partner.</tspan></text>
-<text class="t11"><tspan x="371" y="410">- Coach seniors through notes.</tspan></text>
-<text x="371" y="429" class="t10 ink2 b">TOOLS</text>
-<text class="t11"><tspan x="371" y="443">Workpaper system review mode, Email for notes</tspan><tspan x="371" y="456">outside the system, A personal list of what is</tspan><tspan x="371" y="469">waiting</tspan></text>
-<text x="371" y="488" class="t10 ink2 b">EXPERTISE</text>
-<text class="t11"><tspan x="371" y="502">Reads a workpaper by its references first.</tspan><tspan x="371" y="515">Knows which seniors need a second look.</tspan></text>
-<text x="371" y="534" class="t10 ink2 b">FRUSTRATIONS</text>
-<text class="t11"><tspan x="371" y="548">- Layout differs per team, so decoding</tspan><tspan x="371" y="561">precedes judging.</tspan></text>
-<text class="t11"><tspan x="371" y="576">- Notes cleared then reopened.</tspan></text>
-<text class="t11"><tspan x="371" y="591">- No view of the whole queue across</tspan><tspan x="371" y="604">engagements.</tspan></text>
-<text x="371" y="623" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
-<text class="t11"><tspan x="371" y="637">Signs the review. Shares the consequence of</tspan><tspan x="371" y="650">anything the partner finds later.</tspan></text>
-<rect x="367" y="663" width="321" height="2" class="agent"/>
-<text x="371" y="675" class="t10 ink2 b">WOULD HAND OFF</text>
-<text class="t11"><tspan x="371" y="689">Drafting with references in place. Flagging</tspan><tspan x="371" y="702">exceptions with the evidence attached.</tspan></text>
-<text x="371" y="721" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
-<text class="t11"><tspan x="371" y="735">The review decision itself. 'A number alone is</tspan><tspan x="371" y="748">not confidence.'</tspan></text>
-<text x="371" y="767" class="t10 ink2 b">WHAT BUILDS TRUST</text>
-<text class="t11"><tspan x="371" y="781">Step-level visibility. Rejecting one step</tspan><tspan x="371" y="794">without discarding the run. Knowing the agent</tspan><tspan x="371" y="807">could not read restricted material without a</tspan><tspan x="371" y="820">checkpoint.</tspan></text>
-<text x="371" y="839" class="t10 ink2 b">EVIDENCE</text>
-<rect x="371" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="388" y="857" class="t10 mono" text-anchor="middle">E-05</text>
-<rect x="409" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="426" y="857" class="t10 mono" text-anchor="middle">E-06</text>
-<rect x="447" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="464" y="857" class="t10 mono" text-anchor="middle">E-07</text>
-<rect x="485" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="502" y="857" class="t10 mono" text-anchor="middle">E-08</text>
-<rect x="523" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="540" y="857" class="t10 mono" text-anchor="middle">E-11</text>
-<rect x="561" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="578" y="857" class="t10 mono" text-anchor="middle">E-12</text>
-<rect x="599" y="845" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="616" y="857" class="t10 mono" text-anchor="middle">E-16</text>
-<text x="371" y="875" class="t10 ink3 mono">composite, reconstructed</text>
-<text x="716" y="150" class="t14">Ingrid Haller</text>
-<text x="716" y="166" class="t11 ink2 b">Signing Partner</text>
-<text class="t11 ink2"><tspan x="716" y="182">Nineteen years. Signs for a portfolio of</tspan><tspan x="716" y="195">engagements.</tspan></text>
-<text x="716" y="216" class="t10 ink2 b">ENVIRONMENT</text>
-<text class="t11"><tspan x="716" y="230">Travelling between clients. Reads on a laptop</tspan><tspan x="716" y="243">in short windows. Signs when the file is</tspan><tspan x="716" y="256">ready, not when it is convenient.</tspan></text>
-<text x="716" y="275" class="t10 ink2 b">GOALS</text>
-<text class="t11"><tspan x="716" y="289">- Sign a file she could defend to an inspector</tspan><tspan x="716" y="302">a year later.</tspan></text>
-<text class="t11"><tspan x="716" y="317">- See the exception trail before the</tspan><tspan x="716" y="330">conclusion.</tspan></text>
-<text class="t11"><tspan x="716" y="345">- Spend her attention on judgment, not on</tspan><tspan x="716" y="358">format.</tspan></text>
-<text x="716" y="377" class="t10 ink2 b">CORE TASKS</text>
-<text class="t11"><tspan x="716" y="391">- Final review of high-risk areas.</tspan></text>
-<text class="t11"><tspan x="716" y="406">- Decide on misstatements and waivers.</tspan></text>
-<text class="t11"><tspan x="716" y="421">- Sign off.</tspan></text>
-<text class="t11"><tspan x="716" y="436">- Answer for the file afterward.</tspan></text>
-<text x="716" y="455" class="t10 ink2 b">TOOLS</text>
-<text class="t11"><tspan x="716" y="469">Workpaper system summary views, The manager's</tspan><tspan x="716" y="482">verbal walkthrough</tspan></text>
-<text x="716" y="501" class="t10 ink2 b">EXPERTISE</text>
-<text class="t11"><tspan x="716" y="515">Pattern-matches across engagements. Knows</tspan><tspan x="716" y="528">which exceptions become findings.</tspan></text>
-<text x="716" y="547" class="t10 ink2 b">FRUSTRATIONS</text>
-<text class="t11"><tspan x="716" y="561">- The exception trail is spread across</tspan><tspan x="716" y="574">workpapers and emails.</tspan></text>
-<text class="t11"><tspan x="716" y="589">- Being asked to sign before the review is</tspan><tspan x="716" y="602">complete.</tspan></text>
-<text class="t11"><tspan x="716" y="617">- Not knowing what a tool did with the</tspan><tspan x="716" y="630">client's data.</tspan></text>
-<text x="716" y="649" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
-<text class="t11"><tspan x="716" y="663">Personal liability. Independence. 'If it is</tspan><tspan x="716" y="676">wrong, it is still my name.'</tspan></text>
-<rect x="712" y="689" width="321" height="2" class="agent"/>
-<text x="716" y="701" class="t10 ink2 b">WOULD HAND OFF</text>
-<text class="t11"><tspan x="716" y="715">Assembly of the evidence trail. Consistency</tspan><tspan x="716" y="728">checks across workpapers.</tspan></text>
-<text x="716" y="747" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
-<text class="t11"><tspan x="716" y="761">Conclusions. Sign-off. Anything that writes</tspan><tspan x="716" y="774">into the file as final.</tspan></text>
-<text x="716" y="793" class="t10 ink2 b">WHAT BUILDS TRUST</text>
-<text class="t11"><tspan x="716" y="807">A human checkpoint before anything restricted</tspan><tspan x="716" y="820">was read. A visible record of what the agent</tspan><tspan x="716" y="833">did, in the file, not in a log.</tspan></text>
-<text x="716" y="852" class="t10 ink2 b">EVIDENCE</text>
-<rect x="716" y="858" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="733" y="870" class="t10 mono" text-anchor="middle">E-06</text>
-<rect x="754" y="858" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="771" y="870" class="t10 mono" text-anchor="middle">E-13</text>
-<rect x="792" y="858" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="809" y="870" class="t10 mono" text-anchor="middle">E-14</text>
-<text x="716" y="888" class="t10 ink3 mono">composite, reconstructed</text>
-<text x="1061" y="150" class="t14">Tomasz Brenner</text>
-<text x="1061" y="166" class="t11 ink2 b">Quality and Methodology reviewer</text>
-<text class="t11 ink2"><tspan x="1061" y="182">Twelve years in audit, four in methodology.</tspan></text>
-<text x="1061" y="203" class="t10 ink2 b">ENVIRONMENT</text>
-<text class="t11"><tspan x="1061" y="217">Firm office. Works across engagements, not</tspan><tspan x="1061" y="230">inside one. Writes the rules teams work to.</tspan></text>
-<text x="1061" y="249" class="t10 ink2 b">GOALS</text>
-<text class="t11"><tspan x="1061" y="263">- Rules that teams can follow without</tspan><tspan x="1061" y="276">memorizing them.</tspan></text>
-<text class="t11"><tspan x="1061" y="291">- Structures that fit procedures so teams stop</tspan><tspan x="1061" y="304">adapting them by hand.</tspan></text>
-<text class="t11"><tspan x="1061" y="319">- A file that can be re-performed from its</tspan><tspan x="1061" y="332">contents.</tspan></text>
-<text x="1061" y="351" class="t10 ink2 b">CORE TASKS</text>
-<text class="t11"><tspan x="1061" y="365">- Maintain the Test of Details structures.</tspan></text>
-<text class="t11"><tspan x="1061" y="380">- Set documentation and checkpoint rules.</tspan></text>
-<text class="t11"><tspan x="1061" y="395">- Review quality findings across engagements.</tspan></text>
-<text class="t11"><tspan x="1061" y="410">- Answer teams' methodology questions.</tspan></text>
-<text x="1061" y="429" class="t10 ink2 b">TOOLS</text>
-<text class="t11"><tspan x="1061" y="443">Methodology library, Quality review tooling,</tspan><tspan x="1061" y="456">Structure templates</tspan></text>
-<text x="1061" y="475" class="t10 ink2 b">EXPERTISE</text>
-<text class="t11"><tspan x="1061" y="489">Knows every structure and why each field</tspan><tspan x="1061" y="502">exists. Knows where teams deviate and what it</tspan><tspan x="1061" y="515">costs.</tspan></text>
-<text x="1061" y="534" class="t10 ink2 b">FRUSTRATIONS</text>
-<text class="t11"><tspan x="1061" y="548">- Local variants of standard structures.</tspan></text>
-<text class="t11"><tspan x="1061" y="563">- Data handling rules known unevenly.</tspan></text>
-<text class="t11"><tspan x="1061" y="578">- Reviewing rules in documents nobody reads</tspan><tspan x="1061" y="591">under pressure.</tspan></text>
-<text x="1061" y="610" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
-<text class="t11"><tspan x="1061" y="624">Answers for methodology compliance across the</tspan><tspan x="1061" y="637">practice.</tspan></text>
-<rect x="1057" y="650" width="321" height="2" class="agent"/>
-<text x="1061" y="662" class="t10 ink2 b">WOULD HAND OFF</text>
-<text class="t11"><tspan x="1061" y="676">Planning a run against a typed structure.</tspan><tspan x="1061" y="689">Enforcing data classes. Documenting steps</tspan><tspan x="1061" y="702">consistently.</tspan></text>
-<text x="1061" y="721" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
-<text class="t11"><tspan x="1061" y="735">Changing a structure or a rule without</tspan><tspan x="1061" y="748">methodology review.</tspan></text>
-<text x="1061" y="767" class="t10 ink2 b">WHAT BUILDS TRUST</text>
-<text class="t11"><tspan x="1061" y="781">The agent plans against the library, not</tspan><tspan x="1061" y="794">around it. Checkpoints are rules in the</tspan><tspan x="1061" y="807">product, not guidance in a document.</tspan></text>
-<text x="1061" y="826" class="t10 ink2 b">EVIDENCE</text>
-<rect x="1061" y="832" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1078" y="844" class="t10 mono" text-anchor="middle">E-10</text>
-<rect x="1099" y="832" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1116" y="844" class="t10 mono" text-anchor="middle">E-14</text>
-<rect x="1137" y="832" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1154" y="844" class="t10 mono" text-anchor="middle">E-15</text>
-<rect x="1175" y="832" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1192" y="844" class="t10 mono" text-anchor="middle">E-19</text>
-<rect x="1213" y="832" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1230" y="844" class="t10 mono" text-anchor="middle">E-20</text>
-<text x="1061" y="862" class="t10 ink3 mono">composite, reconstructed</text>
-<rect x="16" y="962" width="1368" height="200" rx="3" class="failed-t" stroke="var(--bt-failed)"/>
-<text x="26" y="984" class="t14">Caleb Marsh</text><text x="26" y="1000" class="t11 ink2 b">Associate, third busy season</text><text x="26" y="1016" class="t11 b">Anti-persona: the auditor who routes around the tool</text>
-<text class="t11"><tspan x="26" y="1036">Fast, competent, keeps a personal tracker because the</tspan><tspan x="26" y="1049">systems never held the state he needed. Trusts his own</tspan><tspan x="26" y="1062">spreadsheet over any tool that slows him down or hides what</tspan><tspan x="26" y="1075">it did.</tspan></text>
-<text x="380" y="984" class="t10 ink2 b">ROUTES AROUND THE TOOL WHEN</text>
-<text class="t11"><tspan x="380" y="1000">- Any step that adds a click without adding</tspan><tspan x="380" y="1013">certainty.</tspan></text>
-<text class="t11"><tspan x="380" y="1028">- Any output he cannot check in seconds.</tspan></text>
-<text class="t11"><tspan x="380" y="1043">- Any tool that makes the risk his while</tspan><tspan x="380" y="1056">keeping the work invisible.</tspan></text>
-<text x="700" y="984" class="t10 ink2 b">SIGNALS IN THE PRODUCT</text>
-<text class="t11"><tspan x="700" y="1000">- Copies data out to a spreadsheet.</tspan></text>
-<text class="t11"><tspan x="700" y="1015">- Approves agent output without opening the</tspan><tspan x="700" y="1028">source.</tspan></text>
-<text class="t11"><tspan x="700" y="1043">- Reruns the whole run instead of fixing one</tspan><tspan x="700" y="1056">step.</tspan></text>
-<text x="1020" y="984" class="t10 ink2 b">WHAT THE DESIGN DOES ABOUT IT</text>
-<text class="t11"><tspan x="1020" y="1000">- Keyboard-first density so the product is</tspan><tspan x="1020" y="1013">faster than the spreadsheet (D-15).</tspan></text>
-<text class="t11"><tspan x="1020" y="1028">- Citation chips that make checking faster</tspan><tspan x="1020" y="1041">than trusting (D-03).</tspan></text>
-<text class="t11"><tspan x="1020" y="1056">- Step-level rejection and rerun so fixing</tspan><tspan x="1020" y="1069">is cheaper than discarding (D-14).</tspan></text>
-<text class="t11"><tspan x="1020" y="1084">- The run holds the state he used to keep in</tspan><tspan x="1020" y="1097">his head (D-13).</tspan></text>
-<text x="26" y="1126" class="t10 ink2 b">EVIDENCE</text>
-<rect x="26" y="1132" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="43" y="1144" class="t10 mono" text-anchor="middle">E-04</text>
-<rect x="64" y="1132" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="81" y="1144" class="t10 mono" text-anchor="middle">E-13</text>
-<rect x="102" y="1132" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="119" y="1144" class="t10 mono" text-anchor="middle">E-17</text>
-<rect x="140" y="1132" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="157" y="1144" class="t10 mono" text-anchor="middle">E-18</text>
-<text x="16" y="1182" class="t11 ink2">Composite and reconstructed. Each persona is a composite built from the themes in 03. No attribute carries an observation, participant or quote count. Names are invented.</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: four composites cut by accountability, not by seniority alone, plus one anti-persona.</tspan><tspan x="756" y="35">Role-based views of the same run came out of this cut.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="56">We built: the cards from the coded material, with the evidence rows attached, reviewed in critique</tspan><tspan x="756" y="69">by the whole design team. Design team of three at this phase.</tspan></text>
+<text x="16" y="100" class="t10 ink2">Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</text>
+</g>
+<text class="t11 ink2 b"><tspan x="16" y="134">FOUR COMPOSITE PERSONAS AND ONE ANTI-PERSONA. COMPOSITE AND RECONSTRUCTED. EACH PERSONA IS A COMPOSITE BUILT FROM THE THEMES IN 03. NO ATTRIBUTE CARRIES AN OBSERVATION, PARTICIPANT OR QUOTE COUNT.</tspan><tspan x="16" y="148">TENURE, ENVIRONMENT AND TOOLS ARE COMPOSITE FRAMING, NOT EVIDENCE. NAMES ARE INVENTED.</tspan></text>
+<text x="26" y="182" class="t14">Dana Whitlock</text>
+<text x="26" y="198" class="t11 ink2 b">Engagement Senior</text>
+<text class="t11 ink2"><tspan x="26" y="214">Several busy seasons as a Senior. Runs fieldwork</tspan><tspan x="26" y="227">on more than one engagement at once.</tspan></text>
+<text x="26" y="248" class="t10 ink2 b">ENVIRONMENT</text>
+<text class="t11"><tspan x="26" y="262">Client site three days a week, laptop on a</tspan><tspan x="26" y="275">shared table, calls interrupting. Firm office</tspan><tspan x="26" y="288">or home the other two.</tspan></text>
+<text x="26" y="307" class="t10 ink2 b">GOALS</text>
+<text class="t11"><tspan x="26" y="321">- Get every sample traced and every exception</tspan><tspan x="26" y="334">explained before the manager's review slot.</tspan></text>
+<text class="t11"><tspan x="26" y="349">- Hand the manager a file that needs no</tspan><tspan x="26" y="362">re-walk.</tspan></text>
+<text class="t11"><tspan x="26" y="377">- Keep the associates moving without redoing</tspan><tspan x="26" y="390">their work.</tspan></text>
+<text x="26" y="409" class="t10 ink2 b">CORE TASKS</text>
+<text class="t11"><tspan x="26" y="423">- Design the sample and assign items.</tspan></text>
+<text class="t11"><tspan x="26" y="438">- Trace samples to evidence, clear the hard</tspan><tspan x="26" y="451">ones herself.</tspan></text>
+<text class="t11"><tspan x="26" y="466">- Raise and resolve exceptions with the</tspan><tspan x="26" y="479">client.</tspan></text>
+<text class="t11"><tspan x="26" y="494">- Draft conclusions and prepare for review.</tspan></text>
+<text x="26" y="513" class="t10 ink2 b">TOOLS</text>
+<text class="t11"><tspan x="26" y="527">Workpaper system, Document request portal,</tspan><tspan x="26" y="540">Spreadsheets for tracking, Email and chat with</tspan><tspan x="26" y="553">the client</tspan></text>
+<text x="26" y="572" class="t10 ink2 b">EXPERTISE</text>
+<text class="t11"><tspan x="26" y="586">Knows the procedure cold. Knows which client</tspan><tspan x="26" y="599">contact answers which request. Does not need</tspan><tspan x="26" y="612">guidance; needs speed.</tspan></text>
+<text x="26" y="631" class="t10 ink2 b">FRUSTRATIONS</text>
+<text class="t11"><tspan x="26" y="645">- Three systems opened to find one statement.</tspan></text>
+<text class="t11"><tspan x="26" y="660">- Review waits, then notes loop.</tspan></text>
+<text class="t11"><tspan x="26" y="675">- Re-walking the sample for the manager</tspan><tspan x="26" y="688">because the file does not hold the state.</tspan></text>
+<text x="26" y="707" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
+<text class="t11"><tspan x="26" y="721">Owns the fieldwork result. If the file is late</tspan><tspan x="26" y="734">or thin, it is her name the manager says</tspan><tspan x="26" y="747">first.</tspan></text>
+<rect x="22" y="760" width="321" height="2" class="agent"/>
+<text x="26" y="772" class="t10 ink2 b">WOULD HAND OFF</text>
+<text class="t11"><tspan x="26" y="786">Retrieval, extraction and the field-by-field</tspan><tspan x="26" y="799">matching. 'It can do the matching. I will look</tspan><tspan x="26" y="812">at the differences.'</tspan></text>
+<text x="26" y="831" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
+<text class="t11"><tspan x="26" y="845">Deciding what an exception means. Talking to</tspan><tspan x="26" y="858">the client about it.</tspan></text>
+<text x="26" y="877" class="t10 ink2 b">WHAT BUILDS TRUST</text>
+<text class="t11"><tspan x="26" y="891">Seeing the page it read, next to the field it</tspan><tspan x="26" y="904">extracted. Being able to rerun one step with</tspan><tspan x="26" y="917">the right file.</tspan></text>
+<text x="26" y="936" class="t10 ink2 b">EVIDENCE</text>
+<rect x="26" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="43" y="954" class="t10 mono" text-anchor="middle">E-01</text>
+<rect x="64" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="81" y="954" class="t10 mono" text-anchor="middle">E-03</text>
+<rect x="102" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="119" y="954" class="t10 mono" text-anchor="middle">E-04</text>
+<rect x="140" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="157" y="954" class="t10 mono" text-anchor="middle">E-08</text>
+<rect x="178" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="195" y="954" class="t10 mono" text-anchor="middle">E-11</text>
+<rect x="216" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="233" y="954" class="t10 mono" text-anchor="middle">E-17</text>
+<rect x="254" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="271" y="954" class="t10 mono" text-anchor="middle">E-18</text>
+<rect x="292" y="942" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="309" y="954" class="t10 mono" text-anchor="middle">E-21</text>
+<text x="26" y="972" class="t10 ink3 mono">composite, reconstructed</text>
+<text x="371" y="182" class="t14">Rafael Osei</text>
+<text x="371" y="198" class="t11 ink2 b">Engagement Manager</text>
+<text class="t11 ink2"><tspan x="371" y="214">Manager for several years. Reviews for several</tspan><tspan x="371" y="227">engagements in the same weeks.</tspan></text>
+<text x="371" y="248" class="t10 ink2 b">ENVIRONMENT</text>
+<text class="t11"><tspan x="371" y="262">Mostly office or home. Review happens in</tspan><tspan x="371" y="275">blocks between client meetings, often late.</tspan></text>
+<text x="371" y="294" class="t10 ink2 b">GOALS</text>
+<text class="t11"><tspan x="371" y="308">- Clear review queues before the partner needs</tspan><tspan x="371" y="321">the file.</tspan></text>
+<text class="t11"><tspan x="371" y="336">- Catch the reference and format problems</tspan><tspan x="371" y="349">early so they do not reach the partner.</tspan></text>
+<text class="t11"><tspan x="371" y="364">- Know, at a glance, what is waiting on whom.</tspan></text>
+<text x="371" y="383" class="t10 ink2 b">CORE TASKS</text>
+<text class="t11"><tspan x="371" y="397">- Review workpapers and raise notes.</tspan></text>
+<text class="t11"><tspan x="371" y="412">- Judge exception resolutions.</tspan></text>
+<text class="t11"><tspan x="371" y="427">- Decide what escalates to the partner.</tspan></text>
+<text class="t11"><tspan x="371" y="442">- Coach seniors through notes.</tspan></text>
+<text x="371" y="461" class="t10 ink2 b">TOOLS</text>
+<text class="t11"><tspan x="371" y="475">Workpaper system review mode, Email for notes</tspan><tspan x="371" y="488">outside the system, A personal list of what is</tspan><tspan x="371" y="501">waiting (E-24)</tspan></text>
+<text x="371" y="520" class="t10 ink2 b">EXPERTISE</text>
+<text class="t11"><tspan x="371" y="534">Reads a workpaper by its references first.</tspan><tspan x="371" y="547">Knows which seniors need a second look.</tspan></text>
+<text x="371" y="566" class="t10 ink2 b">FRUSTRATIONS</text>
+<text class="t11"><tspan x="371" y="580">- Layout differs per team, so decoding</tspan><tspan x="371" y="593">precedes judging.</tspan></text>
+<text class="t11"><tspan x="371" y="608">- Notes cleared then reopened.</tspan></text>
+<text class="t11"><tspan x="371" y="623">- No view of the whole queue across</tspan><tspan x="371" y="636">engagements.</tspan></text>
+<text x="371" y="655" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
+<text class="t11"><tspan x="371" y="669">Signs the review. Shares the consequence of</tspan><tspan x="371" y="682">anything the partner finds later.</tspan></text>
+<rect x="367" y="695" width="321" height="2" class="agent"/>
+<text x="371" y="707" class="t10 ink2 b">WOULD HAND OFF</text>
+<text class="t11"><tspan x="371" y="721">Drafting with references in place. Flagging</tspan><tspan x="371" y="734">exceptions with the evidence attached.</tspan></text>
+<text x="371" y="753" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
+<text class="t11"><tspan x="371" y="767">The review decision itself. 'A number alone is</tspan><tspan x="371" y="780">not confidence.'</tspan></text>
+<text x="371" y="799" class="t10 ink2 b">WHAT BUILDS TRUST</text>
+<text class="t11"><tspan x="371" y="813">Step-level visibility. Rejecting one step</tspan><tspan x="371" y="826">without discarding the run. Knowing the agent</tspan><tspan x="371" y="839">could not read restricted material without a</tspan><tspan x="371" y="852">checkpoint.</tspan></text>
+<text x="371" y="871" class="t10 ink2 b">EVIDENCE</text>
+<rect x="371" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="388" y="889" class="t10 mono" text-anchor="middle">E-05</text>
+<rect x="409" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="426" y="889" class="t10 mono" text-anchor="middle">E-06</text>
+<rect x="447" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="464" y="889" class="t10 mono" text-anchor="middle">E-07</text>
+<rect x="485" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="502" y="889" class="t10 mono" text-anchor="middle">E-08</text>
+<rect x="523" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="540" y="889" class="t10 mono" text-anchor="middle">E-11</text>
+<rect x="561" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="578" y="889" class="t10 mono" text-anchor="middle">E-12</text>
+<rect x="599" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="616" y="889" class="t10 mono" text-anchor="middle">E-14</text>
+<rect x="637" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="654" y="889" class="t10 mono" text-anchor="middle">E-16</text>
+<rect x="371" y="897" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="388" y="909" class="t10 mono" text-anchor="middle">E-21</text>
+<rect x="409" y="897" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="426" y="909" class="t10 mono" text-anchor="middle">E-24</text>
+<text x="371" y="927" class="t10 ink3 mono">composite, reconstructed</text>
+<text x="716" y="182" class="t14">Ingrid Haller</text>
+<text x="716" y="198" class="t11 ink2 b">Signing Partner</text>
+<text class="t11 ink2"><tspan x="716" y="214">Long-tenured partner. Signs for a portfolio of</tspan><tspan x="716" y="227">engagements.</tspan></text>
+<text x="716" y="248" class="t10 ink2 b">ENVIRONMENT</text>
+<text class="t11"><tspan x="716" y="262">Traveling between clients. Reads on a laptop</tspan><tspan x="716" y="275">in short windows. Signs when the file is</tspan><tspan x="716" y="288">ready, not when it is convenient.</tspan></text>
+<text x="716" y="307" class="t10 ink2 b">GOALS</text>
+<text class="t11"><tspan x="716" y="321">- Sign a file she could defend to an inspector</tspan><tspan x="716" y="334">a year later.</tspan></text>
+<text class="t11"><tspan x="716" y="349">- See the exception trail before the</tspan><tspan x="716" y="362">conclusion.</tspan></text>
+<text class="t11"><tspan x="716" y="377">- Spend her attention on judgment, not on</tspan><tspan x="716" y="390">format.</tspan></text>
+<text x="716" y="409" class="t10 ink2 b">CORE TASKS</text>
+<text class="t11"><tspan x="716" y="423">- Final review of high-risk areas.</tspan></text>
+<text class="t11"><tspan x="716" y="438">- Decide on misstatements and waivers.</tspan></text>
+<text class="t11"><tspan x="716" y="453">- Sign off.</tspan></text>
+<text class="t11"><tspan x="716" y="468">- Answer for the file afterward.</tspan></text>
+<text x="716" y="487" class="t10 ink2 b">TOOLS</text>
+<text class="t11"><tspan x="716" y="501">Workpaper system summary views, The manager's</tspan><tspan x="716" y="514">verbal walkthrough</tspan></text>
+<text x="716" y="533" class="t10 ink2 b">EXPERTISE</text>
+<text class="t11"><tspan x="716" y="547">Pattern-matches across engagements. Knows</tspan><tspan x="716" y="560">which exceptions become findings.</tspan></text>
+<text x="716" y="579" class="t10 ink2 b">FRUSTRATIONS</text>
+<text class="t11"><tspan x="716" y="593">- The exception trail is spread across</tspan><tspan x="716" y="606">workpapers and emails.</tspan></text>
+<text class="t11"><tspan x="716" y="621">- Signing on the manager's walkthrough because</tspan><tspan x="716" y="634">the trail is not in the file.</tspan></text>
+<text class="t11"><tspan x="716" y="649">- Not knowing what a tool did with the</tspan><tspan x="716" y="662">client's data.</tspan></text>
+<text x="716" y="681" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
+<text class="t11"><tspan x="716" y="695">Personal liability. Independence. 'If it is</tspan><tspan x="716" y="708">wrong, it is still my name.'</tspan></text>
+<rect x="712" y="721" width="321" height="2" class="agent"/>
+<text x="716" y="733" class="t10 ink2 b">WOULD HAND OFF</text>
+<text class="t11"><tspan x="716" y="747">Assembly of the evidence trail. Consistency</tspan><tspan x="716" y="760">checks across workpapers.</tspan></text>
+<text x="716" y="779" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
+<text class="t11"><tspan x="716" y="793">Conclusions. Sign-off. Anything that writes</tspan><tspan x="716" y="806">into the file as final.</tspan></text>
+<text x="716" y="825" class="t10 ink2 b">WHAT BUILDS TRUST</text>
+<text class="t11"><tspan x="716" y="839">A human checkpoint before anything restricted</tspan><tspan x="716" y="852">was read. A visible record of what the agent</tspan><tspan x="716" y="865">did, in the file, not in a log.</tspan></text>
+<text x="716" y="884" class="t10 ink2 b">EVIDENCE</text>
+<rect x="716" y="890" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="733" y="902" class="t10 mono" text-anchor="middle">E-05</text>
+<rect x="754" y="890" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="771" y="902" class="t10 mono" text-anchor="middle">E-06</text>
+<rect x="792" y="890" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="809" y="902" class="t10 mono" text-anchor="middle">E-13</text>
+<rect x="830" y="890" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="847" y="902" class="t10 mono" text-anchor="middle">E-14</text>
+<rect x="868" y="890" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="885" y="902" class="t10 mono" text-anchor="middle">E-22</text>
+<rect x="906" y="890" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="923" y="902" class="t10 mono" text-anchor="middle">E-23</text>
+<text x="716" y="920" class="t10 ink3 mono">composite, reconstructed</text>
+<text x="1061" y="182" class="t14">Tomasz Brenner</text>
+<text x="1061" y="198" class="t11 ink2 b">Quality and Methodology reviewer</text>
+<text class="t11 ink2"><tspan x="1061" y="214">Years in audit, then methodology. Writes the</tspan><tspan x="1061" y="227">rules teams work to.</tspan></text>
+<text x="1061" y="248" class="t10 ink2 b">ENVIRONMENT</text>
+<text class="t11"><tspan x="1061" y="262">Firm office. Works across engagements, not</tspan><tspan x="1061" y="275">inside one. Writes the rules teams work to.</tspan></text>
+<text x="1061" y="294" class="t10 ink2 b">GOALS</text>
+<text class="t11"><tspan x="1061" y="308">- Rules that teams can follow without</tspan><tspan x="1061" y="321">memorizing them.</tspan></text>
+<text class="t11"><tspan x="1061" y="336">- Structures that fit procedures so teams stop</tspan><tspan x="1061" y="349">adapting them by hand.</tspan></text>
+<text class="t11"><tspan x="1061" y="364">- A file that can be re-performed from its</tspan><tspan x="1061" y="377">contents.</tspan></text>
+<text x="1061" y="396" class="t10 ink2 b">CORE TASKS</text>
+<text class="t11"><tspan x="1061" y="410">- Maintain the Test of Details structures.</tspan></text>
+<text class="t11"><tspan x="1061" y="425">- Set documentation and checkpoint rules.</tspan></text>
+<text class="t11"><tspan x="1061" y="440">- Review quality findings across engagements.</tspan></text>
+<text class="t11"><tspan x="1061" y="455">- Answer teams' methodology questions.</tspan></text>
+<text x="1061" y="474" class="t10 ink2 b">TOOLS</text>
+<text class="t11"><tspan x="1061" y="488">Methodology library, Quality review tooling,</tspan><tspan x="1061" y="501">Structure templates</tspan></text>
+<text x="1061" y="520" class="t10 ink2 b">EXPERTISE</text>
+<text class="t11"><tspan x="1061" y="534">Knows every structure and why each field</tspan><tspan x="1061" y="547">exists. Knows where teams deviate and what it</tspan><tspan x="1061" y="560">costs.</tspan></text>
+<text x="1061" y="579" class="t10 ink2 b">FRUSTRATIONS</text>
+<text class="t11"><tspan x="1061" y="593">- Local variants of standard structures.</tspan></text>
+<text class="t11"><tspan x="1061" y="608">- Data handling rules known unevenly.</tspan></text>
+<text class="t11"><tspan x="1061" y="623">- Reviewing rules in documents nobody reads</tspan><tspan x="1061" y="636">under pressure.</tspan></text>
+<text x="1061" y="655" class="t10 ink2 b">ACCOUNTABILITY PRESSURE</text>
+<text class="t11"><tspan x="1061" y="669">Answers for methodology compliance across the</tspan><tspan x="1061" y="682">practice.</tspan></text>
+<rect x="1057" y="695" width="321" height="2" class="agent"/>
+<text x="1061" y="707" class="t10 ink2 b">WOULD HAND OFF</text>
+<text class="t11"><tspan x="1061" y="721">Planning a run against a typed structure.</tspan><tspan x="1061" y="734">Enforcing data classes. Documenting steps</tspan><tspan x="1061" y="747">consistently.</tspan></text>
+<text x="1061" y="766" class="t10 ink2 b">WOULD NEVER HAND OFF</text>
+<text class="t11"><tspan x="1061" y="780">Changing a structure or a rule without</tspan><tspan x="1061" y="793">methodology review.</tspan></text>
+<text x="1061" y="812" class="t10 ink2 b">WHAT BUILDS TRUST</text>
+<text class="t11"><tspan x="1061" y="826">The agent plans against the library, not</tspan><tspan x="1061" y="839">around it. Checkpoints are rules in the</tspan><tspan x="1061" y="852">product, not guidance in a document.</tspan></text>
+<text x="1061" y="871" class="t10 ink2 b">EVIDENCE</text>
+<rect x="1061" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1078" y="889" class="t10 mono" text-anchor="middle">E-10</text>
+<rect x="1099" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1116" y="889" class="t10 mono" text-anchor="middle">E-14</text>
+<rect x="1137" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1154" y="889" class="t10 mono" text-anchor="middle">E-15</text>
+<rect x="1175" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1192" y="889" class="t10 mono" text-anchor="middle">E-19</text>
+<rect x="1213" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1230" y="889" class="t10 mono" text-anchor="middle">E-20</text>
+<rect x="1251" y="877" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1268" y="889" class="t10 mono" text-anchor="middle">E-22</text>
+<rect x="16" y="994" width="1368" height="200" rx="3" class="surf3" stroke="var(--bt-ink-2)" stroke-dasharray="6 4"/>
+<text x="26" y="1016" class="t14">Caleb Marsh</text><text x="26" y="1032" class="t11 ink2 b">Associate, several busy seasons</text><text x="26" y="1048" class="t11 b">Anti-persona: the auditor who routes around the tool</text>
+<text class="t11"><tspan x="26" y="1068">Fast, competent, keeps a personal tracker because the</tspan><tspan x="26" y="1081">systems never held the state he needed. Trusts his own</tspan><tspan x="26" y="1094">spreadsheet over any tool that slows him down or hides what</tspan><tspan x="26" y="1107">it did.</tspan></text>
+<text x="380" y="1016" class="t10 ink2 b">ROUTES AROUND THE TOOL WHEN</text>
+<text class="t11"><tspan x="380" y="1032">- Any step that adds a click without adding</tspan><tspan x="380" y="1045">certainty.</tspan></text>
+<text class="t11"><tspan x="380" y="1060">- Any output he cannot check in seconds.</tspan></text>
+<text class="t11"><tspan x="380" y="1075">- Any tool that makes the risk his while</tspan><tspan x="380" y="1088">keeping the work invisible.</tspan></text>
+<text x="700" y="1016" class="t10 ink2 b">SIGNALS IN THE PRODUCT</text>
+<text class="t11"><tspan x="700" y="1032">- Copies data out to a spreadsheet.</tspan></text>
+<text class="t11"><tspan x="700" y="1047">- Approves agent output without opening the</tspan><tspan x="700" y="1060">source.</tspan></text>
+<text class="t11"><tspan x="700" y="1075">- Reruns the whole run instead of fixing one</tspan><tspan x="700" y="1088">step.</tspan></text>
+<text x="1020" y="1016" class="t10 ink2 b">WHAT THE DESIGN DOES ABOUT IT</text>
+<text class="t11"><tspan x="1020" y="1032">- Keyboard-first density so the product is</tspan><tspan x="1020" y="1045">faster than the spreadsheet (D-15,</tspan><tspan x="1020" y="1058">provisional).</tspan></text>
+<text class="t11"><tspan x="1020" y="1073">- Citation chips that make checking faster</tspan><tspan x="1020" y="1086">than trusting (D-03).</tspan></text>
+<text class="t11"><tspan x="1020" y="1101">- Step-level rejection and rerun so fixing</tspan><tspan x="1020" y="1114">is cheaper than discarding (D-14,</tspan><tspan x="1020" y="1127">provisional).</tspan></text>
+<text class="t11"><tspan x="1020" y="1142">- The run holds the state he used to keep in</tspan><tspan x="1020" y="1155">his head (D-13, provisional).</tspan></text>
+<text x="26" y="1158" class="t10 ink2 b">EVIDENCE</text>
+<rect x="26" y="1164" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="43" y="1176" class="t10 mono" text-anchor="middle">E-04</text>
+<rect x="64" y="1164" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="81" y="1176" class="t10 mono" text-anchor="middle">E-17</text>
+<rect x="102" y="1164" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="119" y="1176" class="t10 mono" text-anchor="middle">E-18</text>
+<rect x="140" y="1164" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="157" y="1176" class="t10 mono" text-anchor="middle">E-21</text>
+<text class="t11 ink2"><tspan x="16" y="1214">Composite and reconstructed. Each persona is a composite built from the themes in 03. No attribute carries an observation, participant or quote count. Tenure, environment and tools are</tspan><tspan x="16" y="1228">composite framing, not evidence. Names are invented. D-13, D-14 and D-15 are provisional register IDs from the plan. Their records are created when artifacts 08, 09 and 11 ship.</tspan></text>
 </svg>

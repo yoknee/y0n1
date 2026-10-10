@@ -1,66 +1,168 @@
 {
-  "artifact": { "number": "01", "title": "Problem framing and constraints map", "status": "Draft",
+  "artifact": {
+    "number": "01",
+    "title": "Problem framing and constraints map",
+    "status": "Draft",
     "question": "What is the design problem, what breaks for auditors today and what can the design not change?",
-    "decisions": ["D-01", "D-05"], "questions": [1, 2, 3, 4],
-    "iDecided": "To frame the problem as the boundary between agent and auditor, not as adding AI to the workpaper. The triad table as the shared artifact PMs and engineering leads plan against.",
-    "weBuilt": "The constraint list with methodology reviewers, the engagement data lead role and engineering leads. The data classes in C3 were drafted with the data lead." },
+    "decisions": [
+      "D-01",
+      "D-05"
+    ],
+    "questions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "iDecided": "to frame the problem as the boundary between agent and auditor, not as adding AI to the workpaper. The triad table as the shared artifact PMs and engineering leads plan against.",
+    "weBuilt": "the constraint list with methodology reviewers, the engagement data lead role and engineering leads. The data classes in C3 were drafted with the data lead. Design team of three at this phase."
+  },
   "business_objective": "An AI-native audit platform that keeps auditors accountable. Agents do the research and analysis. Auditors stay accountable for the conclusion.",
   "boundary": "The design problem is the boundary between agent and auditor: what the agent may access, where a human must review, how the auditor sees what the agent did and what the system does when the agent is wrong.",
   "user_problems": [
-    { "name": "Fragmented tools", "mechanism": "Evidence, workpapers, client requests and review live in separate systems. The auditor reassembles the picture by hand for every sample." },
-    { "name": "Manual evidence review", "mechanism": "Each sampled item is traced to its documents one at a time. The work is repetitive and the volume peaks when time is shortest." },
-    { "name": "Inconsistent workpapers", "mechanism": "Each team formats workpapers its own way. Reviewers decode the format before they can judge the substance." },
-    { "name": "Deadline pressure", "mechanism": "Busy season concentrates all of the above into a few weeks. Shortcuts taken under pressure are the quality risk the platform exists to remove." }
+    {
+      "name": "Fragmented tools",
+      "mechanism": "Evidence, workpapers, client requests and review live in separate systems. The auditor reassembles the picture by hand for every sample."
+    },
+    {
+      "name": "Manual evidence review",
+      "mechanism": "Each sampled item is traced to its documents one at a time. The work is repetitive and the volume peaks when time is shortest."
+    },
+    {
+      "name": "Inconsistent workpapers",
+      "mechanism": "Each team formats workpapers its own way. Reviewers decode the format before they can judge the substance."
+    },
+    {
+      "name": "Deadline pressure",
+      "mechanism": "Busy season concentrates all of the above into a few weeks. Shortcuts taken under pressure are the quality risk the platform exists to remove."
+    }
   ],
   "constraints": [
-    { "id": "C1", "name": "Auditing standards and documentation requirements",
+    {
+      "id": "C1",
+      "name": "Auditing standards and documentation requirements",
       "user_need": "A workpaper that stands up to inspection without extra work to explain it.",
       "business_objective": "The platform output is the audit file of record, not a side tool.",
       "technical_constraint": "Every agent output is stored with its inputs, sources, steps and the reviewer's action. Nothing is overwritten after sign-off.",
       "design_implication": "Provenance is a first-class object in the UI. The agent timeline is part of the record a reviewer reads, not a debug view.",
       "principle": "Nielsen H1, visibility of system status. Amershi G11, make clear why the system did what it did.",
-      "questions": [3], "shapes": ["D-01", "D-03"] },
-    { "id": "C2", "name": "Independence",
+      "questions": [
+        3
+      ],
+      "shapes": [
+        "D-01",
+        "D-03"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Independence",
       "user_need": "The auditor remains the one who concludes and can show it.",
       "business_objective": "AI assists the audit. It never concludes it.",
       "technical_constraint": "The agent has no write path to conclusion or sign-off fields. It proposes. A human commits.",
       "design_implication": "Proposals look like drafts everywhere they appear. Sign-off is a human-only control with its own affordance and no shortcut.",
       "principle": "Norman, signifiers. Bainbridge, ironies of automation.",
-      "questions": [2], "shapes": ["D-05"] },
-    { "id": "C3", "name": "Data security and access classes",
+      "questions": [
+        2
+      ],
+      "shapes": [
+        "D-05"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Data security and access classes",
       "user_need": "Access only what this engagement is allowed to see, and know what the agent saw.",
       "business_objective": "Client data obligations differ by jurisdiction and client. One breach ends trust in the platform.",
       "technical_constraint": "Four data classes: public, engagement internal, client confidential, restricted. Agent permission is set per class: read, propose or none. Restricted retrieval is logged and gated.",
       "design_implication": "The permission model is visible in the product. A checkpoint sits before any restricted retrieval and the auditor sees what was read.",
       "principle": "Nielsen H5, error prevention. Amershi G1, make clear what the system can do.",
-      "questions": [1, 2], "shapes": ["D-05", "D-09"] },
-    { "id": "C4", "name": "Explainability",
+      "questions": [
+        1,
+        2
+      ],
+      "shapes": [
+        "D-05",
+        "D-09"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Explainability",
       "user_need": "Answer \"show me why\" in under a minute during review.",
       "business_objective": "Quality reviewers and regulators must be able to follow the reasoning after the fact.",
       "technical_constraint": "Each step records inputs, sources and confidence. No step hides a model call behind a summary.",
       "design_implication": "Every claim carries a citation that opens the source at the span. Confidence shows its basis. Failure states name the cause.",
       "principle": "Lee and See, trust calibration. Recognition over recall.",
-      "questions": [3, 4], "shapes": ["D-03", "D-08", "D-12"] },
-    { "id": "C5", "name": "10,000+ users across countries",
+      "questions": [
+        3,
+        4
+      ],
+      "shapes": [
+        "D-03",
+        "D-08",
+        "D-12"
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "10,000+ users across countries",
       "user_need": "Consistent behavior, keyboard first, usable on an engagement laptop in a client's office.",
       "business_objective": "One platform with local methodology variants, not one product per territory.",
       "technical_constraint": "Role-based configuration, methodology variants as data, latency across regions.",
       "design_implication": "Density and keyboard operation by default. One pattern library so six teams ship one product. Non-color encoding on every state and chart.",
-      "principle": "Fitts's law. Hick's law on choice count. WCAG 2.2 AA.",
-      "questions": [], "shapes": ["D-15", "D-17", "D-18"] },
-    { "id": "C6", "name": "Legacy workpaper systems",
+      "principle": "WCAG 2.5.8 target size. Hick's law for the shortcut map. Fitts's law sets the target-size floor.",
+      "questions": [],
+      "shapes": [
+        "D-15",
+        "D-17",
+        "D-18"
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Legacy workpaper systems",
       "user_need": "No double entry. The audit file is still assembled in the system the firm files from.",
       "business_objective": "Transition across several seasons, not a cutover.",
       "technical_constraint": "Workpaper import and export, identifiers that map to legacy file references, coexistence for a period.",
       "design_implication": "The workspace keeps the engagement, area, procedure hierarchy auditors already know. Export to the workpaper format is one action.",
       "principle": "Recognition over recall. Consistency with the tools people already use.",
-      "questions": [], "shapes": ["D-06"] },
-    { "id": "C7", "name": "Engineering capacity",
+      "questions": [],
+      "shapes": [
+        "D-06"
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "Engineering capacity",
       "user_need": "Features that work in the field beat features that demo well.",
-      "business_objective": "Six product teams and 120+ engineers deliver in parallel. The design team is three at MVP.",
-      "technical_constraint": "Shared components or nothing ships consistently. PMs and engineers build to the rules directly in Cursor.",
+      "business_objective": "One of the first ~50 people on the platform at MVP, with a design team of three. Six product teams and 120+ engineers by the scale phase. Every phase delivers in parallel with the engineering it has.",
+      "technical_constraint": "Shared components or nothing ships consistently. PMs and engineers build to the rules directly in Cursor. The MVP-era engineering count is not stated.",
       "design_implication": "The design system is the contract. MVP cuts are explicit and documented. One anchor workflow, Test of Details, proves the pattern before it scales.",
       "principle": "Progressive disclosure of scope. Conway's law, acknowledged and designed around.",
-      "questions": [], "shapes": ["D-10", "D-11", "D-21"] }
+      "questions": [],
+      "shapes": [
+        "D-10",
+        "D-11",
+        "D-21"
+      ]
+    }
+  ],
+  "session_changes": [
+    {
+      "row": "C1",
+      "what": "Methodology reviewers moved the implication from 'store the agent log' to 'the agent timeline is part of the record a reviewer reads'. A log nobody reads is not documentation.",
+      "label": "reconstructed"
+    },
+    {
+      "row": "C3",
+      "what": "The engagement data lead role drafted the four classes and the per-class rule; the first draft had three classes and no 'propose' value.",
+      "label": "reconstructed"
+    },
+    {
+      "row": "C7",
+      "what": "Engineering leads added the Cursor rule: PMs and engineers would build from the design system directly, so the rules had to be executable, not advisory.",
+      "label": "reconstructed"
+    }
   ]
 }

@@ -3,15 +3,14 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { esc, wrap, tspans, headerBand, svgDoc, page, figure } from '../../../../shared/design-system/svg-lib.mjs';
+import { esc, wrap, tspans, headerBand, svgDoc, page, figure, mdlink } from '../../../../shared/design-system/svg-lib.mjs';
 const here = dirname(fileURLToPath(import.meta.url));
 const D = JSON.parse(readFileSync(join(here, 'personas.json'), 'utf8'));
 const A = D.artifact;
 const W = 1400;
 const parts = []; const [hb, hh] = headerBand(A, W); parts.push(hb);
 let y = hh + 16;
-parts.push(`<text x="16" y="${y + 12}" class="t11 ink2 b">FOUR COMPOSITE PERSONAS AND ONE ANTI-PERSONA. ${esc(D.label.toUpperCase())}</text>`);
-y += 24;
+{ const ls = wrap('FOUR COMPOSITE PERSONAS AND ONE ANTI-PERSONA. ' + D.label.toUpperCase(), 200); parts.push(`<text class="t11 ink2 b">${tspans(ls, 16, y + 12, 14)}</text>`); y += 10 + ls.length * 14; }
 const gap = 12, cw = (W - 32 - 3 * gap) / 4;
 const sec = (x, yy, title, lines, cls = 't11') => { parts.push(`<text x="${x}" y="${yy}" class="t10 ink2 b">${title.toUpperCase()}</text>`); let ly = yy + 14; for (const l of lines) { const ws = wrap(l, 46); parts.push(`<text class="${cls}">${tspans(ws, x, ly, 13)}</text>`); ly += ws.length * 13 + 2; } return ly + 4; };
 let maxH = 0;
@@ -32,7 +31,7 @@ D.personas.forEach((p, i) => {
   cy = sec(x + 10, cy, 'Would never hand off', [p.ai.never]);
   cy = sec(x + 10, cy, 'What builds trust', [p.ai.trust]);
   parts.push(`<text x="${x + 10}" y="${cy}" class="t10 ink2 b">EVIDENCE</text>`); let ex = x + 10; cy += 6;
-  for (const e of p.evidence) { parts.push(`<rect x="${ex}" y="${cy}" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="${ex + 17}" y="${cy + 12}" class="t10 mono" text-anchor="middle">${e}</text>`); ex += 38; }
+  for (const e of p.evidence) { if (ex + 34 > x + cw - 10) { ex = x + 10; cy += 20; } parts.push(`<rect x="${ex}" y="${cy}" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="${ex + 17}" y="${cy + 12}" class="t10 mono" text-anchor="middle">${e}</text>`); ex += 38; }
   cy += 30;
   parts.push(`<text x="${x + 10}" y="${cy}" class="t10 ink3 mono">composite, reconstructed</text>`); cy += 10;
   maxH = Math.max(maxH, cy - top);
@@ -44,7 +43,7 @@ parts.unshift(parts.splice(parts.findIndex(s => s.startsWith('<rect x="0" y="0"'
 y += maxH + gap;
 // anti-persona
 const ah = 200, an = D.anti;
-parts.push(`<rect x="16" y="${y}" width="${W - 32}" height="${ah}" rx="3" class="failed-t" stroke="var(--bt-failed)"/>`);
+parts.push(`<rect x="16" y="${y}" width="${W - 32}" height="${ah}" rx="3" class="surf3" stroke="var(--bt-ink-2)" stroke-dasharray="6 4"/>`);
 parts.push(`<text x="26" y="${y + 22}" class="t14">${esc(an.name)}</text><text x="26" y="${y + 38}" class="t11 ink2 b">${esc(an.role)}</text><text x="26" y="${y + 54}" class="t11 b">${esc(an.label)}</text>`);
 parts.push(`<text class="t11">${tspans(wrap(an.who, 60), 26, y + 74, 13)}</text>`);
 const col = (x, title, lines) => { parts.push(`<text x="${x}" y="${y + 22}" class="t10 ink2 b">${title.toUpperCase()}</text>`); let ly = y + 38; for (const l of lines) { const ws = wrap('- ' + l, 44); parts.push(`<text class="t11">${tspans(ws, x, ly, 13)}</text>`); ly += ws.length * 13 + 2; } };
@@ -53,9 +52,9 @@ let ex = 26; const ey = y + ah - 30;
 parts.push(`<text x="26" y="${ey - 6}" class="t10 ink2 b">EVIDENCE</text>`);
 for (const e of an.evidence) { parts.push(`<rect x="${ex}" y="${ey}" width="34" height="16" rx="3" class="surf" stroke="var(--bt-border)"/><text x="${ex + 17}" y="${ey + 12}" class="t10 mono" text-anchor="middle">${e}</text>`); ex += 38; }
 y += ah + 16;
-parts.push(`<text x="16" y="${y + 4}" class="t11 ink2">${esc(D.label)}</text>`);
-const H = y + 20;
-const svg = svgDoc(A, W, H, parts.join('\n'));
+parts.push(`<text class="t11 ink2">${tspans(wrap(D.label + ' ' + D.provisional_note, 190), 16, y + 4, 14)}</text>`);
+const H = y + 34;
+const svg = svgDoc(A, W, H, parts.join('\n'), '04-personas');
 writeFileSync(join(here, '04-personas.svg'), svg);
 
 const card = p => `<div class="panel"><div class="panel-h">${esc(p.name)} <span class="muted">${esc(p.role)}</span></div><div class="panel-b small">
@@ -70,7 +69,7 @@ const card = p => `<div class="panel"><div class="panel-h">${esc(p.name)} <span 
 <tr><th>Would hand off</th><td>${esc(p.ai.handoff)}</td></tr>
 <tr><th>Would never hand off</th><td>${esc(p.ai.never)}</td></tr>
 <tr><th>What builds trust</th><td>${esc(p.ai.trust)}</td></tr>
-<tr><th>Evidence</th><td>${p.evidence.map(e => `<a class="chip" href="../../research/evidence-table.md">${e}</a>`).join(' ')} <span class="muted">themes ${p.themes.join(', ')}</span></td></tr>
+<tr><th>Evidence</th><td>${p.evidence.map(e => `<a class="chip" href="${mdlink('../../research/evidence-table.md')}">${e}</a>`).join(' ')} <span class="muted">themes ${p.themes.join(', ')}</span></td></tr>
 </tbody></table>
 <p class="label-synth">composite, reconstructed</p>
 </div></div>`;
@@ -79,7 +78,7 @@ const body = `
 <h2>How the personas were cut</h2>
 <p>By accountability, not by seniority alone. The Senior runs the work, the Manager reviews it, the Partner signs it and the Methodology reviewer sets the rules. Each one stands at a different point on the boundary: what they would hand to an agent, what they would never hand off and what would make them trust it. The Associate is covered through contextual inquiry and the anti-persona rather than a card of their own, because in this workflow the Associate executes inside the Senior's plan.</p>
 <p><strong>${esc(D.label)}</strong></p>
-<p><strong>I decided</strong> ${esc(A.iDecided)} <strong>We built</strong> ${esc(A.weBuilt)}</p>
+<p><strong>I decided:</strong> ${esc(A.iDecided)} <strong>We built:</strong> ${esc(A.weBuilt)}</p>
 </section>
 <section class="block">
 <h2>Persona cards</h2>
@@ -97,14 +96,15 @@ ${figure(svg, `${A.number} personas. Four composites with goals, core tasks, too
 <tr><th style="width:30%">Routes around the tool when</th><td>${D.anti.why.map(esc).join('<br>')}</td></tr>
 <tr><th>Signals in the product</th><td>${D.anti.signals.map(esc).join('<br>')}</td></tr>
 <tr><th>What the design does about it</th><td>${D.anti.design_response.map(esc).join('<br>')}</td></tr>
-<tr><th>Evidence</th><td>${D.anti.evidence.map(e => `<a class="chip" href="../../research/evidence-table.md">${e}</a>`).join(' ')} <span class="muted">themes ${D.anti.themes.join(', ')}</span></td></tr>
+<tr><th>Evidence</th><td>${D.anti.evidence.map(e => `<a class="chip" href="${mdlink('../../research/evidence-table.md')}">${e}</a>`).join(' ')} <span class="muted">themes ${D.anti.themes.join(', ')}</span></td></tr>
 </tbody></table>
+<p class="muted small">${esc(D.provisional_note)}</p>
 <p>What the anti-persona tells the design: the product has to be faster than the workaround and checking has to be cheaper than trusting. A tool that is slower than a spreadsheet or that hides its work gets routed around by exactly the people who could catch its errors. That is Bainbridge's irony in one person.</p>
 </div></div>
 </section>
 <section class="block">
 <h2>Decisions fed</h2>
-<p><a class="chip" href="../../decisions.md#d-07">D-07</a> Role-based views of the same run: senior, manager, partner, methodology. <a class="chip" href="../../decisions.md#d-08">D-08</a> Confidence shown as a band with its basis, not a percentage alone.</p>
+<p><a class="chip" href="${mdlink('../../decisions.md', 'd-07')}">D-07</a> Role-based views of the same run: senior, manager, partner, methodology reviewer. <a class="chip" href="${mdlink('../../decisions.md', 'd-08')}">D-08</a> Confidence shown as a band with its basis, not a percentage alone.</p>
 </section>`;
 writeFileSync(join(here, 'index.html'), page(A, body));
 console.log(`wrote 04-personas.svg (${W}x${H}) and index.html`);

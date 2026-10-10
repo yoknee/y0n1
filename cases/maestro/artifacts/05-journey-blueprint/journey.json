@@ -1,39 +1,252 @@
 {
-  "artifact": { "number": "05", "title": "Current-state journey map and service blueprint", "status": "Draft",
+  "artifact": {
+    "number": "05",
+    "title": "Current-state journey map and service blueprint",
+    "status": "Draft",
     "question": "What does one Test of Details feel like today, stage by stage, what happens behind the auditor and what changes when agents join?",
-    "decisions": ["D-09"], "questions": [1, 2, 3],
-    "iDecided": "To map one Test of Details through the Senior's eyes, to put the emotion curve where the deadline bites and to place the mandatory checkpoints where judgment lives.",
-    "weBuilt": "The maps in two workshop sessions with the design team and the methodology reviewer role; the backstage rows with the engagement data lead role." },
-  "label": "Reconstructed from the themes in 03. Emotion values are the lead's reading of the evidence on a five-point scale, not a measurement. Future-state feeling is design intent.",
+    "decisions": [
+      "D-09"
+    ],
+    "questions": [
+      1,
+      2,
+      3
+    ],
+    "iDecided": "to map one Test of Details through the Senior's eyes, to put the emotion curve where the deadline bites and to place the mandatory checkpoints where judgment lives.",
+    "weBuilt": "the maps in two workshop sessions with the design team and the methodology reviewer role; the backstage rows with the engagement data lead role. Design team of three at this phase."
+  },
+  "label": "Reconstructed from the themes in 03. Emotion values are my reading of the evidence on a five-point scale, not a measurement. Future-state feeling is design intent.",
   "lens": "Engagement Senior (Dana Whitlock, P1) running one Test of Details on revenue. Manager and Partner enter at review and sign.",
   "stages": [
-    { "name": "Plan", "doing": "Scope the area. Pick procedures from the methodology. Set sample sizes.", "thinking": "Which structure fits this client this year?", "feeling": 0, "pain": "Structures adapted by hand before work starts (T13).", "opportunity": "Plan against a typed structure from the library.", "themes": ["T13"],
-      "front": "Senior scopes the area and sets the plan with the manager.", "back": "Prior-year file pulled by the engagement data lead.", "support": ["methodology", "repository"],
-      "future": { "auditor": "Scopes and chooses structures from the library.", "agent": "Proposes procedures per assertion from prior-year results and risk, with sources.", "checkpoint": "none", "delta": "Fit replaces adaptation. Proposals are visibly drafts.", "feeling": 1 } },
-    { "name": "Assess risk", "doing": "Rate assertions by risk with the manager. Set thresholds.", "thinking": "Where did last year's exceptions come from?", "feeling": 0, "pain": "Prior-year context lives in people, not the file (T11).", "opportunity": "Prior-year exceptions surfaced per assertion.", "themes": ["T11"],
-      "front": "Senior and manager rate risk per assertion.", "back": "Data lead maps client systems to areas.", "support": ["methodology", "repository"],
-      "future": { "auditor": "Rates risk. Confirms or overrides the agent's proposal.", "agent": "Surfaces prior-year exceptions and resolutions per assertion with citations.", "checkpoint": "none", "delta": "Context in the file, not in memory.", "feeling": 1 } },
-    { "name": "Design procedures", "doing": "Pick the Test of Details structure. Define population and sample method.", "thinking": "Will the reviewer accept this structure?", "feeling": 0, "pain": "Local variants cause review notes later (T13, T10).", "opportunity": "A library with fit rules; no in-place edits.", "themes": ["T13", "T10"],
-      "front": "Senior picks the structure and the sample method.", "back": "Population extract requested from the client.", "support": ["methodology", "repository", "requests"],
-      "future": { "auditor": "Picks structure and sample method. Approves the plan.", "agent": "Plans the run against the typed structure and shows the plan: steps, sources, classes it will touch.", "checkpoint": "Plan approval before the run starts.", "delta": "The plan is explicit and reviewable before any work happens.", "feeling": 1 } },
-    { "name": "Gather evidence", "doing": "Raise client requests. Chase. Open three systems to find one document.", "thinking": "Where is that statement? Is this the right version?", "feeling": -1, "pain": "Locating costs more than judging (T1). Data limits known unevenly (T9).", "opportunity": "Agent retrieval within data classes, with a record of what was read.", "themes": ["T1", "T9"],
-      "front": "Senior and associate raise and chase requests, assemble documents.", "back": "Requests to the client. Confirmations sent through the confirmation service. Bank portal pulls.", "support": ["requests", "repository", "confirmations"],
-      "future": { "auditor": "Approves restricted-class retrieval. Sees what was read.", "agent": "Retrieves within permitted classes. Logs every source read.", "checkpoint": "Required before any restricted-class retrieval.", "delta": "Q1 answered in the product. Waiting moves to the agent.", "feeling": 0 } },
-    { "name": "Test", "doing": "Trace each sampled item field by field. Record results.", "thinking": "Same five fields, item after item.", "feeling": -2, "pain": "The repetitive core (T2). Attention fades late. Interruptions restart the trace (T12).", "opportunity": "Agent extraction and matching. Auditor on the differences.", "themes": ["T2", "T12"],
-      "front": "Associate traces samples. Senior clears the hard ones.", "back": "Follow-up requests for missing pages.", "support": ["repository", "spreadsheets"],
-      "future": { "auditor": "Reviews matches by exception. Spot-checks through citation chips.", "agent": "Extracts fields, matches to records, flags differences with the span highlighted.", "checkpoint": "None mandatory. Low confidence routes to needs review.", "delta": "T2 handed off. Provenance on every match.", "feeling": 1 } },
-    { "name": "Evaluate exceptions", "doing": "Investigate differences. Call the client. Document.", "thinking": "Is this a misstatement or an explanation?", "feeling": -1, "pain": "Context assembled by hand before judgment can start (T6).", "opportunity": "An exception workbench with evidence attached.", "themes": ["T6"],
-      "front": "Senior resolves exceptions with the client. Manager consulted on judgment calls.", "back": "Client call. Controller's explanation memo.", "support": ["repository", "spreadsheets"],
-      "future": { "auditor": "Judges each exception. Calls the client. Records the resolution.", "agent": "Documents each exception with the evidence and the difference attached. Never resolves.", "checkpoint": "Mandatory human resolution of every exception.", "delta": "Judgment stays human. Assembly is done.", "feeling": 0 } },
-    { "name": "Conclude", "doing": "Draft the conclusion. Link references.", "thinking": "What wording survives review?", "feeling": -1, "pain": "Rework originates in references and wording (T4).", "opportunity": "Draft with references in place. Edits recorded as a diff.", "themes": ["T4"],
-      "front": "Senior drafts the conclusion.", "back": "none", "support": ["repository"],
-      "future": { "auditor": "Edits the draft. The diff is recorded.", "agent": "Drafts the conclusion with citations on every claim.", "checkpoint": "Mandatory before a draft becomes the conclusion.", "delta": "References in place. The edit is visible to the reviewer.", "feeling": 1 } },
-    { "name": "Review", "doing": "Wait. Clear notes. Clear them again.", "thinking": "Why is this note back?", "feeling": -2, "pain": "Latency compounds (T5). Reviewer decodes format before substance (T10). Source first (T3).", "opportunity": "A review center with state and provenance in view.", "themes": ["T5", "T3", "T10"],
-      "front": "Manager reviews. Senior clears notes.", "back": "none", "support": ["review", "repository"],
-      "future": { "auditor": "Manager works the queue. Rejects one step if needed.", "agent": "Reruns the rejected step with the corrected input. Keeps the history.", "checkpoint": "Approve, edit or reject on every run.", "delta": "Queue with state. Source one click away. Notes stop looping.", "feeling": 1 } },
-    { "name": "Sign", "doing": "Prepare the partner walkthrough.", "thinking": "Will she ask for the exception trail?", "feeling": -1, "pain": "If it is wrong, it is my name (T8). The trail is spread across files and emails.", "opportunity": "Exception trail and checkpoint record in the file.", "themes": ["T8"],
-      "front": "Partner reviews high-risk areas and signs.", "back": "none", "support": ["review", "repository"],
-      "future": { "auditor": "Partner reads the exception trail and the checkpoint record. Signs.", "agent": "Nothing. No write path to sign-off.", "checkpoint": "Human-only sign-off.", "delta": "Q2 and Q4 answered where liability lives.", "feeling": 1 } }
+    {
+      "name": "Plan",
+      "doing": "Scope the area. Pick procedures from the methodology. Set sample sizes.",
+      "thinking": "Which structure fits this client this year?",
+      "feeling": 0,
+      "pain": "Structures adapted by hand before work starts (T13).",
+      "opportunity": "Plan against a typed structure from the library.",
+      "themes": [
+        "T13"
+      ],
+      "front": "Senior scopes the area and sets the plan with the manager.",
+      "back": "Prior-year file pulled by the engagement data lead.",
+      "support": [
+        "methodology",
+        "repository"
+      ],
+      "future": {
+        "auditor": "Scopes and chooses structures from the library.",
+        "agent": "Plans the run against the chosen structure (MVP). Proposing procedures per assertion comes in P5, after MVP.",
+        "checkpoint": "Plan approval before the run starts.",
+        "delta": "Fit replaces adaptation. The plan is explicit before any work happens.",
+        "feeling": 1
+      }
+    },
+    {
+      "name": "Assess risk",
+      "doing": "Rate assertions by risk with the manager. Set thresholds.",
+      "thinking": "Where did last year's exceptions come from?",
+      "feeling": 0,
+      "pain": "Prior-year context lives in people, not the file (T11).",
+      "opportunity": "Prior-year exceptions surfaced per assertion.",
+      "themes": [
+        "T11"
+      ],
+      "front": "Senior and manager rate risk per assertion.",
+      "back": "Data lead maps client systems to areas.",
+      "support": [
+        "methodology",
+        "repository"
+      ],
+      "future": {
+        "auditor": "Rates risk. In P5, confirms or overrides the agent's proposal.",
+        "agent": "Surfaces prior-year exceptions and resolutions per assertion with citations (P5, after MVP).",
+        "checkpoint": "None in MVP. In P5 a proposal the auditor must confirm is a checkpoint.",
+        "delta": "Context in the file, not in memory (P5).",
+        "feeling": 1
+      }
+    },
+    {
+      "name": "Design procedures",
+      "doing": "Pick the Test of Details structure. Define population and sample method.",
+      "thinking": "Will the reviewer accept this structure?",
+      "feeling": 0,
+      "pain": "Local variants cause review notes later (T13, T10).",
+      "opportunity": "A library with fit rules; no in-place edits.",
+      "themes": [
+        "T13",
+        "T10"
+      ],
+      "front": "Senior picks the structure and the sample method.",
+      "back": "Population extract requested from the client.",
+      "support": [
+        "methodology",
+        "repository",
+        "requests"
+      ],
+      "future": {
+        "auditor": "Picks structure and sample method. Approves the plan.",
+        "agent": "Shows the plan: steps, sources, data classes it will touch.",
+        "checkpoint": "Plan approval (same stop as Plan; the run starts here).",
+        "delta": "The plan is reviewable before any work happens.",
+        "feeling": 1
+      }
+    },
+    {
+      "name": "Gather evidence",
+      "doing": "Raise client requests. Chase. Open three systems to find one document.",
+      "thinking": "Where is that statement? Is this the right version?",
+      "feeling": -1,
+      "pain": "Locating costs more than judging (T1). Data limits known unevenly (T9).",
+      "opportunity": "Agent retrieval within data classes, with a record of what was read.",
+      "themes": [
+        "T1",
+        "T9"
+      ],
+      "front": "Senior and associate raise and chase requests, assemble documents.",
+      "back": "Requests to the client. Confirmations sent through the confirmation service. Bank portal pulls.",
+      "support": [
+        "requests",
+        "repository",
+        "confirmations"
+      ],
+      "future": {
+        "auditor": "Approves restricted-class retrieval. Sees what was read.",
+        "agent": "Retrieves within permitted classes. Logs every source read.",
+        "checkpoint": "Required before any restricted-class retrieval.",
+        "delta": "Retrieval from connected sources moves to the agent and is logged. Client waits remain and surface as open requests; agent chasing is deferred (S2).",
+        "feeling": 0
+      }
+    },
+    {
+      "name": "Test",
+      "doing": "Trace each sampled item field by field. Record results.",
+      "thinking": "Same five fields, item after item.",
+      "feeling": -2,
+      "pain": "The repetitive core (T2). Attention fades late. Interruptions restart the trace (T11).",
+      "opportunity": "Agent extraction and matching. Auditor on the differences.",
+      "themes": [
+        "T2",
+        "T12"
+      ],
+      "front": "Associate traces samples. Senior clears the hard ones.",
+      "back": "Follow-up requests for missing pages.",
+      "support": [
+        "repository",
+        "spreadsheets"
+      ],
+      "future": {
+        "auditor": "Reviews matches by exception. Spot-checks through citation chips.",
+        "agent": "Extracts fields, matches to records, flags differences with the span highlighted.",
+        "checkpoint": "None mandatory. Low confidence routes to needs review.",
+        "delta": "T2 handed off. Provenance on every match.",
+        "feeling": 1
+      }
+    },
+    {
+      "name": "Evaluate exceptions",
+      "doing": "Investigate differences. Call the client. Document.",
+      "thinking": "Is this a misstatement or an explanation?",
+      "feeling": -1,
+      "pain": "Context assembled by hand before judgment can start (T6).",
+      "opportunity": "An exception workbench with evidence attached.",
+      "themes": [
+        "T6"
+      ],
+      "front": "Senior resolves exceptions with the client. Manager consulted on judgment calls.",
+      "back": "Client call. Controller's explanation memo.",
+      "support": [
+        "repository",
+        "spreadsheets"
+      ],
+      "future": {
+        "auditor": "Judges each exception. Calls the client. Records the resolution.",
+        "agent": "Documents each exception with the evidence and the difference attached. Never resolves.",
+        "checkpoint": "Mandatory human resolution of every exception.",
+        "delta": "Judgment stays human. Assembly is done.",
+        "feeling": 0
+      }
+    },
+    {
+      "name": "Conclude",
+      "doing": "Draft the conclusion. Link references.",
+      "thinking": "What wording survives review?",
+      "feeling": -1,
+      "pain": "Rework originates in references and wording (T4).",
+      "opportunity": "Draft with references in place. Edits recorded as a diff.",
+      "themes": [
+        "T4"
+      ],
+      "front": "Senior drafts the conclusion.",
+      "back": "none",
+      "support": [
+        "repository"
+      ],
+      "future": {
+        "auditor": "Edits the draft. The diff is recorded.",
+        "agent": "Drafts the conclusion with citations on every claim.",
+        "checkpoint": "Mandatory before a draft becomes the conclusion.",
+        "delta": "References in place. The edit is visible to the reviewer.",
+        "feeling": 1
+      }
+    },
+    {
+      "name": "Review",
+      "doing": "Wait. Clear notes. Clear them again.",
+      "thinking": "Why is this note back?",
+      "feeling": -2,
+      "pain": "Latency compounds (T5). Reviewer decodes format before substance (T10). Source first (T3).",
+      "opportunity": "A review center with state and provenance in view.",
+      "themes": [
+        "T5",
+        "T3",
+        "T10"
+      ],
+      "front": "Manager reviews. Senior clears notes.",
+      "back": "none",
+      "support": [
+        "review",
+        "repository"
+      ],
+      "future": {
+        "auditor": "Manager works the queue. Rejects one step if needed.",
+        "agent": "Reruns the rejected step with the corrected input. Keeps the history.",
+        "checkpoint": "Approve, edit or reject on every run.",
+        "delta": "Queue with state. Source one click away. Notes stop looping.",
+        "feeling": 1
+      }
+    },
+    {
+      "name": "Sign",
+      "doing": "Prepare the partner walkthrough.",
+      "thinking": "Will she ask for the exception trail?",
+      "feeling": -1,
+      "pain": "If it is wrong, it is my name (T8, E-13). The trail is spread across workpapers and emails (T8, E-23).",
+      "opportunity": "Exception trail and checkpoint record in the file.",
+      "themes": [
+        "T8"
+      ],
+      "front": "Partner reviews high-risk areas and signs.",
+      "back": "none",
+      "support": [
+        "review",
+        "repository"
+      ],
+      "future": {
+        "auditor": "Partner reads the exception trail and the checkpoint record. Signs.",
+        "agent": "Nothing. No write path to sign-off.",
+        "checkpoint": "Human-only sign-off.",
+        "delta": "Q2 and Q4 answered where liability lives.",
+        "feeling": 1
+      }
+    }
   ],
-  "support_names": { "methodology": "Methodology library", "repository": "Workpaper repository", "requests": "Request portal", "confirmations": "Confirmation service", "review": "Review tooling", "spreadsheets": "Personal spreadsheets (shadow system)" }
+  "support_names": {
+    "methodology": "Methodology library",
+    "repository": "Workpaper repository",
+    "requests": "Request portal",
+    "confirmations": "Confirmation service",
+    "review": "Review tooling",
+    "spreadsheets": "Personal spreadsheets (shadow system)"
+  }
 }

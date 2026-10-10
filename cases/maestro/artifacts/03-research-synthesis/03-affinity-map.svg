@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 834" width="1400" height="834" role="img" aria-labelledby="t d">
-<title id="t">03 Research synthesis</title>
-<desc id="d">What did the research find, how strong is each finding and which decisions did it drive? Decisions fed: D-03, D-04, D-06. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 852" width="1400" height="852" role="img" aria-labelledby="t-03-affinity d-03-affinity">
+<title id="t-03-affinity">03 Research synthesis</title>
+<desc id="d-03-affinity">What did the research find, how strong is each finding and which decisions did it drive? Decisions fed: D-03, D-04, D-06. Status: Draft. Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</desc>
 
 <style>
-@font-face{font-family:"Plex Sans";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
-@font-face{font-family:"Plex Sans";font-weight:600;src:url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
-@font-face{font-family:"Plex Mono";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
 svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
 @media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
 .ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
@@ -16,174 +16,193 @@ svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt
 .edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
 text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
 </style>
-<rect x="0" y="0" width="1400" height="88" class="surf2"/><line x1="0" y1="88" x2="1400" y2="88" class="hair"/>
+<g class="svg-head" data-h="106">
+<rect x="0" y="0" width="1400" height="106" class="surf2"/><line x1="0" y1="106" x2="1400" y2="106" class="hair"/>
 <text x="16" y="26" class="t16">03 Research synthesis</text>
 <text class="t11 ink2"><tspan x="16" y="46">Question: What did the research find, how strong is each finding and which decisions did it drive?</tspan></text>
 <text x="16" y="66" class="t11 ink2">Feeds: D-03, D-04, D-06  |  Status: Draft</text>
-<text class="t11 ink2"><tspan x="756" y="22">I decided: The codebook structure, the ordinal evidence rubric instead of tallies and which themes</tspan><tspan x="756" y="35">became decisions.</tspan></text>
-<text class="t11 ink2"><tspan x="756" y="56">We built: The coding, two coders per source, the affinity sessions and the evidence table. Theme</tspan><tspan x="756" y="69">names were argued out in the weekly coding review.</tspan></text>
-<text x="16" y="116" class="t11 ink2 b">AFFINITY MAP: CODED OBSERVATIONS CLUSTERED INTO THIRTEEN THEMES. CARDS CARRY A PARAPHRASED OBSERVATION AND ITS METHOD TAGS. NO TALLIES.</text>
-<rect x="16" y="128" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="24" y="144" class="t11 mono ink2">T1</text>
-<text class="t11 b"><tspan x="52" y="144">Locating evidence costs more than</tspan><tspan x="52" y="157">judging it</tspan></text>
-<rect x="24" y="174" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="189">Three systems opened to find one</tspan><tspan x="30" y="202">statement</tspan></text>
-<rect x="24" y="218" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="233">Request chased twice before the week</tspan><tspan x="30" y="246">ends</tspan></text>
-<rect x="24" y="262" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="277">Restart the trace after a client call</tspan></text>
-<rect x="24" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="37" y="320" class="t10 mono" text-anchor="middle">M1</text>
-<rect x="54" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="67" y="320" class="t10 mono" text-anchor="middle">M3</text>
-<rect x="84" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="97" y="320" class="t10 mono" text-anchor="middle">M5</text>
-<rect x="210" y="308" width="62" height="16" rx="8" class="brand-t"/><text x="241" y="320" class="t10" text-anchor="middle">high</text>
-<rect x="292" y="128" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="300" y="144" class="t11 mono ink2">T2</text>
-<text class="t11 b"><tspan x="328" y="144">Tracing a sample to its documents</tspan><tspan x="328" y="157">is the repetitive core</tspan></text>
-<rect x="300" y="174" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="189">Same five fields compared, item after</tspan><tspan x="306" y="202">item</tspan></text>
-<rect x="300" y="218" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="233">Late-session items get less attention</tspan></text>
-<rect x="300" y="262" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="277">The matching is the part I would give</tspan><tspan x="306" y="290">away</tspan></text>
-<rect x="300" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="313" y="320" class="t10 mono" text-anchor="middle">M1</text>
-<rect x="330" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="343" y="320" class="t10 mono" text-anchor="middle">M5</text>
-<rect x="360" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="373" y="320" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="486" y="308" width="62" height="16" rx="8" class="brand-t"/><text x="517" y="320" class="t10" text-anchor="middle">high</text>
-<rect x="568" y="128" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="576" y="144" class="t11 mono ink2">T3</text>
-<text class="t11 b"><tspan x="604" y="144">Reviewers look for the source</tspan><tspan x="604" y="157">first, the conclusion second</tspan></text>
-<rect x="576" y="174" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="189">Opens the reference before the</tspan><tspan x="582" y="202">conclusion</tspan></text>
-<rect x="576" y="218" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="233">No reachable source, sent back unread</tspan></text>
-<rect x="576" y="262" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="277">Re-performable from the file or not</tspan><tspan x="582" y="290">done</tspan></text>
-<rect x="576" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="589" y="320" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="606" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="619" y="320" class="t10 mono" text-anchor="middle">M6</text>
-<rect x="636" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="649" y="320" class="t10 mono" text-anchor="middle">M4</text>
-<rect x="762" y="308" width="62" height="16" rx="8" class="brand-t"/><text x="793" y="320" class="t10" text-anchor="middle">high</text>
-<rect x="844" y="128" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="852" y="144" class="t11 mono ink2">T4</text>
-<text class="t11 b"><tspan x="880" y="144">Rework originates in references</tspan><tspan x="880" y="157">and format, not judgment</tspan></text>
-<rect x="852" y="174" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="858" y="189">Notes are about references, not calls</tspan></text>
-<rect x="852" y="218" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="858" y="233">Layout questions before content</tspan><tspan x="858" y="246">questions</tspan></text>
-<rect x="852" y="262" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="858" y="277">Conclusion wording rewritten twice</tspan></text>
-<rect x="852" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="865" y="320" class="t10 mono" text-anchor="middle">M6</text>
-<rect x="882" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="895" y="320" class="t10 mono" text-anchor="middle">M3</text>
-<rect x="1038" y="308" width="62" height="16" rx="8" class="review-t"/><text x="1069" y="320" class="t10" text-anchor="middle">medium</text>
-<rect x="1120" y="128" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="1128" y="144" class="t11 mono ink2">T5</text>
-<text class="t11 b"><tspan x="1156" y="144">Review latency compounds under</tspan><tspan x="1156" y="157">deadline and notes loop</tspan></text>
-<rect x="1128" y="174" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="1134" y="189">Three days waiting for the manager</tspan></text>
-<rect x="1128" y="218" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="1134" y="233">Note cleared, reopened by the partner</tspan></text>
-<rect x="1128" y="262" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="1134" y="277">Waiting turns into shortcuts</tspan></text>
-<rect x="1128" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="1141" y="320" class="t10 mono" text-anchor="middle">M3</text>
-<rect x="1158" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="1171" y="320" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="1188" y="308" width="26" height="16" rx="8" class="agent-t"/><text x="1201" y="320" class="t10 mono" text-anchor="middle">M1</text>
-<rect x="1314" y="308" width="62" height="16" rx="8" class="brand-t"/><text x="1345" y="320" class="t10" text-anchor="middle">high</text>
-<rect x="16" y="346" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="24" y="362" class="t11 mono ink2">T6</text>
-<text class="t11 b"><tspan x="52" y="362">Exceptions are where judgment</tspan><tspan x="52" y="375">lives and nobody hands that off</tspan></text>
-<rect x="24" y="392" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="407">Flagging is easy, deciding is mine</tspan></text>
-<rect x="24" y="436" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="451">Call the controller about the cutoff</tspan></text>
-<rect x="24" y="480" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="495">No tool decides a misstatement</tspan></text>
-<rect x="24" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="37" y="538" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="54" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="67" y="538" class="t10 mono" text-anchor="middle">M4</text>
-<rect x="84" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="97" y="538" class="t10 mono" text-anchor="middle">M1</text>
-<rect x="210" y="526" width="62" height="16" rx="8" class="brand-t"/><text x="241" y="538" class="t10" text-anchor="middle">high</text>
-<rect x="292" y="346" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="300" y="362" class="t11 mono ink2">T7</text>
-<text class="t11 b"><tspan x="328" y="362">Trust requires seeing what the</tspan><tspan x="328" y="375">agent read and rejecting one step</tspan></text>
-<rect x="300" y="392" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="407">Show me the page it read</tspan></text>
-<rect x="300" y="436" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="451">Let me redo one step with the right</tspan><tspan x="306" y="464">file</tspan></text>
-<rect x="300" y="480" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="495">A number alone is not confidence</tspan></text>
-<rect x="300" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="313" y="538" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="330" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="343" y="538" class="t10 mono" text-anchor="middle">M4</text>
-<rect x="486" y="526" width="62" height="16" rx="8" class="brand-t"/><text x="517" y="538" class="t10" text-anchor="middle">high</text>
-<rect x="568" y="346" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="576" y="362" class="t11 mono ink2">T8</text>
-<text class="t11 b"><tspan x="604" y="362">Accountability fear: if it is</tspan><tspan x="604" y="375">wrong, it is my name</tspan></text>
-<rect x="576" y="392" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="407">If it is wrong it is still my name</tspan></text>
-<rect x="576" y="436" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="451">Would rather not use it than not know</tspan></text>
-<rect x="576" y="480" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="495">The signer wants the exception trail</tspan></text>
-<rect x="576" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="589" y="538" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="762" y="526" width="62" height="16" rx="8" class="brand-t"/><text x="793" y="538" class="t10" text-anchor="middle">high</text>
-<rect x="844" y="346" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="852" y="362" class="t11 mono ink2">T9</text>
-<text class="t11 b"><tspan x="880" y="362">Teams want the system to enforce</tspan><tspan x="880" y="375">data limits</tspan></text>
-<rect x="852" y="392" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="858" y="407">That file cannot leave the client</tspan><tspan x="858" y="420">network</tspan></text>
-<rect x="852" y="436" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="858" y="451">Methodology knows, teams half know</tspan></text>
-<rect x="852" y="480" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="858" y="495">Better that it refuses than I remember</tspan></text>
-<rect x="852" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="865" y="538" class="t10 mono" text-anchor="middle">M4</text>
-<rect x="882" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="895" y="538" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="1038" y="526" width="62" height="16" rx="8" class="review-t"/><text x="1069" y="538" class="t10" text-anchor="middle">medium</text>
-<rect x="1120" y="346" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="1128" y="362" class="t11 mono ink2">T10</text>
-<text class="t11 b"><tspan x="1156" y="362">Format inconsistency slows review</tspan><tspan x="1156" y="375">more than content does</tspan></text>
-<rect x="1128" y="392" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="1134" y="407">Where is the population summary</tspan></text>
-<rect x="1128" y="436" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="1134" y="451">Same procedure, different layout per</tspan><tspan x="1134" y="464">team</tspan></text>
-<rect x="1128" y="480" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="1134" y="495">Fixed structure, faster review</tspan></text>
-<rect x="1128" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="1141" y="538" class="t10 mono" text-anchor="middle">M6</text>
-<rect x="1158" y="526" width="26" height="16" rx="8" class="agent-t"/><text x="1171" y="538" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="1314" y="526" width="62" height="16" rx="8" class="review-t"/><text x="1345" y="538" class="t10" text-anchor="middle">medium</text>
-<rect x="16" y="564" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="24" y="580" class="t11 mono ink2">T11</text>
-<text class="t11 b"><tspan x="52" y="580">Handoffs between roles and days</tspan><tspan x="52" y="593">lose context</tspan></text>
-<rect x="24" y="610" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="625">Senior re-walks the sample for the</tspan><tspan x="30" y="638">manager</tspan></text>
-<rect x="24" y="654" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="669">What is open lives in my head</tspan></text>
-<rect x="24" y="698" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="30" y="713">Day two starts with re-explaining day</tspan><tspan x="30" y="726">one</tspan></text>
-<rect x="24" y="744" width="26" height="16" rx="8" class="agent-t"/><text x="37" y="756" class="t10 mono" text-anchor="middle">M1</text>
-<rect x="54" y="744" width="26" height="16" rx="8" class="agent-t"/><text x="67" y="756" class="t10 mono" text-anchor="middle">M3</text>
-<rect x="210" y="744" width="62" height="16" rx="8" class="review-t"/><text x="241" y="756" class="t10" text-anchor="middle">medium</text>
-<rect x="292" y="564" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="300" y="580" class="t11 mono ink2">T12</text>
-<text class="t11 b"><tspan x="328" y="580">Experts want fewer clicks, not</tspan><tspan x="328" y="593">more guidance</tspan></text>
-<rect x="300" y="610" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="625">Fewer clicks, I know the procedure</tspan></text>
-<rect x="300" y="654" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="669">Keyboard through the sample</tspan></text>
-<rect x="300" y="698" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="306" y="713">Guidance in the way during peak</tspan></text>
-<rect x="300" y="744" width="26" height="16" rx="8" class="agent-t"/><text x="313" y="756" class="t10 mono" text-anchor="middle">M1</text>
-<rect x="330" y="744" width="26" height="16" rx="8" class="agent-t"/><text x="343" y="756" class="t10 mono" text-anchor="middle">M2</text>
-<rect x="486" y="744" width="62" height="16" rx="8" class="review-t"/><text x="517" y="756" class="t10" text-anchor="middle">medium</text>
-<rect x="568" y="564" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
-<text x="576" y="580" class="t11 mono ink2">T13</text>
-<text class="t11 b"><tspan x="604" y="580">Standard Test of Details</tspan><tspan x="604" y="593">structures are adapted by hand</tspan></text>
-<rect x="576" y="610" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="625">Two columns added, one dropped, every</tspan><tspan x="582" y="638">team</tspan></text>
-<rect x="576" y="654" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="669">Variants cause the review notes</tspan></text>
-<rect x="576" y="698" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
-<text class="t11"><tspan x="582" y="713">Make the structure fit, not the team</tspan></text>
-<rect x="576" y="744" width="26" height="16" rx="8" class="agent-t"/><text x="589" y="756" class="t10 mono" text-anchor="middle">M4</text>
-<rect x="606" y="744" width="26" height="16" rx="8" class="agent-t"/><text x="619" y="756" class="t10 mono" text-anchor="middle">M6</text>
-<rect x="762" y="744" width="62" height="16" rx="8" class="review-t"/><text x="793" y="756" class="t10" text-anchor="middle">medium</text>
-<rect x="16" y="786" width="26" height="16" rx="8" class="agent-t"/><text x="29" y="798" class="t10 mono" text-anchor="middle">M1</text><text x="50" y="798" class="t11 ink2">method that surfaced the theme</text>
-<rect x="260" y="786" width="62" height="16" rx="8" class="brand-t"/><text x="291" y="798" class="t10" text-anchor="middle">high</text><rect x="326" y="786" width="62" height="16" rx="8" class="review-t"/><text x="357" y="798" class="t10" text-anchor="middle">medium</text><text x="396" y="798" class="t11 ink2">consistency rating from the rubric in findings.md</text>
-<text x="16" y="820" class="t11 ink2">Reconstructed. Every finding here is a reconstruction of what the research found, rated by an ordinal rubric. No observation, participant or quote count appears because every n except the dry run is a planned target.</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: the codebook structure, the ordinal evidence rubric instead of tallies and which themes</tspan><tspan x="756" y="35">became decisions.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="56">We built: the coding, two coders per source, the affinity sessions and the evidence table. Design</tspan><tspan x="756" y="69">team of three at this phase. Theme names were argued out in the weekly coding review.</tspan></text>
+<text x="16" y="100" class="t10 ink2">Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</text>
+</g>
+<text x="16" y="134" class="t11 ink2 b">AFFINITY MAP: CODED OBSERVATIONS CLUSTERED INTO THIRTEEN THEMES. CARDS CARRY A PARAPHRASED OBSERVATION AND ITS METHOD TAGS. NO TALLIES.</text>
+<rect x="16" y="146" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="24" y="162" class="t11 mono ink2">T1</text>
+<text class="t11 b"><tspan x="52" y="162">Locating evidence costs more than</tspan><tspan x="52" y="175">judging it</tspan></text>
+<rect x="24" y="192" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="207">Three systems opened to find one</tspan><tspan x="30" y="220">statement</tspan></text>
+<rect x="24" y="236" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="251">Request chased twice before the week</tspan><tspan x="30" y="264">ends</tspan></text>
+<rect x="24" y="280" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="295">Restart the trace after a client call</tspan></text>
+<rect x="24" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="37" y="338" class="t10 mono" text-anchor="middle">M1</text>
+<rect x="54" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="67" y="338" class="t10 mono" text-anchor="middle">M3</text>
+<rect x="84" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="97" y="338" class="t10 mono" text-anchor="middle">M5</text>
+<rect x="210" y="326" width="62" height="16" rx="8" class="brand-t"/><text x="241" y="338" class="t10" text-anchor="middle">high</text>
+<rect x="292" y="146" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="300" y="162" class="t11 mono ink2">T2</text>
+<text class="t11 b"><tspan x="328" y="162">Tracing a sample to its documents</tspan><tspan x="328" y="175">is the repetitive core</tspan></text>
+<rect x="300" y="192" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="207">Same five fields compared, item after</tspan><tspan x="306" y="220">item</tspan></text>
+<rect x="300" y="236" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="251">Late-session items get less attention</tspan></text>
+<rect x="300" y="280" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="295">The matching is the part I would give</tspan><tspan x="306" y="308">away</tspan></text>
+<rect x="300" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="313" y="338" class="t10 mono" text-anchor="middle">M1</text>
+<rect x="330" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="343" y="338" class="t10 mono" text-anchor="middle">M3</text>
+<rect x="360" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="373" y="338" class="t10 mono" text-anchor="middle">M5</text>
+<rect x="486" y="326" width="62" height="16" rx="8" class="brand-t"/><text x="517" y="338" class="t10" text-anchor="middle">high</text>
+<rect x="568" y="146" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="576" y="162" class="t11 mono ink2">T3</text>
+<text class="t11 b"><tspan x="604" y="162">Reviewers look for the source</tspan><tspan x="604" y="175">first, the conclusion second</tspan></text>
+<rect x="576" y="192" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="207">Opens the reference before the</tspan><tspan x="582" y="220">conclusion</tspan></text>
+<rect x="576" y="236" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="251">No reachable source, sent back unread</tspan></text>
+<rect x="576" y="280" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="295">Re-performable from the file or not</tspan><tspan x="582" y="308">done</tspan></text>
+<rect x="576" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="589" y="338" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="606" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="619" y="338" class="t10 mono" text-anchor="middle">M6</text>
+<rect x="636" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="649" y="338" class="t10 mono" text-anchor="middle">M4</text>
+<rect x="762" y="326" width="62" height="16" rx="8" class="brand-t"/><text x="793" y="338" class="t10" text-anchor="middle">high</text>
+<rect x="844" y="146" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="852" y="162" class="t11 mono ink2">T4</text>
+<text class="t11 b"><tspan x="880" y="162">Rework originates in references</tspan><tspan x="880" y="175">and format, not judgment</tspan></text>
+<rect x="852" y="192" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="207">Notes are about references, not calls</tspan></text>
+<rect x="852" y="236" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="251">Layout questions before content</tspan><tspan x="858" y="264">questions</tspan></text>
+<rect x="852" y="280" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="295">Conclusion wording rewritten twice</tspan></text>
+<rect x="852" y="326" width="26" height="16" rx="8" class="agent-t"/><text x="865" y="338" class="t10 mono" text-anchor="middle">M6</text>
+<rect x="1038" y="326" width="62" height="16" rx="8" class="review-t"/><text x="1069" y="338" class="t10" text-anchor="middle">medium</text>
+<rect x="1120" y="146" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="1128" y="162" class="t11 mono ink2">T5</text>
+<text class="t11 b"><tspan x="1156" y="162">Review latency compounds under</tspan><tspan x="1156" y="175">deadline and notes loop</tspan></text>
+<rect x="1128" y="192" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="207">Three days waiting for the manager</tspan></text>
+<rect x="1128" y="236" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="251">Note cleared, reopened by the partner</tspan></text>
+<rect x="1128" y="280" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="295">Waiting turns into shortcuts</tspan></text>
+<rect x="1128" y="324" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="339">What is waiting lives in a personal</tspan><tspan x="1134" y="352">list</tspan></text>
+<rect x="1128" y="370" width="26" height="16" rx="8" class="agent-t"/><text x="1141" y="382" class="t10 mono" text-anchor="middle">M3</text>
+<rect x="1158" y="370" width="26" height="16" rx="8" class="agent-t"/><text x="1171" y="382" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="1188" y="370" width="26" height="16" rx="8" class="agent-t"/><text x="1201" y="382" class="t10 mono" text-anchor="middle">M1</text>
+<rect x="1314" y="370" width="62" height="16" rx="8" class="brand-t"/><text x="1345" y="382" class="t10" text-anchor="middle">high</text>
+<rect x="16" y="364" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="24" y="380" class="t11 mono ink2">T6</text>
+<text class="t11 b"><tspan x="52" y="380">Exceptions are where judgment</tspan><tspan x="52" y="393">lives and nobody hands that off</tspan></text>
+<rect x="24" y="410" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="425">Flagging is easy, deciding is mine</tspan></text>
+<rect x="24" y="454" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="469">Call the controller about the cutoff</tspan></text>
+<rect x="24" y="498" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="513">No tool decides a misstatement</tspan></text>
+<rect x="24" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="37" y="556" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="54" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="67" y="556" class="t10 mono" text-anchor="middle">M4</text>
+<rect x="210" y="544" width="62" height="16" rx="8" class="brand-t"/><text x="241" y="556" class="t10" text-anchor="middle">high</text>
+<rect x="292" y="364" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="300" y="380" class="t11 mono ink2">T7</text>
+<text class="t11 b"><tspan x="328" y="380">Trust requires seeing what the</tspan><tspan x="328" y="393">agent read and rejecting one step</tspan></text>
+<rect x="300" y="410" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="425">Show me the page it read</tspan></text>
+<rect x="300" y="454" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="469">Let me redo one step with the right</tspan><tspan x="306" y="482">file</tspan></text>
+<rect x="300" y="498" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="513">A number alone is not confidence</tspan></text>
+<rect x="300" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="313" y="556" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="330" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="343" y="556" class="t10 mono" text-anchor="middle">M4</text>
+<rect x="486" y="544" width="62" height="16" rx="8" class="brand-t"/><text x="517" y="556" class="t10" text-anchor="middle">high</text>
+<rect x="568" y="364" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="576" y="380" class="t11 mono ink2">T8</text>
+<text class="t11 b"><tspan x="604" y="380">Accountability fear: if it is</tspan><tspan x="604" y="393">wrong, it is my name</tspan></text>
+<rect x="576" y="410" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="425">If it is wrong it is still my name</tspan></text>
+<rect x="576" y="454" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="469">Would rather not use it than not know</tspan></text>
+<rect x="576" y="498" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="513">The signer wants the exception trail</tspan></text>
+<rect x="576" y="542" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="557">Trail assembled from workpapers and</tspan><tspan x="582" y="570">emails</tspan></text>
+<rect x="576" y="588" width="26" height="16" rx="8" class="agent-t"/><text x="589" y="600" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="762" y="588" width="62" height="16" rx="8" class="brand-t"/><text x="793" y="600" class="t10" text-anchor="middle">high</text>
+<rect x="844" y="364" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="852" y="380" class="t11 mono ink2">T9</text>
+<text class="t11 b"><tspan x="880" y="380">Teams want the system to enforce</tspan><tspan x="880" y="393">data limits</tspan></text>
+<rect x="852" y="410" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="425">That file cannot leave the client</tspan><tspan x="858" y="438">network</tspan></text>
+<rect x="852" y="454" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="469">Methodology knows, teams half know</tspan></text>
+<rect x="852" y="498" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="513">Better that it refuses than I remember</tspan></text>
+<rect x="852" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="865" y="556" class="t10 mono" text-anchor="middle">M4</text>
+<rect x="882" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="895" y="556" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="1038" y="544" width="62" height="16" rx="8" class="review-t"/><text x="1069" y="556" class="t10" text-anchor="middle">medium</text>
+<rect x="1120" y="364" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="1128" y="380" class="t11 mono ink2">T10</text>
+<text class="t11 b"><tspan x="1156" y="380">Format inconsistency slows review</tspan><tspan x="1156" y="393">more than content does</tspan></text>
+<rect x="1128" y="410" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="425">Where is the population summary</tspan></text>
+<rect x="1128" y="454" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="469">Same procedure, different layout per</tspan><tspan x="1134" y="482">team</tspan></text>
+<rect x="1128" y="498" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="1134" y="513">Fixed structure, faster review</tspan></text>
+<rect x="1128" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="1141" y="556" class="t10 mono" text-anchor="middle">M6</text>
+<rect x="1158" y="544" width="26" height="16" rx="8" class="agent-t"/><text x="1171" y="556" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="1314" y="544" width="62" height="16" rx="8" class="review-t"/><text x="1345" y="556" class="t10" text-anchor="middle">medium</text>
+<rect x="16" y="582" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="24" y="598" class="t11 mono ink2">T11</text>
+<text class="t11 b"><tspan x="52" y="598">Handoffs between roles and days</tspan><tspan x="52" y="611">lose context</tspan></text>
+<rect x="24" y="628" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="643">Senior re-walks the sample for the</tspan><tspan x="30" y="656">manager</tspan></text>
+<rect x="24" y="672" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="687">What is open lives in my head</tspan></text>
+<rect x="24" y="716" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="30" y="731">Day two starts with re-explaining day</tspan><tspan x="30" y="744">one</tspan></text>
+<rect x="24" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="37" y="774" class="t10 mono" text-anchor="middle">M1</text>
+<rect x="54" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="67" y="774" class="t10 mono" text-anchor="middle">M3</text>
+<rect x="210" y="762" width="62" height="16" rx="8" class="review-t"/><text x="241" y="774" class="t10" text-anchor="middle">medium</text>
+<rect x="292" y="582" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="300" y="598" class="t11 mono ink2">T12</text>
+<text class="t11 b"><tspan x="328" y="598">Experts want fewer clicks, not</tspan><tspan x="328" y="611">more guidance</tspan></text>
+<rect x="300" y="628" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="643">Fewer clicks, I know the procedure</tspan></text>
+<rect x="300" y="672" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="687">Keyboard through the sample</tspan></text>
+<rect x="300" y="716" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="306" y="731">Guidance in the way during peak</tspan></text>
+<rect x="300" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="313" y="774" class="t10 mono" text-anchor="middle">M1</text>
+<rect x="330" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="343" y="774" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="486" y="762" width="62" height="16" rx="8" class="review-t"/><text x="517" y="774" class="t10" text-anchor="middle">medium</text>
+<rect x="568" y="582" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="576" y="598" class="t11 mono ink2">T13</text>
+<text class="t11 b"><tspan x="604" y="598">Standard Test of Details</tspan><tspan x="604" y="611">structures are adapted by hand</tspan></text>
+<rect x="576" y="628" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="643">Two columns added, one dropped, every</tspan><tspan x="582" y="656">team</tspan></text>
+<rect x="576" y="672" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="687">Variants cause the review notes</tspan></text>
+<rect x="576" y="716" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="582" y="731">Make the structure fit, not the team</tspan></text>
+<rect x="576" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="589" y="774" class="t10 mono" text-anchor="middle">M4</text>
+<rect x="606" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="619" y="774" class="t10 mono" text-anchor="middle">M6</text>
+<rect x="762" y="762" width="62" height="16" rx="8" class="review-t"/><text x="793" y="774" class="t10" text-anchor="middle">medium</text>
+<rect x="844" y="582" width="264" height="206" rx="3" class="surf2" stroke="var(--bt-border)"/>
+<text x="852" y="598" class="t11 mono ink2">T14</text>
+<text class="t11 b"><tspan x="880" y="598">Every role offers the agent its</tspan><tspan x="880" y="611">repetitive work and keeps its</tspan><tspan x="880" y="624">judgment</tspan></text>
+<rect x="852" y="628" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="643">It can do the matching, I look at the</tspan><tspan x="858" y="656">differences</tspan></text>
+<rect x="852" y="672" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="687">Draft it with the references in place</tspan></text>
+<rect x="852" y="716" width="248" height="38" rx="2" class="surf" stroke="var(--bt-border)"/>
+<text class="t11"><tspan x="858" y="731">Nobody offers the conclusion or the</tspan><tspan x="858" y="744">sign-off</tspan></text>
+<rect x="852" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="865" y="774" class="t10 mono" text-anchor="middle">M2</text>
+<rect x="882" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="895" y="774" class="t10 mono" text-anchor="middle">M3</text>
+<rect x="912" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="925" y="774" class="t10 mono" text-anchor="middle">M4</text>
+<rect x="942" y="762" width="26" height="16" rx="8" class="agent-t"/><text x="955" y="774" class="t10 mono" text-anchor="middle">M7</text>
+<rect x="1038" y="762" width="62" height="16" rx="8" class="review-t"/><text x="1069" y="774" class="t10" text-anchor="middle">medium</text>
+<rect x="16" y="804" width="26" height="16" rx="8" class="agent-t"/><text x="29" y="816" class="t10 mono" text-anchor="middle">M1</text><text x="50" y="816" class="t11 ink2">method that surfaced the theme</text>
+<rect x="260" y="804" width="62" height="16" rx="8" class="brand-t"/><text x="291" y="816" class="t10" text-anchor="middle">high</text><rect x="326" y="804" width="62" height="16" rx="8" class="review-t"/><text x="357" y="816" class="t10" text-anchor="middle">medium</text><text x="396" y="816" class="t11 ink2">consistency rating from the rubric in findings.md</text>
+<text x="16" y="838" class="t11 ink2">Reconstructed. Every finding here is a reconstruction of what the research found, rated by an ordinal rubric. No observation, participant or quote count appears because every n except the dry run is a planned target. Ratings are my judgment, checked by the rubric.</text>
 </svg>

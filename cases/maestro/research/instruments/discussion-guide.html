@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semi-structured interview discussion guide</title>
+<link rel="icon" href="/shared/brand/baton/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared/brand/baton/tokens.css">
+<link rel="stylesheet" href="/shared/design-system/base.css">
+<style>.md { max-width: 110ch; } .md h1 { font-size: var(--bt-fs-20); margin: var(--bt-s4) 0 var(--bt-s2); } .md h2 { font-size: var(--bt-fs-16); margin-top: var(--bt-s6); } .md h3 { font-size: var(--bt-fs-14); } .md p, .md li { font-size: var(--bt-fs-13); line-height: var(--bt-lh-prose); } .md blockquote { margin: var(--bt-s2) 0; padding: var(--bt-s1) var(--bt-s3); border-left: 3px solid var(--bt-border); color: var(--bt-ink-2); font-size: var(--bt-fs-12); } .md table.doc { margin: var(--bt-s2) 0; font-size: var(--bt-fs-12); } .md pre { background: var(--bt-surface-2); padding: var(--bt-s2) var(--bt-s3); overflow: auto; font-size: var(--bt-fs-12); } .md hr { margin: var(--bt-s6) 0; } .src { font-size: var(--bt-fs-11); color: var(--bt-ink-3); margin: var(--bt-s2) 0 0; }</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<main id="main" class="md">
+<p class="src">Rendered from <a href="discussion-guide.md">discussion-guide.md</a>. The Markdown file is the source.</p>
+<table class="doc"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Title</td><td>Semi-structured interview discussion guide</td></tr><tr><td>Artifact</td><td>02 Research plan and instruments</td></tr><tr><td>Question it answers</td><td>How do auditors in five roles run and review a Test of Details today, where does evidence work hurt and what would they hand to an agent?</td></tr><tr><td>Decisions it feeds</td><td>D-02</td></tr><tr><td>Status</td><td>Draft</td></tr></tbody></table>
+<blockquote>
+<p>Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</p>
+</blockquote>
+<p><strong>I decided:</strong> the role mix, the section budgets and the rule that every question asks for the last specific instance. <strong>We built:</strong> the guide, ran the sessions in pairs and coded the notes. Design team of three at this phase.</p>
+<h2 id="1-purpose-and-scope">1. Purpose and scope</h2>
+<p>Phase P1, discovery. One guide for five roles: Associate, Senior, Manager, Partner, Quality and Methodology reviewer. Core questions are shared so answers compare across roles. A probe block per role goes deeper where that role carries the work.</p>
+<p>Planned target: 20 interviews, four per role. No interview is reported in this reconstruction. Findings in artifact 03 are reconstructed and labeled as such.</p>
+<p>Role split. I set the role mix, the section budgets and the rule that every question asks for the last specific instance. We run the sessions in pairs and code the notes against the codebook in <code>research/codebook.md</code> (artifact 03).</p>
+<p>Of the four questions on every artifact header, this guide moves forward question 1 (what may the agent access) and question 2 (where must a human review) through the stance block. Questions 3 and 4 are reached through the trust probes in section 6.5.</p>
+<h2 id="2-logistics">2. Logistics</h2>
+<table class="doc"><thead><tr><th>Item</th><th>Rule</th></tr></thead><tbody><tr><td>Length</td><td>45 minutes. Hard stop at 50.</td></tr><tr><td>Format</td><td>Video call or in person. Audio recording only, with consent. No screen share.</td></tr><tr><td>Team</td><td>One moderator, one note-taker. The moderator never takes notes.</td></tr><tr><td>Recruiting</td><td>Section 3. Scheduled outside the participant&#39;s client deadlines where possible.</td></tr><tr><td>Materials</td><td>This guide, the consent script, the note template, a timer the moderator can see.</td></tr><tr><td>Storage</td><td>Notes and audio under the participant ID only (INT-01 to INT-20). Role and region are recorded. Name, office and engagement are not.</td></tr><tr><td>Debrief</td><td>10 minutes after each session. Both team members mark their top three observations and one code candidate each.</td></tr><tr><td>Pilot</td><td>INT-01 and INT-02 are pilots. Revise the guide after them. Log every wording change in section 10.</td></tr></tbody></table>
+<h2 id="3-recruiting-criteria">3. Recruiting criteria</h2>
+<table class="doc"><thead><tr><th>Criterion</th><th>Rule</th></tr></thead><tbody><tr><td>Role</td><td>Current title matches one of the five roles. Four per role.</td></tr><tr><td>Tenure</td><td>At least one full busy season in the current role. Partners and reviewers: at least three.</td></tr><tr><td>Recency</td><td>Performed or reviewed at least one Test of Details in the last 12 months.</td></tr><tr><td>Audit area</td><td>Across the 20, every area appears at least twice: revenue, inventory, cash, fixed assets, payables.</td></tr><tr><td>Region</td><td>At least three of the five regions represented: North, South, East, West, Central.</td></tr><tr><td>Exclusions</td><td>Members of the platform product team. Anyone who has seen concept material for the new workspace. Anyone who reports to the moderator.</td></tr><tr><td>Replacement</td><td>A no-show is replaced from the same role. Do not fill a Partner slot with a Manager.</td></tr></tbody></table>
+<h2 id="4-interviewer-rules">4. Interviewer rules</h2>
+<ol>
+<li>Ask for the last specific instance. &quot;Walk me through the last one&quot; beats &quot;how do you usually&quot;.</li>
+<li>No leading. Never name a problem before the participant does. Never say &quot;agent&quot;, &quot;AI&quot; or &quot;automation&quot; before section 6.5. If the participant raises it earlier, note the timestamp and park it: &quot;Hold that, we come back to it.&quot;</li>
+<li>No client data. If a client name, amount, document or person is about to be named, interrupt: &quot;No client specifics, please. Call it the client.&quot; Strike anything already said from the notes and mark the audio timestamp for deletion.</li>
+<li>Silence rule. After a question, count to five before speaking.</li>
+<li>Probe ladder, in this order: &quot;Tell me more.&quot; &quot;What happened next?&quot; &quot;What did that cost you?&quot; &quot;Who else was involved?&quot;</li>
+<li>One question at a time. No stacked questions.</li>
+<li>Refusal. Any question may be declined without a reason. Say &quot;That is fine&quot; and move to the next. Write <code>declined</code> against the question. Three declines in one section: skip to the next section. A request to stop ends the session. Stop the recording, thank the participant, delete the audio within 24 hours and confirm the deletion by message.</li>
+<li>Never describe the concept, show a sketch or correct a participant&#39;s view of what the technology can do.</li>
+<li>Keep the budget. The timer is visible. A section that runs over is cut by the moderator, not stretched.</li>
+</ol>
+<h2 id="5-consent-script">5. Consent script</h2>
+<p>Read aloud before recording starts.</p>
+<blockquote>
+<p>Thank you for making time. I lead the research for a new audit workspace. My colleague takes notes. The session runs 45 minutes.
+We are asking about how you do your work today. We are not testing you and there are no right answers.
+We ask you not to name clients, engagements, colleagues, amounts or documents. If one slips out, we strike it from the record.
+With your permission we record audio so the notes are accurate. The recording is kept under a participant number, not your name. It is deleted at the end of the study. Only the research team hears it.
+You can skip any question and stop at any time. Nothing you say reaches your engagement team or your reviewer.
+Do you agree to take part? Do you agree to the audio recording?</p>
+</blockquote>
+<p>Record both answers in the note header. Start the recording only after a yes to the second question. A no to recording continues the session with notes only.</p>
+<h2 id="6-session-structure-and-core-questions">6. Session structure and core questions</h2>
+<table class="doc"><thead><tr><th>#</th><th>Section</th><th>Minutes</th><th>Running total</th></tr></thead><tbody><tr><td>1</td><td>Intro and consent</td><td>3</td><td>3</td></tr><tr><td>2</td><td>Role and engagement context</td><td>5</td><td>8</td></tr><tr><td>3</td><td>The last Test of Details you ran or reviewed</td><td>12</td><td>20</td></tr><tr><td>4</td><td>Evidence and review pain</td><td>10</td><td>30</td></tr><tr><td>5</td><td>Stance on AI</td><td>10</td><td>40</td></tr><tr><td>6</td><td>Wrap and snowball</td><td>5</td><td>45</td></tr></tbody></table>
+<h3 id="6-1-intro-and-consent-3">6.1 Intro and consent (3)</h3>
+<p>Consent script. Confirm role. Confirm the participant has 45 minutes.</p>
+<h3 id="6-2-role-and-engagement-context-5">6.2 Role and engagement context (5)</h3>
+<ul>
+<li>What does your role own on an engagement?</li>
+<li>How many engagements were you on in the last busy season? How large was the largest team?</li>
+<li>Which audit areas did you work in most?</li>
+<li>Who reviews your work? Whose work do you review?</li>
+</ul>
+<h3 id="6-3-the-last-test-of-details-you-ran-or-reviewed-12">6.3 The last Test of Details you ran or reviewed (12)</h3>
+<ul>
+<li>Think of the last Test of Details you ran or reviewed. Walk me through it from the sample list to sign-off.</li>
+<li>Where did the sample come from? Who chose the items?</li>
+<li>For one sampled item: how did you get to the evidence? How many systems or files did you touch?</li>
+<li>What did you compare, against what?</li>
+<li>What happened when something did not match?</li>
+<li>How did you write it up? What did the workpaper look like at the end?</li>
+<li>Who reviewed it and what came back?</li>
+</ul>
+<p>Probe for: time per item, waits, switches between tools, anything done twice.</p>
+<h3 id="6-4-evidence-and-review-pain-10">6.4 Evidence and review pain (10)</h3>
+<ul>
+<li>What was the slowest part? Why that part?</li>
+<li>Tell me about the last time you had to redo work in a workpaper. What caused it?</li>
+<li>Tell me about the last review note you wrote or received that took more than one round to clear.</li>
+<li>When evidence is missing or late, what do you do while you wait?</li>
+<li>What do you do differently in the last two weeks before a deadline?</li>
+</ul>
+<h3 id="6-5-stance-on-ai-10">6.5 Stance on AI (10)</h3>
+<p>Moderator says: &quot;For the rest of the session, imagine a software agent that can read documents and do steps of the work for you.&quot;</p>
+<ul>
+<li>Which steps from your walkthrough would you hand to it today? Why those?</li>
+<li>Which would you never hand off? What makes those different?</li>
+<li>Say it did a step. What would you need to see before you trusted the result?</li>
+<li>Say it got a step wrong and you did not catch it. Who carries that? How would you want to find out?</li>
+<li>What would it need to show you about where its answer came from?</li>
+</ul>
+<h3 id="6-6-wrap-and-snowball-5">6.6 Wrap and snowball (5)</h3>
+<ul>
+<li>Anything we should have asked and did not?</li>
+<li>Who else does this work differently from you? May we contact them?</li>
+<li>Thank the participant. Restate the deletion rule. Stop the recording.</li>
+</ul>
+<h2 id="7-role-specific-probes">7. Role-specific probes</h2>
+<p>Use inside sections 6.3 to 6.5. Pick the probes the core answers did not already cover. Four to six per role.</p>
+<table class="doc"><thead><tr><th>Role</th><th>Probes</th></tr></thead><tbody><tr><td>Associate</td><td>How did you learn the format for this workpaper? When you could not find a document, who did you ask and how long did you wait? How often did a reviewer change your wording rather than your conclusion? What did you copy from a prior year file? Which step would you hand off first?</td></tr><tr><td>Senior</td><td>How did you split items among the team? How did you check an Associate&#39;s tracing without redoing it? How many workpaper formats did you see across your engagements? What did you fix yourself instead of sending back? Where did review notes pile up? Which step would you refuse to let an agent do without you?</td></tr><tr><td>Manager</td><td>What do you read first when a workpaper reaches you? What do you send back most often? How do you know a sample was selected correctly? How long from a workpaper being ready to your review starting? If an agent drafted a conclusion, what would have to be true for you to sign it? What would you want logged?</td></tr><tr><td>Partner</td><td>What do you look at before you sign an area? What have you stopped trusting at face value? How do you judge whether the team&#39;s evidence supports the conclusion? Where would an agent&#39;s involvement change your sign-off question? What would you need to defend the file to an inspector?</td></tr><tr><td>Quality and Methodology reviewer</td><td>Which documentation failures recur across teams? Which standard drives the most review notes? Where does methodology leave teams to interpret and what do they get wrong? Which steps may a non-auditor system perform under the standards you apply? What must a human do in person? What would an agent have to record for the file to stand?</td></tr></tbody></table>
+<h2 id="8-note-taking-template">8. Note-taking template</h2>
+<p>One row per observation. Timestamps as mm:ss from recording start. Quotes verbatim or marked as paraphrase with a leading tilde. Code candidate is the note-taker&#39;s first guess; the codebook decides.</p>
+<table class="doc"><thead><tr><th>Timestamp</th><th>Quote</th><th>Observation</th><th>Code candidate</th></tr></thead><tbody><tr><td>14:20</td><td>&quot;I had three windows open for one invoice.&quot;</td><td>Switches tools per item. Counts them on fingers.</td><td>tool_switching</td></tr><tr><td>22:05</td><td>~ waits a day for the client portal</td><td>Wait time hidden inside what the participant calls tracing.</td><td>evidence_wait</td></tr><tr><td>31:40</td><td>declined</td><td>Section 6.4, question 2.</td><td></td></tr></tbody></table>
+<p>The rows above are format examples, not session data.</p>
+<p>Header block per session: participant ID, role, region, date, moderator ID, note-taker ID, consent yes or no, recording yes or no, sections completed, strikes applied (count and timestamps).</p>
+<h2 id="9-after-the-session">9. After the session</h2>
+<ol>
+<li>Debrief, 10 minutes. Top three observations each. One code candidate each.</li>
+<li>Note-taker cleans notes within 24 hours. Moderator reads them within 48 and adds timestamps for anything missed.</li>
+<li>Strike check. Any client specific is removed from notes and the audio segment is cut.</li>
+<li>Notes go to the coding queue for artifact 03. Code candidates feed <code>research/codebook.md</code>. A code is added only when two sessions carry the pattern.</li>
+<li>Snowball names go to recruiting, never into the notes.</li>
+</ol>
+<h2 id="10-guide-change-log">10. Guide change log</h2>
+<table class="doc"><thead><tr><th>Version</th><th>After</th><th>Change</th><th>Reason</th></tr></thead><tbody><tr><td>0.1</td><td>Draft</td><td>First version.</td><td></td></tr><tr><td>0.2</td><td>INT-02 pilot</td><td>Record wording changes here.</td><td></td></tr></tbody></table>
+<h2 id="11-analysis">11. Analysis</h2>
+<p>Thematic coding against the codebook. Two coders on every session. INT-01 to INT-04 are coded first and compared to calibrate the codebook before the rest are coded. Disagreements go to the weekly 30-minute coding review in plan.md section 5; the codebook changes when a disagreement repeats. Themes are rated by evidence strength on the ordinal rubric in artifact 03: methods that surfaced it, roles that raised it, consistency. No participant or quote counts are reported.</p>
+<h2 id="12-limitations">12. Limitations</h2>
+<ul>
+<li>Recall of a single instance. The last Test of Details may not be typical.</li>
+<li>Self-report of time. Durations are checked against the time-and-motion study, not taken from interviews.</li>
+<li>Four per role is enough to find patterns across roles and too few to compare within a role.</li>
+<li>Section 6.5 primes with a described agent. Stances are stated, not observed. Usability rounds observe.</li>
+<li>Busy season scheduling means the sample skews to whoever is available.</li>
+</ul>
+
+</main>
+</div>
+</body>
+</html>

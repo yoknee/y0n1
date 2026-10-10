@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Time-and-motion protocol: evidence review in a Test of Details</title>
+<link rel="icon" href="/shared/brand/baton/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared/brand/baton/tokens.css">
+<link rel="stylesheet" href="/shared/design-system/base.css">
+<style>.md { max-width: 110ch; } .md h1 { font-size: var(--bt-fs-20); margin: var(--bt-s4) 0 var(--bt-s2); } .md h2 { font-size: var(--bt-fs-16); margin-top: var(--bt-s6); } .md h3 { font-size: var(--bt-fs-14); } .md p, .md li { font-size: var(--bt-fs-13); line-height: var(--bt-lh-prose); } .md blockquote { margin: var(--bt-s2) 0; padding: var(--bt-s1) var(--bt-s3); border-left: 3px solid var(--bt-border); color: var(--bt-ink-2); font-size: var(--bt-fs-12); } .md table.doc { margin: var(--bt-s2) 0; font-size: var(--bt-fs-12); } .md pre { background: var(--bt-surface-2); padding: var(--bt-s2) var(--bt-s3); overflow: auto; font-size: var(--bt-fs-12); } .md hr { margin: var(--bt-s6) 0; } .src { font-size: var(--bt-fs-11); color: var(--bt-ink-3); margin: var(--bt-s2) 0 0; }</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<main id="main" class="md">
+<p class="src">Rendered from <a href="time-and-motion-protocol.md">time-and-motion-protocol.md</a>. The Markdown file is the source.</p>
+<table class="doc"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Title</td><td>Time-and-motion protocol: evidence review in a Test of Details</td></tr><tr><td>Artifact</td><td>02 Research plan and instruments</td></tr><tr><td>Question it answers</td><td>Where does the time go when an auditor traces one sampled item to its evidence, step by step? Which steps could an agent take over?</td></tr><tr><td>Decisions it feeds</td><td>D-02</td></tr><tr><td>Status</td><td>Draft</td></tr></tbody></table>
+<blockquote>
+<p>Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</p>
+</blockquote>
+<p><strong>I decided:</strong> to time steps rather than tasks so the agent takeover map falls out of the data. <strong>We built:</strong> the step taxonomy with a Senior and the data sheet. Design team of three at this phase.</p>
+<h2 id="1-purpose-and-scope">1. Purpose and scope</h2>
+<p>Phase P1. Interviews and the diary give self-reported time. This protocol measures it. One observer sits with one auditor during live evidence review and times each step of tracing a sampled item. The output is a step-level time profile that tells the design which steps are worth automating and where a checkpoint costs the least.</p>
+<p>Planned target: 12 sessions of 90 minutes. Planned mix: 8 Associates, 4 Seniors. At least two sessions per audit area across revenue, inventory, cash, fixed assets and payables. No session is reported in this reconstruction.</p>
+<p>Role split. I defined the step taxonomy and the rule that only step names and durations are recorded. We run the sessions, keep the sheets and compute the statistics.</p>
+<h2 id="2-session-setup">2. Session setup</h2>
+<table class="doc"><thead><tr><th>Item</th><th>Rule</th></tr></thead><tbody><tr><td>Length</td><td>90 minutes. Setup 10, observation 70, debrief 10.</td></tr><tr><td>People</td><td>One observer, one auditor. No one else in the room or on the call.</td></tr><tr><td>Work</td><td>The auditor&#39;s real queue of sampled items for a Test of Details in progress. The observer never chooses items.</td></tr><tr><td>Location</td><td>Office or remote with shared screen. On a client site only with the engagement partner&#39;s approval.</td></tr><tr><td>Consent</td><td>Verbal script in section 3, recorded as yes or no on the session sheet.</td></tr><tr><td>What is recorded</td><td>Step codes, start and end times, interruption codes, evidence type, evidence source category, cycle outcome. Nothing else.</td></tr><tr><td>What is never recorded</td><td>Client names, amounts, document contents, reference numbers, screenshots, screen recording, audio. The only free-text field is <code>notes</code>, checked before the sheet leaves the room.</td></tr><tr><td>Observer position</td><td>Beside the auditor, screen visible. Remote: the auditor shares the screen; the observer records nothing from it.</td></tr><tr><td>Stop rule</td><td>The auditor may pause or end at any time. Any item involving restricted data is skipped at the auditor&#39;s call and logged as <code>skipped_restricted</code> with no duration.</td></tr></tbody></table>
+<h2 id="3-consent-script">3. Consent script</h2>
+<blockquote>
+<p>I am here to time the steps of your work, not to judge it. I write down step names and how long each takes. I do not write down anything about the client, the amounts or the documents. There is no recording. Your name is not on the sheet, only a session number. You can stop at any time or ask me to skip an item. Is that all right?</p>
+</blockquote>
+<h2 id="4-step-taxonomy">4. Step taxonomy</h2>
+<p>One cycle is one sampled item traced from the sample list to handoff. Steps run in roughly this order. A step may repeat within a cycle; each repeat is a new row with <code>repeat</code> set.</p>
+<table class="doc"><thead><tr><th>Code</th><th>Step</th><th>Starts when</th><th>Ends when</th></tr></thead><tbody><tr><td>S1</td><td>Locate the sample item</td><td>The auditor turns to the sample list or selection schedule</td><td>The item&#39;s identifier and expected values are on screen</td></tr><tr><td>S2</td><td>Request or locate evidence</td><td>The auditor begins looking for or asking for the document</td><td>The document is in hand. Or the request is sent and the item is parked</td></tr><tr><td>S3</td><td>Open the document</td><td>The auditor opens the file, portal page or image</td><td>The relevant page is visible</td></tr><tr><td>S4</td><td>Find the field</td><td>The auditor scans for the value to compare</td><td>The value is located on the page</td></tr><tr><td>S5</td><td>Compare to the record</td><td>The auditor checks the document value against the recorded value, including any tolerance or recalculation</td><td>The auditor states or marks match or no match</td></tr><tr><td>S6</td><td>Record the result</td><td>The auditor begins entering the result in the workpaper or tracker</td><td>The result is saved</td></tr><tr><td>S7</td><td>Flag an exception</td><td>Only on no match. The auditor starts documenting the difference</td><td>The exception is logged or the item is marked for follow-up</td></tr><tr><td>S8</td><td>Annotate the workpaper</td><td>The auditor adds tick marks, references, notes or links to the evidence</td><td>Annotation saved</td></tr><tr><td>S9</td><td>Hand off</td><td>The auditor moves the item or the workpaper to the next person or files it for review</td><td>The handoff action completes</td></tr></tbody></table>
+<p>Parked items: when S2 ends with a request sent, the cycle closes with outcome <code>parked</code>. If the auditor returns to it inside the session, a new cycle opens at S3 with <code>parked_return</code> set.</p>
+<h2 id="5-timing-method">5. Timing method</h2>
+<ul>
+<li>One stopwatch in lap mode. One lap per step. The observer notes the step code and the lap time without speaking.</li>
+<li>Times to the second. A step under two seconds is recorded as 2.</li>
+<li>Interruptions are timed on a second stopwatch and logged with a code. Interruption time is subtracted from the step it fell in. Codes: I1 colleague question, I2 message or email, I3 phone or call, I4 system wait (loading, login, timeout), I5 break, I6 other. I4 is the one the design can touch. Keep it distinct from I2.</li>
+<li>Thinking time with no visible action counts in the current step. Do not open a new step for it.</li>
+<li>If the observer loses track, the current step is marked <code>unclear</code> and timing resumes at the next clear boundary. The cycle is kept with the flag.</li>
+<li>Target throughput: 10 to 20 cycles per 70-minute observation. Fewer is fine. Never ask the auditor to speed up.</li>
+</ul>
+<p>Observer training: one practice session on a mock queue of synthetic items. One paired session early in the study (two observers, one auditor) to check that step boundaries agree. Boundary disagreements are resolved by tightening the start and end triggers above.</p>
+<h2 id="6-data-sheet">6. Data sheet</h2>
+<p>Session sheet, one per session:</p>
+<table class="doc"><thead><tr><th>Column</th><th>Values</th></tr></thead><tbody><tr><td>session_id</td><td>TM-01 to TM-12</td></tr><tr><td>observer_id</td><td>Initials code</td></tr><tr><td>date, start_time, end_time</td><td></td></tr><tr><td>role</td><td>associate, senior</td></tr><tr><td>audit_area</td><td>revenue, inventory, cash, fixed_assets, payables</td></tr><tr><td>procedure_type</td><td>test_of_details</td></tr><tr><td>setting</td><td>office, remote, client_site</td></tr><tr><td>tool_categories_in_use</td><td>workpaper tool, document repository, client portal, spreadsheet, email, other (tick all that apply)</td></tr><tr><td>consent</td><td>yes, no</td></tr><tr><td>cycles_completed, cycles_parked, cycles_skipped_restricted</td><td>counts</td></tr></tbody></table>
+<p>Step sheet, one row per step occurrence:</p>
+<table class="doc"><thead><tr><th>Column</th><th>Values</th></tr></thead><tbody><tr><td>session_id</td><td></td></tr><tr><td>cycle_no</td><td>1, 2, 3 and so on</td></tr><tr><td>step_code</td><td>S1 to S9</td></tr><tr><td>repeat</td><td>0 or 1</td></tr><tr><td>start_s, end_s, duration_s</td><td>Seconds from observation start</td></tr><tr><td>interruption_code</td><td>none, I1 to I6</td></tr><tr><td>interruption_s</td><td>Seconds subtracted</td></tr><tr><td>evidence_type</td><td>invoice, contract, bank_statement, confirmation, system_report, shipping_document, receiving_report, approval_memo, other</td></tr><tr><td>evidence_source</td><td>client_erp, bank_portal, confirmation_service, document_request, prior_year_file, other</td></tr><tr><td>cycle_outcome</td><td>matched, exception, parked, skipped_restricted, unclear (set on the last row of the cycle)</td></tr><tr><td>parked_return</td><td>0 or 1</td></tr><tr><td>notes</td><td>Step-level remark. No client data. Checked before the sheet leaves the room.</td></tr></tbody></table>
+<h2 id="7-analysis">7. Analysis</h2>
+<ol>
+<li>Descriptive statistics per step: n, median, interquartile range, minimum and maximum of <code>duration_s</code>. Means sit beside medians because waits skew the distributions.</li>
+<li>Where time goes: share of total cycle time per step, overall and by audit area. Small multiples by area, one bar per step, with text labels so the chart reads without color (artifact 12 rules).</li>
+<li>Repeats: share of cycles with any repeated step, by step. A repeat is rework inside the cycle.</li>
+<li>Interruptions: interruption minutes per observed hour by code. I4 system wait reported on its own.</li>
+<li>Parked rate: share of cycles parked at S2, by evidence source. Waiting on documents is the wait the design can shorten with earlier requests.</li>
+<li>Agent takeover map. For each step: what the agent could do, what the human must still do, which checkpoint would sit there. The table below is the starting hypothesis. The data revises it.</li>
+</ol>
+<table class="doc"><thead><tr><th>Step</th><th>Agent could</th><th>Human must</th><th>Checkpoint candidate</th></tr></thead><tbody><tr><td>S1</td><td>Present the next item with expected values</td><td>Confirm the sample was selected correctly</td><td>Before the run starts</td></tr><tr><td>S2</td><td>Retrieve from connected sources. Draft the request list</td><td>Approve requests to the client. Approve any restricted retrieval</td><td>Restricted class only</td></tr><tr><td>S3</td><td>Open and page to the relevant span</td><td>Nothing</td><td>None</td></tr><tr><td>S4</td><td>Extract the field and show the span</td><td>Confirm the extraction when confidence is low</td><td>Low confidence only</td></tr><tr><td>S5</td><td>Apply the matching rule and tolerance</td><td>Judge any no match</td><td>Every no match</td></tr><tr><td>S6</td><td>Propose the result</td><td>Accept the result</td><td>Per item or per batch</td></tr><tr><td>S7</td><td>Detect and draft the exception</td><td>Classify and resolve it</td><td>Every exception</td></tr><tr><td>S8</td><td>Draft annotations with citations</td><td>Review the annotation</td><td>Per workpaper</td></tr><tr><td>S9</td><td>Route to the reviewer</td><td>Decide it is ready</td><td>Per workpaper</td></tr></tbody></table>
+<ol start="7">
+<li>Output: a step-level time profile per area and the takeover map, labeled planned target for n and illustrative for any number shown. These feed the evidence table (03), the opportunity map (06) and checkpoint placement (08, 09).</li>
+</ol>
+<h2 id="8-limitations">8. Limitations</h2>
+<ul>
+<li>Observation changes behavior. Auditors may work faster or more carefully when timed. Report this beside the result.</li>
+<li>Twelve sessions across five areas gives a shape, not an estimate. No per-area comparison is significant.</li>
+<li>Step boundaries are judgments. The paired session checks them once. Drift is possible.</li>
+<li>Cycles vary by evidence type. A bank statement and a signed contract do not take the same path. Analysis splits by evidence type where n allows.</li>
+<li>Parked items hide the longest wait, which happens outside the session. The diary covers that wait.</li>
+<li>Remote sessions lose body language and off-screen interruptions.</li>
+<li>Busy season scheduling limits who can be observed. Associates are over-represented by design because they do most of the tracing.</li>
+</ul>
+
+</main>
+</div>
+</body>
+</html>

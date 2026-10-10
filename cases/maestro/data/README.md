@@ -1,4 +1,14 @@
-Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
+| | |
+|---|---|
+| Title | Baton synthetic data: schema, generator and outputs |
+| Artifact | data (feeds 08, 11, 12, 13 and the prototype) |
+| Question it answers | What data do the screens, charts and prototype run on, how is it generated and how is it kept honest? |
+| Decisions it feeds | D-05, D-06, D-13 (provisional) |
+| Status | Draft |
+
+> Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
+
+**I decided:** the schema, the 1,600 floor, the no-roadmap-count rule and the calendar epoch. **We built:** the generator and its checks.
 
 # Baton synthetic data
 
@@ -43,7 +53,7 @@ Release windows, in days: R0 pilot 0 to 41, R1 dry run 42 to 97, R2 agentic 1 98
 - `dry_run_feedback_item` has exactly 1,600 rows, the floor of the stated 1,600+. The manifest, `charts/12g-feedback.json` and any rendering of the sample carry the label: "synthetic distribution over the stated 1,600+ total; theme, severity and status shares are illustrative".
 - No count of feedback items that reached or changed the roadmap exists in any file. `roadmap_item` has no item count field. There is no status that marks an item as in the roadmap. `12g-feedback.json` shows rank movement and driving theme only.
 - Every other file is illustrative synthetic data. Chart files carry the label and the generator seed in a `label` field.
-- `out/dry_run_feedback_sample50.csv` is a strict RFC 4180 file with no comment line. A copy that renders as `13-dry-run-sample.csv` adds the label to its header.
+- `out/dry_run_feedback_sample50.csv` is source data: a strict RFC 4180 file with no comment line. Any rendering of it, such as `13-dry-run-sample.csv` in artifact 13, carries the label in its header.
 
 ## Files
 
@@ -173,7 +183,7 @@ One row per transition. An exception has one, two or three rows: open, then inve
 | started_day | int | |
 | state | enum | queued, planning, running, needs_review, approved, edited, rejected, rerun, concluded |
 | confidence | number | 0 to 1, two decimals |
-| checkpoints_required | enum[] | Always includes draft_conclusion. Adds evidence_retrieval when any evidence the run touched is data_class restricted |
+| checkpoints_required | enum[] | Always includes plan and draft_conclusion. Adds evidence_retrieval when any evidence the run touched is data_class restricted. Exception resolution is recorded on the exception itself |
 | outcome | enum | approved, edited, rejected, none |
 | failure_type | enum | none, source_unavailable, low_confidence, conflicting_evidence, timeout |
 | rerun_of | string or null | The rejected run this run re-executes |

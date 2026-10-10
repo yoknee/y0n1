@@ -215,7 +215,7 @@ const FAILURE_MIX = [['source_unavailable', 38], ['low_confidence', 30], ['confl
 const SYL_A = ['kes', 'trom', 'vai', 'vir', 'quen', 'bra', 'lith', 'vex', 'nol', 'pir', 'drel', 'fen', 'mir', 'tor', 'vel', 'cas', 'dun', 'wyl', 'zar', 'ren', 'ost', 'bel', 'tav', 'sorv', 'thren', 'gald'];
 const SYL_MID = ['en', 'ar', 'o', 'i', 'ul', 'ev'];
 const SYL_END = ['ek', 'um', 'or', 'ane', 'ure', 'enz', 'ova', 'ast', 'ine', 'esk', 'oth', 'arn', 'ult', 'ost'];
-const SYL_C = ['vaile', 'moren', 'tarsk', 'quill', 'hollin', 'brask', 'eldon', 'varro', 'nestr', 'calder', 'ossen', 'pryce', 'thane', 'wexley', 'dorran'];
+const SYL_C = ['vaile', 'moren', 'tarsk', 'quenil', 'hollin', 'brasto', 'eldrun', 'varro', 'nestr', 'caldrek', 'ossen', 'prysk', 'thanel', 'wexlin', 'dorran'];
 const SUFFIXES = ['Group', 'Holdings', 'Industries', 'Partners', 'Co'];
 
 function entityName(rng) {
@@ -908,7 +908,7 @@ function genAgentRuns(seed, procedures, sampleItems, evidenceItems, fieldStructu
     const evidenceIds = [];
     for (const s of batch) for (const e of s.evidence_ids) if (!evidenceIds.includes(e)) evidenceIds.push(e);
     const touchesRestricted = evidenceIds.some((e) => evById[e].data_class === 'restricted');
-    const checkpoints_required = touchesRestricted ? ['evidence_retrieval', 'draft_conclusion'] : ['draft_conclusion'];
+    const checkpoints_required = touchesRestricted ? ['plan', 'evidence_retrieval', 'draft_conclusion'] : ['plan', 'draft_conclusion'];
     const inFlight = started_day >= AS_OF - 3;
     const lateReview = !inFlight && started_day >= AS_OF - 14 && rng.chance(0.2);
 
@@ -1357,7 +1357,7 @@ function buildCharts(seed, d) {
   const evById = Object.fromEntries(d.evidence_item.map((e) => [e.id, e]));
   const excById = Object.fromEntries(d.exception.map((e) => [e.id, e]));
   const candidates = d.conclusion.filter((c) => c.status === 'final' && c.run_id && c.exception_ids.length >= 1 && c.cited_evidence_ids.length >= 4
-    && runById[c.run_id].checkpoints_required.length === 2 && runById[c.run_id].state === 'concluded');
+    && runById[c.run_id].checkpoints_required.length === 3 && runById[c.run_id].state === 'concluded');
   const pickFrom = candidates.length ? candidates : d.conclusion.filter((c) => c.run_id);
   const chosen = pickFrom.sort((a, b) => a.id.localeCompare(b.id))[0];
   const run = runById[chosen.run_id];
@@ -1571,7 +1571,7 @@ function generate(seed) {
     as_of_day: AS_OF,
     labels: {
       dry_run_feedback: FEEDBACK_LABEL,
-      dry_run_feedback_sample50: `${FEEDBACK_LABEL}. 50 rows drawn by a seeded shuffle of the 1,600; carry this label in the header of any copy`,
+      dry_run_feedback_sample50: `${FEEDBACK_LABEL}. 50 rows drawn by a seeded shuffle of the 1,600. This file is source data; any rendering of it (artifact 13) carries this label in its header`,
       all_other_data: ILLUSTRATIVE
     },
     counts: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, v.length])),
@@ -1584,7 +1584,7 @@ function generate(seed) {
       'dry_run_feedback_item is exactly 1,600 rows with status in triaged, fixed, declined, duplicate. No status marks an item as in the roadmap.',
       'roadmap_item carries rank before and after and a driving theme label. No item counts. No relation from feedback items to roadmap items.',
       'procedure.target_assertions is set for every procedure type. exception_status_change holds one row per transition.',
-      'agent_run.checkpoints_required always includes draft_conclusion and adds evidence_retrieval when any evidence the run touched is data_class restricted.',
+      'agent_run.checkpoints_required always includes plan and draft_conclusion and adds evidence_retrieval when any evidence the run touched is data_class restricted. Exception resolution is recorded on the exception (resolver_role, resolved_day).',
       'Run outcomes vary by release as an illustrative trend. Review latency is right skewed by construction.',
       'Charts under charts/ are aggregates of these files. Each carries its derivation and a label.',
       'No wall clock timestamps anywhere. Regenerating with the same seed reproduces every byte.'

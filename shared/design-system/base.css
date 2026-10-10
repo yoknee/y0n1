@@ -21,6 +21,9 @@ h3 { font-size: var(--bt-fs-16); margin-top: var(--bt-s6); }
 h4 { font-size: var(--bt-fs-14); margin-top: var(--bt-s4); }
 p, ul, ol { margin: var(--bt-s2) 0; }
 .prose { font-size: var(--bt-fs-14); line-height: var(--bt-lh-prose); max-width: 76ch; }
+section.prose { max-width: none; columns: 2; column-gap: var(--bt-s8); }
+section.prose > h2 { column-span: all; } section.prose > p, section.prose > ul { break-inside: avoid; margin-top: 0; }
+@media (max-width: 900px) { section.prose { columns: 1; } }
 .prose p + p { margin-top: var(--bt-s3); }
 .muted { color: var(--bt-ink-2); }
 .small { font-size: var(--bt-fs-12); }
@@ -29,6 +32,10 @@ p, ul, ol { margin: var(--bt-s2) 0; }
 /* focus: visible on every focusable element, both themes */
 :focus { outline: none; }
 :focus-visible { outline: none; box-shadow: var(--bt-focus); border-radius: var(--bt-radius); }
+
+/* visually hidden text for screen readers */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+#artifact-header noscript .disclaimer { margin: 0; padding: var(--bt-s1) 0; font-size: var(--bt-fs-11); color: var(--bt-ink-2); }
 
 /* skip link */
 .skip { position: absolute; left: var(--bt-s2); top: -40px; padding: var(--bt-s1) var(--bt-s2); background: var(--bt-surface); border: 1px solid var(--bt-brand); z-index: 100; }
@@ -60,9 +67,11 @@ section.block { margin-top: var(--bt-s6); }
 .badge.approved { background: var(--bt-approved-tint); } .badge.approved svg { color: var(--bt-approved); }
 .badge.edited { background: var(--bt-edited-tint); } .badge.edited svg { color: var(--bt-edited); }
 .badge.failed { background: var(--bt-failed-tint); } .badge.failed svg { color: var(--bt-failed); }
-.chip { display: inline-flex; align-items: center; gap: var(--bt-s1); height: 22px; padding: 0 var(--bt-s2); border: 1px solid var(--bt-border); border-radius: var(--bt-radius); background: var(--bt-surface); font-family: var(--bt-font-mono); font-size: var(--bt-fs-11); color: var(--bt-ink); text-decoration: none; }
+.chip { display: inline-flex; align-items: center; gap: var(--bt-s1); height: 24px; padding: 0 var(--bt-s2); border: 1px solid var(--bt-border); border-radius: var(--bt-radius); background: var(--bt-surface); font-family: var(--bt-font-mono); font-size: var(--bt-fs-11); color: var(--bt-ink); text-decoration: none; }
 .chip:hover { background: var(--bt-surface-2); }
 .chip.agent { border-color: var(--bt-agent); color: var(--bt-agent); }
+.chip.provisional { border-style: dashed; color: var(--bt-ink-2); } /* register ID whose record has not shipped yet */
+.scroll { overflow: auto; } .scroll:focus-visible { box-shadow: var(--bt-focus); }
 
 /* dense tables */
 table.grid { width: 100%; border-collapse: collapse; font-size: var(--bt-fs-12); }
@@ -79,6 +88,7 @@ table.doc th { background: var(--bt-surface-2); font-weight: 500; color: var(--b
 /* figure frame for SVG artifacts */
 figure.art { margin: var(--bt-s4) 0; border: 1px solid var(--bt-border); border-radius: var(--bt-radius); background: var(--bt-surface); overflow: auto; }
 figure.art > svg, figure.art > img { width: 100%; height: auto; }
+figure.art .svg-head { display: none; } /* the page header already carries the band */
 figure.art > figcaption { padding: var(--bt-s2) var(--bt-s3); border-top: 1px solid var(--bt-border); font-size: var(--bt-fs-12); color: var(--bt-ink-2); }
 
 /* decision trace block, used from artifact 11 on, defined here so it is one component */

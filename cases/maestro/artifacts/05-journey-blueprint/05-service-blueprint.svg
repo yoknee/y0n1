@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 568" width="1400" height="568" role="img" aria-labelledby="t d">
-<title id="t">05 Current-state journey map and service blueprint</title>
-<desc id="d">What does one Test of Details feel like today, stage by stage, what happens behind the auditor and what changes when agents join? Decisions fed: D-09. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 586" width="1400" height="586" role="img" aria-labelledby="t-05-blueprint d-05-blueprint">
+<title id="t-05-blueprint">05 Current-state journey map and service blueprint</title>
+<desc id="d-05-blueprint">What does one Test of Details feel like today, stage by stage, what happens behind the auditor and what changes when agents join? Decisions fed: D-09. Status: Draft. Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</desc>
 
 <style>
-@font-face{font-family:"Plex Sans";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
-@font-face{font-family:"Plex Sans";font-weight:600;src:url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
-@font-face{font-family:"Plex Mono";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("../../../../shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("../../../../shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
 svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
 @media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
 .ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
@@ -16,163 +16,166 @@ svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt
 .edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
 text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
 </style>
-<rect x="0" y="0" width="1400" height="92" class="surf2"/><line x1="0" y1="92" x2="1400" y2="92" class="hair"/>
+<g class="svg-head" data-h="110">
+<rect x="0" y="0" width="1400" height="110" class="surf2"/><line x1="0" y1="110" x2="1400" y2="110" class="hair"/>
 <text x="16" y="26" class="t16">05 Current-state journey map and service blueprint</text>
 <text class="t11 ink2"><tspan x="16" y="46">Question: What does one Test of Details feel like today, stage by stage, what happens behind the auditor and what</tspan><tspan x="16" y="58">changes when agents join?</tspan></text>
 <text x="16" y="78" class="t11 ink2">Feeds: D-09  |  Status: Draft</text>
-<text class="t11 ink2"><tspan x="756" y="22">I decided: To map one Test of Details through the Senior's eyes, to put the emotion curve where the</tspan><tspan x="756" y="35">deadline bites and to place the mandatory checkpoints where judgment lives.</tspan></text>
-<text class="t11 ink2"><tspan x="756" y="56">We built: The maps in two workshop sessions with the design team and the methodology reviewer role;</tspan><tspan x="756" y="69">the backstage rows with the engagement data lead role.</tspan></text>
-<text x="16" y="116" class="t11 ink2 b">SERVICE BLUEPRINT, CURRENT STATE. FRONTSTAGE AUDITOR ACTIONS, BACKSTAGE CLIENT REQUESTS AND DATA PULLS, SUPPORT SYSTEMS.</text>
-<rect x="150" y="126" width="1234" height="24" class="surf2"/>
-<text x="218.55555555555554" y="142" class="t11 b" text-anchor="middle">Plan</text><line x1="150" y1="126" x2="150" y2="150" class="hair"/>
-<text x="355.66666666666663" y="142" class="t11 b" text-anchor="middle">Assess risk</text><line x1="287.1111111111111" y1="126" x2="287.1111111111111" y2="150" class="hair"/>
-<text x="492.77777777777777" y="142" class="t11 b" text-anchor="middle">Design procedures</text><line x1="424.22222222222223" y1="126" x2="424.22222222222223" y2="150" class="hair"/>
-<text x="629.8888888888889" y="142" class="t11 b" text-anchor="middle">Gather evidence</text><line x1="561.3333333333334" y1="126" x2="561.3333333333334" y2="150" class="hair"/>
-<text x="767" y="142" class="t11 b" text-anchor="middle">Test</text><line x1="698.4444444444445" y1="126" x2="698.4444444444445" y2="150" class="hair"/>
-<text x="904.1111111111111" y="142" class="t11 b" text-anchor="middle">Evaluate exceptions</text><line x1="835.5555555555555" y1="126" x2="835.5555555555555" y2="150" class="hair"/>
-<text x="1041.2222222222224" y="142" class="t11 b" text-anchor="middle">Conclude</text><line x1="972.6666666666667" y1="126" x2="972.6666666666667" y2="150" class="hair"/>
-<text x="1178.3333333333335" y="142" class="t11 b" text-anchor="middle">Review</text><line x1="1109.7777777777778" y1="126" x2="1109.7777777777778" y2="150" class="hair"/>
-<text x="1315.4444444444446" y="142" class="t11 b" text-anchor="middle">Sign</text><line x1="1246.888888888889" y1="126" x2="1246.888888888889" y2="150" class="hair"/>
-<line x1="16" y1="224" x2="1384" y2="224" class="hair"/>
-<text class="t11 ink2 b"><tspan x="16" y="166">FRONTSTAGE:</tspan><tspan x="16" y="178">AUDITOR ACTIONS</tspan></text>
-<line x1="150" y1="150" x2="150" y2="224" class="hair"/>
-<text class="t11"><tspan x="156" y="166">Senior scopes the area</tspan><tspan x="156" y="179">and sets the plan with</tspan><tspan x="156" y="192">the manager.</tspan></text>
-<line x1="287.1111111111111" y1="150" x2="287.1111111111111" y2="224" class="hair"/>
-<text class="t11"><tspan x="293.1111111111111" y="166">Senior and manager</tspan><tspan x="293.1111111111111" y="179">rate risk per</tspan><tspan x="293.1111111111111" y="192">assertion.</tspan></text>
-<line x1="424.22222222222223" y1="150" x2="424.22222222222223" y2="224" class="hair"/>
-<text class="t11"><tspan x="430.22222222222223" y="166">Senior picks the</tspan><tspan x="430.22222222222223" y="179">structure and the</tspan><tspan x="430.22222222222223" y="192">sample method.</tspan></text>
-<line x1="561.3333333333334" y1="150" x2="561.3333333333334" y2="224" class="hair"/>
-<text class="t11"><tspan x="567.3333333333334" y="166">Senior and associate</tspan><tspan x="567.3333333333334" y="179">raise and chase</tspan><tspan x="567.3333333333334" y="192">requests, assemble</tspan><tspan x="567.3333333333334" y="205">documents.</tspan></text>
-<line x1="698.4444444444445" y1="150" x2="698.4444444444445" y2="224" class="hair"/>
-<text class="t11"><tspan x="704.4444444444445" y="166">Associate traces</tspan><tspan x="704.4444444444445" y="179">samples. Senior clears</tspan><tspan x="704.4444444444445" y="192">the hard ones.</tspan></text>
-<line x1="835.5555555555555" y1="150" x2="835.5555555555555" y2="224" class="hair"/>
-<text class="t11"><tspan x="841.5555555555555" y="166">Senior resolves</tspan><tspan x="841.5555555555555" y="179">exceptions with the</tspan><tspan x="841.5555555555555" y="192">client. Manager</tspan><tspan x="841.5555555555555" y="205">consulted on judgment</tspan><tspan x="841.5555555555555" y="218">calls.</tspan></text>
-<line x1="972.6666666666667" y1="150" x2="972.6666666666667" y2="224" class="hair"/>
-<text class="t11"><tspan x="978.6666666666667" y="166">Senior drafts the</tspan><tspan x="978.6666666666667" y="179">conclusion.</tspan></text>
-<line x1="1109.7777777777778" y1="150" x2="1109.7777777777778" y2="224" class="hair"/>
-<text class="t11"><tspan x="1115.7777777777778" y="166">Manager reviews.</tspan><tspan x="1115.7777777777778" y="179">Senior clears notes.</tspan></text>
-<line x1="1246.888888888889" y1="150" x2="1246.888888888889" y2="224" class="hair"/>
-<text class="t11"><tspan x="1252.888888888889" y="166">Partner reviews</tspan><tspan x="1252.888888888889" y="179">high-risk areas and</tspan><tspan x="1252.888888888889" y="192">signs.</tspan></text>
-<line x1="16" y1="224" x2="1384" y2="224" class="brand-s" stroke-width="1.5" stroke-dasharray="6 4"/><text x="1380" y="220" class="t10 ink2" text-anchor="end">line of interaction</text>
-<line x1="16" y1="298" x2="1384" y2="298" class="hair"/>
-<text class="t11 ink2 b"><tspan x="16" y="240">BACKSTAGE: CLIENT</tspan><tspan x="16" y="252">REQUESTS AND DATA</tspan><tspan x="16" y="264">PULLS</tspan></text>
-<line x1="150" y1="224" x2="150" y2="298" class="hair"/>
-<text class="t11"><tspan x="156" y="240">Prior-year file pulled</tspan><tspan x="156" y="253">by the engagement data</tspan><tspan x="156" y="266">lead.</tspan></text>
-<line x1="287.1111111111111" y1="224" x2="287.1111111111111" y2="298" class="hair"/>
-<text class="t11"><tspan x="293.1111111111111" y="240">Data lead maps client</tspan><tspan x="293.1111111111111" y="253">systems to areas.</tspan></text>
-<line x1="424.22222222222223" y1="224" x2="424.22222222222223" y2="298" class="hair"/>
-<text class="t11"><tspan x="430.22222222222223" y="240">Population extract</tspan><tspan x="430.22222222222223" y="253">requested from the</tspan><tspan x="430.22222222222223" y="266">client.</tspan></text>
-<line x1="561.3333333333334" y1="224" x2="561.3333333333334" y2="298" class="hair"/>
-<text class="t11"><tspan x="567.3333333333334" y="240">Requests to the</tspan><tspan x="567.3333333333334" y="253">client. Confirmations</tspan><tspan x="567.3333333333334" y="266">sent through the</tspan><tspan x="567.3333333333334" y="279">confirmation service.</tspan><tspan x="567.3333333333334" y="292">Bank portal pulls.</tspan></text>
-<line x1="698.4444444444445" y1="224" x2="698.4444444444445" y2="298" class="hair"/>
-<text class="t11"><tspan x="704.4444444444445" y="240">Follow-up requests for</tspan><tspan x="704.4444444444445" y="253">missing pages.</tspan></text>
-<line x1="835.5555555555555" y1="224" x2="835.5555555555555" y2="298" class="hair"/>
-<text class="t11"><tspan x="841.5555555555555" y="240">Client call.</tspan><tspan x="841.5555555555555" y="253">Controller's</tspan><tspan x="841.5555555555555" y="266">explanation memo.</tspan></text>
-<line x1="972.6666666666667" y1="224" x2="972.6666666666667" y2="298" class="hair"/>
-<line x1="1109.7777777777778" y1="224" x2="1109.7777777777778" y2="298" class="hair"/>
-<line x1="1246.888888888889" y1="224" x2="1246.888888888889" y2="298" class="hair"/>
-<line x1="16" y1="298" x2="1384" y2="298" class="brand-s" stroke-width="1.5" stroke-dasharray="6 4"/><text x="1380" y="294" class="t10 ink2" text-anchor="end">line of visibility</text>
-<text x="16" y="314" class="t11 ink2 b">SUPPORT SYSTEMS</text>
-<text x="16" y="337" class="t11">Methodology library</text><line x1="16" y1="346" x2="1384" y2="346" class="hair"/>
-<line x1="150" y1="320" x2="150" y2="346" class="hair"/>
-<rect x="158" y="326" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="287.1111111111111" y1="320" x2="287.1111111111111" y2="346" class="hair"/>
-<rect x="295.1111111111111" y="326" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="424.22222222222223" y1="320" x2="424.22222222222223" y2="346" class="hair"/>
-<rect x="432.22222222222223" y="326" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="561.3333333333334" y1="320" x2="561.3333333333334" y2="346" class="hair"/>
-<line x1="698.4444444444445" y1="320" x2="698.4444444444445" y2="346" class="hair"/>
-<line x1="835.5555555555555" y1="320" x2="835.5555555555555" y2="346" class="hair"/>
-<line x1="972.6666666666667" y1="320" x2="972.6666666666667" y2="346" class="hair"/>
-<line x1="1109.7777777777778" y1="320" x2="1109.7777777777778" y2="346" class="hair"/>
-<line x1="1246.888888888889" y1="320" x2="1246.888888888889" y2="346" class="hair"/>
-<text x="16" y="363" class="t11">Workpaper repository</text><line x1="16" y1="372" x2="1384" y2="372" class="hair"/>
-<line x1="150" y1="346" x2="150" y2="372" class="hair"/>
-<rect x="158" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="287.1111111111111" y1="346" x2="287.1111111111111" y2="372" class="hair"/>
-<rect x="295.1111111111111" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="424.22222222222223" y1="346" x2="424.22222222222223" y2="372" class="hair"/>
-<rect x="432.22222222222223" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="561.3333333333334" y1="346" x2="561.3333333333334" y2="372" class="hair"/>
-<rect x="569.3333333333334" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="698.4444444444445" y1="346" x2="698.4444444444445" y2="372" class="hair"/>
-<rect x="706.4444444444445" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="835.5555555555555" y1="346" x2="835.5555555555555" y2="372" class="hair"/>
-<rect x="843.5555555555555" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="972.6666666666667" y1="346" x2="972.6666666666667" y2="372" class="hair"/>
-<rect x="980.6666666666667" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="1109.7777777777778" y1="346" x2="1109.7777777777778" y2="372" class="hair"/>
-<rect x="1117.7777777777778" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="1246.888888888889" y1="346" x2="1246.888888888889" y2="372" class="hair"/>
-<rect x="1254.888888888889" y="352" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<text x="16" y="389" class="t11">Request portal</text><line x1="16" y1="398" x2="1384" y2="398" class="hair"/>
-<line x1="150" y1="372" x2="150" y2="398" class="hair"/>
-<line x1="287.1111111111111" y1="372" x2="287.1111111111111" y2="398" class="hair"/>
-<line x1="424.22222222222223" y1="372" x2="424.22222222222223" y2="398" class="hair"/>
-<rect x="432.22222222222223" y="378" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="561.3333333333334" y1="372" x2="561.3333333333334" y2="398" class="hair"/>
-<rect x="569.3333333333334" y="378" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="698.4444444444445" y1="372" x2="698.4444444444445" y2="398" class="hair"/>
-<line x1="835.5555555555555" y1="372" x2="835.5555555555555" y2="398" class="hair"/>
-<line x1="972.6666666666667" y1="372" x2="972.6666666666667" y2="398" class="hair"/>
-<line x1="1109.7777777777778" y1="372" x2="1109.7777777777778" y2="398" class="hair"/>
-<line x1="1246.888888888889" y1="372" x2="1246.888888888889" y2="398" class="hair"/>
-<text x="16" y="415" class="t11">Confirmation service</text><line x1="16" y1="424" x2="1384" y2="424" class="hair"/>
-<line x1="150" y1="398" x2="150" y2="424" class="hair"/>
-<line x1="287.1111111111111" y1="398" x2="287.1111111111111" y2="424" class="hair"/>
-<line x1="424.22222222222223" y1="398" x2="424.22222222222223" y2="424" class="hair"/>
-<line x1="561.3333333333334" y1="398" x2="561.3333333333334" y2="424" class="hair"/>
-<rect x="569.3333333333334" y="404" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="698.4444444444445" y1="398" x2="698.4444444444445" y2="424" class="hair"/>
-<line x1="835.5555555555555" y1="398" x2="835.5555555555555" y2="424" class="hair"/>
-<line x1="972.6666666666667" y1="398" x2="972.6666666666667" y2="424" class="hair"/>
-<line x1="1109.7777777777778" y1="398" x2="1109.7777777777778" y2="424" class="hair"/>
-<line x1="1246.888888888889" y1="398" x2="1246.888888888889" y2="424" class="hair"/>
-<text x="16" y="441" class="t11">Review tooling</text><line x1="16" y1="450" x2="1384" y2="450" class="hair"/>
-<line x1="150" y1="424" x2="150" y2="450" class="hair"/>
-<line x1="287.1111111111111" y1="424" x2="287.1111111111111" y2="450" class="hair"/>
-<line x1="424.22222222222223" y1="424" x2="424.22222222222223" y2="450" class="hair"/>
-<line x1="561.3333333333334" y1="424" x2="561.3333333333334" y2="450" class="hair"/>
-<line x1="698.4444444444445" y1="424" x2="698.4444444444445" y2="450" class="hair"/>
-<line x1="835.5555555555555" y1="424" x2="835.5555555555555" y2="450" class="hair"/>
-<line x1="972.6666666666667" y1="424" x2="972.6666666666667" y2="450" class="hair"/>
-<line x1="1109.7777777777778" y1="424" x2="1109.7777777777778" y2="450" class="hair"/>
-<rect x="1117.7777777777778" y="430" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<line x1="1246.888888888889" y1="424" x2="1246.888888888889" y2="450" class="hair"/>
-<rect x="1254.888888888889" y="430" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
-<text x="16" y="467" class="t11">Personal spreadsheets (shadow system)</text><line x1="16" y1="476" x2="1384" y2="476" class="hair"/>
-<line x1="150" y1="450" x2="150" y2="476" class="hair"/>
-<line x1="287.1111111111111" y1="450" x2="287.1111111111111" y2="476" class="hair"/>
-<line x1="424.22222222222223" y1="450" x2="424.22222222222223" y2="476" class="hair"/>
-<line x1="561.3333333333334" y1="450" x2="561.3333333333334" y2="476" class="hair"/>
-<line x1="698.4444444444445" y1="450" x2="698.4444444444445" y2="476" class="hair"/>
-<rect x="706.4444444444445" y="456" width="121.11111111111111" height="14" rx="2" class="failed-t"/>
-<line x1="835.5555555555555" y1="450" x2="835.5555555555555" y2="476" class="hair"/>
-<rect x="843.5555555555555" y="456" width="121.11111111111111" height="14" rx="2" class="failed-t"/>
-<line x1="972.6666666666667" y1="450" x2="972.6666666666667" y2="476" class="hair"/>
-<line x1="1109.7777777777778" y1="450" x2="1109.7777777777778" y2="476" class="hair"/>
-<line x1="1246.888888888889" y1="450" x2="1246.888888888889" y2="476" class="hair"/>
-<rect x="16" y="484" width="1368" height="30" class="surf2" opacity="0.6"/>
-<line x1="16" y1="514" x2="1384" y2="514" class="hair"/>
-<text class="t11 ink2 b"><tspan x="16" y="500">PAIN AT THIS STAGE</tspan></text>
-<line x1="150" y1="484" x2="150" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="156" y="500">T13</tspan></text>
-<line x1="287.1111111111111" y1="484" x2="287.1111111111111" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="293.1111111111111" y="500">T11</tspan></text>
-<line x1="424.22222222222223" y1="484" x2="424.22222222222223" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="430.22222222222223" y="500">T13, T10</tspan></text>
-<line x1="561.3333333333334" y1="484" x2="561.3333333333334" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="567.3333333333334" y="500">T1, T9</tspan></text>
-<line x1="698.4444444444445" y1="484" x2="698.4444444444445" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="704.4444444444445" y="500">T2, T12</tspan></text>
-<line x1="835.5555555555555" y1="484" x2="835.5555555555555" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="841.5555555555555" y="500">T6</tspan></text>
-<line x1="972.6666666666667" y1="484" x2="972.6666666666667" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="978.6666666666667" y="500">T4</tspan></text>
-<line x1="1109.7777777777778" y1="484" x2="1109.7777777777778" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="1115.7777777777778" y="500">T5, T3, T10</tspan></text>
-<line x1="1246.888888888889" y1="484" x2="1246.888888888889" y2="514" class="hair"/>
-<text class="t11 mono ink2"><tspan x="1252.888888888889" y="500">T8</tspan></text>
-<rect x="16" y="524" width="20" height="12" rx="2" class="brand-t"/><text x="42" y="534" class="t11 ink2">system in use at this stage</text><rect x="230" y="524" width="20" height="12" rx="2" class="failed-t"/><text x="256" y="534" class="t11 ink2">shadow system: a personal spreadsheet carrying state the systems do not hold</text>
-<text x="16" y="554" class="t11 ink2">Reconstructed from the themes in 03. Emotion values are the lead's reading of the evidence on a five-point scale, not a measurement. Future-state feeling is design intent.</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: to map one Test of Details through the Senior's eyes, to put the emotion curve where the</tspan><tspan x="756" y="35">deadline bites and to place the mandatory checkpoints where judgment lives.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="56">We built: the maps in two workshop sessions with the design team and the methodology reviewer role;</tspan><tspan x="756" y="69">the backstage rows with the engagement data lead role. Design team of three at this phase.</tspan></text>
+<text x="16" y="104" class="t10 ink2">Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.</text>
+</g>
+<text x="16" y="134" class="t11 ink2 b">SERVICE BLUEPRINT, CURRENT STATE. FRONTSTAGE AUDITOR ACTIONS, BACKSTAGE CLIENT REQUESTS AND DATA PULLS, SUPPORT SYSTEMS.</text>
+<rect x="150" y="144" width="1234" height="24" class="surf2"/>
+<text x="218.55555555555554" y="160" class="t11 b" text-anchor="middle">Plan</text><line x1="150" y1="144" x2="150" y2="168" class="hair"/>
+<text x="355.66666666666663" y="160" class="t11 b" text-anchor="middle">Assess risk</text><line x1="287.1111111111111" y1="144" x2="287.1111111111111" y2="168" class="hair"/>
+<text x="492.77777777777777" y="160" class="t11 b" text-anchor="middle">Design procedures</text><line x1="424.22222222222223" y1="144" x2="424.22222222222223" y2="168" class="hair"/>
+<text x="629.8888888888889" y="160" class="t11 b" text-anchor="middle">Gather evidence</text><line x1="561.3333333333334" y1="144" x2="561.3333333333334" y2="168" class="hair"/>
+<text x="767" y="160" class="t11 b" text-anchor="middle">Test</text><line x1="698.4444444444445" y1="144" x2="698.4444444444445" y2="168" class="hair"/>
+<text x="904.1111111111111" y="160" class="t11 b" text-anchor="middle">Evaluate exceptions</text><line x1="835.5555555555555" y1="144" x2="835.5555555555555" y2="168" class="hair"/>
+<text x="1041.2222222222224" y="160" class="t11 b" text-anchor="middle">Conclude</text><line x1="972.6666666666667" y1="144" x2="972.6666666666667" y2="168" class="hair"/>
+<text x="1178.3333333333335" y="160" class="t11 b" text-anchor="middle">Review</text><line x1="1109.7777777777778" y1="144" x2="1109.7777777777778" y2="168" class="hair"/>
+<text x="1315.4444444444446" y="160" class="t11 b" text-anchor="middle">Sign</text><line x1="1246.888888888889" y1="144" x2="1246.888888888889" y2="168" class="hair"/>
+<line x1="16" y1="242" x2="1384" y2="242" class="hair"/>
+<text class="t11 ink2 b"><tspan x="16" y="184">FRONTSTAGE:</tspan><tspan x="16" y="196">AUDITOR ACTIONS</tspan></text>
+<line x1="150" y1="168" x2="150" y2="242" class="hair"/>
+<text class="t11"><tspan x="156" y="184">Senior scopes the area</tspan><tspan x="156" y="197">and sets the plan with</tspan><tspan x="156" y="210">the manager.</tspan></text>
+<line x1="287.1111111111111" y1="168" x2="287.1111111111111" y2="242" class="hair"/>
+<text class="t11"><tspan x="293.1111111111111" y="184">Senior and manager</tspan><tspan x="293.1111111111111" y="197">rate risk per</tspan><tspan x="293.1111111111111" y="210">assertion.</tspan></text>
+<line x1="424.22222222222223" y1="168" x2="424.22222222222223" y2="242" class="hair"/>
+<text class="t11"><tspan x="430.22222222222223" y="184">Senior picks the</tspan><tspan x="430.22222222222223" y="197">structure and the</tspan><tspan x="430.22222222222223" y="210">sample method.</tspan></text>
+<line x1="561.3333333333334" y1="168" x2="561.3333333333334" y2="242" class="hair"/>
+<text class="t11"><tspan x="567.3333333333334" y="184">Senior and associate</tspan><tspan x="567.3333333333334" y="197">raise and chase</tspan><tspan x="567.3333333333334" y="210">requests, assemble</tspan><tspan x="567.3333333333334" y="223">documents.</tspan></text>
+<line x1="698.4444444444445" y1="168" x2="698.4444444444445" y2="242" class="hair"/>
+<text class="t11"><tspan x="704.4444444444445" y="184">Associate traces</tspan><tspan x="704.4444444444445" y="197">samples. Senior clears</tspan><tspan x="704.4444444444445" y="210">the hard ones.</tspan></text>
+<line x1="835.5555555555555" y1="168" x2="835.5555555555555" y2="242" class="hair"/>
+<text class="t11"><tspan x="841.5555555555555" y="184">Senior resolves</tspan><tspan x="841.5555555555555" y="197">exceptions with the</tspan><tspan x="841.5555555555555" y="210">client. Manager</tspan><tspan x="841.5555555555555" y="223">consulted on judgment</tspan><tspan x="841.5555555555555" y="236">calls.</tspan></text>
+<line x1="972.6666666666667" y1="168" x2="972.6666666666667" y2="242" class="hair"/>
+<text class="t11"><tspan x="978.6666666666667" y="184">Senior drafts the</tspan><tspan x="978.6666666666667" y="197">conclusion.</tspan></text>
+<line x1="1109.7777777777778" y1="168" x2="1109.7777777777778" y2="242" class="hair"/>
+<text class="t11"><tspan x="1115.7777777777778" y="184">Manager reviews.</tspan><tspan x="1115.7777777777778" y="197">Senior clears notes.</tspan></text>
+<line x1="1246.888888888889" y1="168" x2="1246.888888888889" y2="242" class="hair"/>
+<text class="t11"><tspan x="1252.888888888889" y="184">Partner reviews</tspan><tspan x="1252.888888888889" y="197">high-risk areas and</tspan><tspan x="1252.888888888889" y="210">signs.</tspan></text>
+<line x1="16" y1="242" x2="1384" y2="242" class="brand-s" stroke-width="1.5" stroke-dasharray="6 4"/><text x="1380" y="238" class="t10 ink2" text-anchor="end">line of interaction</text>
+<line x1="16" y1="316" x2="1384" y2="316" class="hair"/>
+<text class="t11 ink2 b"><tspan x="16" y="258">BACKSTAGE: CLIENT</tspan><tspan x="16" y="270">REQUESTS AND DATA</tspan><tspan x="16" y="282">PULLS</tspan></text>
+<line x1="150" y1="242" x2="150" y2="316" class="hair"/>
+<text class="t11"><tspan x="156" y="258">Prior-year file pulled</tspan><tspan x="156" y="271">by the engagement data</tspan><tspan x="156" y="284">lead.</tspan></text>
+<line x1="287.1111111111111" y1="242" x2="287.1111111111111" y2="316" class="hair"/>
+<text class="t11"><tspan x="293.1111111111111" y="258">Data lead maps client</tspan><tspan x="293.1111111111111" y="271">systems to areas.</tspan></text>
+<line x1="424.22222222222223" y1="242" x2="424.22222222222223" y2="316" class="hair"/>
+<text class="t11"><tspan x="430.22222222222223" y="258">Population extract</tspan><tspan x="430.22222222222223" y="271">requested from the</tspan><tspan x="430.22222222222223" y="284">client.</tspan></text>
+<line x1="561.3333333333334" y1="242" x2="561.3333333333334" y2="316" class="hair"/>
+<text class="t11"><tspan x="567.3333333333334" y="258">Requests to the</tspan><tspan x="567.3333333333334" y="271">client. Confirmations</tspan><tspan x="567.3333333333334" y="284">sent through the</tspan><tspan x="567.3333333333334" y="297">confirmation service.</tspan><tspan x="567.3333333333334" y="310">Bank portal pulls.</tspan></text>
+<line x1="698.4444444444445" y1="242" x2="698.4444444444445" y2="316" class="hair"/>
+<text class="t11"><tspan x="704.4444444444445" y="258">Follow-up requests for</tspan><tspan x="704.4444444444445" y="271">missing pages.</tspan></text>
+<line x1="835.5555555555555" y1="242" x2="835.5555555555555" y2="316" class="hair"/>
+<text class="t11"><tspan x="841.5555555555555" y="258">Client call.</tspan><tspan x="841.5555555555555" y="271">Controller's</tspan><tspan x="841.5555555555555" y="284">explanation memo.</tspan></text>
+<line x1="972.6666666666667" y1="242" x2="972.6666666666667" y2="316" class="hair"/>
+<line x1="1109.7777777777778" y1="242" x2="1109.7777777777778" y2="316" class="hair"/>
+<line x1="1246.888888888889" y1="242" x2="1246.888888888889" y2="316" class="hair"/>
+<line x1="16" y1="316" x2="1384" y2="316" class="brand-s" stroke-width="1.5" stroke-dasharray="6 4"/><text x="1380" y="312" class="t10 ink2" text-anchor="end">line of visibility</text>
+<text x="16" y="332" class="t11 ink2 b">SUPPORT SYSTEMS</text>
+<text x="16" y="355" class="t11">Methodology library</text><line x1="16" y1="364" x2="1384" y2="364" class="hair"/>
+<line x1="150" y1="338" x2="150" y2="364" class="hair"/>
+<rect x="158" y="344" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="287.1111111111111" y1="338" x2="287.1111111111111" y2="364" class="hair"/>
+<rect x="295.1111111111111" y="344" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="424.22222222222223" y1="338" x2="424.22222222222223" y2="364" class="hair"/>
+<rect x="432.22222222222223" y="344" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="561.3333333333334" y1="338" x2="561.3333333333334" y2="364" class="hair"/>
+<line x1="698.4444444444445" y1="338" x2="698.4444444444445" y2="364" class="hair"/>
+<line x1="835.5555555555555" y1="338" x2="835.5555555555555" y2="364" class="hair"/>
+<line x1="972.6666666666667" y1="338" x2="972.6666666666667" y2="364" class="hair"/>
+<line x1="1109.7777777777778" y1="338" x2="1109.7777777777778" y2="364" class="hair"/>
+<line x1="1246.888888888889" y1="338" x2="1246.888888888889" y2="364" class="hair"/>
+<text x="16" y="381" class="t11">Workpaper repository</text><line x1="16" y1="390" x2="1384" y2="390" class="hair"/>
+<line x1="150" y1="364" x2="150" y2="390" class="hair"/>
+<rect x="158" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="287.1111111111111" y1="364" x2="287.1111111111111" y2="390" class="hair"/>
+<rect x="295.1111111111111" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="424.22222222222223" y1="364" x2="424.22222222222223" y2="390" class="hair"/>
+<rect x="432.22222222222223" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="561.3333333333334" y1="364" x2="561.3333333333334" y2="390" class="hair"/>
+<rect x="569.3333333333334" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="698.4444444444445" y1="364" x2="698.4444444444445" y2="390" class="hair"/>
+<rect x="706.4444444444445" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="835.5555555555555" y1="364" x2="835.5555555555555" y2="390" class="hair"/>
+<rect x="843.5555555555555" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="972.6666666666667" y1="364" x2="972.6666666666667" y2="390" class="hair"/>
+<rect x="980.6666666666667" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="1109.7777777777778" y1="364" x2="1109.7777777777778" y2="390" class="hair"/>
+<rect x="1117.7777777777778" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="1246.888888888889" y1="364" x2="1246.888888888889" y2="390" class="hair"/>
+<rect x="1254.888888888889" y="370" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<text x="16" y="407" class="t11">Request portal</text><line x1="16" y1="416" x2="1384" y2="416" class="hair"/>
+<line x1="150" y1="390" x2="150" y2="416" class="hair"/>
+<line x1="287.1111111111111" y1="390" x2="287.1111111111111" y2="416" class="hair"/>
+<line x1="424.22222222222223" y1="390" x2="424.22222222222223" y2="416" class="hair"/>
+<rect x="432.22222222222223" y="396" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="561.3333333333334" y1="390" x2="561.3333333333334" y2="416" class="hair"/>
+<rect x="569.3333333333334" y="396" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="698.4444444444445" y1="390" x2="698.4444444444445" y2="416" class="hair"/>
+<line x1="835.5555555555555" y1="390" x2="835.5555555555555" y2="416" class="hair"/>
+<line x1="972.6666666666667" y1="390" x2="972.6666666666667" y2="416" class="hair"/>
+<line x1="1109.7777777777778" y1="390" x2="1109.7777777777778" y2="416" class="hair"/>
+<line x1="1246.888888888889" y1="390" x2="1246.888888888889" y2="416" class="hair"/>
+<text x="16" y="433" class="t11">Confirmation service</text><line x1="16" y1="442" x2="1384" y2="442" class="hair"/>
+<line x1="150" y1="416" x2="150" y2="442" class="hair"/>
+<line x1="287.1111111111111" y1="416" x2="287.1111111111111" y2="442" class="hair"/>
+<line x1="424.22222222222223" y1="416" x2="424.22222222222223" y2="442" class="hair"/>
+<line x1="561.3333333333334" y1="416" x2="561.3333333333334" y2="442" class="hair"/>
+<rect x="569.3333333333334" y="422" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="698.4444444444445" y1="416" x2="698.4444444444445" y2="442" class="hair"/>
+<line x1="835.5555555555555" y1="416" x2="835.5555555555555" y2="442" class="hair"/>
+<line x1="972.6666666666667" y1="416" x2="972.6666666666667" y2="442" class="hair"/>
+<line x1="1109.7777777777778" y1="416" x2="1109.7777777777778" y2="442" class="hair"/>
+<line x1="1246.888888888889" y1="416" x2="1246.888888888889" y2="442" class="hair"/>
+<text x="16" y="459" class="t11">Review tooling</text><line x1="16" y1="468" x2="1384" y2="468" class="hair"/>
+<line x1="150" y1="442" x2="150" y2="468" class="hair"/>
+<line x1="287.1111111111111" y1="442" x2="287.1111111111111" y2="468" class="hair"/>
+<line x1="424.22222222222223" y1="442" x2="424.22222222222223" y2="468" class="hair"/>
+<line x1="561.3333333333334" y1="442" x2="561.3333333333334" y2="468" class="hair"/>
+<line x1="698.4444444444445" y1="442" x2="698.4444444444445" y2="468" class="hair"/>
+<line x1="835.5555555555555" y1="442" x2="835.5555555555555" y2="468" class="hair"/>
+<line x1="972.6666666666667" y1="442" x2="972.6666666666667" y2="468" class="hair"/>
+<line x1="1109.7777777777778" y1="442" x2="1109.7777777777778" y2="468" class="hair"/>
+<rect x="1117.7777777777778" y="448" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<line x1="1246.888888888889" y1="442" x2="1246.888888888889" y2="468" class="hair"/>
+<rect x="1254.888888888889" y="448" width="121.11111111111111" height="14" rx="2" class="brand-t"/>
+<text x="16" y="485" class="t11">Personal spreadsheets (shadow system)</text><line x1="16" y1="494" x2="1384" y2="494" class="hair"/>
+<line x1="150" y1="468" x2="150" y2="494" class="hair"/>
+<line x1="287.1111111111111" y1="468" x2="287.1111111111111" y2="494" class="hair"/>
+<line x1="424.22222222222223" y1="468" x2="424.22222222222223" y2="494" class="hair"/>
+<line x1="561.3333333333334" y1="468" x2="561.3333333333334" y2="494" class="hair"/>
+<line x1="698.4444444444445" y1="468" x2="698.4444444444445" y2="494" class="hair"/>
+<rect x="706.4444444444445" y="474" width="121.11111111111111" height="14" rx="2" class="failed-t"/>
+<line x1="835.5555555555555" y1="468" x2="835.5555555555555" y2="494" class="hair"/>
+<rect x="843.5555555555555" y="474" width="121.11111111111111" height="14" rx="2" class="failed-t"/>
+<line x1="972.6666666666667" y1="468" x2="972.6666666666667" y2="494" class="hair"/>
+<line x1="1109.7777777777778" y1="468" x2="1109.7777777777778" y2="494" class="hair"/>
+<line x1="1246.888888888889" y1="468" x2="1246.888888888889" y2="494" class="hair"/>
+<rect x="16" y="502" width="1368" height="30" class="surf2" opacity="0.6"/>
+<line x1="16" y1="532" x2="1384" y2="532" class="hair"/>
+<text class="t11 ink2 b"><tspan x="16" y="518">PAIN AT THIS STAGE</tspan></text>
+<line x1="150" y1="502" x2="150" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="156" y="518">T13</tspan></text>
+<line x1="287.1111111111111" y1="502" x2="287.1111111111111" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="293.1111111111111" y="518">T11</tspan></text>
+<line x1="424.22222222222223" y1="502" x2="424.22222222222223" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="430.22222222222223" y="518">T13, T10</tspan></text>
+<line x1="561.3333333333334" y1="502" x2="561.3333333333334" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="567.3333333333334" y="518">T1, T9</tspan></text>
+<line x1="698.4444444444445" y1="502" x2="698.4444444444445" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="704.4444444444445" y="518">T2, T12</tspan></text>
+<line x1="835.5555555555555" y1="502" x2="835.5555555555555" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="841.5555555555555" y="518">T6</tspan></text>
+<line x1="972.6666666666667" y1="502" x2="972.6666666666667" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="978.6666666666667" y="518">T4</tspan></text>
+<line x1="1109.7777777777778" y1="502" x2="1109.7777777777778" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="1115.7777777777778" y="518">T5, T3, T10</tspan></text>
+<line x1="1246.888888888889" y1="502" x2="1246.888888888889" y2="532" class="hair"/>
+<text class="t11 mono ink2"><tspan x="1252.888888888889" y="518">T8</tspan></text>
+<rect x="16" y="542" width="20" height="12" rx="2" class="brand-t"/><text x="42" y="552" class="t11 ink2">system in use at this stage</text><rect x="230" y="542" width="20" height="12" rx="2" class="failed-t"/><text x="256" y="552" class="t11 ink2">shadow system: a personal spreadsheet carrying state the systems do not hold</text>
+<text x="16" y="572" class="t11 ink2">Reconstructed from the themes in 03. Emotion values are my reading of the evidence on a five-point scale, not a measurement. Future-state feeling is design intent.</text>
 </svg>

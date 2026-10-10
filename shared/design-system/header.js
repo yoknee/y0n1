@@ -17,10 +17,11 @@
   const glyph = { review: '<svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 3.5v3l2 1.2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>',
                   approved: '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.5l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
                   edited: '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10l1-3 5.5-5.5 2 2L5 9z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>' }[statusClass] || '';
-  const decisions = (m.decisions || []).map(d => `<a class="chip" href="${caseRoot}/decisions.md#${esc(d).toLowerCase()}">${esc(d)}</a>`).join(' ');
-  const qs = QUESTIONS.map((q, i) => `<li class="${(m.questions || []).includes(i + 1) ? 'on' : ''}"><span class="qn">Q${i + 1}</span> ${esc(q)}</li>`).join('');
+  const decisions = (m.decisions || []).map(d => `<a class="chip" href="${caseRoot}/decisions.html#${esc(d).toLowerCase()}">${esc(d)}</a>`).join(' ');
+  const qs = QUESTIONS.map((q, i) => { const on = (m.questions || []).includes(i + 1); return `<li class="${on ? 'on' : ''}"><span class="qn" aria-hidden="true">${on ? '&#9632;' : '&#9633;'} Q${i + 1}</span><span class="sr">Q${i + 1}, ${on ? 'moved by this artifact' : 'not in this artifact'}: </span>${esc(q)}</li>`; }).join('');
 
   host.className = 'art-header';
+  host.querySelectorAll('noscript').forEach(n => n.remove());
   host.innerHTML = `
     <p class="disclaimer" role="note">${DISCLAIMER}</p>
     <div class="strip">
@@ -30,7 +31,7 @@
       <span class="num mono">${esc(m.number || '')}</span>
       <h1>${esc(m.title || '')}</h1>
       <span class="badge ${statusClass}">${glyph}${esc(m.status || '')}</span>
-      <button type="button" class="btn theme-toggle" aria-pressed="false" title="Toggle dark theme">Theme</button>
+      <button type="button" class="btn theme-toggle" aria-pressed="false" aria-label="Dark theme">Theme</button>
     </div>
     <dl class="meta">
       <div><dt>Question it answers</dt><dd>${esc(m.question || '')}</dd></div>

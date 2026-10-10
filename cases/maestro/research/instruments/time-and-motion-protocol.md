@@ -8,6 +8,8 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
+**I decided:** to time steps rather than tasks so the agent takeover map falls out of the data. **We built:** the step taxonomy with a Senior and the data sheet. Design team of three at this phase.
+
 ## 1. Purpose and scope
 
 Phase P1. Interviews and the diary give self-reported time. This protocol measures it. One observer sits with one auditor during live evidence review and times each step of tracing a sampled item. The output is a step-level time profile that tells the design which steps are worth automating and where a checkpoint costs the least.

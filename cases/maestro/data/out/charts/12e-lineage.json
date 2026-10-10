@@ -31,6 +31,7 @@
    "confidence": 0.89,
    "release_id": "R0",
    "checkpoints_required": [
+    "plan",
     "evidence_retrieval",
     "draft_conclusion"
    ]
@@ -53,7 +54,7 @@
    "step_type": "plan",
    "status": "done",
    "confidence": 0.97,
-   "checkpoint": false,
+   "checkpoint": true,
    "output_summary": "Planned 4 sample items against controls"
   },
   {

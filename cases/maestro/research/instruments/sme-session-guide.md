@@ -8,6 +8,8 @@
 
 > Reconstructed for portfolio purposes. The process, decisions and role are real. Screens, data, names and figures are illustrative and do not depict the production product.
 
+**I decided:** the four session types and that the outputs go to the decision log and artifact 08, not to a slide. **We built:** the pre-reads, the capture template and the grid. Design team of three at this phase.
+
 ## 1. Purpose and scope
 
 Phases P1 to P5. Quality and Methodology reviewers hold the rules the product must obey. These sessions turn their knowledge into four things the design builds on: a validated constraint list, a procedure taxonomy with typed field structures, a checkpoint rule set and a failure path specification. They are working sessions. Each ends with recorded decisions and owners.
@@ -98,7 +100,7 @@ Typing rule: two structures with the same required fields, evidence types and ma
 
 ### 5.3 Type C working block: checkpoint rules (35 minutes)
 
-The grid: six agent step types (plan, evidence retrieval, extraction, matching, exception detection, draft conclusion) by four data classes (public, engagement internal, client confidential, restricted). Each cell gets one value: `act` (the agent does it and records it), `propose` (the agent drafts and a human accepts) or `never`.
+The grid: six agent step types (plan, evidence retrieval, extraction, matching, exception detection, draft conclusion) by four data classes (public, engagement internal, client confidential, restricted). Each cell gets one value from D-05: `read` (the agent may read material of that class at that step and records it), `propose` (the agent drafts from it and a human accepts) or `none`.
 
 Then three lists:
 
@@ -122,7 +124,7 @@ Eight to nine minutes per path: source unavailable, low confidence, conflicting 
 | What must be in the record? | Log entries |
 | Does methodology need anything documented for the file? | Documentation requirement |
 
-Output feeds flow 5 in artifact 09, the state machine guards in 08 and decision D-12.
+Output feeds flow 5 in artifact 09, the state machine guards in 08 and decision D-12 (provisional register ID; record ships with 07 and 09).
 
 ## 6. Capture template
 
@@ -141,11 +143,11 @@ Rows are numbered by type and session (A1, B2-07 and so on). Open questions carr
 
 | Output | Destination | Owner |
 |---|---|---|
-| Revised constraint list | `decisions.md` as D-nn entries with source `confirmed`. Artifact 01 `constraints.json` revision | Decision log owner |
+| Revised constraint list | Proposals for `decisions.md`; the decision log owner assigns source `stated` or `confirmed` only after Yoni confirms. Until then the proposal sits in the open questions register. Artifact 01 `constraints.json` revision | Decision log owner |
 | Procedure taxonomy | `artifacts/08-information-architecture/08-taxonomy.svg` | Design |
 | Typed field-structure templates | Field-structure library in 08. `data/generate.mjs` `field_structure` entity | Design with the data generator owner |
 | Checkpoint grid and never-write list | `08-permissions.svg`, `08-state-machine.svg` guards. D-05, D-09 | Decision log owner |
-| Failure path specification | `09-flow-5-failure-paths.svg`. D-12 | Design |
+| Failure path specification | `09-flow-5-failure-paths.svg`. D-12 (provisional) | Design |
 | Session capture sheets | `research/sme/` by session ID (SME-01 to SME-08). Not committed | Capture lead |
 | Open questions register | `research/sme/open-questions.md` | Facilitator |
 

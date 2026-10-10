@@ -157,7 +157,7 @@ Each artifact ships as a folder under `cases/maestro/artifacts/NN-slug/` with an
 ### 08 Information architecture
 
 - Files: `08-object-model.svg`, `08-navigation.svg`, `08-taxonomy.svg`, `08-state-machine.svg`, `08-permissions.svg`, `research/card-sort-tree-test-plan.md`.
-- Contents: object model (section 8). Navigation model: engagement overview, area workspace, procedure runner, evidence library, exceptions queue, review center, agent activity. Taxonomy for procedure types and the field-structure library. Agent-run state machine: queued, planning, running, needs review, approved, edited, rejected, rerun, concluded, with guards. Permission model: which data classes an agent may read, write or only propose, by role of the requesting auditor. Card sort and tree test plan with results format, labeled planned target.
+- Contents: object model (section 8). Navigation model: engagement overview, area workspace, procedure runner, evidence library, exceptions queue, review center, agent activity. Taxonomy for procedure types and the field-structure library. Agent-run state machine: queued, planning, running, needs review, approved, edited, rejected, rerun, concluded, with guards. Permission model: which data classes an agent may read, propose from or not touch (read, propose, none per D-05), by step and by role of the requesting auditor. Card sort and tree test plan with results format, labeled planned target.
 - Feeds: D-05, D-06, D-09, D-13 (state machine).
 - Accept when: every state has an entry guard, an exit and a visible UI signal. Every permission cell is justified by a constraint from 01.
 
@@ -314,7 +314,7 @@ One domain model, used by every artifact, screen, chart and the prototype. All d
 | `evidence_item` | `EVD-nnnnn` | engagement_id, area_id, type (invoice, contract, bank_statement, confirmation, system_report, shipping_document, receiving_report, approval_memo), source_system (client_erp, bank_portal, confirmation_service, document_request, prior_year_file), data_class (public, engagement_internal, client_confidential, restricted), received_day, page_count, extracted_fields, quality (clean, partial, illegible), highlight_spans | ~5,000 |
 | `exception` | `EXC-nnnn` | procedure_id, sample_item_id, type (amount_mismatch, cutoff, missing_evidence, unauthorized, duplicate, conflicting_evidence), amount_difference, severity (low, moderate, high), detected_by (agent, auditor), status (open, investigating, explained, misstatement, waived), opened_day, resolved_day, resolver_role | ~200 |
 | `exception_status_change` | `exception_id` + `day` | status, actor_role. One row per transition, so 12b can date every funnel stage | ~600 |
-| `agent_run` | `RUN-nnnn` | procedure_id, release_id, started_day, state (queued, planning, running, needs_review, approved, edited, rejected, rerun, concluded), confidence (0 to 1), checkpoints_required (list of step types), outcome (approved, edited, rejected, none), failure_type (none, source_unavailable, low_confidence, conflicting_evidence, timeout), rerun_of, human_review_minutes | ~600 |
+| `agent_run` | `RUN-nnnn` | procedure_id, release_id, started_day, state (queued, planning, running, needs_review, approved, edited, rejected, rerun, concluded), confidence (0 to 1), checkpoints_required (list of step types: plan always, evidence_retrieval when restricted, draft_conclusion always), outcome (approved, edited, rejected, none), failure_type (none, source_unavailable, low_confidence, conflicting_evidence, timeout), rerun_of, human_review_minutes | ~600 |
 | `agent_run_step` | `run_id` + `index` | type (plan, evidence_retrieval, extraction, matching, exception_detection, draft_conclusion), started_minute, duration_minutes, input_refs, source_evidence_ids, output_summary, confidence, status (done, needs_review, rejected, skipped, failed), rejected_reason | ~3,600 |
 | `review_action` | `RVA-nnnnn` | run_id, step_index (nullable), actor_role, action (approve, edit, reject_step, request_rerun, comment, sign), day, minutes_since_draft, edit_diff_size | ~1,500 |
 | `conclusion` | `CON-nnnn` | procedure_id, run_id (nullable), drafted_by (agent, auditor), template_id, cited_evidence_ids, exception_ids, version, status (draft, reviewed, final) | ~160 |
@@ -328,7 +328,7 @@ The generator emits exactly 1,600 feedback items, the floor of the stated 1,600+
 
 ### 8.3 Relationships
 
-`engagement` 1..n `audit_area` 1..n `procedure` 1..n `sample_item` n..n `evidence_item`. `procedure` 0..n `agent_run` 1..n `agent_run_step`. `agent_run` 0..n `review_action`. `sample_item` 0..n `exception`. `procedure` 0..1 `conclusion` 0..n `sign_off`. `agent_run` n..1 `release`. `exception` 1..n `exception_status_change`. `roadmap_item` carries `driving_theme` as a label only. There is no relation from feedback items to roadmap items.
+`engagement` 1..n `audit_area` 1..n `procedure` 1..n `sample_item` n..n `evidence_item`. `procedure` 0..n `agent_run` 1..6 `agent_run_step`. `agent_run` 0..n `review_action`. `sample_item` 0..1 `exception`. `procedure` 1..1 `conclusion`. `procedure` 0..n `sign_off`. `agent_run` n..1 `release`. `exception` 1..n `exception_status_change`. Cardinalities tightened at Gate 2 to what the generator implements; `data/README.md` is the authority and artifact 08's object model follows it. `roadmap_item` carries `driving_theme` as a label only. There is no relation from feedback items to roadmap items.
 
 ### 8.4 Dry run theme taxonomy (14)
 
@@ -380,9 +380,9 @@ Provisional register. IDs are assigned when the artifact that creates the decisi
 | D-04 | Review is a place: a review center, never a modal | 03, 07, 08 | stated |
 | D-05 | Four data classes; agents read engagement data, propose conclusions, never write sign-offs | 01, 08 | confirmed at Gate 1 |
 | D-06 | The field-structure library is a typed template system the planner targets | 03, 08 | stated |
-| D-07 | Role-based views of the same run: senior, manager, partner, methodology | 04, 11 | confirmed at Gate 1 |
+| D-07 | Role-based views of the same run: senior, manager, partner, methodology reviewer | 04, 11 | confirmed at Gate 1 |
 | D-08 | Confidence shown as a band with its basis, not a percentage alone | 04, 12 | confirmed at Gate 1 |
-| D-09 | Checkpoints are mandatory before draft conclusion and before any restricted-class retrieval | 05, 08, 09 | confirmed at Gate 1 |
+| D-09 | Four mandatory checkpoints: plan approval, restricted-class retrieval, exception resolution, draft to conclusion; sign-off human-only | 05, 08, 09 | confirmed at Gate 1 |
 | D-10 | MVP scope: Test of Details for two areas, no analytical procedures | 06 | confirmed at Gate 1 |
 | D-11 | Test of Details is the anchor workflow | 06 | stated |
 | D-12 | Failure is a first-class state with a visible cause and a recovery action | 07, 09 | stated |
@@ -408,7 +408,7 @@ Full plan and instruments arrive in artifact 02. This table fixes the labels.
 |---|---|---|---|
 | Contextual inquiry, full fieldwork days | P1 | 6 teams, 2 days each | planned target |
 | Semi-structured interviews | P1 | 20, four per role across five roles: Associate, Senior, Manager, Partner, Quality and Methodology reviewer | planned target |
-| Diary study, two weeks in busy season | P1 | 10 participants | planned target |
+| Diary study, two weeks in busy season | P1 | 10 participants: 4 Associates, 4 Seniors, 2 Managers | planned target |
 | SME sessions with methodology reviewers | P1 to P5 | 8 sessions | planned target |
 | Time-and-motion study of evidence review | P1 | 12 sessions | planned target |
 | Workpaper rework audit | P1 | 40 workpapers | planned target |
@@ -423,7 +423,7 @@ Full plan and instruments arrive in artifact 02. This table fixes the labels.
 
 If Yoni confirms any real number it replaces the planned target and loses the label.
 
-Role coverage: the six roles in the domain model are Associate, Senior, Manager, Partner, Quality and Methodology reviewer and Engagement data lead. Interviews cover the first five. The data lead is reached through contextual inquiry and the SME sessions, not interviews, because the role touches the product at data setup rather than during fieldwork. Personas are the four roles the case prompt names; the Associate appears in contextual inquiry and in the anti-persona. One severity scale (1 to 4, anchored in artifact 13) serves usability findings and the dry run.
+Canonical role labels: Associate, Senior, Manager, Partner, Quality and Methodology reviewer, Engagement data lead. Tight columns may shorten the last two to Methodology reviewer and data lead. Role coverage: the six roles in the domain model are Associate, Senior, Manager, Partner, Quality and Methodology reviewer and Engagement data lead. Interviews cover the first five. The data lead is reached through contextual inquiry and the SME sessions, not interviews, because the role touches the product at data setup rather than during fieldwork. Personas are the four roles the case prompt names; the Associate appears in contextual inquiry and in the anti-persona. One severity scale (1 to 4, anchored in artifact 13) serves usability findings and the dry run.
 
 ## 11. Technical approach
 
