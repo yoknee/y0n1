@@ -196,3 +196,25 @@ Source: confirmed.
 
 **Status.** Validated.
 
+---
+
+## D-09 Checkpoints are mandatory before draft conclusion and before any restricted-class retrieval
+
+Phase P3 to P5. Artifacts 05, 08, 09.
+Source: confirmed.
+
+**Finding.** Judgment lives at exceptions and conclusions, not at matching (T6). Teams want the product to refuse rather than rely on memory of data rules (T9). Auditors expect to carry the consequence of agent errors (T8). Evidence: E-10, E-13, E-15; future-state journey (05).
+
+**Options.**
+- A. A checkpoint after every agent step. Cost: nine approvals per run; reviewers click through (automation bias in reverse); latency (T5) returns.
+- B. No mandatory checkpoints; the auditor reviews the finished run. Cost: restricted material may be read before anyone looks; a wrong plan runs to the end before it is caught.
+- C. Mandatory checkpoints at four places: plan approval, restricted-class retrieval, every exception resolution, draft to conclusion. Sign-off human-only by construction. Low confidence routes to review on its own.
+
+**Choice.** C.
+
+**Rationale.** Human-in-the-loop placed where judgment and liability live. Bainbridge: a checkpoint the human clicks through is worse than none. Nielsen H5, error prevention, applied to data classes.
+
+**Validation.** Flow 1 and the failure paths (09) exercise every checkpoint. Usability round 2 measures checkpoint time on task (13, planned target). Dry run theme checkpoint_placement (13) tests whether four is the right number.
+
+**Status.** Validated.
+

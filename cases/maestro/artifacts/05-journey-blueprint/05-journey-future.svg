@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 580" width="1400" height="580" role="img" aria-labelledby="t d">
+<title id="t">05 Current-state journey map and service blueprint</title>
+<desc id="d">What does one Test of Details feel like today, stage by stage, what happens behind the auditor and what changes when agents join? Decisions fed: D-09. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
+
+<style>
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-review:#8E5F00;--bt-review-tint:#FBF0D6;--bt-approved:#1F7A3D;--bt-approved-tint:#DFF3E5;--bt-edited:#6941C6;--bt-edited-tint:#EEE8FB;--bt-failed:#B42318;--bt-failed-tint:#FBE3E0;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
+@media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-review:#E8B84A;--bt-review-tint:#3D2E0A;--bt-approved:#6CCB8A;--bt-approved-tint:#0F3320;--bt-edited:#B69CFF;--bt-edited-tint:#2A1F4D;--bt-failed:#FF8A80;--bt-failed-tint:#4A1612}}
+.ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
+.hair{stroke:var(--bt-border);fill:none}.stroke{stroke:var(--bt-ink);fill:none}.stroke2{stroke:var(--bt-ink-2);fill:none}
+.brand{fill:var(--bt-brand)}.brand-s{stroke:var(--bt-brand);fill:none}.brand-t{fill:var(--bt-brand-tint)}
+.agent{fill:var(--bt-agent)}.agent-s{stroke:var(--bt-agent);fill:none}.agent-t{fill:var(--bt-agent-tint)}
+.review{fill:var(--bt-review)}.review-t{fill:var(--bt-review-tint)}.approved{fill:var(--bt-approved)}.approved-t{fill:var(--bt-approved-tint)}
+.edited{fill:var(--bt-edited)}.edited-t{fill:var(--bt-edited-tint)}.failed{fill:var(--bt-failed)}.failed-s{stroke:var(--bt-failed);fill:none}.failed-t{fill:var(--bt-failed-tint)}
+text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t10{font-size:10px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
+</style>
+<rect x="0" y="0" width="1400" height="92" class="surf2"/><line x1="0" y1="92" x2="1400" y2="92" class="hair"/>
+<text x="16" y="26" class="t16">05 Current-state journey map and service blueprint</text>
+<text class="t11 ink2"><tspan x="16" y="46">Question: What does one Test of Details feel like today, stage by stage, what happens behind the auditor and what</tspan><tspan x="16" y="58">changes when agents join?</tspan></text>
+<text x="16" y="78" class="t11 ink2">Feeds: D-09  |  Status: Draft</text>
+<text class="t11 ink2"><tspan x="756" y="22">I decided: To map one Test of Details through the Senior's eyes, to put the emotion curve where the</tspan><tspan x="756" y="35">deadline bites and to place the mandatory checkpoints where judgment lives.</tspan></text>
+<text class="t11 ink2"><tspan x="756" y="56">We built: The maps in two workshop sessions with the design team and the methodology reviewer role;</tspan><tspan x="756" y="69">the backstage rows with the engagement data lead role.</tspan></text>
+<text x="16" y="116" class="t11 ink2 b">FUTURE-STATE JOURNEY WITH AGENTS. THE DELTA ROW SAYS WHAT CHANGED. FEELING IS DESIGN INTENT, NOT A MEASUREMENT.</text>
+<rect x="150" y="126" width="1234" height="24" class="surf2"/>
+<text x="218.55555555555554" y="142" class="t11 b" text-anchor="middle">Plan</text><line x1="150" y1="126" x2="150" y2="150" class="hair"/>
+<text x="355.66666666666663" y="142" class="t11 b" text-anchor="middle">Assess risk</text><line x1="287.1111111111111" y1="126" x2="287.1111111111111" y2="150" class="hair"/>
+<text x="492.77777777777777" y="142" class="t11 b" text-anchor="middle">Design procedures</text><line x1="424.22222222222223" y1="126" x2="424.22222222222223" y2="150" class="hair"/>
+<text x="629.8888888888889" y="142" class="t11 b" text-anchor="middle">Gather evidence</text><line x1="561.3333333333334" y1="126" x2="561.3333333333334" y2="150" class="hair"/>
+<text x="767" y="142" class="t11 b" text-anchor="middle">Test</text><line x1="698.4444444444445" y1="126" x2="698.4444444444445" y2="150" class="hair"/>
+<text x="904.1111111111111" y="142" class="t11 b" text-anchor="middle">Evaluate exceptions</text><line x1="835.5555555555555" y1="126" x2="835.5555555555555" y2="150" class="hair"/>
+<text x="1041.2222222222224" y="142" class="t11 b" text-anchor="middle">Conclude</text><line x1="972.6666666666667" y1="126" x2="972.6666666666667" y2="150" class="hair"/>
+<text x="1178.3333333333335" y="142" class="t11 b" text-anchor="middle">Review</text><line x1="1109.7777777777778" y1="126" x2="1109.7777777777778" y2="150" class="hair"/>
+<text x="1315.4444444444446" y="142" class="t11 b" text-anchor="middle">Sign</text><line x1="1246.888888888889" y1="126" x2="1246.888888888889" y2="150" class="hair"/>
+<text x="16" y="168" class="t11 ink2 b">FEELING</text><text x="16" y="182" class="t10 ink2">solid: future, design intent</text><text x="16" y="194" class="t10 ink2">dashed: current (05)</text>
+<line x1="150" y1="217" x2="1384" y2="217" class="hair" stroke-dasharray="2 3"/><text x="144" y="221" class="t10 ink3" text-anchor="end">-2</text>
+<line x1="150" y1="189" x2="1384" y2="189" class="hair" /><text x="144" y="193" class="t10 ink3" text-anchor="end">0</text>
+<line x1="150" y1="161" x2="1384" y2="161" class="hair" stroke-dasharray="2 3"/><text x="144" y="165" class="t10 ink3" text-anchor="end">+2</text>
+<polyline points="218.55555555555554,189 355.66666666666663,189 492.77777777777777,189 629.8888888888889,203 767,217 904.1111111111111,203 1041.2222222222224,203 1178.3333333333335,217 1315.4444444444446,203" class="failed-s" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="218.55555555555554,175 355.66666666666663,175 492.77777777777777,175 629.8888888888889,189 767,175 904.1111111111111,189 1041.2222222222224,175 1178.3333333333335,175 1315.4444444444446,175" class="approved-s" stroke-width="2"/>
+<style>.approved-s{stroke:var(--bt-approved);fill:none}</style>
+<circle cx="218.55555555555554" cy="175" r="4" class="approved"/><text x="218.55555555555554" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<circle cx="355.66666666666663" cy="175" r="4" class="approved"/><text x="355.66666666666663" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<circle cx="492.77777777777777" cy="175" r="4" class="approved"/><text x="492.77777777777777" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<circle cx="629.8888888888889" cy="189" r="4" class="approved"/><text x="629.8888888888889" y="181" class="t10 ink2" text-anchor="middle">steady</text>
+<circle cx="767" cy="175" r="4" class="approved"/><text x="767" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<circle cx="904.1111111111111" cy="189" r="4" class="approved"/><text x="904.1111111111111" y="181" class="t10 ink2" text-anchor="middle">steady</text>
+<circle cx="1041.2222222222224" cy="175" r="4" class="approved"/><text x="1041.2222222222224" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<circle cx="1178.3333333333335" cy="175" r="4" class="approved"/><text x="1178.3333333333335" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<circle cx="1315.4444444444446" cy="175" r="4" class="approved"/><text x="1315.4444444444446" y="167" class="t10 ink2" text-anchor="middle">in control</text>
+<line x1="16" y1="304" x2="1384" y2="304" class="hair"/>
+<text class="t11 ink2 b"><tspan x="16" y="246">AUDITOR DOES</tspan></text>
+<line x1="150" y1="230" x2="150" y2="304" class="hair"/>
+<text class="t11"><tspan x="156" y="246">Scopes and chooses</tspan><tspan x="156" y="259">structures from the</tspan><tspan x="156" y="272">library.</tspan></text>
+<line x1="287.1111111111111" y1="230" x2="287.1111111111111" y2="304" class="hair"/>
+<text class="t11"><tspan x="293.1111111111111" y="246">Rates risk. Confirms</tspan><tspan x="293.1111111111111" y="259">or overrides the</tspan><tspan x="293.1111111111111" y="272">agent's proposal.</tspan></text>
+<line x1="424.22222222222223" y1="230" x2="424.22222222222223" y2="304" class="hair"/>
+<text class="t11"><tspan x="430.22222222222223" y="246">Picks structure and</tspan><tspan x="430.22222222222223" y="259">sample method.</tspan><tspan x="430.22222222222223" y="272">Approves the plan.</tspan></text>
+<line x1="561.3333333333334" y1="230" x2="561.3333333333334" y2="304" class="hair"/>
+<text class="t11"><tspan x="567.3333333333334" y="246">Approves</tspan><tspan x="567.3333333333334" y="259">restricted-class</tspan><tspan x="567.3333333333334" y="272">retrieval. Sees what</tspan><tspan x="567.3333333333334" y="285">was read.</tspan></text>
+<line x1="698.4444444444445" y1="230" x2="698.4444444444445" y2="304" class="hair"/>
+<text class="t11"><tspan x="704.4444444444445" y="246">Reviews matches by</tspan><tspan x="704.4444444444445" y="259">exception. Spot-checks</tspan><tspan x="704.4444444444445" y="272">through citation</tspan><tspan x="704.4444444444445" y="285">chips.</tspan></text>
+<line x1="835.5555555555555" y1="230" x2="835.5555555555555" y2="304" class="hair"/>
+<text class="t11"><tspan x="841.5555555555555" y="246">Judges each exception.</tspan><tspan x="841.5555555555555" y="259">Calls the client.</tspan><tspan x="841.5555555555555" y="272">Records the</tspan><tspan x="841.5555555555555" y="285">resolution.</tspan></text>
+<line x1="972.6666666666667" y1="230" x2="972.6666666666667" y2="304" class="hair"/>
+<text class="t11"><tspan x="978.6666666666667" y="246">Edits the draft. The</tspan><tspan x="978.6666666666667" y="259">diff is recorded.</tspan></text>
+<line x1="1109.7777777777778" y1="230" x2="1109.7777777777778" y2="304" class="hair"/>
+<text class="t11"><tspan x="1115.7777777777778" y="246">Manager works the</tspan><tspan x="1115.7777777777778" y="259">queue. Rejects one</tspan><tspan x="1115.7777777777778" y="272">step if needed.</tspan></text>
+<line x1="1246.888888888889" y1="230" x2="1246.888888888889" y2="304" class="hair"/>
+<text class="t11"><tspan x="1252.888888888889" y="246">Partner reads the</tspan><tspan x="1252.888888888889" y="259">exception trail and</tspan><tspan x="1252.888888888889" y="272">the checkpoint record.</tspan><tspan x="1252.888888888889" y="285">Signs.</tspan></text>
+<line x1="16" y1="390" x2="1384" y2="390" class="hair"/>
+<text class="t11 ink2 b"><tspan x="16" y="320">AGENT DOES</tspan></text>
+<line x1="150" y1="304" x2="150" y2="390" class="hair"/>
+<text class="t11"><tspan x="156" y="320">Proposes procedures</tspan><tspan x="156" y="333">per assertion from</tspan><tspan x="156" y="346">prior-year results and</tspan><tspan x="156" y="359">risk, with sources.</tspan></text>
+<line x1="287.1111111111111" y1="304" x2="287.1111111111111" y2="390" class="hair"/>
+<text class="t11"><tspan x="293.1111111111111" y="320">Surfaces prior-year</tspan><tspan x="293.1111111111111" y="333">exceptions and</tspan><tspan x="293.1111111111111" y="346">resolutions per</tspan><tspan x="293.1111111111111" y="359">assertion with</tspan><tspan x="293.1111111111111" y="372">citations.</tspan></text>
+<line x1="424.22222222222223" y1="304" x2="424.22222222222223" y2="390" class="hair"/>
+<text class="t11"><tspan x="430.22222222222223" y="320">Plans the run against</tspan><tspan x="430.22222222222223" y="333">the typed structure</tspan><tspan x="430.22222222222223" y="346">and shows the plan:</tspan><tspan x="430.22222222222223" y="359">steps, sources,</tspan><tspan x="430.22222222222223" y="372">classes it will touch.</tspan></text>
+<line x1="561.3333333333334" y1="304" x2="561.3333333333334" y2="390" class="hair"/>
+<text class="t11"><tspan x="567.3333333333334" y="320">Retrieves within</tspan><tspan x="567.3333333333334" y="333">permitted classes.</tspan><tspan x="567.3333333333334" y="346">Logs every source</tspan><tspan x="567.3333333333334" y="359">read.</tspan></text>
+<line x1="698.4444444444445" y1="304" x2="698.4444444444445" y2="390" class="hair"/>
+<text class="t11"><tspan x="704.4444444444445" y="320">Extracts fields,</tspan><tspan x="704.4444444444445" y="333">matches to records,</tspan><tspan x="704.4444444444445" y="346">flags differences with</tspan><tspan x="704.4444444444445" y="359">the span highlighted.</tspan></text>
+<line x1="835.5555555555555" y1="304" x2="835.5555555555555" y2="390" class="hair"/>
+<text class="t11"><tspan x="841.5555555555555" y="320">Documents each</tspan><tspan x="841.5555555555555" y="333">exception with the</tspan><tspan x="841.5555555555555" y="346">evidence and the</tspan><tspan x="841.5555555555555" y="359">difference attached.</tspan><tspan x="841.5555555555555" y="372">Never resolves.</tspan></text>
+<line x1="972.6666666666667" y1="304" x2="972.6666666666667" y2="390" class="hair"/>
+<text class="t11"><tspan x="978.6666666666667" y="320">Drafts the conclusion</tspan><tspan x="978.6666666666667" y="333">with citations on</tspan><tspan x="978.6666666666667" y="346">every claim.</tspan></text>
+<line x1="1109.7777777777778" y1="304" x2="1109.7777777777778" y2="390" class="hair"/>
+<text class="t11"><tspan x="1115.7777777777778" y="320">Reruns the rejected</tspan><tspan x="1115.7777777777778" y="333">step with the</tspan><tspan x="1115.7777777777778" y="346">corrected input. Keeps</tspan><tspan x="1115.7777777777778" y="359">the history.</tspan></text>
+<line x1="1246.888888888889" y1="304" x2="1246.888888888889" y2="390" class="hair"/>
+<text class="t11"><tspan x="1252.888888888889" y="320">Nothing. No write path</tspan><tspan x="1252.888888888889" y="333">to sign-off.</tspan></text>
+<rect x="151" y="308" width="3" height="78" class="agent"/>
+<rect x="288.1111111111111" y="308" width="3" height="78" class="agent"/>
+<rect x="425.22222222222223" y="308" width="3" height="78" class="agent"/>
+<rect x="562.3333333333334" y="308" width="3" height="78" class="agent"/>
+<rect x="699.4444444444445" y="308" width="3" height="78" class="agent"/>
+<rect x="836.5555555555555" y="308" width="3" height="78" class="agent"/>
+<rect x="973.6666666666667" y="308" width="3" height="78" class="agent"/>
+<rect x="1110.7777777777778" y="308" width="3" height="78" class="agent"/>
+<rect x="1247.888888888889" y="308" width="3" height="78" class="agent"/>
+<line x1="16" y1="450" x2="1384" y2="450" class="hair"/><text class="t11 ink2 b"><tspan x="16" y="406">HUMAN</tspan><tspan x="16" y="418">CHECKPOINT</tspan></text>
+<line x1="150" y1="390" x2="150" y2="450" class="hair"/>
+<text class="t11 ink3"><tspan x="156" y="407">none</tspan></text>
+<line x1="287.1111111111111" y1="390" x2="287.1111111111111" y2="450" class="hair"/>
+<text class="t11 ink3"><tspan x="293.1111111111111" y="407">none</tspan></text>
+<line x1="424.22222222222223" y1="390" x2="424.22222222222223" y2="450" class="hair"/>
+<rect x="430.22222222222223" y="396" width="14" height="14" rx="2" class="review"/><path d="M433.22222222222223 403 l3 3 l5 -6" fill="none" stroke="var(--bt-surface)" stroke-width="1.8"/>
+<text class="t11 "><tspan x="450.22222222222223" y="407">Plan approval before</tspan><tspan x="450.22222222222223" y="420">the run starts.</tspan></text>
+<line x1="561.3333333333334" y1="390" x2="561.3333333333334" y2="450" class="hair"/>
+<rect x="567.3333333333334" y="396" width="14" height="14" rx="2" class="review"/><path d="M570.3333333333334 403 l3 3 l5 -6" fill="none" stroke="var(--bt-surface)" stroke-width="1.8"/>
+<text class="t11 "><tspan x="587.3333333333334" y="407">Required before any</tspan><tspan x="587.3333333333334" y="420">restricted-class</tspan><tspan x="587.3333333333334" y="433">retrieval.</tspan></text>
+<line x1="698.4444444444445" y1="390" x2="698.4444444444445" y2="450" class="hair"/>
+<text class="t11 ink3"><tspan x="704.4444444444445" y="407">None mandatory. Low</tspan><tspan x="704.4444444444445" y="420">confidence routes to</tspan><tspan x="704.4444444444445" y="433">needs review.</tspan></text>
+<line x1="835.5555555555555" y1="390" x2="835.5555555555555" y2="450" class="hair"/>
+<rect x="841.5555555555555" y="396" width="14" height="14" rx="2" class="review"/><path d="M844.5555555555555 403 l3 3 l5 -6" fill="none" stroke="var(--bt-surface)" stroke-width="1.8"/>
+<text class="t11 "><tspan x="861.5555555555555" y="407">Mandatory human</tspan><tspan x="861.5555555555555" y="420">resolution of every</tspan><tspan x="861.5555555555555" y="433">exception.</tspan></text>
+<line x1="972.6666666666667" y1="390" x2="972.6666666666667" y2="450" class="hair"/>
+<rect x="978.6666666666667" y="396" width="14" height="14" rx="2" class="review"/><path d="M981.6666666666667 403 l3 3 l5 -6" fill="none" stroke="var(--bt-surface)" stroke-width="1.8"/>
+<text class="t11 "><tspan x="998.6666666666667" y="407">Mandatory before a</tspan><tspan x="998.6666666666667" y="420">draft becomes the</tspan><tspan x="998.6666666666667" y="433">conclusion.</tspan></text>
+<line x1="1109.7777777777778" y1="390" x2="1109.7777777777778" y2="450" class="hair"/>
+<rect x="1115.7777777777778" y="396" width="14" height="14" rx="2" class="review"/><path d="M1118.7777777777778 403 l3 3 l5 -6" fill="none" stroke="var(--bt-surface)" stroke-width="1.8"/>
+<text class="t11 "><tspan x="1135.7777777777778" y="407">Approve, edit or</tspan><tspan x="1135.7777777777778" y="420">reject on every run.</tspan></text>
+<line x1="1246.888888888889" y1="390" x2="1246.888888888889" y2="450" class="hair"/>
+<rect x="1252.888888888889" y="396" width="14" height="14" rx="2" class="review"/><path d="M1255.888888888889 403 l3 3 l5 -6" fill="none" stroke="var(--bt-surface)" stroke-width="1.8"/>
+<text class="t11 "><tspan x="1272.888888888889" y="407">Human-only sign-off.</tspan></text>
+<rect x="16" y="450" width="1368" height="74" class="surf2" opacity="0.6"/>
+<line x1="16" y1="524" x2="1384" y2="524" class="hair"/>
+<text class="t11 ink2 b"><tspan x="16" y="466">WHAT CHANGED</tspan></text>
+<line x1="150" y1="450" x2="150" y2="524" class="hair"/>
+<text class="t11"><tspan x="156" y="466">Fit replaces</tspan><tspan x="156" y="479">adaptation. Proposals</tspan><tspan x="156" y="492">are visibly drafts.</tspan></text>
+<line x1="287.1111111111111" y1="450" x2="287.1111111111111" y2="524" class="hair"/>
+<text class="t11"><tspan x="293.1111111111111" y="466">Context in the file,</tspan><tspan x="293.1111111111111" y="479">not in memory.</tspan></text>
+<line x1="424.22222222222223" y1="450" x2="424.22222222222223" y2="524" class="hair"/>
+<text class="t11"><tspan x="430.22222222222223" y="466">The plan is explicit</tspan><tspan x="430.22222222222223" y="479">and reviewable before</tspan><tspan x="430.22222222222223" y="492">any work happens.</tspan></text>
+<line x1="561.3333333333334" y1="450" x2="561.3333333333334" y2="524" class="hair"/>
+<text class="t11"><tspan x="567.3333333333334" y="466">Q1 answered in the</tspan><tspan x="567.3333333333334" y="479">product. Waiting moves</tspan><tspan x="567.3333333333334" y="492">to the agent.</tspan></text>
+<line x1="698.4444444444445" y1="450" x2="698.4444444444445" y2="524" class="hair"/>
+<text class="t11"><tspan x="704.4444444444445" y="466">T2 handed off.</tspan><tspan x="704.4444444444445" y="479">Provenance on every</tspan><tspan x="704.4444444444445" y="492">match.</tspan></text>
+<line x1="835.5555555555555" y1="450" x2="835.5555555555555" y2="524" class="hair"/>
+<text class="t11"><tspan x="841.5555555555555" y="466">Judgment stays human.</tspan><tspan x="841.5555555555555" y="479">Assembly is done.</tspan></text>
+<line x1="972.6666666666667" y1="450" x2="972.6666666666667" y2="524" class="hair"/>
+<text class="t11"><tspan x="978.6666666666667" y="466">References in place.</tspan><tspan x="978.6666666666667" y="479">The edit is visible to</tspan><tspan x="978.6666666666667" y="492">the reviewer.</tspan></text>
+<line x1="1109.7777777777778" y1="450" x2="1109.7777777777778" y2="524" class="hair"/>
+<text class="t11"><tspan x="1115.7777777777778" y="466">Queue with state.</tspan><tspan x="1115.7777777777778" y="479">Source one click away.</tspan><tspan x="1115.7777777777778" y="492">Notes stop looping.</tspan></text>
+<line x1="1246.888888888889" y1="450" x2="1246.888888888889" y2="524" class="hair"/>
+<text class="t11"><tspan x="1252.888888888889" y="466">Q2 and Q4 answered</tspan><tspan x="1252.888888888889" y="479">where liability lives.</tspan></text>
+<rect x="16" y="534" width="14" height="14" rx="2" class="review"/><text x="36" y="545" class="t11 ink2">a human must act here before the run continues</text><rect x="330" y="534" width="3" height="14" class="agent"/><text x="340" y="545" class="t11 ink2">agent-produced work, shown in the reserved provenance color</text>
+<text x="16" y="566" class="t11 ink2">Reconstructed from the themes in 03. Emotion values are the lead's reading of the evidence on a five-point scale, not a measurement. Future-state feeling is design intent.</text>
+</svg>
