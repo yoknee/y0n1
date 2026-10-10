@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 Problem framing and constraints map</title>
+<link rel="icon" href="/shared/brand/baton/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared/brand/baton/tokens.css">
+<link rel="stylesheet" href="/shared/design-system/base.css">
+<link rel="stylesheet" href="/shared/design-system/header.css">
+<script type="application/json" id="artifact-meta">{
+ "number": "01",
+ "title": "Problem framing and constraints map",
+ "question": "What is the design problem, what breaks for auditors today and what can the design not change?",
+ "decisions": [
+  "D-01",
+  "D-05"
+ ],
+ "status": "Draft",
+ "iDecided": "To frame the problem as the boundary between agent and auditor, not as adding AI to the workpaper. The triad table as the shared artifact PMs and engineering leads plan against.",
+ "weBuilt": "The constraint list with methodology reviewers, the engagement data lead role and engineering leads. The data classes in C3 were drafted with the data lead.",
+ "questions": [
+  1,
+  2,
+  3,
+  4
+ ]
+}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<header id="artifact-header"></header>
+<main id="main">
+
+<section class="block prose">
+<h2>The design problem</h2>
+<p>An AI-native audit platform that keeps auditors accountable. Agents do the research and analysis. Auditors stay accountable for the conclusion.</p>
+<p>The design problem is the boundary between agent and auditor: what the agent may access, where a human must review, how the auditor sees what the agent did and what the system does when the agent is wrong. Those four questions run under every artifact in this case. This artifact fixes the constraints each one answers under.</p>
+<p>I framed the problem this way at the start of discovery, before the research in 02 and 03. The research tested the framing rather than produced it. Where a constraint below was sharpened by a finding, the evidence table in 03 says so.</p>
+</section>
+
+<section class="block">
+<h2>The user problem</h2>
+<p class="muted small">Four problems as framed at discovery start. Each has a mechanism, not an adjective. Validated against the synthesis in 03.</p>
+<table class="doc"><thead><tr><th style="width:22%">Problem</th><th>Mechanism</th></tr></thead><tbody>
+<tr><td><strong>Fragmented tools</strong></td><td>Evidence, workpapers, client requests and review live in separate systems. The auditor reassembles the picture by hand for every sample.</td></tr>
+<tr><td><strong>Manual evidence review</strong></td><td>Each sampled item is traced to its documents one at a time. The work is repetitive and the volume peaks when time is shortest.</td></tr>
+<tr><td><strong>Inconsistent workpapers</strong></td><td>Each team formats workpapers its own way. Reviewers decode the format before they can judge the substance.</td></tr>
+<tr><td><strong>Deadline pressure</strong></td><td>Busy season concentrates all of the above into a few weeks. Shortcuts taken under pressure are the quality risk the platform exists to remove.</td></tr>
+</tbody></table>
+</section>
+
+<section class="block">
+<h2>Constraints map</h2>
+<figure class="art">
+<svg style="width:100%;height:auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 828" width="1400" height="828" role="img" aria-labelledby="t d">
+<title id="t">01 Problem framing and constraints map</title>
+<desc id="d">What is the design problem, what breaks for auditors today and what can the design not change? Decisions fed: D-01, D-05. Status: Draft. Reconstructed for portfolio purposes; illustrative.</desc>
+
+<style>
+@font-face{font-family:"Plex Sans";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexSans-Regular-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Sans";font-weight:600;src:url("/shared/vendor/fonts/plex/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2")}
+@font-face{font-family:"Plex Mono";font-weight:400;src:url("/shared/vendor/fonts/plex/IBMPlexMono-Regular-Latin1.woff2") format("woff2")}
+svg:root{--bt-surface:#FFFFFF;--bt-surface-2:#F3F5F8;--bt-surface-3:#E8EBF0;--bt-border:#CFD5DD;--bt-ink:#14181F;--bt-ink-2:#4A5361;--bt-ink-3:#687180;--bt-brand:#3B4FD8;--bt-brand-tint:#E8EBFB;--bt-agent:#0E7C7B;--bt-agent-tint:#DDF3F2;--bt-failed:#B42318;--bt-font-sans:"Plex Sans",system-ui,sans-serif;--bt-font-mono:"Plex Mono",ui-monospace,monospace;background:var(--bt-surface)}
+@media (prefers-color-scheme:dark){svg:root{--bt-surface:#0F1319;--bt-surface-2:#171C24;--bt-surface-3:#1F2630;--bt-border:#2C343F;--bt-ink:#E6EAF0;--bt-ink-2:#A5AEBB;--bt-ink-3:#7E8794;--bt-brand:#8FA0FF;--bt-brand-tint:#1C2347;--bt-agent:#5FD3CF;--bt-agent-tint:#103A3A;--bt-failed:#FF8A80}}
+.ink{fill:var(--bt-ink)}.ink2{fill:var(--bt-ink-2)}.ink3{fill:var(--bt-ink-3)}.surf{fill:var(--bt-surface)}.surf2{fill:var(--bt-surface-2)}.surf3{fill:var(--bt-surface-3)}
+.hair{stroke:var(--bt-border);fill:none}.stroke2{stroke:var(--bt-ink-2);fill:none}.brand{fill:var(--bt-brand)}.brand-s{stroke:var(--bt-brand);fill:none}.brand-t{fill:var(--bt-brand-tint)}.agent{fill:var(--bt-agent)}.agent-t{fill:var(--bt-agent-tint)}
+text{font-family:var(--bt-font-sans);font-size:12px;fill:var(--bt-ink)}text.mono{font-family:var(--bt-font-mono)}text.t11{font-size:11px}text.t14{font-size:14px;font-weight:600}text.t16{font-size:16px;font-weight:600}text.b{font-weight:600}
+</style>
+<rect x="0" y="0" width="1400" height="72" class="surf2"/><line x1="0" y1="72" x2="1400" y2="72" class="hair"/>
+<text x="16" y="26" class="t16">01 Problem framing and constraints map</text>
+<text class="t11 ink2"><tspan x="16" y="46">Question: What is the design problem, what breaks for auditors today and what can the design not change?</tspan></text>
+<text x="16" y="66" class="t11 ink2">Feeds: D-01, D-05  |  Status: Draft</text>
+<text class="t11 ink2"><tspan x="760" y="22">I decided: To frame the problem as the boundary between agent and auditor, not as adding AI to the</tspan><tspan x="760" y="35">workpaper. The triad table as the shared artifact PMs and engineering leads plan against.</tspan></text>
+<text class="t11 ink2"><tspan x="760" y="50">We built: The constraint list with methodology reviewers, the engagement data lead role and</tspan><tspan x="760" y="63">engineering leads. The data classes in C3 were drafted with the data lead.</tspan></text>
+<text x="16" y="100" class="t11 ink2 b">USER PROBLEM</text>
+<rect x="16" y="108" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="26" y="128" class="b">Fragmented tools</text>
+<text class="t11 ink2"><tspan x="26" y="146">Evidence, workpapers, client requests and review live in</tspan><tspan x="26" y="160">separate systems. The auditor reassembles the picture by</tspan><tspan x="26" y="174">hand for every sample.</tspan></text>
+<rect x="361" y="108" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="371" y="128" class="b">Manual evidence review</text>
+<text class="t11 ink2"><tspan x="371" y="146">Each sampled item is traced to its documents one at a</tspan><tspan x="371" y="160">time. The work is repetitive and the volume peaks when</tspan><tspan x="371" y="174">time is shortest.</tspan></text>
+<rect x="706" y="108" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="716" y="128" class="b">Inconsistent workpapers</text>
+<text class="t11 ink2"><tspan x="716" y="146">Each team formats workpapers its own way. Reviewers decode</tspan><tspan x="716" y="160">the format before they can judge the substance.</tspan></text>
+<rect x="1051" y="108" width="333" height="86" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text x="1061" y="128" class="b">Deadline pressure</text>
+<text class="t11 ink2"><tspan x="1061" y="146">Busy season concentrates all of the above into a few</tspan><tspan x="1061" y="160">weeks. Shortcuts taken under pressure are the quality risk</tspan><tspan x="1061" y="174">the platform exists to remove.</tspan></text>
+<text x="16" y="218" class="t11 ink2 b">BUSINESS OBJECTIVE</text>
+<rect x="16" y="226" width="440" height="104" rx="3" class="surf" stroke="var(--bt-border)"/>
+<text><tspan x="26" y="248">An AI-native audit platform that keeps auditors accountable.</tspan><tspan x="26" y="264">Agents do the research and analysis. Auditors stay accountable for</tspan><tspan x="26" y="280">the conclusion.</tspan></text>
+<path d="M464 278 h40 m-8 -6 l8 6 l-8 6" class="stroke2" stroke-width="1.5"/>
+<text x="516" y="218" class="t11 ink2 b">THE DESIGN PROBLEM: THE BOUNDARY</text>
+<rect x="516" y="226" width="868" height="104" rx="3" class="brand-t" stroke="var(--bt-brand)"/>
+<text><tspan x="526" y="246">The design problem is the boundary between agent and auditor: what the agent may access,</tspan><tspan x="526" y="261">where a human must review, how the auditor sees what the agent did and what the system does</tspan><tspan x="526" y="276">when the agent is wrong.</tspan></text>
+<text x="526" y="302" class="t11 b">Q1 What may the agent access?</text>
+<text x="956" y="302" class="t11 b">Q2 Where must a human review?</text>
+<text x="526" y="318" class="t11 b">Q3 How does the auditor see what the agent did?</text>
+<text x="956" y="318" class="t11 b">Q4 What happens when the agent is wrong?</text>
+<text x="16" y="358" class="t11 ink2 b">CONSTRAINTS MAP: WHICH BOUNDARY QUESTION EACH CONSTRAINT SHAPES, AND THE DESIGN IMPLICATION</text>
+<rect x="16" y="370" width="1368" height="26" class="surf2"/>
+<text x="16" y="387" class="t11 ink2">ID</text><text x="56" y="387" class="t11 ink2">Constraint</text><text x="300" y="387" class="t11 ink2">Design implication</text>
+<text x="932" y="387" class="t11 ink2 mono" text-anchor="middle">Q1</text>
+<text x="976" y="387" class="t11 ink2 mono" text-anchor="middle">Q2</text>
+<text x="1020" y="387" class="t11 ink2 mono" text-anchor="middle">Q3</text>
+<text x="1064" y="387" class="t11 ink2 mono" text-anchor="middle">Q4</text>
+<text x="1120" y="387" class="t11 ink2">Shapes decisions</text>
+<line x1="16" y1="450" x2="1384" y2="450" class="hair"/>
+<text x="16" y="416" class="mono ink2">C1</text>
+<text class="b"><tspan x="56" y="416">Auditing standards and documentation</tspan><tspan x="56" y="431">requirements</tspan></text>
+<text class="t11"><tspan x="300" y="415">Provenance is a first-class object in the UI. The agent timeline is part of the record a reviewer</tspan><tspan x="300" y="429">reads, not a debug view.</tspan></text>
+<line x1="928" y1="423" x2="936" y2="423" class="hair"/>
+<line x1="972" y1="423" x2="980" y2="423" class="hair"/>
+<rect x="1014" y="417" width="12" height="12" rx="2" class="brand"><title>C1 shapes Q3 How does the auditor see what the agent did?</title></rect>
+<line x1="1060" y1="423" x2="1068" y2="423" class="hair"/>
+<rect x="1120" y="413" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="427" class="t11 mono" text-anchor="middle">D-01</text>
+<rect x="1178" y="413" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1204" y="427" class="t11 mono" text-anchor="middle">D-03</text>
+<line x1="16" y1="504" x2="1384" y2="504" class="hair"/>
+<text x="16" y="470" class="mono ink2">C2</text>
+<text class="b"><tspan x="56" y="470">Independence</tspan></text>
+<text class="t11"><tspan x="300" y="469">Proposals look like drafts everywhere they appear. Sign-off is a human-only control with its own</tspan><tspan x="300" y="483">affordance and no shortcut.</tspan></text>
+<line x1="928" y1="477" x2="936" y2="477" class="hair"/>
+<rect x="970" y="471" width="12" height="12" rx="2" class="brand"><title>C2 shapes Q2 Where must a human review?</title></rect>
+<line x1="1016" y1="477" x2="1024" y2="477" class="hair"/>
+<line x1="1060" y1="477" x2="1068" y2="477" class="hair"/>
+<rect x="1120" y="467" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="481" class="t11 mono" text-anchor="middle">D-05</text>
+<line x1="16" y1="558" x2="1384" y2="558" class="hair"/>
+<text x="16" y="524" class="mono ink2">C3</text>
+<text class="b"><tspan x="56" y="524">Data security and access classes</tspan></text>
+<text class="t11"><tspan x="300" y="523">The permission model is visible in the product. A checkpoint sits before any restricted retrieval</tspan><tspan x="300" y="537">and the auditor sees what was read.</tspan></text>
+<rect x="926" y="525" width="12" height="12" rx="2" class="brand"><title>C3 shapes Q1 What may the agent access?</title></rect>
+<rect x="970" y="525" width="12" height="12" rx="2" class="brand"><title>C3 shapes Q2 Where must a human review?</title></rect>
+<line x1="1016" y1="531" x2="1024" y2="531" class="hair"/>
+<line x1="1060" y1="531" x2="1068" y2="531" class="hair"/>
+<rect x="1120" y="521" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="535" class="t11 mono" text-anchor="middle">D-05</text>
+<rect x="1178" y="521" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1204" y="535" class="t11 mono" text-anchor="middle">D-09</text>
+<line x1="16" y1="612" x2="1384" y2="612" class="hair"/>
+<text x="16" y="578" class="mono ink2">C4</text>
+<text class="b"><tspan x="56" y="578">Explainability</tspan></text>
+<text class="t11"><tspan x="300" y="577">Every claim carries a citation that opens the source at the span. Confidence shows its basis.</tspan><tspan x="300" y="591">Failure states name the cause.</tspan></text>
+<line x1="928" y1="585" x2="936" y2="585" class="hair"/>
+<line x1="972" y1="585" x2="980" y2="585" class="hair"/>
+<rect x="1014" y="579" width="12" height="12" rx="2" class="brand"><title>C4 shapes Q3 How does the auditor see what the agent did?</title></rect>
+<rect x="1058" y="579" width="12" height="12" rx="2" class="brand"><title>C4 shapes Q4 What happens when the agent is wrong?</title></rect>
+<rect x="1120" y="575" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="589" class="t11 mono" text-anchor="middle">D-03</text>
+<rect x="1178" y="575" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1204" y="589" class="t11 mono" text-anchor="middle">D-08</text>
+<rect x="1236" y="575" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1262" y="589" class="t11 mono" text-anchor="middle">D-12</text>
+<line x1="16" y1="666" x2="1384" y2="666" class="hair"/>
+<text x="16" y="632" class="mono ink2">C5</text>
+<text class="b"><tspan x="56" y="632">10,000+ users across countries</tspan></text>
+<text class="t11"><tspan x="300" y="631">Density and keyboard operation by default. One pattern library so six teams ship one product.</tspan><tspan x="300" y="645">Non-color encoding on every state and chart.</tspan></text>
+<text x="998" y="643" class="t11 ink3" text-anchor="middle">framework</text>
+<rect x="1120" y="629" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="643" class="t11 mono" text-anchor="middle">D-15</text>
+<rect x="1178" y="629" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1204" y="643" class="t11 mono" text-anchor="middle">D-17</text>
+<rect x="1236" y="629" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1262" y="643" class="t11 mono" text-anchor="middle">D-18</text>
+<line x1="16" y1="720" x2="1384" y2="720" class="hair"/>
+<text x="16" y="686" class="mono ink2">C6</text>
+<text class="b"><tspan x="56" y="686">Legacy workpaper systems</tspan></text>
+<text class="t11"><tspan x="300" y="685">The workspace keeps the engagement, area, procedure hierarchy auditors already know. Export to the</tspan><tspan x="300" y="699">workpaper format is one action.</tspan></text>
+<text x="998" y="697" class="t11 ink3" text-anchor="middle">framework</text>
+<rect x="1120" y="683" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="697" class="t11 mono" text-anchor="middle">D-06</text>
+<line x1="16" y1="774" x2="1384" y2="774" class="hair"/>
+<text x="16" y="740" class="mono ink2">C7</text>
+<text class="b"><tspan x="56" y="740">Engineering capacity</tspan></text>
+<text class="t11"><tspan x="300" y="739">The design system is the contract. MVP cuts are explicit and documented. One anchor workflow, Test</tspan><tspan x="300" y="753">of Details, proves the pattern before it scales.</tspan></text>
+<text x="998" y="751" class="t11 ink3" text-anchor="middle">framework</text>
+<rect x="1120" y="737" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1146" y="751" class="t11 mono" text-anchor="middle">D-10</text>
+<rect x="1178" y="737" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1204" y="751" class="t11 mono" text-anchor="middle">D-11</text>
+<rect x="1236" y="737" width="52" height="20" rx="3" class="surf" stroke="var(--bt-border)"/><text x="1262" y="751" class="t11 mono" text-anchor="middle">D-21</text>
+<rect x="920" y="788" width="12" height="12" rx="2" class="brand"/><text x="938" y="798" class="t11 ink2">shapes this question</text>
+<text x="1070" y="798" class="t11 ink2">framework: shapes the pattern library rather than one question.</text>
+<text x="920" y="814" class="t11 ink2">Decision IDs beyond D-05 are assigned when their artifacts ship.</text>
+</svg>
+<figcaption>01 constraints map. Seven constraints, the boundary question each one shapes and the design implication. Filled squares mark the question a constraint shapes; "framework" marks constraints that shape the pattern library rather than one question. Also available as a standalone file: <a href="01-problem-framing.svg">01-problem-framing.svg</a>.</figcaption>
+</figure>
+</section>
+
+<section class="block">
+<h2>Triad table</h2>
+<p class="muted small">One row per constraint: the user need, the business objective, the technical constraint and the design implication with the principle it rests on. This table is what PMs and engineering leads planned against. It is the first thing a new designer on the team reads.</p>
+<div style="overflow:auto"><table class="doc">
+<thead><tr><th>ID</th><th>Constraint</th><th>User need</th><th>Business objective</th><th>Technical constraint</th><th>Design implication</th><th>Q</th><th>Shapes</th></tr></thead>
+<tbody>
+<tr><td class="mono">C1</td><td><strong>Auditing standards and documentation requirements</strong></td><td>A workpaper that stands up to inspection without extra work to explain it.</td><td>The platform output is the audit file of record, not a side tool.</td><td>Every agent output is stored with its inputs, sources, steps and the reviewer's action. Nothing is overwritten after sign-off.</td><td>Provenance is a first-class object in the UI. The agent timeline is part of the record a reviewer reads, not a debug view.<br><span class="muted small">Nielsen H1, visibility of system status. Amershi G11, make clear why the system did what it did.</span></td><td>Q3</td><td><span class="chip">D-01</span> <span class="chip">D-03</span></td></tr>
+<tr><td class="mono">C2</td><td><strong>Independence</strong></td><td>The auditor remains the one who concludes and can show it.</td><td>AI assists the audit. It never concludes it.</td><td>The agent has no write path to conclusion or sign-off fields. It proposes. A human commits.</td><td>Proposals look like drafts everywhere they appear. Sign-off is a human-only control with its own affordance and no shortcut.<br><span class="muted small">Norman, signifiers. Bainbridge, ironies of automation.</span></td><td>Q2</td><td><span class="chip">D-05</span></td></tr>
+<tr><td class="mono">C3</td><td><strong>Data security and access classes</strong></td><td>Access only what this engagement is allowed to see, and know what the agent saw.</td><td>Client data obligations differ by jurisdiction and client. One breach ends trust in the platform.</td><td>Four data classes: public, engagement internal, client confidential, restricted. Agent permission is set per class: read, propose or none. Restricted retrieval is logged and gated.</td><td>The permission model is visible in the product. A checkpoint sits before any restricted retrieval and the auditor sees what was read.<br><span class="muted small">Nielsen H5, error prevention. Amershi G1, make clear what the system can do.</span></td><td>Q1, Q2</td><td><span class="chip">D-05</span> <span class="chip">D-09</span></td></tr>
+<tr><td class="mono">C4</td><td><strong>Explainability</strong></td><td>Answer &quot;show me why&quot; in under a minute during review.</td><td>Quality reviewers and regulators must be able to follow the reasoning after the fact.</td><td>Each step records inputs, sources and confidence. No step hides a model call behind a summary.</td><td>Every claim carries a citation that opens the source at the span. Confidence shows its basis. Failure states name the cause.<br><span class="muted small">Lee and See, trust calibration. Recognition over recall.</span></td><td>Q3, Q4</td><td><span class="chip">D-03</span> <span class="chip">D-08</span> <span class="chip">D-12</span></td></tr>
+<tr><td class="mono">C5</td><td><strong>10,000+ users across countries</strong></td><td>Consistent behavior, keyboard first, usable on an engagement laptop in a client's office.</td><td>One platform with local methodology variants, not one product per territory.</td><td>Role-based configuration, methodology variants as data, latency across regions.</td><td>Density and keyboard operation by default. One pattern library so six teams ship one product. Non-color encoding on every state and chart.<br><span class="muted small">Fitts's law. Hick's law on choice count. WCAG 2.2 AA.</span></td><td><span class="muted">framework</span></td><td><span class="chip">D-15</span> <span class="chip">D-17</span> <span class="chip">D-18</span></td></tr>
+<tr><td class="mono">C6</td><td><strong>Legacy workpaper systems</strong></td><td>No double entry. The audit file is still assembled in the system the firm files from.</td><td>Transition across several seasons, not a cutover.</td><td>Workpaper import and export, identifiers that map to legacy file references, coexistence for a period.</td><td>The workspace keeps the engagement, area, procedure hierarchy auditors already know. Export to the workpaper format is one action.<br><span class="muted small">Recognition over recall. Consistency with the tools people already use.</span></td><td><span class="muted">framework</span></td><td><span class="chip">D-06</span></td></tr>
+<tr><td class="mono">C7</td><td><strong>Engineering capacity</strong></td><td>Features that work in the field beat features that demo well.</td><td>Six product teams and 120+ engineers deliver in parallel. The design team is three at MVP.</td><td>Shared components or nothing ships consistently. PMs and engineers build to the rules directly in Cursor.</td><td>The design system is the contract. MVP cuts are explicit and documented. One anchor workflow, Test of Details, proves the pattern before it scales.<br><span class="muted small">Progressive disclosure of scope. Conway's law, acknowledged and designed around.</span></td><td><span class="muted">framework</span></td><td><span class="chip">D-10</span> <span class="chip">D-11</span> <span class="chip">D-21</span></td></tr>
+</tbody></table></div>
+</section>
+
+<section class="block prose">
+<h2>What this framing rules out</h2>
+<p>A chat assistant beside the workpaper. It answers questions but leaves C1, C2 and C4 untouched: the record is a transcript, the auditor cannot show what was read and review has nowhere to live. An agent that writes directly into workpaper cells. It violates C2 and hides the steps C4 requires. Both directions were sketched and rejected in 07; the rejection reasons are these constraints.</p>
+<p>What it rules in: explicit agent runs with recorded steps, a permission model the auditor can see, review as a destination and sign-off as a human-only control. That is D-01. The data classes in C3 are D-05.</p>
+</section>
+
+<section class="block">
+<h2>Sources and labels</h2>
+<table class="doc"><thead><tr><th style="width:30%">Item</th><th>Source</th></tr></thead><tbody>
+<tr><td>Business objective, user problem, constraint list</td><td>Stated scope of the role. The four user problems and seven constraints are the ones the case prompt names.</td></tr>
+<tr><td>10,000+ auditors, 6 product teams, 120+ engineers, design team of 3 at MVP</td><td>Stated.</td></tr>
+<tr><td>Four data classes and their names</td><td>Reconstructed from stated scope ("defining what an agent may access"), confirmed at Gate 1. The production platform's classes are not depicted.</td></tr>
+<tr><td>Principles cited</td><td>Named in one line per row. Full rationale in <a href="../../decisions.md">decisions.md</a>.</td></tr>
+<tr><td>Figures</td><td>None in this artifact beyond the stated counts above. Nothing is measured.</td></tr>
+</tbody></table>
+</section>
+
+<section class="block">
+<h2>Decisions fed</h2>
+<p><a class="chip" href="../../decisions.md#d-01">D-01</a> The human-agent boundary is the design problem, not the chat interface. <a class="chip" href="../../decisions.md#d-05">D-05</a> Four data classes; agents read engagement data, propose conclusions, never write sign-offs.</p>
+</section>
+
+</main>
+</div>
+<script src="/shared/design-system/header.js"></script>
+</body>
+</html>
