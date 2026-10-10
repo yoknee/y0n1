@@ -41,8 +41,11 @@ const browser = await chromium.launch();
 let failures = 0;
 for (const page of pages) {
   const rel = relative(root, resolve(page)).replace(/\\/g, '/');
+  // standalone SVG: size the viewport to the drawing instead of full-page capture, which stalls on font waits
+  let viewport = { width: 1440, height: 900 }, isSvg = rel.endsWith('.svg');
+  if (isSvg) { const m = (await readFile(resolve(page), 'utf8')).match(/width="(\d+)" height="(\d+)"/); if (m) viewport = { width: +m[1], height: +m[2] }; }
   for (const theme of ['light', 'dark']) {
-    const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, colorScheme: theme, deviceScaleFactor: 1 });
+    const ctx = await browser.newContext({ viewport, colorScheme: theme, deviceScaleFactor: 1 });
     const tab = await ctx.newPage();
     const errors = [];
     tab.on('pageerror', e => errors.push(String(e)));
@@ -52,7 +55,7 @@ for (const page of pages) {
     await tab.goto(`http://127.0.0.1:${port}/${rel}?theme=${theme}`, { waitUntil: 'networkidle' });
     await tab.evaluate(() => document.fonts.ready);
     const name = rel.replace(/\.html$/, '').replace(/[\/]/g, '__') + `.${theme}.png`;
-    await tab.screenshot({ path: join(outDir, name), fullPage: full });
+    await tab.screenshot({ path: join(outDir, name), fullPage: full && !isSvg });
     if (errors.length) { failures++; console.log(`${rel} [${theme}] errors:\n  ` + errors.join('\n  ')); }
     else console.log(`${rel} [${theme}] -> ${relative(root, join(outDir, name))}`);
     await ctx.close();

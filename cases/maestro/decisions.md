@@ -152,3 +152,47 @@ Source: stated.
 
 **Status.** Validated.
 
+---
+
+## D-07 Role-based views of the same run: senior, manager, partner, methodology
+
+Phase P3 to P5. Artifacts 04, 11.
+Source: confirmed.
+
+**Finding.** The four personas stand at different points on the boundary. The Senior needs the step detail to fix a run. The Manager needs the queue and the references. The Partner needs the exception trail and the checkpoint record. The Methodology reviewer needs the structure the run was planned against. One view serves none of them well. Evidence: 04 persona cards; E-05, E-11, E-13, E-20.
+
+**Options.**
+- A. One run view for everyone, with everything. Cost: density becomes noise; the Partner scrolls past step logs to find the exception trail.
+- B. Separate products per role. Cost: four surfaces to keep consistent; handoffs lose context again (T11).
+- C. One run object, one layout, with role-based defaults for which panel leads and which columns show. Every role can reach every detail; the default fits the job.
+
+**Choice.** C.
+
+**Rationale.** Shneiderman, overview first with details on demand, tuned per role. Progressive disclosure keeps density useful rather than overwhelming.
+
+**Validation.** Usability round 2 tasks are scripted per role (13, planned target). Card sort and tree test on the navigation labels (08, planned target).
+
+**Status.** Validated.
+
+---
+
+## D-08 Confidence shown as a band with its basis, not a percentage alone
+
+Phase P3 to P5. Artifacts 04, 12.
+Source: confirmed.
+
+**Finding.** Reviewers distrust a confidence number without its basis. Trust conditions are concrete: what was read, which step, what matched and what did not. Evidence: E-11, E-12 (T7); Manager persona in 04.
+
+**Options.**
+- A. A percentage per run. Cost: false precision; reviewers either ignore it or over-trust it (automation bias).
+- B. No confidence signal; the reviewer checks everything. Cost: the signal that would focus attention is lost; review latency grows (T5).
+- C. A three-level band (high, medium, low) with its basis listed: fields matched, sources read, tolerance applied, anything unresolved. Low confidence routes to needs review automatically.
+
+**Choice.** C.
+
+**Rationale.** Lee and See, trust calibration: the signal must match the system's actual reliability and show why. Amershi G2, make clear how well the system can do what it does.
+
+**Validation.** Trust calibration measure in usability rounds 2 and 3 (13, planned targets): participant confidence against agent correctness per task. Dry run theme trust_and_explainability (13).
+
+**Status.** Validated.
+
